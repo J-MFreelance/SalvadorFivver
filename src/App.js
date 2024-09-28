@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Opinions from './components/Opinions';
@@ -24,6 +25,7 @@ function App() {
         <Opinions />
         <SectionTwo />
       </div>
+      <Footer />
     </div >
   );
 }

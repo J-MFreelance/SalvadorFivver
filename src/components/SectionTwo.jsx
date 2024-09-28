@@ -25,7 +25,7 @@ const SectionTwo = () => {
 
                 </div>
                 {/* Última publicación */}
-                <div className="ml-[s2rem] pt-6">
+                <div className="ml-[0rem] pt-6">
                     <p className="italic">Última publicación - Aug 2024</p>
                     <h3 className="text-2xl font-semibold underline decoration-red-800">The four horsemen arrived</h3>
                 </div>
