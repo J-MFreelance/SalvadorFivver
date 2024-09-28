@@ -9,17 +9,17 @@ const SectionTwo = () => {
                 {/* Imagen */}
                 <div className="flex ">
                     <div className="pr-8">
-                    <img
-                        src="https://letzregenerate.com/wp-content/uploads/2023/12/book-with-ernster.png"
-                        alt="Book cover"
-                        className="w-48 rounded-lg"
-                    />
+                        <img
+                            src="https://letzregenerate.com/wp-content/uploads/2023/12/book-with-ernster.png"
+                            alt="Book cover"
+                            className="w-48 rounded-lg"
+                        />
                     </div>
                     {/* Contenedor del texto, botón y publicación */}
                     <div className=" space-y-2">
                         <h2 className="text-2xl font-bold">¡Lëtz reGenerate!</h2>
-                        <p>Este libro está dedicado <br/> a la colorida historia del <br/> bosque de Luxemburgo.</p>
-                        <Button nombre={"Ver Libro"} />
+                        <p>Este libro está dedicado <br /> a la colorida historia del <br /> bosque de Luxemburgo.</p>
+                        <Button nombre={"Ver Libro"} color="bg-blue-800" />
 
                     </div>
 
@@ -36,27 +36,36 @@ const SectionTwo = () => {
 
 
             {/* Right Section */}
-            <div className="w-1/2 flex flex-col bg-[#0d1440]">
-                <ul className="space-y-2 mb-6 pl-2">
-                    <li>Títulos Profesionales</li>
-                    <li>Áreas de Especialización</li>
-                    <li>Experiencia Profesional</li>
-                    <li>Impacto y Contribuciones</li>
-                    <li>Publicaciones y Presentaciones</li>
-                    <li>Habilidades y Competencias</li>
-                </ul>
-                <div className="mb-4">
-                    <img
-                        src="path_to_person_image"
-                        alt="Person"
-                    />
+            <div className="w-1/2 flex flex-col">
+                <div className='bg-[#0d1440] h-64 rounded-tl-[3.5rem] px-14 py-12 w-screen'>
+                    <div className='flex'>
+                        <div>
+                            <ol className="space-y-2 mb-6 pl-2 list-disc">
+                                <li>Títulos Profesionales</li>
+                                <li>Áreas de Especialización</li>
+                                <li>Experiencia Profesional</li>
+                                <li>Impacto y Contribuciones</li>
+                                <li>Publicaciones y Presentaciones</li>
+                                <li>Habilidades y Competencias</li>
+                            </ol>
+                        </div>
+                        <div>
+                            <img
+                                src="path_to_person_image"
+                                alt="Person"
+                            />
+                        </div>
+                    </div>
+
                 </div>
-                <p className="mb-4">
-                    ¿Tienes preguntas? <a href="#" className="text-green-400 hover:text-green-300">Salúdame</a>
-                </p>
-                <Button nombre="Agendar reunión"  />
-                    
-                
+                <div className='flex justify-between pt-4'>
+                    <p className="font-bold text-2xl">
+                        ¿Tienes preguntas? <a href="#" className="transition-colors hover:opacity-50 underline font-normal">Salúdame</a>
+                    </p>
+                    <Button nombre="Agendar reunión"  color="bg-red-700" />
+                </div>
+
+
             </div>
         </div>
     );
