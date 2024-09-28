@@ -1,7 +1,9 @@
 import './App.css';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Opinions from './components/Opinions';
 import Section from './components/Section';
+import SectionTwo from './components/SectionTwo';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       </div>
       <div className="w-screen h-auto bg-slate-900 md:px-28 sm:px-4 md:py-6 sm:py-2">
         <Section />
+        <Opinions />
+        <SectionTwo />
       </div>
     </div >
   );
