@@ -3,7 +3,7 @@ import React from 'react';
 const Testimonial = ({ image, name, title, quote }) => {
     return (
         <>
-      <div className="flex flex-col md:flex-row items-center gap-4 p-4 bg-slate-900 rounded-md text-white">
+      <div className="flex flex-col md:flex-row items-center gap-4 p-4 bg-[#101034] rounded-md text-white">
         <div className="flex flex-col items-center   w-48"> 
           <img
             src={image}

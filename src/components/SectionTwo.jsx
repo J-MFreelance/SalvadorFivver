@@ -3,7 +3,7 @@ import Button from './Button';
 
 const SectionTwo = () => {
     return (
-        <div className="flex justify-between bg-slate-900 p-8 text-white">
+        <div className="flex justify-between bg-[#101034] p-8 text-white">
             {/* Left Section */}
             <div className=" w-1/2 ">
                 {/* Imagen */}
@@ -37,7 +37,7 @@ const SectionTwo = () => {
 
             {/* Right Section */}
             <div className="w-1/2 flex flex-col">
-                <div className='bg-[#0d1440] h-64 rounded-tl-[3.5rem] px-14 py-12 w-screen'>
+                <div className='bg-[#1B1E51] h-64 rounded-tl-[3.5rem] px-14 py-12 w-screen'>
                     <div className='flex'>
                         <div>
                             <ol className="space-y-2 mb-6 pl-2 list-disc">
@@ -51,8 +51,9 @@ const SectionTwo = () => {
                         </div>
                         <div>
                             <img
-                                src="path_to_person_image"
+                                src="https://svgsilh.com/svg_v2/309030.svg"
                                 alt="Person"
+                                className="w-72 h-72 object-contain my-[-5rem]"
                             />
                         </div>
                     </div>

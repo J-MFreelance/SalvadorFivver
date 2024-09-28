@@ -40,7 +40,7 @@ const Section = () => {
                             sostenibilidad y prosperidad global.
                         </p>
                     </div>
-                    <div className='h-2/5 bg-white flex justify-center'>
+                    <div className='h-[39.6%] bg-white flex justify-center'>
                         <img src='/assets/logo1.png' alt='logo' className='h-full fit' />
                     </div>
                 </div>
