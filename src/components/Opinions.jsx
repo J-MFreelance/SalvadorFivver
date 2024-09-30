@@ -19,7 +19,7 @@ const Opinions = () => {
   
     return (
       <div className="bg-[#101034] py-10">
-        <h2 className="text- text-3xl font-bold text-white mb-8">
+        <h2 className="text-3xl max-lg:px-4 font-bold text-white mb-8">
           Opiniones internacionales
         </h2>
         <div className="space-y-8">

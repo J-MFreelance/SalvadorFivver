@@ -3,9 +3,9 @@ import Button from './Button';
 
 const SectionTwo = () => {
     return (
-        <div className="flex justify-between bg-[#101034] p-8 text-white">
+        <div className="flex max-lg:flex-col justify-between bg-[#101034] p-8 text-white">
             {/* Left Section */}
-            <div className=" w-1/2 ">
+            <div className="xl:w-1/2 max-lg:pb-6">
                 {/* Imagen */}
                 <div className="flex ">
                     <div className="pr-8">
@@ -17,8 +17,8 @@ const SectionTwo = () => {
                     </div>
                     {/* Contenedor del texto, botón y publicación */}
                     <div className=" space-y-2">
-                        <h2 className="text-2xl font-bold">¡Lëtz reGenerate!</h2>
-                        <p>Este libro está dedicado <br /> a la colorida historia del <br /> bosque de Luxemburgo.</p>
+                        <h2 className="text-2xl font-bold max-lg:text-xl">¡Lëtz reGenerate!</h2>
+                        <p className='max-lg:text-sm'>Este libro está dedicado <br /> a la colorida historia del <br /> bosque de Luxemburgo.</p>
                         <Button nombre={"Ver Libro"} color="bg-blue-800" />
 
                     </div>
@@ -26,8 +26,8 @@ const SectionTwo = () => {
                 </div>
                 {/* Última publicación */}
                 <div className="ml-[0rem] pt-6">
-                    <p className="italic">Última publicación - Aug 2024</p>
-                    <h3 className="text-2xl font-semibold underline decoration-red-800">The four horsemen arrived</h3>
+                    <p className="italic max-lg:text-sm">Última publicación - Aug 2024</p>
+                    <h3 className="text-2xl font-semibold underline decoration-red-800 max-lg:text-xl">The four horsemen arrived</h3>
                 </div>
 
 
@@ -36,11 +36,11 @@ const SectionTwo = () => {
 
 
             {/* Right Section */}
-            <div className="w-1/2 flex flex-col">
-                <div className='bg-[#1B1E51] h-64 rounded-tl-[3.5rem] px-14 py-12 w-screen'>
+            <div className="xl:w-1/2 flex flex-col">
+                <div className='bg-[#1B1E51] h-64 rounded-tl-[3.5rem] px-14 py-12 max-lg:py-14 xl:w-screen max-lg:h-80'>
                     <div className='flex'>
                         <div>
-                            <ol className="space-y-2 mb-6 pl-2 list-disc">
+                            <ol className="space-y-2 mb-6 max-lg:text-xs pl-2 list-disc">
                                 <li>Títulos Profesionales</li>
                                 <li>Áreas de Especialización</li>
                                 <li>Experiencia Profesional</li>
@@ -53,14 +53,14 @@ const SectionTwo = () => {
                             <img
                                 src="https://svgsilh.com/svg_v2/309030.svg"
                                 alt="Person"
-                                className="w-72 h-72 object-contain my-[-5rem]"
+                                className="w-72 h-72 max-lg:my-[-3rem] max-lg:w-56 max-lg:h-56 object-contain my-[-5rem]"
                             />
                         </div>
                     </div>
 
                 </div>
                 <div className='flex justify-between pt-4'>
-                    <p className="font-bold text-2xl">
+                    <p className="font-bold xl:text-2xl text-base">
                         ¿Tienes preguntas? <a href="#" className="transition-colors hover:opacity-50 underline font-normal">Salúdame</a>
                     </p>
                     <Button nombre="Agendar reunión"  color="bg-red-700" />

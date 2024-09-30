@@ -14,7 +14,7 @@ function App() {
         <Hero />
       </div>
       <div className="w-screen h-24 bg-gradient-to-b from-[#242764] to-[#101034]">
-        <p className='text-2xl font-light text-white md:px-28 sm:px-4'>
+        <p className='xl:text-2xl text-xs max-lg:px-4 font-light text-white md:px-28 sm:px-4'>
           Su carrera abarca una impresionante trayectoria en sostenibilidad, políticas públicas <br />
           y asesoramiento estratégico, tanto en el sector privado como en el público. Actualmente <br />
           disponible para servicios de consultoría.
