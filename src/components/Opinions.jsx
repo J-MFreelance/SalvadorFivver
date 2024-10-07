@@ -4,13 +4,13 @@ import Testimonial from "./Testimonial";
 const Opinions = () => {
     const testimonials = [
       {
-        image: 'https://img.europapress.es/fotoweb/fotonoticia_20240623165307_690.jpg', 
+        image: '/assets/person1.png', 
         name: 'Gran Duque de Luxemburgo',
         title: '',
         quote: 'Su compromiso con la excelencia, su enfoque colaborativo y su capacidad para transformar ideas en resultados tangibles han sido fundamentales para desarrollar una investigacioen ejemplar sobre la importancia de la regeneración forestal ante al cambio climático.'
       },
       {
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRBKdki-298KXIeoGwiMRKel_Q1hyjyUwtew&s', 
+        image: '/assets/person2.png', 
         name: 'Christian Hueschke',
         title: 'AMAGNO Sales Director',
         quote: 'Destacado consultor internacional cuya excepcional trayectoria y experiencia han dejado una huella significativa en nuestra empresa. Su influencia y liderazgo son testimonio de su destacada contribución a la consultoría internacional.'
