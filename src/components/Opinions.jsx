@@ -18,7 +18,7 @@ const Opinions = () => {
     ];
   
     return (
-      <div className="bg-[#101034] py-10">
+      <div  id='ecocitizen'className="bg-[#101034] py-10">
         <h2 className="text-3xl max-lg:px-4 font-bold text-white mb-8">
           Opiniones internacionales
         </h2>

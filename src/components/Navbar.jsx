@@ -49,30 +49,34 @@ const Navbar = () => {
           } lg:flex lg:space-x-8 lg:text-base text-xs flex-col lg:flex-row fixed lg:static inset-0 bg-black bg-opacity-70 lg:bg-transparent justify-center items-center lg:top-auto lg:left-auto w-full lg:w-auto h-full lg:h-auto z-40 lg:z-auto`}
       >
         <div className="flex max-lg:flex-col items-center gap-6">
-          <p
+          <a
             className="text-2xl lg:text-base hover:transition-colors hover:opacity-70 cursor-pointer"
             onClick={handleClick}
+            href="#home"
           >
             HOME
-          </p>
-          <p
+          </a>
+          <a
             className="text-2xl lg:text-base hover:transition-colors hover:opacity-70 cursor-pointer"
             onClick={handleClick}
+            href='#about'
           >
             ABOUT
-          </p>
-          <p
+          </a>
+          <a
             className="text-2xl lg:text-base hover:transition-colors hover:opacity-70 cursor-pointer"
             onClick={handleClick}
+            href='#ecocitizen'
           >
             ECOCITIZEN
-          </p>
-          <p
+          </a>
+          <a
             className="text-2xl lg:text-base hover:transition-colors hover:opacity-70 cursor-pointer"
             onClick={handleClick}
+            href='#contact'
           >
             CONTACT
-          </p>
+          </a>
         </div>
       </div>
     </nav>

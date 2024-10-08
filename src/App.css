@@ -10,3 +10,9 @@
     background-color: #101034;
 }
 
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }

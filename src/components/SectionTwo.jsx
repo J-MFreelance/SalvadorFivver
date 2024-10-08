@@ -8,6 +8,7 @@ import regate from '../assets/regate.png';
 
 const SectionTwo = () => {
     return (
+        <section id='contact'>
         <div className="flex max-lg:flex-col justify-between bg-[#101034] p-8 text-white">
             {/* Left Section */}
             <div className="xl:w-1/2 max-lg:pb-6">
@@ -82,6 +83,7 @@ const SectionTwo = () => {
 
             </div>
         </div>
+        </section>
     );
 };
 

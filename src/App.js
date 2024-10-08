@@ -8,7 +8,7 @@ import SectionTwo from './components/SectionTwo';
 
 function App() {
   return (
-    <div className="w-full h-auto">
+    <div className="playfair-display w-full h-auto">
       <div className="w-full h-[110vh] bg-[url('./assets/banner.png')] bg-cover bg-center relative z-0">
         <div className="w-screen h-auto md:px-28 md:pt-12 sm:px-4 sm:pt-4 overflow-hidden">
           <Navbar />
@@ -25,7 +25,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="w-screen h-auto bg-[#101034] md:px-28 sm:px-4 md:py-6 sm:py-2 z-20">
+      <div className="mt-24 w-screen h-auto bg-[#101034] md:px-28 sm:px-4 md:py-6 sm:py-2 z-20">
         <Section />
         <Opinions />
         <SectionTwo />
