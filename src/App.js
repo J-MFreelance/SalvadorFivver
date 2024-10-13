@@ -15,7 +15,7 @@ function App() {
           <Hero />
         </div>
 
-        <div className='w-screen h-[20rem] bg-gradient-to-b from-[rgba(36,39,100,0.01)] to-[rgba(16,16,52,1)] pt-2'>
+        <div className='w-screen h-[30rem] bg-gradient-to-b from-[rgba(36,39,100,0.01)] to-[rgba(16,16,52,1)] pt-2'>
           <div className="w-screen h-24">
             <p className='xl:text-2xl text-xs max-lg:px-4 font-light text-white md:px-28 sm:px-4'>
               Su carrera abarca una impresionante trayectoria en sostenibilidad, políticas públicas <br />
