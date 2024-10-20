@@ -16,7 +16,7 @@ const Testimonial = ({ image, name, title, quote }) => {
           </div>
         </div>
         <div className="flex-1">
-          <div className="text-3xl text-white "> "</div>
+          <p className="text-7xl text-white ">❝</p>
           <p className=" font-light mb-4 leading-relaxed text-base text-left-justify">
             {quote}
           </p>
