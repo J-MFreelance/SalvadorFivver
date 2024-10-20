@@ -1,12 +1,20 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { useLanguage } from "./LanguageContext";
+import { espanol, ingles } from '../constants';
 
 const Navbar = () => {
-
-  const {language} = useLanguage();
-
+  const { language } = useLanguage();
   const [openNavigation, setOpenNavigation] = useState(false);
+  const [languageData, setLanguageData] = useState({});
+
+  useEffect(() => {
+    if (language.code === "ES") {
+      setLanguageData(espanol);
+    } else {
+      setLanguageData(ingles);
+    }
+  }, [language]);
 
   const toggleNavigation = () => {
     if (openNavigation) {
@@ -29,7 +37,6 @@ const Navbar = () => {
       <div>
         <p className="font-bold xl:text-2xl text-sm">Salvatore Coppola-Finegan</p>
       </div>
-
       {/* Botón hamburguesa/X visible en pantallas lg y superiores */}
       <button
         className="lg:hidden flex flex-col justify-center items-center space-y-1 cursor-pointer"
@@ -46,7 +53,6 @@ const Navbar = () => {
           </>
         )}
       </button>
-
       {/* Menú de links */}
       <div
         className={`${openNavigation ? "flex" : "hidden"
@@ -58,28 +64,28 @@ const Navbar = () => {
             onClick={handleClick}
             href="#home"
           >
-            HOME
+            {languageData.navA1}
           </a>
           <a
             className="text-2xl lg:text-base hover:transition-colors hover:opacity-70 cursor-pointer"
             onClick={handleClick}
             href='#about'
           >
-            ABOUT
+            {languageData.navA2}
           </a>
           <a
             className="text-2xl lg:text-base hover:transition-colors hover:opacity-70 cursor-pointer"
             onClick={handleClick}
             href='#ecocitizen'
           >
-            ECOCITIZEN
+            {languageData.navA4}
           </a>
           <a
             className="text-2xl lg:text-base hover:transition-colors hover:opacity-70 cursor-pointer"
             onClick={handleClick}
             href='#contact'
           >
-            CONTACT
+            {languageData.navA3}
           </a>
         </div>
       </div>
