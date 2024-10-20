@@ -1,45 +1,45 @@
 import Testimonial from "./Testimonial";
+import { useLanguage } from './LanguageContext';
+import { espanol3, ingles3, aleman3, frances3, italiano3 } from '../constants';
+import { useEffect, useState } from 'react';
 
 
 const Opinions = () => {
-    const testimonials = [
-      {
-        image: '/assets/person1.png', 
-        name: 'Gran Duque de Luxemburgo',
-        title: '',
-        quote: 'Su compromiso con la excelencia, su enfoque colaborativo y su capacidad para transformar ideas en resultados tangibles han sido fundamentales para desarrollar una investigacioen ejemplar sobre la importancia de la regeneración forestal ante al cambio climático.'
-      },
-      {
-        image: '/assets/person2.png', 
-        name: 'Christian Hueschke',
-        title: 'AMAGNO Sales Director',
-        quote: 'Destacado consultor internacional cuya excepcional trayectoria y experiencia han dejado una huella significativa en nuestra empresa. Su influencia y liderazgo son testimonio de su destacada contribución a la consultoría internacional.'
-      }
-    ];
-  
-    return (
-      <div  id='ecocitizen'className="bg-[#101034] py-10">
-        <h2 className="text-3xl max-lg:px-4 font-bold text-white mb-8">
-          Opiniones internacionales
-        </h2>
-        <div className="space-y-8">
-    
-          {testimonials.map((testimonial, index) => (
-            <Testimonial
-              key={index}
-              image={testimonial.image}
-              name={testimonial.name}
-              title={testimonial.title}
-              quote={testimonial.quote}
-              
-            />
-            
-            
-          ))}
-          
-        </div>
+  const { language } = useLanguage();
+  const [languageData, setLanguageData] = useState({});
+
+  useEffect(() => {
+    if (language.code === "ES") {
+      setLanguageData(espanol3);
+    } else if (language.code === "EN") {
+      setLanguageData(ingles3);
+    } else if (language.code === "DE") {
+      setLanguageData(aleman3);
+    } else if (language.code === "IT") {
+      setLanguageData(italiano3);
+    } else if (language.code === "FR") {
+      setLanguageData(frances3);
+    } else {
+      setLanguageData(espanol3);
+    }
+  }, [language]);
+
+  return (
+    <div id='ecocitizen' className="bg-[#101034] py-10">
+      <h2 className="text-3xl max-lg:px-4 font-bold text-white mb-8">
+        {languageData.opinion}
+      </h2>
+      <div className="space-y-8">
+        {languageData?.testimonios?.map((testimonio, index) => (
+          <Testimonial
+            key={index}
+            autor={testimonio.autor}
+            text={testimonio.texto}
+          />
+        ))}
       </div>
-    );
-  };
+    </div>
+  );
+};
 
 export default Opinions

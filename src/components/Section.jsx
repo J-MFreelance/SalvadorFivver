@@ -8,7 +8,6 @@ const Section = () => {
     const [languageData, setLanguageData] = useState({});
 
     useEffect(() => {
-        // Establecer el contenido basado en el idioma seleccionado
         if (language.code === "ES") {
             setLanguageData(espanol2);
         } else if (language.code === "EN") {
@@ -20,9 +19,9 @@ const Section = () => {
         } else if (language.code === "FR") {
             setLanguageData(frances2);
         } else {
-            setLanguageData(espanol2); // Valor por defecto
+            setLanguageData(espanol2);
         }
-    }, [language]); // Se ejecuta cada vez que cambia el idioma
+    }, [language]);
 
     return (
         <div id='about' className='flex flex-col text-white mt-[-12rem] relative'>
