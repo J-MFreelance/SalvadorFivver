@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { useLanguage } from './LanguageContext';
 import { espanol2, ingles2, aleman2, frances2, italiano2, } from '../constants';
 const Section = () => {
-    const { language } = useLanguage(); 
+    const { language } = useLanguage();
     const [languageData, setLanguageData] = useState({});
 
     useEffect(() => {
@@ -34,16 +34,16 @@ const Section = () => {
             <div className="bg-[url('./assets/right-side.png')] max-lg:bg-contain w-full h-[38rem] flex max-lg:flex-col xl:pl-28">
                 <div className='w-full h-full max-lg:px-4'>
                     <p className='font-semibold xl:text-2xl text-base pb-2 xl:pt-56 pt-36'>
-                      {languageData.texto3}
+                        {languageData.texto3}
                     </p>
                     <span className='pb-4 max-lg:text-xs'>
-                      {languageData.texto4}<br />
+                        {languageData.texto4}<br />
                     </span>
                     {/* <Button nombre='Ver contenido' color="bg-blue-800" /> */}
                 </div>
                 <div className='flex flex-col xl:w-4/5 w-full xl:h-full max-lg:h-1/2'>
-                    <div className='flex flex-col xl:h-3/5 h-3/6 bg-slate-500 w-full xl:py-8 xl:pl-48 max-lg:items-center max-lg:justify-center'>                     
-                        <p className='text-start max-lg:text-center font-light max-lg:text-xs' style={{ whiteSpace: 'pre-line' }}>
+                    <div className='bg-slate-500 flex-1 flex items-center justify-center p-8'>
+                        <p className='text-white text-justify  font-light text-base max-lg:text-xs' style={{ whiteSpace: 'pre-line', lineHeight: '0.5' }}>
                             {languageData.texto5}
                         </p>
                     </div>
