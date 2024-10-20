@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Button = ({ nombre, color }) => {
+const Button = ({ nombre, color, link }) => {
   return (
-    <button className={`${color} hover:bg-blue-800 text-white font-medium py-1 px-2 rounded-lg text-xs`}>
+    <a className={`${color} hover:bg-blue-800 text-white font-medium py-1 px-2 rounded-lg text-xs`} href={link} target='_blank'>
       {nombre}
-    </button>
+    </a>
   )
 }
 

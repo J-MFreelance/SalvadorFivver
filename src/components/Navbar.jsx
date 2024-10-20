@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
+import { useLanguage } from "./LanguageContext";
 
 const Navbar = () => {
+
+  const {language} = useLanguage();
+
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {

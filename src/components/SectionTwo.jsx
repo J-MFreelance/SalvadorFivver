@@ -25,7 +25,7 @@ const SectionTwo = () => {
                         <div className="space-y-3">
                             <h2 className="text-2xl font-bold max-lg:text-xl">¡Lëtz reGenerate!</h2>
                             <p className='max-lg:text-sm'>Este libro está dedicado <br /> a la colorida historia del <br /> bosque de Luxemburgo.</p>
-                            <Button nombre={"Ver Libro"} color="bg-blue-800" />
+                            <Button nombre={"Ver Libro"} color="bg-blue-800" link="https://letzregenerate.com/home-deutsch/" />
 
                         </div>
 
@@ -77,9 +77,9 @@ const SectionTwo = () => {
                     </div>
                     <div className='flex justify-between pt-4'>
                         <p className="font-bold xl:text-2xl text-base">
-                            ¿Tienes preguntas? <a href="#" className="transition-colors hover:opacity-50 underline font-normal">Salúdame</a>
+                            ¿Tienes preguntas? <a href="https://wa.me/message/FTF5MDA6O73YJ1" target='_blank' className="transition-colors hover:opacity-50 underline font-normal">Salúdame</a>
                         </p>
-                        <Button nombre="Agendar reunión" color="bg-red-700" />
+                        {/* <Button nombre="Agendar reunión" color="bg-red-700" /> */}
                     </div>
 
 

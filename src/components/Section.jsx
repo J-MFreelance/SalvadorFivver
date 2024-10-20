@@ -10,7 +10,7 @@ const Section = () => {
                     y socioecológicamente<br />
                     positivo
                 </p>
-                <Button nombre='Ver contenido' color="bg-blue-800" />
+                {/* <Button nombre='Ver contenido' color="bg-blue-800" /> */}
             </div>
             <div className="bg-[url('./assets/right-side.png')] max-lg:bg-contain w-full h-[38rem] flex max-lg:flex-col xl:pl-28">
                 <div className='w-full h-full max-lg:px-4'>
@@ -21,7 +21,7 @@ const Section = () => {
                     <span className='pb-4 max-lg:text-xs'>
                         Ciencias ambientales, geografía y salud planetaria.<br />
                     </span>
-                    <Button nombre='Ver contenido' color="bg-blue-800" />
+                    {/* <Button nombre='Ver contenido' color="bg-blue-800" /> */}
                 </div>
                 <div className='flex flex-col xl:w-4/5 w-full xl:h-full max-lg:h-1/2'>
                     <div className='flex flex-col xl:h-3/5 h-3/6 bg-slate-500 w-full xl:py-8 xl:pl-48 max-lg:items-center max-lg:justify-center'>
