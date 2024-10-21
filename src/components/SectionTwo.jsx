@@ -83,16 +83,16 @@ const SectionTwo = () => {
                                     <img
                                         src={persona}
                                         alt="Person"
-                                        className="w-72 h-72 max-lg:my-[-3rem] max-lg:w-56 max-lg:h-56 object-contain my-[-5rem]"
+                                        className="w-auto h-72 max-lg:my-[-3rem] max-lg:w-56 max-lg:h-40 object-contain my-[-5rem]"
                                     />
                                 </div>
                                 <div className='flex flex-col justify-end items-end'>
-                                    <div className='flex space-x-2'>
-                                        <img src={x} alt="x" className='border-[1px] border-white rounded-full  w-8 h-8' />
-                                        <img src={regate} alt="regate" className='border-[1px] border-white rounded-full w-8 h-8' />
-                                        <img src={linkendin} alt="linkendin" className='border-[1px] border-white rounded-full  w-8 h-8' />
+                                    <div className='flex space-x-2 pt-8'>
+                                        <img src={x} alt="x" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
+                                        <img src={regate} alt="regate" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
+                                        <img src={linkendin} alt="linkendin" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
                                     </div>
-                                    <a href="" className='text-3xl font-bold'>scf.lu</a>
+                                    <a href="" className='text-3xl font-bold max-lg:text-xl'>scf.lu</a>
                                 </div>
                             </div>
                         </div>

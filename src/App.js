@@ -36,14 +36,14 @@ const MainContent = () => {
 
         <div className="relative w-screen h-[30rem] bg-gradient-to-b from-[rgba(36,39,100,0.01)] to-[rgba(16,16,52,1)] pt-2">
           <div className="w-screen h-24">
-            <p className=" mb-[3%] xl:text-2xl text-xs max-lg:px-4 font-light text-white md:px-28 sm:px-4 " style={{ whiteSpace: 'pre-line' }}>
+            <p className="xl:text-2xl text-xs max-lg:px-4 font-light text-white md:px-28 sm:px-4 " style={{ whiteSpace: 'pre-line' }}>
               {languageData.texto3}
             </p>
           </div>
         </div>
       </div>
 
-      <div className="mt-24 w-screen h-auto bg-[#101034] md:px-28 sm:px-4 md:py-6 sm:py-2">
+      <div className="mt-[3%] w-screen h-auto bg-[#101034] md:px-28 md:py-6 ">
         <Section />
         <Opinions />
         <SectionTwo />

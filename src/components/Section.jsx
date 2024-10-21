@@ -25,7 +25,7 @@ const Section = () => {
 
     return (
         <div id='about' className='flex flex-col text-white mt-[-12rem] relative'>
-            <div className="bg-[url('./assets/banner2.png')] bg-center bg-cover max-lg:bg-contain w-full h-[34rem] max-lg:h-[10rem] xl:px-28 xl:pt-28 max-lg:pt-4 max-lg:px-4">
+            <div className="bg-[url('./assets/banner2.png')] bg-center bg-cover w-full h-[34rem] max-lg:h-[10rem] xl:px-28 xl:pt-28 max-lg:pt-4 max-lg:px-4">
                 <p className='font-semibold xl:text-2xl text-base pb-4'>
                     {languageData.texto1}
                 </p>
