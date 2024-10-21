@@ -31,9 +31,9 @@ const Section = () => {
                 </p>
                 {/* <Button nombre='Ver contenido' color="bg-blue-800" /> */}
             </div>
-            <div className="bg-[url('./assets/right-side.png')] max-lg:bg-contain w-full h-[38rem] flex max-lg:flex-col xl:pl-28">
-                <div className='w-full h-full max-lg:px-4'>
-                    <p className='font-semibold xl:text-2xl text-base pb-2 xl:pt-56 pt-36'>
+            <div className="bg-[url('./assets/right-side.png')] max-lg:bg-contain w-full h-[38rem] flex max-lg:flex-col max-lg:h-4/5 xl:pl-28">
+                <div className='w-full h-full -ml-[1%] max-lg:px-4 max-lg:p-6'>
+                    <p className='font-semibold xl:text-2xl text-base pb-2 xl:pt-44 pt-36'>
                         {languageData.texto3}
                     </p>
                     <span className='pb-4 max-lg:text-xs'>
@@ -41,14 +41,14 @@ const Section = () => {
                     </span>
                     {/* <Button nombre='Ver contenido' color="bg-blue-800" /> */}
                 </div>
-                <div className='flex flex-col xl:w-4/5 w-full xl:h-full max-lg:h-1/2'>
-                    <div className='bg-slate-500 flex-1 flex items-center justify-center p-8'>
+                <div className='flex flex-col w-[96%] max-lg:w-full max-lg:h-2/5'>
+                    <div className='bg-slate-500  flex-1 flex items-center justify-center p-8'>
                         <p className='text-white text-justify  font-light text-base max-lg:text-xs' style={{ whiteSpace: 'pre-line', lineHeight: '1' }}>
                             {languageData.texto5}
                         </p>
                     </div>
-                    <div className='h-3/6 xl:h-[39.6%] bg-white flex justify-center' id='ecocitizen'>
-                        <a  target='_blank' href="https://www.ecocitizen.lu">
+                    <div className='h-1/3 max-lg:!h-40 bg-white flex justify-center' id='ecocitizen'>
+                        <a target='_blank' href="https://www.ecocitizen.lu" className='flex justify-center'>
                             <img src='/assets/logo1.png' alt='logo' className='h-full fit' />
                         </a>
                     </div>

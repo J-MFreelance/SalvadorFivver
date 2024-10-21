@@ -26,7 +26,7 @@ const Opinions = () => {
 
   return (
     <div id='' className="bg-[#101034] py-10 mt-10">
-      <h2 className="text-3xl max-lg:px-4 font-bold text-white mb-8">
+      <h2 className="text-3xl max-lg:px-4 max-lg:text-xl font-bold text-white mb-8">
         {languageData.opinion}
       </h2>
       <div className="space-y-8">
