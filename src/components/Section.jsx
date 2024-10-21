@@ -31,7 +31,7 @@ const Section = () => {
                 </p>
                 {/* <Button nombre='Ver contenido' color="bg-blue-800" /> */}
             </div>
-            <div className="w-full h-[38rem] flex max-lg:flex-col max-lg:h-full ">
+            <div className="w-full h-[38rem] flex max-lg:flex-col max-t max-lg:h-full ">
                 <div className="bg-[url('./assets/right-side.png')] max-lg:bg-cover max-lg:h-[20rem] max-lg:w-full bg-cover object-contain w-[55%] px-3 h-full max-lg:px-4 max-lg:p-6 p-text">
                     <p className='font-semibold xl:text-2xl text-base pb-2 xl:pt-44 pt-36'>
                         {languageData.texto3}
