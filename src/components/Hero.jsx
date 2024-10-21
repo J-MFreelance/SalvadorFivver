@@ -28,7 +28,7 @@ const Hero = () => {
             {languageData.texto1} {/* Comprometido por un mundo mejor. */}
             </p>
             <p className='font-light max-lg:text-xs mb-4'style={{ whiteSpace: 'pre-line' }}>
-                {languageData.texto2}{/* Salvatore Coppola-Finegan es un autor... */}
+                {languageData.texto2}
             </p>
         </div>
     );

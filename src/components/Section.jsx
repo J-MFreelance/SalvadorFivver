@@ -24,15 +24,15 @@ const Section = () => {
     }, [language]);
 
     return (
-        <div id='about' className='flex flex-col text-white mt-[-12rem] relative'>
+        <div id='about' className='flex flex-col margin-t text-white margin-bottom mt-[-12rem] max-lg:mt-[-13rem] relative'>
             <div className="bg-[url('./assets/banner2.png')] bg-center bg-cover w-full h-[34rem] max-lg:h-[10rem] xl:px-28 xl:pt-28 max-lg:pt-4 max-lg:px-4">
                 <p className='font-semibold xl:text-2xl text-base pb-4'>
                     {languageData.texto1}
                 </p>
                 {/* <Button nombre='Ver contenido' color="bg-blue-800" /> */}
             </div>
-            <div className="bg-[url('./assets/right-side.png')] max-lg:bg-contain object-contain w-full h-[38rem] flex max-lg:flex-col max-lg:h-4/5 xl:pl-28">
-                <div className='w-full h-full -ml-[1%] max-lg:px-4 max-lg:p-6'>
+            <div className="w-full h-[38rem] flex max-lg:flex-col max-lg:h-full ">
+                <div className="bg-[url('./assets/right-side.png')] max-lg:bg-cover max-lg:h-[20rem] max-lg:w-full bg-cover object-contain w-[55%] px-3 h-full max-lg:px-4 max-lg:p-6 p-text">
                     <p className='font-semibold xl:text-2xl text-base pb-2 xl:pt-44 pt-36'>
                         {languageData.texto3}
                     </p>
@@ -41,7 +41,7 @@ const Section = () => {
                     </span>
                     {/* <Button nombre='Ver contenido' color="bg-blue-800" /> */}
                 </div>
-                <div className='flex flex-col w-[96%] max-lg:w-full max-lg:h-2/5'>
+                <div className='flex flex-col w-[50%] max-lg:w-full max-lg:h-2/5'>
                     <div className='bg-slate-500  flex-1 flex items-center justify-center p-8'>
                         <p className='text-white text-justify  font-light text-base max-lg:text-xs' style={{ whiteSpace: 'pre-line', lineHeight: '1' }}>
                             {languageData.texto5}

@@ -15,4 +15,16 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-  }
+}
+
+@media only screen and (max-width: 1366px) and (max-height: 768px) {
+    .margin-t{
+        margin-top: -7rem;
+    }
+    .img-m{
+        background-size: contain;
+    }
+    .p-text{
+        padding-right: 8rem;
+    }
+}
