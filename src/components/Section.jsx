@@ -43,12 +43,14 @@ const Section = () => {
                 </div>
                 <div className='flex flex-col xl:w-4/5 w-full xl:h-full max-lg:h-1/2'>
                     <div className='bg-slate-500 flex-1 flex items-center justify-center p-8'>
-                        <p className='text-white text-justify  font-light text-base max-lg:text-xs' style={{ whiteSpace: 'pre-line', lineHeight: '0.5' }}>
+                        <p className='text-white text-justify  font-light text-base max-lg:text-xs' style={{ whiteSpace: 'pre-line', lineHeight: '1' }}>
                             {languageData.texto5}
                         </p>
                     </div>
-                    <div className='h-3/6 xl:h-[39.6%] bg-white flex justify-center'>
-                        <img src='/assets/logo1.png' alt='logo' className='h-full fit' />
+                    <div className='h-3/6 xl:h-[39.6%] bg-white flex justify-center' id='ecocitizen'>
+                        <a  target='_blank' href="https://www.ecocitizen.lu">
+                            <img src='/assets/logo1.png' alt='logo' className='h-full fit' />
+                        </a>
                     </div>
                 </div>
             </div>

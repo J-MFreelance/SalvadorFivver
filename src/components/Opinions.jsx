@@ -25,7 +25,7 @@ const Opinions = () => {
   }, [language]);
 
   return (
-    <div id='ecocitizen' className="bg-[#101034] py-10">
+    <div id='' className="bg-[#101034] py-10 mt-10">
       <h2 className="text-3xl max-lg:px-4 font-bold text-white mb-8">
         {languageData.opinion}
       </h2>

@@ -11,7 +11,7 @@ const Testimonial = ({ autor, text }) => {
             className="w-24 h-24 rounded-full object-cover"
           /> */}
           <div className="mt-2 text-center text-sm font-">
-            <h3 className="text-white  mb-2">{autor}</h3>
+            <h3 className="text-white  mb-2" style={{ whiteSpace: 'pre-line', lineHeight: '1' }}>{autor}</h3>
             {/*<p className=" text-left">{title}</p> */}
           </div>
         </div>

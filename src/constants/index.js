@@ -163,37 +163,34 @@ export const espanol3 = {
     opinion: 'Opiniones internacionales',
     testimonios: [
         {
-            autor: 'Benjamin kemner, Arquitecto de Software',
+            autor: 'Benjamin Kemner \nArquitecto de Software',
             texto: '"Salvatore es un gran valor y una inspiración para todos los equipos. Ojalá pudiera conocer a más colegas como él»',
         },
         {
-            autor: 'Peter Scharnhorst, Director General',
+            autor: 'Peter Scharnhorst \nDirector General',
             texto: '"Pocas veces he conocido a un colega tan culto, elocuente y técnicamente hábil. El Sr. Coppola-Finegan demuestra seguridad en todos los niveles empresariales. Ya sea hablando con un oficinista, dando un discurso o negociando con responsables de grandes empresas internacionales, sus maneras encantadoras y seguras le llevan siempre al éxito. Ante un proyecto desafiante y con los recursos necesarios, puedes contar con él para una ejecución de alta calidad en el plazo acordado. Su personalidad es una refrescante mezcla de temperamento italiano, humor británico y rigor alemán."',
         },
         {
-            autor: 'Laura Branscombe, Jefa del Laboratorio de Microbiología',
+            autor: 'Laura Branscombe \nJefa del Laboratorio de Microbiología',
             texto: '"Sobre todo, siempre me ha impresionado cómo va más allá por sus empleados, asegurándose siempre de que todo el mundo esté contento y esforzándose siempre por crear un entorno de trabajo muy agradable. Me siento muy afortunada de haber podido trabajar con un gerente tan maravilloso. Como líder tiene mi más alta recomendación."',
         },
         {
-            autor: 'Jens Junker-Ukena, Director de Ventas',
+            autor: 'Jens Junker-Ukena \nDirector de Ventas',
             texto: '«Profesionalidad, dinamismo y entusiasmo son las palabras que surgen cuando piensas en Salvatore. Sus habilidades de gestión y exposición son sencillamente excepcionales, nunca me he encontrado con un hombre con tanto empuje y actitud positiva. Salvatore es un gran recurso en cualquier equipo, que hace avanzar las cosas, y cuenta con mi más firme recomendación."',
         },
         {
-            autor: 'Prof. Dra. Ariane König',
+            autor: 'Prof. Dra \nAriane König',
             texto: '«La regeneración de los bosques es un reto existencial que debemos afrontar lo antes posible. Se presentan recomendaciones claras para la acción, basadas en un análisis en profundidad desde la perspectiva de los propietarios forestales, teniendo en cuenta la evolución durante el último siglo. Una obra inspiradora». ',
         },
         {
-            autor: 'Jens Büscher, Director General',
+            autor: 'Jens Büscher \nDirector General',
             texto: '«El Sr. Coppola tiene unos conocimientos amplios y profundos, que siempre supo poner bien en práctica. Estaba muy motivado y mostraba un alto nivel de iniciativa y compromiso. Con buen ojo para lo esencial, siempre llevó a cabo sus tareas de forma planificada, metódica y minuciosa. Siempre producía resultados de buena calidad, incluso cuando cambiaban los requisitos y en condiciones muy difíciles. El Sr. Coppola siempre fue un modelo para sus empleados. Dirigía a sus empleados de forma objetiva y orientada a los objetivos, consiguiendo un buen aumento del rendimiento a un nivel constantemente alto, así como un buen ambiente de equipo.»',
         },
         {
-            autor: 'Izabel Cvetkovic, Investigadora',
+            autor: 'Izabel Cvetkovic \nInvestigadora',
             texto: `"Además de ser un verdadero experto en su trabajo, Salvatore es muy curioso y tiene conocimientos en muchos campos. El hecho de hablar 7 idiomas y tener experiencia de trabajo y de vida en todo el mundo le convierten en un valor inestimable."`,
         },
-        {
-            autor: 'Prof. Dra. Ariane König',
-            texto: '«La regeneración de los bosques es un reto existencial que debemos afrontar lo antes posible. Se presentan recomendaciones claras para la acción, basadas en un análisis en profundidad desde la perspectiva de los propietarios forestales, teniendo en cuenta la evolución durante el último siglo. Una obra inspiradora». ',
-        },
+
     ]
 };
 
@@ -201,19 +198,19 @@ export const ingles3 = {
     opinion: 'International Opinions',
     testimonios: [
         {
-            autor: 'Benjamin Kemner, Software Architect',
+            autor: 'Benjamin Kemner \nSoftware Architect',
             texto: '"Salvatore is a great asset and an inspiration to all teams. I wish I could meet more colleagues like him."',
         },
         {
-            autor: 'Peter Scharnhorst, CEO',
+            autor: 'Peter Scharnhorst \nCEO',
             texto: '"I have rarely encountered such a cultured, eloquent, and technically skilled colleague. Mr. Coppola-Finegan demonstrates confidence at all corporate levels. Whether speaking with an office worker, delivering a speech, or negotiating with executives from large international companies, his charming and assured manner always leads him to success. Given a challenging project and the necessary resources, you can count on him for high-quality execution within the agreed timeline. His personality is a refreshing mix of Italian temperament, British humor, and German rigor."',
         },
         {
-            autor: 'Laura Branscombe, Head of Microbiology Laboratory',
+            autor: 'Laura Branscombe \nHead of Microbiology Laboratory',
             texto: '"Above all, I have always been impressed by how he goes above and beyond for his employees, always ensuring that everyone is happy and striving to create a very pleasant work environment. I feel very fortunate to have been able to work with such a wonderful manager. As a leader, he has my highest recommendation."',
         },
         {
-            autor: 'Jens Junker-Ukena, Sales Director',
+            autor: 'Jens Junker-Ukena \nSales Director',
             texto: '"Professionalism, dynamism, and enthusiasm are the words that come to mind when you think of Salvatore. His management and presentation skills are simply exceptional; I have never met a man with such drive and a positive attitude. Salvatore is a great asset to any team, making things happen, and has my strongest recommendation."',
         },
         {
@@ -221,17 +218,14 @@ export const ingles3 = {
             texto: '"Forest regeneration is an existential challenge we must face as soon as possible. Clear recommendations for action are presented based on in-depth analysis from the perspective of forest owners, considering developments over the last century. An inspiring work."',
         },
         {
-            autor: 'Jens Büscher, CEO',
+            autor: 'Jens Büscher \nCEO',
             texto: '"Mr. Coppola possesses extensive and profound knowledge, which he always applied well. He was highly motivated and showed a high level of initiative and commitment. With a keen eye for the essentials, he always carried out his tasks in a planned, methodical, and meticulous manner. He consistently produced high-quality results, even when requirements changed and under very difficult conditions. Mr. Coppola was always a role model for his employees, leading them in an objective and goal-oriented manner, achieving a good performance increase at a consistently high level, as well as a good team atmosphere."',
         },
         {
-            autor: 'Izabel Cvetkovic, Researcher',
+            autor: 'Izabel Cvetkovic \nResearcher',
             texto: '"In addition to being a true expert in his field, Salvatore is very curious and knowledgeable in many areas. Speaking 7 languages and having work and life experience all over the world makes him an invaluable asset."',
         },
-        {
-            autor: 'Prof. Dr. Ariane König',
-            texto: '"Forest regeneration is an existential challenge we must face as soon as possible. Clear recommendations for action are presented based on in-depth analysis from the perspective of forest owners, considering developments over the last century. An inspiring work."',
-        },
+
     ]
 };
 
@@ -240,19 +234,19 @@ export const aleman3 = {
     opinion: 'Internationale Meinungen',
     testimonios: [
         {
-            autor: 'Benjamin Kemner, Software Architect',
+            autor: 'Benjamin Kemner \nSoftware Architect',
             texto: '"Salvatore ist für jedes Team eine große Bereicherung und Inspiration. Ich wünsche mir auf mehr Kollegen wie ihn zu treffen."',
         },
         {
-            autor: 'Peter Scharnhorst, Geschäftsführer',
+            autor: 'Peter Scharnhorst \nGeschäftsführer',
             texto: '"Selten ist mir ein gleichermaßen gebildeter, eloquenter und fachlich versierter Kollege begegnet. Herr Coppola-Finegan bewegt sich sicher auf allen geschäftlichen Ebenen. Sei es im Gespräch mit Sachbearbeiter:innen, als Vortragender oder in Verhandlungen mit Entscheidern großer internationaler Konzerne, stets führt ihn sein gleichermaßen charmantes wie sicheres Auftreten zum Erfolg. Ein herausforderndes Projekt sowie die notwendigen Ressourcen vorausgesetzt, kann man sich auf eine qualitativ hochwertige Umsetzung innerhalb der vereinbarten Zeit verlassen. Seine Persönlichkeit fußt auf einer erfrischenden Mischung aus italienischem Temperament, britischem Humor und deutscher Gründlichkeit."',
         },
         {
-            autor: 'Laura Branscombe, Laborleiterin für Mikrobiologie',
+            autor: 'Laura Branscombe \nLaborleiterin für Mikrobiologie',
             texto: '"Was mich vor allem immer beeindruckt hat, ist, dass er für seine Mitarbeiter alles gibt, immer dafür sorgt, dass alle zufrieden sind, und sich stets bemüht, ein sehr angenehmes Arbeitsumfeld zu schaffen. Es war mir eine große Freude, mit einem so wunderbaren Manager zusammenzuarbeiten. Als Leiter hat er meine höchste Empfehlung."',
         },
         {
-            autor: 'Jens Junker-Ukena, Vertriebsleiter',
+            autor: 'Jens Junker-Ukena \nVertriebsleiter',
             texto: '"Professionalität, Elan und Enthusiasmus: Das beschreibt Salvatore am besten. Seine Management- und Präsentationsfähigkeiten sind einfach hervorragend; ich habe noch nie einen Mann mit so viel Schwung und einer so positiven Einstellung getroffen. Salvatore ist eine große Bereicherung für jedes Team, sorgt für Fortschritt und hat meine höchste Empfehlung."',
         },
         {
@@ -260,11 +254,11 @@ export const aleman3 = {
             texto: '"Die Regeneration von Wäldern ist eine existentielle Herausforderung, der wir uns schnellstens stellen müssen. Hier sind klare Handlungsempfehlungen, aufbauend auf einer tiefgehenden Analyse aus Sicht der Waldbesitzer, mit Blick auf Entwicklungen über das letzte Jahrhundert. Ein inspirierendes Werk!"',
         },
         {
-            autor: 'Jens Büscher, CEO',
+            autor: 'Jens Büscher \nCEO',
             texto: '"Herr Coppola verfügt über ein umfassendes und fundiertes Fachwissen, das er jederzeit gut in die Praxis umzusetzen wusste. Er war sehr motiviert und zeigte ein hohes Maß an Initiative und Leistungsbereitschaft. Mit einem guten Blick für das Wesentliche führte er seine Aufgaben immer planvoll, methodisch und gründlich aus. Auch bei sehr hohem Arbeitsanfall erwies sich Herr Coppola als belastbarer Mitarbeiter und ging überlegt, ruhig und zielorientiert vor."',
         },
         {
-            autor: 'Izabel Cvetkovic, Wissenschaftlerin',
+            autor: 'Izabel Cvetkovic \nWissenschaftlerin',
             texto: '"Salvatore ist nicht nur ein echter Experte bei der Arbeit, sondern auch sehr neugierig und kennt sich in vielen Bereichen aus. Da er sieben Sprachen spricht und auf der ganzen Welt gearbeitet und gelebt hat, ist eine Zusammenarbeit mit ihm von unschätzbarem Wert."',
         },
     ]
@@ -275,19 +269,19 @@ export const frances3 = {
     opinion: 'Opinions internationales',
     testimonios: [
         {
-            autor: 'Benjamin Kemner, architecte logiciel',
+            autor: 'Benjamin Kemner \nArchitecte logiciel',
             texto: '« Salvatore est un grand atout et une source d\'inspiration pour chaque équipe. J\'aimerais rencontrer plus de collègues comme lui ».',
         },
         {
-            autor: 'Peter Scharnhorst, Directeur général',
+            autor: 'Peter Scharnhorst \nDirecteur général',
             texto: '« J\'ai rarement rencontré un collègue qui soit aussi bien éduqué, éloquent et techniquement compétent. M. Coppola-Finegan est sûr de lui à tous les niveaux de l\'entreprise. Qu\'il s\'adresse à un commis, qu\'il prononce un discours ou qu\'il négocie avec des décideurs de grandes entreprises internationales, son charme et son assurance le mènent toujours au succès. Lorsqu\'on lui confie un projet difficile et les ressources nécessaires, on peut compter sur lui pour fournir une mise en œuvre de haute qualité dans les délais convenus. Sa personnalité est un mélange rafraîchissant de tempérament italien, d\'humour britannique et de rigueur allemande. »',
         },
         {
-            autor: 'Laura Branscombe, chef du laboratoire de microbiologie',
+            autor: 'Laura Branscombe \nChef du laboratoire de microbiologie',
             texto: '« Surtout, j\'ai toujours été impressionnée par la façon dont il se surpasse pour ses employés, en s\'assurant toujours que tout le monde est heureux et en s\'efforçant de créer un environnement de travail très agréable. J\'ai eu de la chance d\'avoir pu travailler avec un manager aussi merveilleux. En tant que dirigeant, je le recommande vivement. »',
         },
         {
-            autor: 'Jens Junker-Ukena, directeur des ventes',
+            autor: 'Jens Junker-Ukena \nDirecteur des ventes',
             texto: '« Professionnalisme, dynamisme et enthousiasme sont les mots qui viennent à l\'esprit quand on pense à Salvatore. Ses compétences en matière de gestion et de présentation sont tout simplement exceptionnelles; je n\'ai jamais rencontré un homme avec un tel dynamisme et une telle attitude positive. Salvatore est un atout solide dans n\'importe quelle équipe, il fait avancer les choses et je le recommande vivement. »',
         },
         {
@@ -295,11 +289,11 @@ export const frances3 = {
             texto: '« La régénération des forêts est un défi existentiel que nous devons relever au plus vite. Basé sur une analyse approfondie et avec une vue sur les développements du siècle dernier, ce livre fournit des recommandations claires pour l\'action du point de vue des propriétaires forestiers. Un ouvrage inspirant ! »',
         },
         {
-            autor: 'Jens Büscher, PDG',
+            autor: 'Jens Büscher \nPDG',
             texto: '« Monsieur Coppola possède des compétences étendues et approfondies, qu\'il a toujours su bien mettre en pratique. Très motivé, il a fait preuve d\'un grand sens de l\'initiative et d\'un grand engagement. Ayant le sens de l\'essentiel, il a toujours exécuté ses tâches de manière planifiée, méthodique et minutieuse. Il a toujours produit des résultats de bonne qualité, même lorsque les exigences changeaient et dans des conditions très difficiles. M. Coppola a toujours été un modèle pour ses employés. »',
         },
         {
-            autor: 'Izabel Cvetkovic, Chercheuse',
+            autor: 'Izabel Cvetkovic \nChercheuse',
             texto: '« En plus d\'être un véritable expert au travail, Salvatore est très curieux et a des connaissances dans de nombreux domaines. Le fait de parler 7 langues et d\'avoir une expérience de travail et de vie tout autour du globe fait de lui un atout inestimable. »',
         },
     ]
@@ -310,19 +304,19 @@ export const italiano3 = {
     opinion: 'Opinioni internazionali',
     testimonios: [
         {
-            autor: 'Benjamin Kemner, Architetto Software',
+            autor: 'Benjamin Kemner \nArchitetto Software',
             texto: '"Salvatore è un grande valore aggiunto e una fonte di ispirazione per ogni team. Vorrei poter incontrare più colleghi come lui.”',
         },
         {
-            autor: 'Peter Scharnhorst, CEO',
+            autor: 'Peter Scharnhorst \nCEO',
             texto: '"In poche occasioni ho incontrato un collega altrettanto istruito, eloquente e tecnicamente abile. Il signor Coppola-Finegan è sicuro di sé a tutti i livelli professionali. Che si tratti di parlare con un impiegato, di pronunciare un discorso o di trattare con responsabili decisionali di grandi aziende internazionali, il suo modo di fare affascinante e sicuro lo porta sempre al successo. Se gli viene sottoposto un progetto impegnativo e le risorse necessarie, si può contare su di lui per ottenere un\'implementazione di alta qualità entro i tempi stabiliti. La sua personalità è una miscela rinfrescante di temperamento italiano, umorismo britannico e scrupolosità tedesca.”',
         },
         {
-            autor: 'Laura Branscombe, Responsabile Laboratorio di Microbiologia',
+            autor: 'Laura Branscombe \nResponsabile Laboratorio di Microbiologia',
             texto: '"Soprattutto, mi ha sempre colpito il modo in cui si impegna al massimo per i suoi dipendenti, assicurandosi sempre che tutti siano felici e cercando di creare un ambiente di lavoro molto piacevole. Mi ritengo molto fortunato ad aver potuto lavorare con un manager così meraviglioso. Come leader ha la mia più alta raccomandazione.”',
         },
         {
-            autor: 'Jens Junker-Ukena, Direttore vendite',
+            autor: 'Jens Junker-Ukena \nDirettore vendite',
             texto: '"Professionalità, grinta ed entusiasmo sono le parole che vengono in mente quando si pensa a Salvatore. Le sue capacità di gestione e presentazione sono semplicemente eccezionali; non ho mai incontrato un uomo con una tale forza e positività. Salvatore è una risorsa importante per qualsiasi team, in grado di far avanzare le cose, e lo raccomando vivamente.”',
         },
         {
@@ -330,11 +324,11 @@ export const italiano3 = {
             texto: '"La rigenerazione delle foreste è una sfida esistenziale che dobbiamo affrontare al più presto. Basato su un’analisi approfondita e con uno sguardo allo sviluppo dell’ultimo secolo, questo libro offre raccomandazioni chiare per l’azione dal punto di vista dei proprietari forestali. Un’opera ispiratrice!”',
         },
         {
-            autor: 'Jens Büscher, CEO',
+            autor: 'Jens Büscher \nCEO',
             texto: '"Il signor Coppola possiede un ampia e solida esperienza, che ha sempre saputo mettere in pratica. Molto motivato, ha dimostrato un elevato livello di iniziativa e impegno. Con un buon senso dell essenziale, ha sempre svolto i suoi compiti in modo pianificato, metodico e accurato. Anche di fronte a un carico di lavoro molto elevato, il signor Coppola si è dimostrato un collaboratore affidabile e ha lavorato in modo riflessivo, calmo e orientato agli obiettivi.”',
         },
         {
-            autor: 'Izabel Cvetkovic, Ricercatrice',
+            autor: 'Izabel Cvetkovic \nRicercatrice',
             texto: '"Salvatore non è solo un vero esperto nel suo lavoro, ma è anche molto curioso e conosce molti ambiti. Parlando sette lingue e avendo lavorato e vissuto in tutto il mondo, la collaborazione con lui è di inestimabile valore.”',
         },
     ]
