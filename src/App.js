@@ -34,7 +34,7 @@ const MainContent = () => {
           <Hero />
         </div>
 
-        <div className="relative w-screen h-[30rem] bg-gradient-to-b from-[rgba(36,39,100,0.01)] to-[rgba(16,16,52,1)] pt-2 ">
+        <div className="relative w-screen h-[34rem] bg-gradient-to-b from-[rgba(36,39,100,0.01)] to-[rgba(16,16,52,1)] pt-2 ">
           <div className="w-screen h-24">
             <p className="xl:text-2xl text-xs max-lg:px-4 font-light text-white md:px-28 sm:px-4" style={{ whiteSpace: 'pre-line' }}>
               {languageData.texto3}
