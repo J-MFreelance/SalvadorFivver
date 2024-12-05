@@ -40,31 +40,26 @@ export const frances = {
 export const espanol1 = {
     texto1: 'Comprometido por un mundo mejor.',
     texto2: 'Salvatore Coppola-Finegan es un autor publicado, investigador \ny cofundador de Ecocitizen, una empresa acreditada de investigación\n con sede en Luxemburgo que se dedica al desarrollo sostenible\n y a la tecnología medioambiental.',
-    texto3: 'Su carrera abarca una impresionante trayectoria en sostenibilidad, políticas públicas \ny asesoramiento estratégico, tanto en el sector privado como en el público. \nActualmente disponible para servicios de consultoría.'
-};
+    };
 
 export const ingles1 = {
     texto1: 'Committed to a better world.',
     texto2: 'Salvatore Coppola-Finegan is a published author, researcher, \nand co-founder of EcoCitizen, an accredited research company in Luxembourg \nthat focuses on sustainable development and environmental technology.',
-    texto3: 'His career encompasses an impressive track record in sustainability, public policy, \nand strategic advisory, both in the private and public sectors. \nCurrently available for consulting services.'
 };
 
 export const aleman1 = {
     texto1: 'Engagiert für eine bessere Welt.',
     texto2: 'Salvatore Coppola-Finegan ist Buchautor, \nForscher und Mitbegründer von EcoCitizen, ein akkreditiertes \nForschungsunternehmen in Luxemburg, mit Schwerpunkt auf nachhaltiger \nEntwicklung und Umwelttechnologie.',
-    texto3: 'Seine Karriere umfasst eine beeindruckende Erfolgsbilanz in den Bereichen Nachhaltigkeit, öffentliche Politik \nund strategische Beratung, sowohl im privaten als auch im öffentlichen Sektor. \nDerzeit verfügbar für Beratungsdienste.'
 };
 
 export const frances1 = {
     texto1: 'Engagé pour un monde meilleur.',
     texto2: 'Salvatore Coppola-Finegan est auteur publié, \nchercheur et cofondateur d\'EcoCitizen, organisme de recherche \nagréé au Luxembourg qui se concentre sur le développement durable et les \ntechnologies pour l\'environnement.',
-    texto3: 'Sa carrière couvre un parcours impressionnant en durabilité, politiques publiques \net conseil stratégique, tant dans le secteur privé que public. \nActuellement disponible pour des services de conseil.'
 };
 
 export const italiano1 = {
     texto1: 'Dedicato a un mondo migliore.',
     texto2: 'Salvatore Coppola-Finegan è autore, ricercatore e \ncofondatore di EcoCitizen, una società accreditata di ricerca con \nsede in Lussemburgo che si occupa di sviluppo \nsostenibile e tecnologia ambientale.',
-    texto3: 'La sua carriera comprende un\'impressionante esperienza in sostenibilità, politiche pubbliche \ne consulenza strategica, sia nel settore privato che in quello pubblico. \nAttualmente disponibile per servizi di consulenza.'
 };
 
 

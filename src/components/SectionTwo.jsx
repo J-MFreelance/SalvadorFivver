@@ -38,26 +38,27 @@ const SectionTwo = () => {
                     {/* Imagen */}
                     <div className="flex">
                         <div className="pr-8">
-                            <img
-                                src={libro}
-                                alt="Book cover"
-                                className="w-40"
-                            />
+                            <a href="https://letzregenerate.com/home-deutsch/" target="_blank">
+                                <img
+                                    src={libro}
+                                    alt="Book cover"
+                                    className="w-40"
+                                />
+                            </a>
                         </div>
                         {/* Contenedor del texto, botón y publicación */}
                         <div className="space-y-3">
                             <h2 className="text-2xl font-bold max-lg:text-xl">¡Lëtz reGenerate!</h2>
-                            <p className='max-lg:text-sm'>{languageData.texto1r}</p>
+                            <p className='max-lg:text-sm pb-4'>{languageData.texto1r}</p>
                             <Button nombre={languageData.button} color="bg-blue-800" link="https://letzregenerate.com/home-deutsch/" />
 
                         </div>
 
                     </div>
                     {/* Última publicación */}
-                    <div className="ml-[0rem] pt-6">
+                    {/* <div className="ml-[0rem] pt-6">
                         <p className="italic max-lg:text-sm">{languageData.texto2r}</p>
-                        {/* <h3 className="text-2xl font-semibold underline decoration-red-800 max-lg:text-xl">The four horsemen arrived</h3> */}
-                    </div>
+                    </div>*/}
 
 
 
