@@ -3,7 +3,6 @@ import { useLanguage } from './LanguageContext';
 import { espanol3, ingles3, aleman3, frances3, italiano3 } from '../constants';
 import { useEffect, useState } from 'react';
 
-
 const Opinions = () => {
   const { language } = useLanguage();
   const [languageData, setLanguageData] = useState({});
@@ -35,6 +34,7 @@ const Opinions = () => {
             key={index}
             autor={testimonio.autor}
             text={testimonio.texto}
+            image={testimonio.image}
           />
         ))}
       </div>

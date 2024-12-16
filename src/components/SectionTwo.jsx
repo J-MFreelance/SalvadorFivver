@@ -89,9 +89,15 @@ const SectionTwo = () => {
                                 </div>
                                 <div className='flex flex-col justify-end items-end'>
                                     <div className='flex space-x-2 pt-8'>
+                                        <a href='https://x.com/meddisstovtiks/highlights' target="_blank">
                                         <img src={x} alt="x" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
+                                        </a>
+                                        <a>
                                         <img src={regate} alt="regate" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
+                                        </a>
+                                        <a href='https://www.linkedin.com/in/salvatorecoppolaf/' target="_blank">
                                         <img src={linkendin} alt="linkendin" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
+                                        </a>
                                     </div>
                                     <a href="" className='text-3xl font-bold max-lg:text-xl'>scf.lu</a>
                                 </div>
