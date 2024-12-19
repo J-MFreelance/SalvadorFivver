@@ -92,7 +92,7 @@ const SectionTwo = () => {
                                         <a href='https://x.com/meddisstovtiks/highlights' target="_blank">
                                         <img src={x} alt="x" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
                                         </a>
-                                        <a>
+                                        <a href=''>
                                         <img src={regate} alt="regate" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
                                         </a>
                                         <a href='https://www.linkedin.com/in/salvatorecoppolaf/' target="_blank">
