@@ -3,6 +3,7 @@
 export const espanol = {
     navA1: 'INICIO',
     navA2: 'ACERCA DE',
+    navA5: 'SERVICIOS',
     navA3: 'CONTACTO',
     navA4: 'ECOCITIZEN'
 };
@@ -10,6 +11,7 @@ export const espanol = {
 export const ingles = {
     navA1: 'HOME',
     navA2: 'ABOUT',
+    navA5: 'SERVICES',
     navA3: 'CONTACT',
     navA4: 'ECOCITIZEN'
 };
@@ -17,6 +19,7 @@ export const ingles = {
 export const aleman = {
     navA1: 'STARTSEITE',
     navA2: 'ÜBER UNS',
+    navA5: 'DIENSTLEISTUNGEN',
     navA3: 'KONTAKT',
     navA4: 'ECOCITIZEN'
 };
@@ -24,6 +27,7 @@ export const aleman = {
 export const italiano = {
     navA1: 'HOME',
     navA2: 'CHI SIAMO',
+    navA5: 'SERVIZI',
     navA3: 'CONTATTO',
     navA4: 'ECOCITIZEN'
 };
@@ -31,6 +35,7 @@ export const italiano = {
 export const frances = {
     navA1: 'ACCUEIL',
     navA2: 'À PROPOS',
+    navA5: 'SERVICES',
     navA3: 'CONTACT',
     navA4: 'ECOCITIZEN'
 };
@@ -40,7 +45,7 @@ export const frances = {
 export const espanol1 = {
     texto1: 'Comprometido por un mundo mejor.',
     texto2: 'Salvatore Coppola-Finegan es un autor publicado, investigador \ny cofundador de Ecocitizen, una empresa acreditada de investigación\n con sede en Luxemburgo que se dedica al desarrollo sostenible\n y a la tecnología medioambiental.',
-    };
+};
 
 export const ingles1 = {
     texto1: 'Committed to a better world.',
@@ -151,6 +156,166 @@ export const italiano2 = {
              della sostenibilità e della prosperità globale \n 
              basata sulla scienza.`
 };
+
+//-------------------------------------------------- Services ------------------------------------------------------
+
+export const servicesEspanol = {
+    hero: "Apasionado por construir un futuro auténticamente sostenible y empoderado digitalmente, Salvatore Coppola-Finegan ofrece servicios expertos mediante un enfoque que combina la innovación, la experiencia global y soluciones prácticas. Ya sea que su objetivo sea mejorar la sostenibilidad, apostar por un proceso de digitalización responsable, diseñar estrategias impactantes o navegar por entornos normativos complejos, Salvatore le ofrece un apoyo personalizado para ayudar a su organización a prosperar.",
+    lista1: [
+        {
+            title: "Servicios",
+            subtitle: "Consultoría en sostenibilidad",
+            text: "Con más de 15 años de experiencia y una gran cantidad de conocimientos científicos y de ingeniería, Salvatore ayuda a las organizaciones a integrar la sostenibilidad auténtica. Evalúa los impactos ambientales y diseña estrategias accionables adaptadas a sus prioridades, como la salud planetaria, la biodiversidad, los ODS, la acción climática y otros.",
+            benefits: [
+                {
+                    title: "Beneficios",
+                    text: "Lograr objetivos de sostenibilidad medibles alineados con estándares internacionales. Reducir la huella ecológica a través de soluciones innovadoras. Mejorar la reputación como líder responsable.",
+                }
+            ]
+        }
+    ],
+    lista2: [
+        {
+            title: "Estudio de caso",
+            text: "Lideró un equipo para diseñar una estrategia de sostenibilidad renovada para un fabricante global en 2023, proyectada para reducir las emisiones de carbono en al menos un 20% y garantizar la alineación futura con los requisitos de la CSRD de la UE y la SEC de EE. UU.",
+        }
+    ],
+    lista3: [
+        {
+            title: "Consultoría en digitalización e innovación",
+            text: "Salvatore impulsa la transformación digital responsable, evaluando riesgos y asesorando sobre la integración de tecnología y estrategias digitales que se alinean con sus objetivos, valores y metas de sostenibilidad.",
+            benefits: [
+                {
+                    title: "Beneficios",
+                    text: "Mejorar la eficiencia con herramientas digitales de vanguardia. Mitigar riesgos y exposicionaes de manera proactiva. Mantener la responsabilidad organizacional y los estándares éticos en la adopción digital.",
+                }
+            ]
+        }
+    ],
+    lista4: [
+        {
+            title: "Estudio de caso",
+            text: "Supervisó la digitalización estratégica de flujos de trabajo y procesos de gestión y contabilidad basados en papel como parte de la estrategia ESG y digital en una multinacional de 11.000 millones de euros.",
+        }
+    ],
+    lista5: [
+        {
+            title: "Asesoramiento estratégico",
+            text: "Salvatore ofrece diseño de estrategias de alto nivel, hojas de ruta de implementación y compromiso de las partes interesadas, impulsando un cambio impactante para los sectores público y privado alineado con su misión.",
+            benefits: [
+                {
+                    title: "Beneficios",
+                    text: "Involucrar a las partes interesadas de manera colaborativa. Obtener hojas de ruta claras y personalizadas. Alinear estrategias con su visión. Aprovechar las mejores prácticas internacionales.",
+                }
+            ]
+        }
+    ],
+    lista6: [
+        {
+            title: "Estudio de caso",
+            text: "Asesoró a varios gobiernos nacionales sobre las NDC del UNFCCC y las NBSAP del UNCBD, así como sobre la mitigación y adaptación al cambio climático.",
+        }
+    ],
+    lista7: [
+        {
+            title: "Desarrollo de políticas y legislación",
+            text: "Salvatore ayuda a gobiernos y agencias a desarrollar políticas basadas en evidencia en medio ambiente, energía, movilidad y planificación territorial, siempre alineadas con la evidencia científica y los marcos internacionales.",
+            benefits: [
+                {
+                    title: "Beneficios",
+                    text: "Crear políticas robustas, basadas en la ciencia e informadas por las partes interesadas. Navegar por paisajes internacionales y multilaterales. Fomentar la colaboración entre sectores y culturas.",
+                }
+            ]
+        }
+    ],
+    lista8: [
+        {
+            title: "Estudio de caso",
+            text: "Contribuyó a la legislación pionera como Asesor Especializado de la Jefa de la Fracción Gubernamental en la Asamblea Legislativa de Costa Rica.",
+        }
+    ],
+    lista9: [
+        {
+            title: "Investigación científica",
+            text: "Autor publicado con un fondo multidisciplinario, Salvatore ofrece insights científicos y de ingeniería de vanguardia, impulsando la innovación basada en evidencia.",
+        }
+    ],
+    lista10: [
+        {
+            title: "Afiliaciones de investigación actuales",
+            text: "Oxford IERN EcoCitizen",
+            benefits: [
+                {
+                    title: "Beneficios",
+                    text: "Crear políticas robustas, basadas en la ciencia e informadas por las partes interesadas. Navegar por paisajes internacionales y multilaterales. Fomentar la colaboración entre sectores y culturas.",
+                }
+            ]
+        }
+    ],
+    lista11: [
+        {
+            title: "Estudio de caso",
+            text: "Investigó y escribió un libro seminal sobre el pasado, presente y futuro de la silvicultura familiar sostenible en Luxemburgo, influyendo en las discusiones y políticas ambientales nacionales.",
+        }
+    ],
+    lista12: [
+        {
+            title: "Miembro de junta y gobernanza",
+            text: "Salvatore ha servido como director independiente y miembro de la junta en los sectores privado y público. Aporta experiencia en cumplimiento ESG, gestión de riesgos, sostenibilidad, digitalización, asociaciones internacionales, así como estrategia general para mejorar la gobernanza y la toma de decisiones. Salvatore se centra en organizaciones positivas con un cuádruple balance (Propósito, Personas, Planeta, Prosperidad), ciudadanía corporativa con visión de futuro, pensamiento sistémico regenerativo y a largo plazo, y sostenibilidad auténtica.",
+            benefits: [
+                {
+                    title: "Beneficios",
+                    text: "Fortalecer la efectividad del consejo con perspectivas globales y diversas. Acceso a una red internacional de socios, inversores y profesionales. Impulsar iniciativas estratégicas enfocadas en sostenibilidad e innovación. Asegurar que la gobernanza se alinee con estándares éticos y ESG.",
+                }
+            ]
+        }
+    ],
+    lista13: [
+        {
+            title: "Estudio de caso",
+            text: "Guió a una empresa de tecnología suiza para asegurar asociaciones internacionales y asesoró sobre el cumplimiento ESG en diferentes jurisdicciones.",
+        }
+    ],
+    lista14: [
+        {
+            title: "Asesoramiento para inversores globales",
+            text: "Salvatore apoya a inversores globales en Luxemburgo y Suiza con orientación experta en la creación de empresas, gobernanza, cumplimiento e integración ESG, aprovechando una sólida red profesional. Con un historial comprobado en Luxemburgo y Suiza, Salvatore ofrece apoyo experto a inversores globales que buscan establecer o expandir su presencia comercial en ambas jurisdicciones. Su amplia experiencia abarca la incorporación de empresas, gobernanza corporativa, debida diligencia y cumplimiento, incluidos los procesos KYC (Conozca a su Cliente). Guía a los clientes a través de cada paso para establecer un negocio, desde elegir la forma legal apropiada, establecer una empresa, obtener permisos comerciales cuando sea necesario, y abrir cuentas bancarias, hasta asegurar espacio de oficina y contratar servicios profesionales. Salvatore tiene una amplia red de contactos en Luxemburgo y Suiza, que incluye contadores, consultores y abogados, y garantiza una asistencia integral y confiable adaptada a sus necesidades. El enfoque de Salvatore es garantizar el pleno cumplimiento de los estándares locales e internacionales, integrando prácticas éticas y sostenibles, y asegurando que las actividades estén alineadas con los principios ESG (Ambientales, Sociales, de Gobernanza)",
+            benefits: [
+                {
+                    title: "Beneficios",
+                    text: "Navegar por paisajes legales, regulatorios y de cumplimiento complejos. Aprovechar una red confiable y conexiones establecidas con proveedores de servicios profesionales. Asegurar que las operaciones cumplan con los más altos estándares de gobernanza y ética internacional. Incorporar principios ESG en sus decisiones de inversión y negocios para obtener valor a largo plazo.",
+                }
+            ]
+        }
+    ],
+    lista15: [
+        {
+            title: "Estudio de caso",
+            text: "Asesoró a una oficina familiar en el establecimiento de un fondo de inversión sostenible en Luxemburgo, garantizando el pleno cumplimiento de las regulaciones locales, la integración de estándares ESG y la coordinación con una red confiable para servicios bancarios y contables. Guió a un inversor de alto patrimonio neto a través del establecimiento de una empresa de tecnología en Suiza, aprovechando asociaciones en el ecosistema de innovación de Zúrich y asegurando el cumplimiento de las regulaciones suizas a través de la coordinación con socios locales de confianza, al tiempo que apoyaba la estrategia de salida al mercado de la empresa.",
+        }
+    ],
+    lista16: [
+        {
+            title: "Orador Keynote",
+            text: "Salvatore Coppola-Finegan es un orador público de gran pasión y sustancia que aporta una rara combinación de rigor científico, experiencia en políticas globales y narración inspiradora. Con más de 15 años asesorando a líderes del sector privado, gobiernos, legisladores y agencias de la ONU sobre sostenibilidad y digitalización, Salvatore investiga cuidadosamente y ofrece discursos principales impactantes sobre diversos temas. La carrera de Salvatore abarca continentes y sectores, ofreciendo a las audiencias una perspectiva de primera mano sobre cómo impulsar el cambio sistémico. Fluido en seis idiomas: inglés, alemán, español, italiano, francés y portugués, adapta cada presentación para resonar con el evento y la audiencia, haciendo que temas como la resiliencia climática, la biodiversidad y la innovación ética sean accesibles y convincentes.",
+            benefits: [
+                {
+                    title: "Beneficios",
+                    text: "Perspectiva Global: Aprovechar los insights del trabajo de Salvatore en Europa, Asia y las Américas. Inspiración Comprobada: Despertar interés, colaboración e innovación en audiencias de todas las edades.Visión Accionable: Equipar a su audiencia con estrategias prácticas basadas en ciencia y política. Alcance Multilingüe: Involucrar a los asistentes de todo el mundo con una entrega multilingüe culturalmente matizada.",
+                }
+            ]
+        }
+    ],
+    lista17: [
+        {
+            title: "Estudio de caso",
+            text: "Salvatore pronunció el discurso principal ‘Acción por el Clima y la Naturaleza sobre los Hombros de Gigantes’ en el lanzamiento de su libro ‘Lëtz Regenerate’ sobre el pasado, presente y futuro de la silvicultura familiar sostenible de Luxemburgo. El evento, al que asistieron Su Alteza Real el Gran Duque Henri, el Primer Ministro Xavier Bettel, diputados, funcionarios gubernamentales y más de 400 VIP y expertos internacionales, destacó su capacidad para cautivar a una audiencia de alto nivel. Su discurso presentó una visión convincente para la regeneración de la naturaleza en medio de los desafíos climáticos, inspirada en las contribuciones de figuras históricas del sector forestal y natural de Luxemburgo.",
+        }
+    ],
+    question: "¿Tienes preguntas?",
+    sayHello: "Saludame",
+    date: "Agendar una reunión",
+}
 
 //-------------------------------------------------- Testimonials --------------------------------------------------
 

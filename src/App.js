@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Opinions from './components/Opinions';
 import Section from './components/Section';
 import SectionTwo from './components/SectionTwo';
-import { LanguageProvider, useLanguage } from './components/LanguageContext'; // Asegúrate de importar useLanguage
+import { LanguageProvider, useLanguage } from './components/LanguageContext';
 import { espanol1, ingles1, aleman1, frances1, italiano1 } from './constants';
 
 function App() {
@@ -19,16 +19,14 @@ function App() {
 
 
 const MainContent = () => {
-  const { language } = useLanguage(); 
+  const { language } = useLanguage();
   const languageData = getLanguageData(language);
 
   return (
     <div className="playfair-display w-full h-auto">
       <div className="relative w-full h-[110vh]">
-        {/* Imagen de fondo con opacidad enviada al fondo absoluto */}
         <div className="absolute inset-0 z-[-1] bg-[url('./assets/banner.png')] bg-cover bg-center opacity-70"></div>
 
-        {/* Contenido encima de la imagen */}
         <div className="relative w-screen h-auto md:px-28 md:pt-12 sm:px-4 sm:pt-4 overflow-hidden">
           <Navbar />
           <Hero />

@@ -50,7 +50,7 @@ const Navbar = () => {
         onClick={toggleNavigation}
       >
         {openNavigation ? (
-          <div className="text-white text-4xl fixed top-8 right-8 z-50 cursor-pointer">X</div> // Ícono "X" cuando el menú está abierto
+          <div className="text-white text-4xl fixed top-8 right-8 z-50 cursor-pointer">X</div>
         ) : (
           <>
             <div className="w-5 h-[0.1rem] bg-white"></div>
@@ -77,6 +77,13 @@ const Navbar = () => {
             href='#about'
           >
             {languageData.navA2}
+          </a>
+          <a
+            className="text-2xl lg:text-base hover:transition-colors hover:opacity-70 cursor-pointer"
+            onClick={handleClick}
+            href='#'
+          >
+            {languageData.navA5}
           </a>
           <a
             className="text-2xl lg:text-base hover:transition-colors hover:opacity-70 cursor-pointer"
