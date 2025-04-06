@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from './LanguageContext';
+import Flag from 'react-world-flags'; // Importamos react-world-flags
 
 const LanguageSelector = () => {
   const { language, setLanguage } = useLanguage();
   const languages = [
-    { code: 'EN', label: 'ENGLISH', flag: '' },
-    { code: 'DE', label: 'DEUTSCH', flag: '' },
-    { code: 'FR', label: 'FRANÇAIS', flag: '' },
-    { code: 'IT', label: 'ITALIANO', flag: '' },
-    { code: 'ES', label: 'ESPAÑOL', flag: '' }
+    { code: 'GB', label: 'ENGLISH' },  // Usamos el código del país (GB para inglés)
+    { code: 'DE', label: 'DEUTSCH' },  // Código para alemán
+    { code: 'FR', label: 'FRANÇAIS' },  // Código para francés
+    { code: 'IT', label: 'ITALIANO' },  // Código para italiano
+    { code: 'ES', label: 'ESPAÑOL' },  // Código para español
   ];
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,7 +34,7 @@ const LanguageSelector = () => {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="inline-flex justify-center w-full shadow-sm p-3 rounded-t-md bg-gray-200 text-sm font-medium text-gray-700 hover:bg-gray-200"
         >
-          {language.flag} {language.label}
+          <Flag code={language.code} style={{ width: 20, height: 20, marginRight: 10 }} /> {language.label}
         </button>
         {isMenuOpen && (
           <div className="relative w-full bg-white shadow-lg z-10">
@@ -44,13 +45,12 @@ const LanguageSelector = () => {
                   onClick={() => handleLanguageChange(lang)}
                   className="flex justify-between w-full p-3 text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200"
                 >
-                  {lang.flag} {lang.label}
+                  <Flag code={lang.code} style={{ width: 20, height: 20, marginRight: 10 }} /> {lang.label}
                 </button>
               ))}
             </div>
           </div>
         )}
-
       </div>
     </div>
   );
