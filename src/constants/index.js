@@ -160,11 +160,11 @@ export const italiano2 = {
 //-------------------------------------------------- Services ------------------------------------------------------
 
 export const servicesEspanol = {
+    title: "Servicios",
     hero: "Apasionado por construir un futuro auténticamente sostenible y empoderado digitalmente, Salvatore Coppola-Finegan ofrece servicios expertos mediante un enfoque que combina la innovación, la experiencia global y soluciones prácticas. Ya sea que su objetivo sea mejorar la sostenibilidad, apostar por un proceso de digitalización responsable, diseñar estrategias impactantes o navegar por entornos normativos complejos, Salvatore le ofrece un apoyo personalizado para ayudar a su organización a prosperar.",
     list1: [
         {
-            title: "Servicios",
-            subtitle: "Consultoría en sostenibilidad",
+            title: "Consultoría en sostenibilidad",
             text: "Con más de 15 años de experiencia y una gran cantidad de conocimientos científicos y de ingeniería, Salvatore ayuda a las organizaciones a integrar la sostenibilidad auténtica. Evalúa los impactos ambientales y diseña estrategias accionables adaptadas a sus prioridades, como la salud planetaria, la biodiversidad, los ODS, la acción climática y otros.",
             benefits: [
                 {
@@ -318,11 +318,11 @@ export const servicesEspanol = {
 }
 
 export const servicesEnglish = {
+    title: "Services",
     hero: "Passionate about building an authentically sustainable and digitally empowered future, Salvatore Coppola-Finegan offers expert services through an approach that combines innovation, global expertise, and practical solutions. Whether your goal is to enhance sustainability, commit to responsible digitalization processes, design impactful strategies, or navigate complex regulatory environments, Salvatore provides personalized support to help your organization thrive.",
     list1: [
         {
-            title: "Services",
-            subtitle: "Sustainability Consulting",
+            title: "Sustainability Consulting",
             text: "With over 15 years of experience and extensive scientific and engineering knowledge, Salvatore helps organizations integrate authentic sustainability. He assesses environmental impacts and designs actionable strategies tailored to your priorities, such as planetary health, biodiversity, SDGs, climate action, and more.",
             benefits: [
                 {
@@ -476,11 +476,11 @@ export const servicesEnglish = {
 }
 
 export const servicesDeutsch = {
+    title: "Dienstleistungen",
     hero: "Leidenschaftlich engagiert für eine authentisch nachhaltige und digital gestärkte Zukunft bietet Salvatore Coppola-Finegan Expertenleistungen durch einen Ansatz, der Innovation, globale Expertise und praktische Lösungen vereint. Ob Ihr Ziel die Verbesserung der Nachhaltigkeit, die Umsetzung verantwortungsvoller Digitalisierungsprozesse, die Entwicklung wirkungsvoller Strategien oder die Navigation in komplexen regulatorischen Umgebungen ist – Salvatore bietet maßgeschneiderte Unterstützung, damit Ihre Organisation erfolgreich sein kann.",
-    liste1: [
+    list1: [
         {
-            title: "Leistungen",
-            subtitle: "Nachhaltigkeitsberatung",
+            title: "Nachhaltigkeitsberatung",
             text: "Mit über 15 Jahren Erfahrung und umfangreichen wissenschaftlichen sowie technischen Kenntnissen unterstützt Salvatore Organisationen bei der Integration authentischer Nachhaltigkeit. Er bewertet Umweltauswirkungen und entwickelt maßgeschneiderte, umsetzbare Strategien für Ihre Prioritäten wie planetare Gesundheit, Biodiversität, SDGs, Klimaschutz und mehr.",
             benefits: [
                 {
@@ -490,13 +490,13 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    liste2: [
+    list2: [
         {
             title: "Fallstudie",
             text: "Leitete 2023 ein Team zur Entwicklung einer erneuerten Nachhaltigkeitsstrategie für einen globalen Hersteller, die eine CO₂-Reduktion von mindestens 20% bewirken und zukünftige Compliance mit EU-CSRD und US-SEC Anforderungen sicherstellen soll.",
         }
     ],
-    liste3: [
+    list3: [
         {
             title: "Digitalisierungs- & Innovationsberatung",
             text: "Salvatore treibt verantwortungsvolle digitale Transformation voran, bewertet Risiken und berät bei Technologieintegration und digitalen Strategien, die sich an Ihren Zielen, Werten und Nachhaltigkeitszielen orientieren.",
@@ -508,13 +508,13 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    liste4: [
+    list4: [
         {
             title: "Fallstudie",
             text: "Verantwortete die strategische Digitalisierung papierbasierter Workflows und Management-/Buchhaltungsprozesse als Teil der ESG- und Digitalstrategie eines multinationalen Konzerns mit 11 Mrd. € Umsatz.",
         }
     ],
-    liste5: [
+    list5: [
         {
             title: "Strategische Beratung",
             text: "Salvatore bietet Entwicklung hochrangiger Strategien, Implementierungsfahrpläne und Stakeholder-Einbindung, um wirkungsvollen Wandel für öffentliche und private Sektoren in Einklang mit Ihrer Mission voranzutreiben.",
@@ -526,13 +526,13 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    liste6: [
+    list6: [
         {
             title: "Fallstudie",
             text: "Beriet mehrere nationale Regierungen zu UNFCCC-NDCs und UNCBD-NBSAPs sowie zu Klimaschutz und Anpassung.",
         }
     ],
-    liste7: [
+    list7: [
         {
             title: "Politik- & Gesetzgebungsentwicklung",
             text: "Salvatore unterstützt Regierungen und Behörden bei der Entwicklung evidenzbasierter Politiken in Umwelt, Energie, Mobilität und Raumplanung, stets im Einklang mit wissenschaftlichen Erkenntnissen und internationalen Rahmenwerken.",
@@ -544,19 +544,19 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    liste8: [
+    list8: [
         {
             title: "Fallstudie",
             text: "Trug als Fachberater des Regierungsfraktionsvorsitzenden in der Legislative Costa Ricas zu wegweisender Gesetzgebung bei.",
         }
     ],
-    liste9: [
+    list9: [
         {
             title: "Wissenschaftliche Forschung",
             text: "Als publizierter Autor mit multidisziplinärem Hintergrund liefert Salvatore wegweisende wissenschaftliche und technische Erkenntnisse, die evidenzbasierte Innovation vorantreiben.",
         }
     ],
-    liste10: [
+    list10: [
         {
             title: "Aktuelle Forschungskooperationen",
             text: "Oxford IERN EcoCitizen",
@@ -568,13 +568,13 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    liste11: [
+    list11: [
         {
             title: "Fallstudie",
             text: "Erforschte und verfasste ein grundlegendes Werk über Vergangenheit, Gegenwart und Zukunft nachhaltiger Familienforstwirtschaft in Luxemburg, das nationale Umweltdebatten und -politiken beeinflusste.",
         }
     ],
-    liste12: [
+    list12: [
         {
             title: "Vorstandsmitgliedschaft & Governance",
             text: "Salvatore war unabhängiger Direktor und Vorstandsmitglied in privaten und öffentlichen Sektoren. Er bringt Expertise in ESG-Compliance, Risikomanagement, Nachhaltigkeit, Digitalisierung, internationale Partnerschaften sowie Gesamtstrategie zur Verbesserung von Governance und Entscheidungsfindung ein. Salvatore konzentriert sich auf positive Organisationen mit Vierfach-Bilanz (Purpose, People, Planet, Prosperity), zukunftsorientierter Corporate Citizenship, regenerativem systemischen und langfristigem Denken sowie authentischer Nachhaltigkeit.",
@@ -586,13 +586,13 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    liste13: [
+    list13: [
         {
             title: "Fallstudie",
             text: "Begleitete ein Schweizer Technologieunternehmen bei der Sicherung internationaler Partnerschaften und beriet zu ESG-Compliance über verschiedene Rechtsgebiete hinweg.",
         }
     ],
-    liste14: [
+    list14: [
         {
             title: "Beratung für globale Investoren",
             text: "Salvatore unterstützt globale Investoren in Luxemburg und der Schweiz mit Expertenberatung zu Unternehmensgründung, Governance, Compliance und ESG-Integration unter Nutzung eines starken professionellen Netzwerks. Mit nachgewiesener Erfolgsbilanz in Luxemburg und der Schweiz bietet Salvatore Expertenunterstützung für globale Investoren, die ihre Geschäftspräsenz in beiden Rechtsgebieten aufbauen oder erweitern möchten. Seine umfangreiche Erfahrung umfasst Unternehmensgründung, Corporate Governance, Due Diligence und Compliance, einschließlich KYC-Prozesse (Know Your Customer). Er begleitet Kunden durch jeden Schritt der Unternehmensgründung - von der Wahl der geeigneten Rechtsform, Unternehmensaufbau und Erteilung von Gewerbeerlaubnissen bis zur Eröffnung von Bankkonten, Büroraumbeschaffung und Einstellung professioneller Dienstleister. Salvatore verfügt über ein umfangreiches Kontaktnetzwerk in Luxemburg und der Schweiz, einschließlich Buchhalter, Berater und Anwälte, und gewährleistet umfassende, zuverlässige Unterstützung nach Maß. Salvatores Ansatz stellt die vollständige Compliance mit lokalen und internationalen Standards sicher, integriert ethische und nachhaltige Praktiken und richtet Aktivitäten an ESG-Prinzipien (Environmental, Social, Governance) aus.",
@@ -604,13 +604,13 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    liste15: [
+    list15: [
         {
             title: "Fallstudie",
             text: "Beriet ein Family Office bei der Gründung eines nachhaltigen Investmentfonds in Luxemburg unter Sicherstellung vollständiger Compliance mit lokalen Vorschriften, Integration von ESG-Standards und Koordination mit vertrauenswürdigem Netzwerk für Bank- und Buchhaltungsdienstleistungen. Begleitete einen vermögenden Privatanleger durch die Gründung eines Technologieunternehmens in der Schweiz, nutzte Partnerschaften im Zürcher Innovationsökosystem und sicherte Compliance mit Schweizer Vorschriften durch Koordination mit vertrauenswürdigen lokalen Partnern, während die Markteinführungsstrategie des Unternehmens unterstützt wurde.",
         }
     ],
-    liste16: [
+    list16: [
         {
             title: "Keynote-Speaker",
             text: "Salvatore Coppola-Finegan ist ein leidenschaftlicher und substanzieller Redner, der eine seltene Kombination aus wissenschaftlicher Strenge, globaler Politikexpertise und inspirierender Erzählkunst bietet. Mit über 15 Jahren Beratungserfahrung für Führungskräfte der Privatwirtschaft, Regierungen, politische Entscheidungsträger und UN-Agenturen zu Nachhaltigkeit und Digitalisierung recherchiert Salvatore sorgfältig und hält wegweisende Keynotes zu diversen Themen. Salvatores Karriere erstreckt sich über Kontinente und Sektoren und bietet Publikum Einblicke aus erster Hand in systemischen Wandel. Fließend in sechs Sprachen - Englisch, Deutsch, Spanisch, Italienisch, Französisch und Portugiesisch - passt er jede Präsentation an Veranstaltung und Publikum an, macht Themen wie Klimaresilienz, Biodiversität und ethische Innovation zugänglich und überzeugend.",
@@ -622,7 +622,7 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    liste17: [
+    list17: [
         {
             title: "Fallstudie",
             text: "Salvatore hielt die Keynote 'Klima- und Naturschutz auf den Schultern von Riesen' zur Veröffentlichung seines Buches 'Lëtz Regenerate' über Vergangenheit, Gegenwart und Zukunft Luxemburgs nachhaltiger Familienforstwirtschaft. Die Veranstaltung mit S.K.H. Großherzog Henri, Premierminister Xavier Bettel, Abgeordneten, Regierungsbeamten und über 400 VIPs und internationalen Experten unterstrich seine Fähigkeit, ein hochrangiges Publikum zu fesseln. Seine Rede präsentierte eine überzeugende Vision für Naturregeneration angesichts klimatischer Herausforderungen, inspiriert von Beiträgen historischer Persönlichkeiten aus Luxemburgs Forst- und Natursektor.",
@@ -634,11 +634,11 @@ export const servicesDeutsch = {
 }
 
 export const servicesFrench = {
+    title: "Services",
     hero: "Animé par la passion de construire un avenir véritablement durable et numériquement habilité, Salvatore Coppola-Finegan propose des services d’expertise grâce à une approche alliant innovation, compétence mondiale et solutions concrètes. Que vous souhaitiez renforcer votre durabilité, adopter une numérisation responsable, concevoir des stratégies efficaces ou naviguer dans des environnements réglementaires complexes, Salvatore fournit un accompagnement sur mesure pour aider votre organisation à prospérer.",
     list1: [
         {
-            title: "Services",
-            subtitle: "Conseil en durabilité",
+            title: "Conseil en durabilité",
             text: "Fort de plus de 15 ans d’expérience et d’une solide base en sciences et en ingénierie, Salvatore aide les organisations à intégrer une véritable durabilité. Il évalue les impacts environnementaux et conçoit des stratégies concrètes adaptées à vos priorités, qu’il s’agisse de la santé planétaire, de la biodiversité, des ODD, de l’action climatique et plus encore.",
             benefits: [
                 {
@@ -793,11 +793,11 @@ export const servicesFrench = {
 
 
 export const servicesItalian = {
+    title: "Servizi",
     hero: "Animato dalla passione per costruire un futuro autenticamente sostenibile e digitalmente potenziato, Salvatore Coppola-Finegan offre servizi esperti attraverso un approccio che combina innovazione, competenza globale e soluzioni pratiche. Che il tuo obiettivo sia migliorare la sostenibilità, impegnarti in processi di digitalizzazione responsabili, progettare strategie efficaci o orientarti in ambienti normativi complessi, Salvatore fornisce un supporto personalizzato per aiutare la tua organizzazione a prosperare.",
     list1: [
         {
-            title: "Servizi",
-            subtitle: "Consulenza sulla Sostenibilità",
+            title: "Consulenza sulla Sostenibilità",
             text: "Con oltre 15 anni di esperienza e un ampio bagaglio di conoscenze scientifiche e ingegneristiche, Salvatore aiuta le organizzazioni a integrare una vera sostenibilità. Valuta gli impatti ambientali e progetta strategie concrete su misura per le tue priorità, come la salute del pianeta, la biodiversità, gli SDG, l’azione per il clima e altro ancora.",
             benefits: [
                 {
@@ -951,11 +951,11 @@ export const servicesItalian = {
 }
 
 export const servicesLux = {
+    title: "Servicer",
     hero: "Geleet vu senger Passioun fir eng wierklech nohalteg an digital gestäerkte Zukunft opzebauen, bitt Salvatore Coppola-Finegan Expertise-Servicer mat engem innovativem, globalen an ugewandten Usaz. Egal ob Dir Är Nohaltegkeet stäerke wëllt, verantwortlech Digitaliséierung ëmsetzen, effektiv Strategien entwéckele wëllt oder komplex gesetzlech Ëmfeld navigéiere musst – Salvatore bitt personaliséiert Begleedung fir Är Organisatioun ze stäerken.",
     list1: [
         {
-            title: "Servicer",
-            subtitle: "Berodung fir Nohaltegkeet",
+            title: "Berodung fir Nohaltegkeet",
             text: "Mat iwwer 15 Joer Erfahrung an enger staarker Basis an de Wëssenschaften an der Ingenieurwëssenschaft hëlleft Salvatore Organisatiounen, wierklech Nohaltegkeet z’integréieren. Hie bewäert Ëmweltimpacter a entwéckelt konkret Strategien, déi un Är Prioritéite ugepasst sinn: vum Planéitegesondheet, Biodiversitéit, SDG, Klimawandel an aner wichteg Themen.",
             benefits: [
                 {
@@ -1109,11 +1109,11 @@ export const servicesLux = {
 }
 
 export const servicesPt = {
+    title: "Serviços",
     hero: "Impulsionado por sua paixão por construir um futuro verdadeiramente sustentável e digitalmente fortalecido, Salvatore Coppola-Finegan oferece serviços especializados com uma abordagem inovadora, global e aplicada. Seja para fortalecer sua sustentabilidade, implementar digitalização responsável, desenvolver estratégias eficazes ou navegar em contextos legais complexos – Salvatore oferece um acompanhamento personalizado para fortalecer sua organização.",
     list1: [
         {
-            title: "Serviços",
-            subtitle: "Consultoria em Sustentabilidade",
+            title: "Consultoria em Sustentabilidade",
             text: "Com mais de 15 anos de experiência e uma base sólida em ciência e engenharia, Salvatore ajuda organizações a integrar a sustentabilidade de forma autêntica. Ele avalia impactos ambientais e desenvolve estratégias concretas adaptadas às suas prioridades: da saúde planetária, biodiversidade, ODS, mudanças climáticas e outros temas relevantes.",
             benefits: [
                 {
