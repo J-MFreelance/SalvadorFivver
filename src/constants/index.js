@@ -127,8 +127,6 @@ export const espanol2 = {
               los recursos hídricos, la conservación de la naturaleza y la innovación social.`
 };
 
-
-
 export const ingles2 = {
     texto1: 'Regenerative and socioecologically positive future',
     texto11: `As a visionary 'big-picture' specialist, Salvatore excels in designing and implementing strategies that deliver long-term value for companies, organizations, and governments.
@@ -153,7 +151,6 @@ Salvatore's expertise spans:
     texto9: `Salvatore's public sector expertise in Costa Rica spans impactful roles such as a Chief Special Advisor in Parliament, where he advanced policy and governance in different areas. He has also served on the Board of the National Conservation System, has worked as a lecturer and researcher in the leading public universities, and has led development projects focused on energy, water, nature conservation, and social innovation.`
 };
 
-
 export const aleman2 = {
     texto1: 'Zukunftsgestaltung durch Regenerierung und sozioökologische Nachhaltigkeit',
     texto11: `Mit seinem "Blick fürs Ganze" ist Salvatore ein erfahrener Experte für Strategieentwicklung und -umsetzung und legt den Schwerpunkt auf die Schaffung langfristiger Mehrwerte für Unternehmen, Organisationen und Regierungen.
@@ -177,7 +174,6 @@ Salvatores Fachwissen umfasst:
     texto8: 'Öffentliches Engagement und Einfluss',
     texto9: `Salvatores Erfahrung in öffentlichen Ämtern in Costa Rica umfasst einflussreiche Tätigkeiten, wie z. B. Chefberater im Parlament, wo er sich für Policy und -verwaltung einsetzte. Er war außerdem Vorstandsmitglied des nationalen Naturschutzsystems, arbeitete als Dozent und Forscher an führenden öffentlichen Universitäten und leitete Entwicklungsprojekte mit den Schwerpunkten Energie, Wassersicherheit, Naturschutz und soziale Innovation.`
 };
-
 
 export const frances2 = {
     texto1: 'Un avenir régénérateur et socio-écologiquement positif',
@@ -249,7 +245,6 @@ A expertise de Salvatore abrange:
     texto8: 'Liderança e impacto no setor público',
     texto9: `A expertise de Salvatore no setor público da Costa Rica abrange papéis impactantes, como o de Conselheiro Especial Chefe no Parlamento, onde ele avançou políticas e governança em diferentes áreas. Ele também serviu no Conselho do Sistema Nacional de Conservação, trabalhou como professor e pesquisador nas principais universidades públicas e liderou projetos de desenvolvimento focados em energia, água, conservação da natureza e inovação social.`
 };
-
 
 export const letzemburgesch2 = {
     texto1: 'Regenerativ a sozioekologesch positiv Zukunft',

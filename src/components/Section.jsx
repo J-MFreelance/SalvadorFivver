@@ -7,12 +7,21 @@ const Section = () => {
     const { language } = useLanguage();
     const [languageData, setLanguageData] = useState({});
     const logos = [
-        '/assets/logo1.png', '/assets/logo1.png', '/assets/logo1.png',
-        '/assets/logo1.png', '/assets/logo1.png', '/assets/logo1.png',
-        '/assets/logo1.png', '/assets/logo1.png', '/assets/logo1.png',
-        '/assets/logo1.png', '/assets/logo1.png', '/assets/logo1.png',
-        '/assets/logo1.png',
+        { src: '/assets/logo2.webp', link: 'https://www.akamai.com/' },
+        { src: '/assets/logo3.png', link: 'https://www.alstom.com/' },
+        { src: '/assets/logo4.webp', link: 'https://amagno.co.uk/' },
+        { src: '/assets/logo5.png', link: 'https://www.asamblea.go.cr/SitePages/Inicio.aspx' },
+        { src: '/assets/logo6.jpg', link: 'https://www.bancocuscatlan.com/' },
+        { src: '/assets/logo7.png', link: 'https://www.bncr.fi.cr/' },
+        { src: '/assets/logo8.png', link: 'https://www.dentons.com/' },
+        { src: '/assets/logo9.png', link: 'https://www.ditto.com/' },
+        { src: '/assets/logo1.png', link: 'https://ecocitizen.lu/' },
+        { src: '/assets/logo10.png', link: 'https://minae.go.cr/' },
+        { src: '/assets/logo11.png', link: 'https://tcs-technology.com/' },
+        { src: '/assets/logo12.png', link: 'https://www.undp.org/' },
+        { src: '/assets/logo13.webp', link: 'https://visuddhi-consultants.com/' },
     ];
+    
     useEffect(() => {
         if (language.code === "ES") {
             setLanguageData(espanol2);
@@ -113,13 +122,13 @@ const Section = () => {
                             {logos.map((logo, index) => (
                                 <a
                                     key={index}
-                                    href="https://www.ecocitizen.lu"
+                                    href={logo.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex-shrink-0 w-16 h-8 flex items-center justify-center"
                                 >
                                     <img
-                                        src={logo}
+                                        src={logo.src}
                                         alt={`Logo ${index + 1}`}
                                         className="h-full w-auto object-contain hover:opacity-80 transition-opacity"
                                     />
