@@ -2,15 +2,21 @@ import React from 'react';
 import Button from './Button';
 import { useEffect, useState } from 'react';
 import { useLanguage } from './LanguageContext';
-import { espanol2, ingles2, aleman2, frances2, italiano2, } from '../constants';
+import { espanol2, ingles2, aleman2, frances2, italiano2, portugues2, letzemburgesch2 } from '../constants';
 const Section = () => {
     const { language } = useLanguage();
     const [languageData, setLanguageData] = useState({});
-
+    const logos = [
+        '/assets/logo1.png', '/assets/logo1.png', '/assets/logo1.png',
+        '/assets/logo1.png', '/assets/logo1.png', '/assets/logo1.png',
+        '/assets/logo1.png', '/assets/logo1.png', '/assets/logo1.png',
+        '/assets/logo1.png', '/assets/logo1.png', '/assets/logo1.png',
+        '/assets/logo1.png',
+    ];
     useEffect(() => {
         if (language.code === "ES") {
             setLanguageData(espanol2);
-        } else if (language.code === "EN") {
+        } else if (language.code === "GB") {
             setLanguageData(ingles2);
         } else if (language.code === "DE") {
             setLanguageData(aleman2);
@@ -18,7 +24,12 @@ const Section = () => {
             setLanguageData(italiano2);
         } else if (language.code === "FR") {
             setLanguageData(frances2);
-        } else {
+        } else if (language.code === "BR") {
+            setLanguageData(portugues2);
+        } else if (language.code === "LU") {
+            setLanguageData(letzemburgesch2);
+        }
+        else {
             setLanguageData(espanol2);
         }
     }, [language]);
@@ -64,16 +75,81 @@ const Section = () => {
                     {/* <Button nombre='Ver contenido' color="bg-blue-800" /> */}
                 </div>
                 <div className='flex flex-col w-[50%] max-lg:w-full max-lg:h-2/5'>
-                    <div className='bg-slate-500  flex-1 flex items-center justify-center p-8'>
-                        <p className='relative text-white text-justify  font-light text-base max-lg:text-xs' style={{ whiteSpace: 'pre-line', lineHeight: '1' }}>
+                    <div className='bg-slate-500 flex-1 flex flex-col items-center justify-center p-8'>
+                        <p className='relative text-white text-justify font-light text-base max-lg:text-xs mb-6' style={{ whiteSpace: 'pre-line', lineHeight: '1.5' }}>
                             {languageData.texto5}
                         </p>
+
+                        {/* Contenedor de los botones */}
+                        <div className='flex flex-wrap justify-center gap-4'>
+                            <Button
+                                nombre={languageData.btn1}
+                                color="bg-blue-800"
+                                className="sm:w-auto w-full"
+                            />
+                            <Button
+                                nombre={languageData.btn2}
+                                color="bg-blue-800"
+                                className="sm:w-auto w-full"
+                            />
+                            <Button
+                                nombre={languageData.btn3}
+                                color="bg-blue-800"
+                                className="sm:w-auto w-full"
+                            />
+                        </div>
                     </div>
-                    <div className='h-1/3 max-lg:!h-40 bg-white flex justify-center' id='ecocitizen'>
-                        <a target='_blank' href="https://www.ecocitizen.lu" className=' flex justify-center'>
-                            <img src='/assets/logo1.png' alt='logo' className='h-full fit' />
-                        </a>
+
+                    <div className='h-1/3 max-lg:!h-40 bg-white flex flex-col justify-center py-2 px-4' id='ecocitizen'>
+                        {/* Títulos */}
+                        <div className="text-center mb-2">
+                            <h3 className="text-lg font-bold text-gray-800">{languageData.texto6}</h3>
+                            <p className="text-xs text-gray-600">{languageData.texto7}</p>
+                        </div>
+
+                        {/* Contenedor de logos */}
+                        <div className="flex flex-wrap justify-center gap-4 py-2 w-full">
+                            {/* Mapeo de logos */}
+                            {logos.map((logo, index) => (
+                                <a
+                                    key={index}
+                                    href="https://www.ecocitizen.lu"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex-shrink-0 w-16 h-8 flex items-center justify-center"
+                                >
+                                    <img
+                                        src={logo}
+                                        alt={`Logo ${index + 1}`}
+                                        className="h-full w-auto object-contain hover:opacity-80 transition-opacity"
+                                    />
+                                </a>
+                            ))}
+                        </div>
                     </div>
+
+                </div>
+            </div>
+
+            <div className="relative bg-gray-700 bg-center bg-cover w-full h-[40rem] max-lg:h-[25rem] xl:h-[24rem] px-4 sm:px-8 lg:px-16 pt-24 sm:pt-28 xl:pt-7">
+                {/* Capa oscura */}
+                <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+
+                {/* Contenedor de texto */}
+                <div className="relative z-10 flex flex-col justify-center items-start text-white max-w-5xl mx-auto px-4">
+                    {/* Título */}
+                    <p className="font-semibold text-lg sm:text-xl md:text-2xl xl:text-3xl pb-4">
+                        {languageData.texto8}
+                    </p>
+
+                    {/* Párrafo con salto de línea */}
+                    <p
+                        className="font-light text-xs sm:text-sm md:text-base xl:text-lg mb-4"
+                        style={{ whiteSpace: 'pre-line' }}
+                        dangerouslySetInnerHTML={{ __html: languageData.texto9 }}
+                    />
+
+
                 </div>
             </div>
         </div>
