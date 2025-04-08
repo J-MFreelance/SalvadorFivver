@@ -44,50 +44,85 @@ export const frances = {
 
 export const espanol1 = {
     texto1: 'Comprometido por un mundo mejor.',
-    texto2: 'Salvatore Coppola-Finegan es un autor publicado, investigador \ny cofundador de Ecocitizen, una empresa acreditada de investigación\n con sede en Luxemburgo que se dedica al desarrollo sostenible\n y a la tecnología medioambiental.',
+    texto2: 'Salvatore Coppola-Finegan es un experto con experiencia internacional en \nSostenibilidad y Digitalización, con una distinguida carrera como autor publicado e investigador. \n\nCon sede en Luxemburgo, se desempeña como Asesor Independiente, Director, Consultor\n y Miembro de la Junta, aprovechando su amplia experiencia en Europa, América Latina,\n Estados Unidos y el Sudeste Asiático para impulsar el cambio transformador.',
+    texto3: 'Agendar una reunión',
+    texto4: 'Leer más',
 };
 
 export const ingles1 = {
     texto1: 'Committed to a better world.',
-    texto2: 'Salvatore Coppola-Finegan is a published author, researcher, \nand co-founder of EcoCitizen, an accredited research company in Luxembourg \nthat focuses on sustainable development and environmental technology.',
+    texto2: 'Salvatore Coppola-Finegan is an internationally experienced expert\n in Sustainability and Digitalisation, with a distinguished career as a published author and researcher.  \n\nBased in Luxembourg, he serves as an Independent Advisor, Director,\n Consultant, and Board Member, drawing on extensive experience across Europe,\n Latin America, the USA, and Southeast Asia to drive transformative change.',
+    texto3: 'Schedule a Meeting',
+    texto4: 'Learn More',
 };
 
 export const aleman1 = {
     texto1: 'Engagiert für eine bessere Welt.',
-    texto2: 'Salvatore Coppola-Finegan ist Buchautor, \nForscher und Mitbegründer von EcoCitizen, ein akkreditiertes \nForschungsunternehmen in Luxemburg, mit Schwerpunkt auf nachhaltiger \nEntwicklung und Umwelttechnologie.',
+    texto2: 'Salvatore Coppola-Finegan ist ein international erfahrener Experte für \nNachhaltigkeit und Digitalisierung mit einer herausragenden Karriere als\n veröffentlichter Autor und Forscher. \n\nMit Sitz in Luxemburg ist er als unabhängiger Berater, Direktor, Consultant und\n Vorstandsmitglied tätig und stützt sich auf umfangreiche Erfahrungen in Europa, \nLateinamerika, den USA und Südostasien, um transformative Veränderungen voranzutreiben.',
+    texto3: 'Termin vereinbaren ',
+    texto4: 'Weiterlesen',
 };
 
 export const frances1 = {
     texto1: 'Engagé pour un monde meilleur.',
-    texto2: 'Salvatore Coppola-Finegan est auteur publié, \nchercheur et cofondateur d\'EcoCitizen, organisme de recherche \nagréé au Luxembourg qui se concentre sur le développement durable et les \ntechnologies pour l\'environnement.',
+    texto2: "Salvatore Coppola-Finegan est un expert internationalement expérimenté \nen Durabilité et Numérisation, avec une carrière distinguée en tant qu'auteur publié et chercheur. \n\nBasé au Luxembourg, il agit en tant que Conseiller Indépendant, Directeur, Consultant \net Membre du Conseil d'Administration, s'appuyant sur une vaste expérience en Europe,\n en Amérique Latine, aux États-Unis et en Asie du Sud-Est pour conduire des changements transformateurs.",
+    texto3: 'Organiser une réunion',
+    texto4: 'En savoir plus',
 };
 
 export const italiano1 = {
     texto1: 'Dedicato a un mondo migliore.',
-    texto2: 'Salvatore Coppola-Finegan è autore, ricercatore e \ncofondatore di EcoCitizen, una società accreditata di ricerca con \nsede in Lussemburgo che si occupa di sviluppo \nsostenibile e tecnologia ambientale.',
+    texto2: 'Salvatore Coppola-Finegan è un esperto con esperienza internazionale in Sostenibilità\n e Digitalizzazione, con una carriera distinta come autore pubblicato e ricercatore. \n\nCon sede in Lussemburgo, ricopre i ruoli di Consulente Indipendente,\n Direttore, e Membro di Consigli di Amministrazione, attingendo a una vasta \nesperienza in Europa, America Latina, Stati Uniti e Sud-Est Asiatico \nper guidare il cambiamento trasformativo.',
+    texto3: 'Programmare una riunione',
+    texto4: 'Scopri di più',
 };
 
+export const letzemburgesch1 = {
+    texto1: 'Fir eng besser Welt engagéiert.',
+    texto2: 'Den Salvatore Coppola-Finegan ass en international erfuerene Expert an Nohaltegkeet\n an Digitaliséierung, mat enger ausgezeechenter Carrière als publizéierten Auteur a Fuerscher. \n\n Zu Lëtzebuerg baséiert, déngt hie als Onofhängege Beroder, Direkter, \nConsultant a Verwaltungsrotdmember, a schëpft aus extensiver Erfahrung a ganz Europa,\n Latäinamerika, den USA a Südostasien, fir transformativ Verännerungen ze dréiwen.',
+    texto3: 'E Rendez-vous plangen',
+    texto4: 'Méi gewuer ginn',
+};
 
+export const portugues1 = {
+    texto1: 'Comprometido com um mundo melhor.',
+    texto2: 'Salvatore Coppola-Finegan é um especialista com experiência internacional em Sustentabilidade e Digitalização,\n com uma carreira distinta como autor publicado e pesquisador. \n\nCom sede em Luxemburgo, ele atua como Consultor Independente, Diretor e Membro\n de Conselho, utilizando sua vasta experiência na Europa, América Latina,\n EUA e Sudeste Asiático para impulsionar mudanças transformadoras.',
+    texto3: 'Agendar uma Reunião',
+    texto4: 'Saiba Mais',
+
+};
 //-------------------------------------------------- ABOUT --------------------------------------------------
 
 
 export const espanol2 = {
-    texto1: 'Futuro regenerativo y sociecológicamente positivo',
+    texto1: 'Futuro regenerativo y socioecológicamente positivo',
+    texto11: `Como visionario, y especialista en el 'panorama general', Salvatore se destaca en el diseño e \nimplementación de estrategias que ofrecen valor a largo plazo para empresas,organizaciones\n y gobiernos. La experiencia de Salvatore abarca:
+
+    <span class="font-bold">Salud Planetaria:</span> Salud pública en el Antropoceno y la salud de las sociedades humanas y el estado\n de los sistemas naturales de los que dependemos.
+    <span class="font-bold">Sostenibilidad Auténtica:</span> Integrar sostenibilidad genuina e impactante en las operaciones y la creación\n de valor a largo plazo.
+    <span class="font-bold">Digitalización Ética:</span> Aprovechar la tecnología de manera responsable\n para obtener resultados netos positivos.
+    <span class="font-bold">Ecología Integral:</span> Gestión ambiental holística, trabajando junto con comunidades locales y múltiples \npartes interesadas.
+    <span class="font-bold">Acción por la Naturaleza y el Clima:</span> Liderar esfuerzos en adaptación al cambio climático y \nrevertir la pérdida de biodiversidad.`,
     texto2: 'Leer más',
-    texto3: 'Desarrollo sostenible y tecnología ambiental',
-    texto4: 'Salud Planetaria | Ecología Integral y Esperanza | Naturaleza y Acción Climática',
-    texto5: `Salvatore Coppola-Finegan \n
-             Explorador de toda la vida, se dedica \n 
-             a mejorar el mundo que le rodea. \n 
-             Salvatore también está comprometido \n 
-             con el movimiento Laudato Si' \n 
-             ejerciendo como coordinador en las \n 
-             comunidades internacionales de Luxemburgo. \n 
-             Dedicado a nuestro tejido social en sentido amplio, \n 
-             difunde una visión positiva y esperanzadora \n 
-             de la sostenibilidad y la prosperidad mundial \n 
+    texto3: 'Desarrollo sostenible y tecnología.',
+    texto4: 'Con una sólida trayectoria en el sector privado, Salvatore aporta una amplia experiencia en gestión y consultoría en industrias como Software y Tecnología, Energías Renovables, Finanzas y Banca. Su trabajo impulsa consistentemente la innovación y la sostenibilidad en la intersección de la tecnología y los negocios.',
+    texto5: `Salvatore Coppola-Finegan
+             
+             Explorador de toda la vida, se dedica 
+             a mejorar el mundo que le rodea.
+             
+             Salvatore también está comprometido 
+             con el movimiento Laudato Si' 
+             ejerciendo como coordinador en las 
+             comunidades internacionales de Luxemburgo.
+             
+             Dedicado a nuestro tejido social en sentido amplio, 
+             difunde una visión positiva y esperanzadora 
+             de la sostenibilidad y la prosperidad mundial 
              basada en la ciencia.`
 };
+
+
 
 export const ingles2 = {
     texto1: 'Regenerative and socioecologically positive future',
