@@ -5,6 +5,7 @@ import { useLanguage } from './LanguageContext';
 import { espanol2, ingles2, aleman2, frances2, italiano2, portugues2, letzemburgesch2 } from '../constants';
 const Section = () => {
     const { language } = useLanguage();
+    const [showMore, setShowMore] = useState(false);
     const [languageData, setLanguageData] = useState({});
     const logos = [
         { src: '/assets/logo2.webp', link: 'https://www.akamai.com/' },
@@ -21,7 +22,7 @@ const Section = () => {
         { src: '/assets/logo12.png', link: 'https://www.undp.org/' },
         { src: '/assets/logo13.webp', link: 'https://visuddhi-consultants.com/' },
     ];
-    
+
     useEffect(() => {
         if (language.code === "ES") {
             setLanguageData(espanol2);
@@ -45,7 +46,7 @@ const Section = () => {
 
     return (
         <div id='about' className='flex flex-col margin-t text-white margin-bottom mt-[-12rem] max-lg:mt-[-13rem] relative '>
-            <div className="relative bg-[url('./assets/banner2.png')] bg-center bg-cover w-full h-[40rem] max-lg:h-[25rem] xl:h-[34rem] px-4 sm:px-8 lg:px-16 pt-24 sm:pt-28 xl:pt-7">
+            <div className="relative bg-[url('./assets/banner2.png')] bg-center bg-cover w-full h-auto min-h-[34rem] px-4 sm:px-8 lg:px-16 pt-24 sm:pt-28 xl:pt-7">
                 {/* Capa oscura */}
                 <div className="absolute inset-0 bg-black bg-opacity-30"></div>
 
@@ -56,76 +57,96 @@ const Section = () => {
                         {languageData.texto1}
                     </p>
 
-                    {/* Párrafo con salto de línea */}
-                    <p
-                        className="font-light text-xs sm:text-sm md:text-base xl:text-lg mb-4"
+                    {/* Párrafo largo con toggle de "ver más" */}
+                    <div
+                        className={`
+                         font-light text-xs sm:text-sm md:text-base xl:text-lg mb-4
+                         leading-relaxed transition-all duration-300 ease-in-out
+                        sm:line-clamp-none ${!showMore ? 'line-clamp-6' : ''}
+                         `}
                         style={{ whiteSpace: 'pre-line' }}
                         dangerouslySetInnerHTML={{ __html: languageData.texto11 }}
                     />
 
-                    {/* Botón */}
+
+                    {/** Botón solo en móvil */}
+                    <button
+                        className="text-blue-300 text-xs underline mt-1 mb-2 block sm:hidden"
+                        onClick={() => setShowMore(!showMore)}
+                    >
+                        {showMore ? 'Ver menos' : 'Ver más...'}
+                    </button>
+
+
+                    {/* Botón principal */}
                     <Button
                         nombre={languageData.texto2}
                         color="bg-blue-800"
-                        className="w-full sm:w-auto mt-4"
+                        className="w-full sm:w-auto mt-2"
                     />
                 </div>
             </div>
 
 
             <div className="w-full h-[38rem] flex max-lg:flex-col max-t max-lg:h-full ">
-                <div className="bg-[url('./assets/right-side.png')] max-lg:bg-cover max-lg:h-[20rem] max-lg:w-full bg-cover object-contain w-[55%] px-3 h-full max-lg:px-4 max-lg:p-6 p-text">
-                    <p className='relative font-semibold xl:text-2xl text-base pb-2 xl:pt-44 pt-36'>
+                <div className="bg-[url('./assets/right-side.png')] bg-cover bg-center w-[55%] h-full px-6 py-10 max-lg:w-full max-lg:h-[22rem] max-lg:px-4 max-lg:py-6 text-white relative">
+                    <p className="font-semibold text-base xl:text-2xl pb-2 xl:pt-44 pt-20 max-lg:pt-12 max-sm:text-sm">
                         {languageData.texto3}
                     </p>
-                    <span className=' relative pb-4 max-lg:text-xs'>
-                        {languageData.texto4}<br />
+
+                    <span className="block leading-relaxed pb-4 text-sm max-md:text-xs max-sm:text-[11px]">
+                        {languageData.texto4}
                     </span>
-                    {/* <Button nombre='Ver contenido' color="bg-blue-800" /> */}
                 </div>
+
+
                 <div className='flex flex-col w-[50%] max-lg:w-full max-lg:h-2/5'>
-                    <div className='bg-slate-500 flex-1 flex flex-col items-center justify-center p-8'>
-                        <p className='relative text-white text-justify font-light text-base max-lg:text-xs mb-6' style={{ whiteSpace: 'pre-line', lineHeight: '1.5' }}>
+                    {/* Sección de texto y botones */}
+                    <div className='bg-slate-500 flex-1 flex flex-col items-center justify-center p-8 max-sm:p-4'>
+                        <p
+                            className='relative text-white text-justify font-light text-base max-md:text-sm max-sm:text-xs mb-6'
+                            style={{ whiteSpace: 'pre-line', lineHeight: '1.5' }}
+                        >
                             {languageData.texto5}
                         </p>
 
                         {/* Contenedor de los botones */}
-                        <div className='flex flex-wrap justify-center gap-4'>
+                        <div className='flex flex-wrap justify-center gap-4 w-full'>
                             <Button
                                 nombre={languageData.btn1}
                                 color="bg-blue-800"
-                                className="sm:w-auto w-full"
+                                className="w-full sm:w-auto max-w-[200px]"
                             />
                             <Button
                                 nombre={languageData.btn2}
                                 color="bg-blue-800"
-                                className="sm:w-auto w-full"
+                                className="w-full sm:w-auto max-w-[200px]"
                             />
                             <Button
                                 nombre={languageData.btn3}
                                 color="bg-blue-800"
-                                className="sm:w-auto w-full"
+                                className="w-full sm:w-auto max-w-[200px]"
                             />
                         </div>
                     </div>
 
-                    <div className='h-1/3 max-lg:!h-40 bg-white flex flex-col justify-center py-2 px-4' id='ecocitizen'>
+                    {/* Sección de logos */}
+                    <div className='h-1/3 max-lg:h-40 bg-white flex flex-col justify-center py-2 px-4 max-sm:pt-4'>
                         {/* Títulos */}
                         <div className="text-center mb-2">
-                            <h3 className="text-lg font-bold text-gray-800">{languageData.texto6}</h3>
-                            <p className="text-xs text-gray-600">{languageData.texto7}</p>
+                            <h3 className="text-lg font-bold text-gray-800 max-sm:text-base">{languageData.texto6}</h3>
+                            <p className="text-xs text-gray-600 max-sm:text-[10px]">{languageData.texto7}</p>
                         </div>
 
                         {/* Contenedor de logos */}
-                        <div className="flex flex-wrap justify-center gap-4 py-2 w-full">
-                            {/* Mapeo de logos */}
+                        <div className="flex flex-wrap justify-center gap-4 py-2 w-full max-sm:gap-2">
                             {logos.map((logo, index) => (
                                 <a
                                     key={index}
                                     href={logo.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="flex-shrink-0 w-16 h-8 flex items-center justify-center"
+                                    className="flex-shrink-0 w-16 h-8 max-sm:w-12 max-sm:h-6 flex items-center justify-center"
                                 >
                                     <img
                                         src={logo.src}
@@ -136,16 +157,16 @@ const Section = () => {
                             ))}
                         </div>
                     </div>
-
                 </div>
+
             </div>
 
-            <div className="relative bg-gray-700 bg-center bg-cover w-full h-[40rem] max-lg:h-[25rem] xl:h-[24rem] px-4 sm:px-8 lg:px-16 pt-24 sm:pt-28 xl:pt-7">
+            <div className="relative bg-gray-700 bg-center bg-cover w-full h-[40rem] max-lg:h-[25rem] xl:h-[24rem] px-4 sm:px-8 lg:px-16">
                 {/* Capa oscura */}
                 <div className="absolute inset-0 bg-black bg-opacity-30"></div>
 
-                {/* Contenedor de texto */}
-                <div className="relative z-10 flex flex-col justify-center items-start text-white max-w-5xl mx-auto px-4">
+                {/* Contenedor de texto centrado verticalmente */}
+                <div className="relative z-10 flex flex-col justify-center items-start text-white max-w-5xl mx-auto px-4 h-full">
                     {/* Título */}
                     <p className="font-semibold text-lg sm:text-xl md:text-2xl xl:text-3xl pb-4">
                         {languageData.texto8}
@@ -157,11 +178,12 @@ const Section = () => {
                         style={{ whiteSpace: 'pre-line' }}
                         dangerouslySetInnerHTML={{ __html: languageData.texto9 }}
                     />
-
-
                 </div>
             </div>
+
         </div>
+
+
     );
 }
 

@@ -29,30 +29,41 @@ const Hero = () => {
     }, [language]);
 
     return (
-        <div className="flex flex-col gap-4 text-white pt-[14rem] px-4 sm:px-6 md:px-8 lg:px-16">
-            <p className="text-lg sm:text-xl md:text-2xl xl:text-3xl font-bold" style={{ whiteSpace: 'pre-line' }}>
-                {languageData.texto1} {/* Comprometido por un mundo mejor. */}
+        <div className="relative w-full min-h-screen lg:h-screen">
+        
+        {/* Contenido del Hero */}
+        <div className="relative z-10 flex flex-col justify-center max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 text-white py-12 lg:py-0 h-full">
+          <div className="flex flex-col gap-4 justify-center">
+            {/* Título */}
+            <p className="text-lg sm:text-xl md:text-2xl xl:text-3xl font-bold leading-tight" style={{ whiteSpace: 'pre-line' }}>
+              {languageData.texto1}
             </p>
-            <p className="font-light text-sm sm:text-base md:text-lg xl:text-xl mb-4" style={{ whiteSpace: 'pre-line' }}>
-                {languageData.texto2}
+      
+            {/* Descripción */}
+            <p className="font-light text-sm sm:text-base md:text-lg xl:text-xl leading-relaxed max-sm:text-xs" style={{ whiteSpace: 'pre-line' }}>
+              {languageData.texto2}
             </p>
-
+      
             {/* Botones */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 lg:gap-8">
-                <Button
-                    nombre={languageData.texto3}
-                    color="bg-blue-800"
-                    link="https://letzregenerate.com/home-deutsch/"
-                    className="w-full sm:w-auto"
-                />
-                <Button
-                    nombre={languageData.texto4}
-                    color="bg-blue-600"
-                    link="https://letzregenerate.com/home-deutsch/"
-                    className="w-full sm:w-auto"
-                />
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full max-w-md">
+              <Button
+                nombre={languageData.texto3}
+                color="bg-blue-800"
+                link="https://letzregenerate.com/home-deutsch/"
+                className="w-full sm:w-auto text-sm"
+              />
+              <Button
+                nombre={languageData.texto4}
+                color="bg-blue-600"
+                link=""
+                className="w-full sm:w-auto text-sm"
+              />
             </div>
+          </div>
         </div>
+      </div>
+      
+
     );
 
 };
