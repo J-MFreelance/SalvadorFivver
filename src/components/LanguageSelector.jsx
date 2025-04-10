@@ -10,6 +10,8 @@ const LanguageSelector = () => {
     { code: 'FR', label: 'FRANÇAIS' },  // Código para francés
     { code: 'IT', label: 'ITALIANO' },  // Código para italiano
     { code: 'ES', label: 'ESPAÑOL' },  // Código para español
+    { code: 'LU', label: 'LETZEMBUERGER' },  // Luxemburgués (idioma original)
+    { code: 'BR', label: 'PORTUGUÊS' }  // Portugués
   ];
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,7 +34,7 @@ const LanguageSelector = () => {
       <div className="relative">
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="inline-flex justify-center w-full shadow-sm p-3 rounded-t-md bg-gray-200 text-sm font-medium text-gray-700 hover:bg-gray-200"
+          className="inline-flex justify-start w-full shadow-sm p-3 rounded-t-md bg-gray-200 text-sm font-medium text-gray-700 hover:bg-gray-200"
         >
           <Flag code={language.code} style={{ width: 20, height: 20, marginRight: 10 }} /> {language.label}
         </button>
@@ -43,7 +45,7 @@ const LanguageSelector = () => {
                 <button
                   key={lang.code}
                   onClick={() => handleLanguageChange(lang)}
-                  className="flex justify-between w-full p-3 text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200"
+                  className="flex justify-start w-full p-3 text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200"
                 >
                   <Flag code={lang.code} style={{ width: 20, height: 20, marginRight: 10 }} /> {lang.label}
                 </button>

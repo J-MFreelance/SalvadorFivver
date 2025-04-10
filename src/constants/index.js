@@ -44,118 +44,232 @@ export const frances = {
 
 export const espanol1 = {
     texto1: 'Comprometido por un mundo mejor.',
-    texto2: 'Salvatore Coppola-Finegan es un autor publicado, investigador \ny cofundador de Ecocitizen, una empresa acreditada de investigación\n con sede en Luxemburgo que se dedica al desarrollo sostenible\n y a la tecnología medioambiental.',
+    texto2: 'Salvatore Coppola-Finegan es un experto con experiencia internacional en \nSostenibilidad y Digitalización, con una distinguida carrera como autor publicado e investigador. \n\nCon sede en Luxemburgo, se desempeña como Asesor Independiente, Director, Consultor\n y Miembro de la Junta, aprovechando su amplia experiencia en Europa, América Latina,\n Estados Unidos y el Sudeste Asiático para impulsar el cambio transformador.',
+    texto3: 'Agendar una reunión',
+    texto4: 'Leer más',
 };
 
 export const ingles1 = {
     texto1: 'Committed to a better world.',
-    texto2: 'Salvatore Coppola-Finegan is a published author, researcher, \nand co-founder of EcoCitizen, an accredited research company in Luxembourg \nthat focuses on sustainable development and environmental technology.',
+    texto2: 'Salvatore Coppola-Finegan is an internationally experienced expert\n in Sustainability and Digitalisation, with a distinguished career as a published author and researcher.  \n\nBased in Luxembourg, he serves as an Independent Advisor, Director,\n Consultant, and Board Member, drawing on extensive experience across Europe,\n Latin America, the USA, and Southeast Asia to drive transformative change.',
+    texto3: 'Schedule a Meeting',
+    texto4: 'Learn More',
 };
 
 export const aleman1 = {
     texto1: 'Engagiert für eine bessere Welt.',
-    texto2: 'Salvatore Coppola-Finegan ist Buchautor, \nForscher und Mitbegründer von EcoCitizen, ein akkreditiertes \nForschungsunternehmen in Luxemburg, mit Schwerpunkt auf nachhaltiger \nEntwicklung und Umwelttechnologie.',
+    texto2: 'Salvatore Coppola-Finegan ist ein international erfahrener Experte für \nNachhaltigkeit und Digitalisierung mit einer herausragenden Karriere als\n veröffentlichter Autor und Forscher. \n\nMit Sitz in Luxemburg ist er als unabhängiger Berater, Direktor, Consultant und\n Vorstandsmitglied tätig und stützt sich auf umfangreiche Erfahrungen in Europa, \nLateinamerika, den USA und Südostasien, um transformative Veränderungen voranzutreiben.',
+    texto3: 'Termin vereinbaren ',
+    texto4: 'Weiterlesen',
 };
 
 export const frances1 = {
     texto1: 'Engagé pour un monde meilleur.',
-    texto2: 'Salvatore Coppola-Finegan est auteur publié, \nchercheur et cofondateur d\'EcoCitizen, organisme de recherche \nagréé au Luxembourg qui se concentre sur le développement durable et les \ntechnologies pour l\'environnement.',
+    texto2: "Salvatore Coppola-Finegan est un expert internationalement expérimenté \nen Durabilité et Numérisation, avec une carrière distinguée en tant qu'auteur publié et chercheur. \n\nBasé au Luxembourg, il agit en tant que Conseiller Indépendant, Directeur, Consultant \net Membre du Conseil d'Administration, s'appuyant sur une vaste expérience en Europe,\n en Amérique Latine, aux États-Unis et en Asie du Sud-Est pour conduire des changements transformateurs.",
+    texto3: 'Organiser une réunion',
+    texto4: 'En savoir plus',
 };
 
 export const italiano1 = {
     texto1: 'Dedicato a un mondo migliore.',
-    texto2: 'Salvatore Coppola-Finegan è autore, ricercatore e \ncofondatore di EcoCitizen, una società accreditata di ricerca con \nsede in Lussemburgo che si occupa di sviluppo \nsostenibile e tecnologia ambientale.',
+    texto2: 'Salvatore Coppola-Finegan è un esperto con esperienza internazionale in Sostenibilità\n e Digitalizzazione, con una carriera distinta come autore pubblicato e ricercatore. \n\nCon sede in Lussemburgo, ricopre i ruoli di Consulente Indipendente,\n Direttore, e Membro di Consigli di Amministrazione, attingendo a una vasta \nesperienza in Europa, America Latina, Stati Uniti e Sud-Est Asiatico \nper guidare il cambiamento trasformativo.',
+    texto3: 'Programmare una riunione',
+    texto4: 'Scopri di più',
 };
 
+export const letzemburgesch1 = {
+    texto1: 'Fir eng besser Welt engagéiert.',
+    texto2: 'Den Salvatore Coppola-Finegan ass en international erfuerene Expert an Nohaltegkeet\n an Digitaliséierung, mat enger ausgezeechenter Carrière als publizéierten Auteur a Fuerscher. \n\n Zu Lëtzebuerg baséiert, déngt hie als Onofhängege Beroder, Direkter, \nConsultant a Verwaltungsrotdmember, a schëpft aus extensiver Erfahrung a ganz Europa,\n Latäinamerika, den USA a Südostasien, fir transformativ Verännerungen ze dréiwen.',
+    texto3: 'E Rendez-vous plangen',
+    texto4: 'Méi gewuer ginn',
+};
 
+export const portugues1 = {
+    texto1: 'Comprometido com um mundo melhor.',
+    texto2: 'Salvatore Coppola-Finegan é um especialista com experiência internacional em Sustentabilidade e Digitalização,\n com uma carreira distinta como autor publicado e pesquisador. \n\nCom sede em Luxemburgo, ele atua como Consultor Independente, Diretor e Membro\n de Conselho, utilizando sua vasta experiência na Europa, América Latina,\n EUA e Sudeste Asiático para impulsionar mudanças transformadoras.',
+    texto3: 'Agendar uma Reunião',
+    texto4: 'Saiba Mais',
+
+};
 //-------------------------------------------------- ABOUT --------------------------------------------------
 
 
 export const espanol2 = {
-    texto1: 'Futuro regenerativo y sociecológicamente positivo',
+    texto1: 'Futuro regenerativo y socioecológicamente positivo',
+    texto11: `Como visionario, y especialista en el 'panorama general', Salvatore se destaca en el diseño e \nimplementación de estrategias que ofrecen valor a largo plazo para empresas,organizaciones\n y gobiernos. La experiencia de Salvatore abarca:
+
+    - <span class="font-bold">Salud Planetaria:</span> Salud pública en el Antropoceno y la salud de las sociedades humanas y el estado\n de los sistemas naturales de los que dependemos.
+    - <span class="font-bold">Sostenibilidad Auténtica:</span> Integrar sostenibilidad genuina e impactante en las operaciones y la creación\n de valor a largo plazo.
+    - <span class="font-bold">Digitalización Ética:</span> Aprovechar la tecnología de manera responsable\n para obtener resultados netos positivos.
+    - <span class="font-bold">Ecología Integral:</span> Gestión ambiental holística, trabajando junto con comunidades locales y múltiples \npartes interesadas.
+    - <span class="font-bold">Acción por la Naturaleza y el Clima:</span> Liderar esfuerzos en adaptación al cambio climático y \nrevertir la pérdida de biodiversidad.`,
     texto2: 'Leer más',
-    texto3: 'Desarrollo sostenible y tecnología ambiental',
-    texto4: 'Salud Planetaria | Ecología Integral y Esperanza | Naturaleza y Acción Climática',
-    texto5: `Salvatore Coppola-Finegan \n
-             Explorador de toda la vida, se dedica \n 
-             a mejorar el mundo que le rodea. \n 
-             Salvatore también está comprometido \n 
-             con el movimiento Laudato Si' \n 
-             ejerciendo como coordinador en las \n 
-             comunidades internacionales de Luxemburgo. \n 
-             Dedicado a nuestro tejido social en sentido amplio, \n 
-             difunde una visión positiva y esperanzadora \n 
-             de la sostenibilidad y la prosperidad mundial \n 
-             basada en la ciencia.`
+    texto3: 'Desarrollo sostenible y tecnología.',
+    texto4: 'Con una sólida trayectoria en el sector privado, Salvatore aporta una amplia experiencia en gestión y consultoría en industrias como Software y Tecnología, Energías Renovables, Finanzas y Banca. Su trabajo impulsa consistentemente la innovación y la sostenibilidad en la intersección de la tecnología y los negocios.',
+    texto5: `Salvatore Coppola-Finegan
+                
+            Scout de toda la vida, Salvatore está comprometido con mejorar 
+            el mundo que lo rodea. Defiende causas sociales y de voluntariado, 
+            promoviendo una visión esperanzadora de sostenibilidad y prosperidad 
+            global basada en el desarrollo humano, la cooperación y la ciencia.`,
+    btn1: 'Letz Regenerate',
+    btn2: 'Laudato Si',
+    btn3: ' Asocia CR - Lux',
+    texto6: 'Organizaciones Destacadas',
+    texto7: 'Una selección de empresas e instituciones con las que he trabajado como empleado o consultor.',
+    texto8: 'Liderazgo e impacto en el sector público',
+    texto9: `La experiencia de Salvatore en el sector público de Costa Rica abarca papeles
+             de gran impacto, como el de Jefe Asesor Especial en la Asamblea Legislativa,
+              cargo en el que promovió políticas y gobernanza en diferentes ámbitos. 
+              También ha formado parte del Consejo del Sistema Nacional de Conservación, ha 
+              trabajado como profesor e investigador en las principales universidades públicas 
+              y ha dirigido proyectos de desarrollo centrados en la energía,
+              los recursos hídricos, la conservación de la naturaleza y la innovación social.`
 };
 
 export const ingles2 = {
     texto1: 'Regenerative and socioecologically positive future',
+    texto11: `As a visionary 'big-picture' specialist, Salvatore excels in designing and implementing strategies that deliver long-term value for companies, organizations, and governments.
+
+Salvatore's expertise spans:
+- <span class="font-bold">Planetary Health:</span> Public health in the Anthropocene and the health of human societies and the state of the natural systems on which we depend.
+- <span class="font-bold">Authentic Sustainability:</span> Embedding genuine, impactful sustainability into operations and long-term value creation.
+- <span class="font-bold">Ethical Digitalisation:</span> Leveraging technology responsibly for net-positive outcomes.
+- <span class="font-bold">Integral Ecology:</span> Holistic environmental stewardship, working together with local communities and multiple stakeholders.
+- <span class="font-bold">Nature and Climate Action:</span> Leading efforts in climate change adaptation, and reversing biodiversity loss.`,
     texto2: 'Read more',
-    texto3: 'Sustainable development and environmental technology',
-    texto4: 'Planetary Health | Integral Ecology and Hope | Nature and Climate Action',
-    texto5: `Salvatore Coppola-Finegan \n
-             A lifelong explorer, he is dedicated \n 
-             to improving the world around him. \n 
-             Salvatore is also engaged in the Laudato Si' movement \n 
-             as coordinator in the international \n 
-             communities of Luxembourg. \n 
-             He is dedicated to our wider social fabric \n 
-             and spreads a positive and hopeful vision \n 
-             of sustainability and global prosperity \n 
-             based on science.`
+    texto3: 'Sustainable development and technology',
+    texto4: `With a robust private-sector background, Salvatore brings extensive management and consulting experience across industries like Software and Technology, Renewable Energies, Finance, and Banking. His work consistently drives innovation and sustainability at the nexus of technology and business.`,
+    texto5: `Salvatore Coppola-Finegan
+    A lifelong scout, Salvatore is committed to enhancing the world around him. He champions social and volunteer causes, promoting a hopeful vision of sustainability and global prosperity rooted in human development, cooperation, and science.`,
+    btn1: 'Letz Regenerate',
+    btn2: 'Laudato Si',
+    btn3: 'Asocia CR - Lux',
+    texto6: 'Featured Organisations',
+    texto7: 'A curated list of companies and institutions I’ve collaborated with as an employee or consultant.',
+    texto8: 'Public sector leadership and impact',
+    texto9: `Salvatore's public sector expertise in Costa Rica spans impactful roles such as a Chief Special Advisor in Parliament, where he advanced policy and governance in different areas. He has also served on the Board of the National Conservation System, has worked as a lecturer and researcher in the leading public universities, and has led development projects focused on energy, water, nature conservation, and social innovation.`
 };
 
 export const aleman2 = {
     texto1: 'Zukunftsgestaltung durch Regenerierung und sozioökologische Nachhaltigkeit',
+    texto11: `Mit seinem "Blick fürs Ganze" ist Salvatore ein erfahrener Experte für Strategieentwicklung und -umsetzung und legt den Schwerpunkt auf die Schaffung langfristiger Mehrwerte für Unternehmen, Organisationen und Regierungen.
+
+Salvatores Fachwissen umfasst:
+- <span class="font-bold">Planetare Gesundheit:</span> Öffentliche Gesundheit im Anthropozän und die Gesundheit menschlicher Gesellschaften sowie den Zustand der natürlichen Systeme, von denen wir abhängen.
+- <span class="font-bold">Authentische Nachhaltigkeit:</span> Echte, wirkungsvolle Nachhaltigkeit in Betriebsabläufe und langfristige Wertschöpfung integrieren.
+- <span class="font-bold">Ethische Digitalisierung:</span> Technologie verantwortungsvoll nutzen, um positive Nettoergebnisse zu erzielen.
+- <span class="font-bold">Integrale Ökologie:</span> Ganzheitliche Umweltverantwortung, Zusammenarbeit mit lokalen Gemeinschaften und mehreren Interessengruppen.
+- <span class="font-bold">Natur- und Klimaschutz:</span> Führung von Bemühungen zur Anpassung an den Klimawandel und Umkehrung des Biodiversitätsverlusts.`,
     texto2: 'Weiterlesen',
-    texto3: 'Nachhaltige Entwicklung und Umwelttechnologie',
-    texto4: 'Planetare Gesundheit | Integrale Ökologie und Hoffnung | Einsatz für Natur und Klima',
-    texto5: `Salvatore Coppola-Finegan \n
-             Als lebenslanger Entdecker widmet er sich \n 
-             der Verbesserung der Welt. \n 
-             Salvatore engagiert sich auch in der Laudato-Si'-Bewegung \n 
-             als Koordinator in den internationalen \n 
-             Gemeinschaften Luxemburgs. \n 
-             Er setzt sich für unser gesamtes soziales Gefüge ein \n 
-             und verbreitet eine positive und hoffnungsvolle Vision \n 
-             von Nachhaltigkeit und globalem Wohlstand \n 
-             auf wissenschaftlicher Basis.`
+    texto3: 'Nachhaltige Entwicklung und Technologie',
+    texto4: `Mit einem robusten Hintergrund im Privatsektor bringt Salvatore umfangreiche Management- und Beratungserfahrung in Branchen wie Software und Technologie, Erneuerbare Energien, Finanzen und Bankwesen mit. Seine Arbeit treibt konsequent Innovation und Nachhaltigkeit an der Schnittstelle von Technologie und Wirtschaft voran.`,
+    texto5: `Salvatore Coppola-Finegan
+    Als lebenslanger Pfadfinder engagiert sich Salvatore dafür, die Welt um ihn herum zu verbessern. Er setzt sich für soziale und ehrenamtliche Anliegen ein und fördert eine hoffnungsvolle Vision von Nachhaltigkeit und globalem Wohlstand, die auf menschlicher Entwicklung, Zusammenarbeit und Wissenschaft basiert.`,
+    btn1: 'Letz Regenerate',
+    btn2: 'Laudato Si',
+    btn3: 'Asocia CR - Lux',
+    texto6: 'Ausgewählte Organisationen',
+    texto7: 'Eine Auswahl an Unternehmen und Institutionen, mit denen ich als Angestellter oder Berater zusammengearbeitet habe.',
+    texto8: 'Öffentliches Engagement und Einfluss',
+    texto9: `Salvatores Erfahrung in öffentlichen Ämtern in Costa Rica umfasst einflussreiche Tätigkeiten, wie z. B. Chefberater im Parlament, wo er sich für Policy und -verwaltung einsetzte. Er war außerdem Vorstandsmitglied des nationalen Naturschutzsystems, arbeitete als Dozent und Forscher an führenden öffentlichen Universitäten und leitete Entwicklungsprojekte mit den Schwerpunkten Energie, Wassersicherheit, Naturschutz und soziale Innovation.`
 };
 
 export const frances2 = {
     texto1: 'Un avenir régénérateur et socio-écologiquement positif',
+    texto11: `En tant que spécialiste visionnaire de la 'vue d'ensemble', Salvatore excelle dans la conception et la mise en œuvre de stratégies qui apportent une valeur à long terme aux entreprises, organisations et gouvernements.
+
+L'expertise de Salvatore couvre :
+- <span class="font-bold">Santé Planétaire :</span> Santé publique à l'Anthropocène et la santé des sociétés humaines ainsi que l'état des systèmes naturels dont nous dépendons.
+- <span class="font-bold">Durabilité Authentique :</span> Intégrer une durabilité authentique et impactante dans les opérations et la création de valeur à long terme.
+- <span class="font-bold">Numérisation Éthique :</span> Exploiter la technologie de manière responsable pour obtenir des résultats nets positifs.
+- <span class="font-bold">Écologie Intégrale :</span> Gestion environnementale holistique, travaillant avec les communautés locales et multiples parties prenantes.
+- <span class="font-bold">Action pour la Nature et le Climat :</span> Diriger les efforts d'adaptation au changement climatique et inverser la perte de biodiversité.`,
     texto2: 'En savoir plus',
-    texto3: 'Développement durable et technologies pour l\'environnement',
-    texto4: 'Santé Planétaire | Écologie Intégrale et Espoir | Action pour la Nature et le Climat',
-    texto5: `Salvatore Coppola-Finegan \n
-             Explorateur depuis toujours, il a pour vocation \n 
-             d\'améliorer le monde qui nous entoure. \n 
-             Salvatore est également engagé dans le mouvement \n 
-             Laudato Si\' en tant que coordinateur dans les \n 
-             communautés internationales du Luxembourg. \n 
-             Il se consacre à notre tissu social au sens large \n 
-             et diffuse une vision positive et pleine d\'espoir \n 
-             de la durabilité et de la prospérité mondiale \n 
-             basée sur la science.`
+    texto3: 'Développement durable et technologie',
+    texto4: `Fort d'une solide expérience dans le secteur privé, Salvatore apporte une vaste expérience en gestion et en conseil dans des industries telles que les Logiciels et la Technologie, les Énergies Renouvelables, la Finance et la Banque. Son travail stimule constamment l'innovation et la durabilité à la croisée de la technologie et des affaires.`,
+    texto5: `Salvatore Coppola-Finegan
+    Scout depuis toujours, Salvatore est engagé à améliorer le monde qui l'entoure. Il défend des causes sociales et bénévoles, promouvant une vision pleine d'espoir de durabilité et de prospérité mondiale enracinée dans le développement humain, la coopération et la science.`,
+    btn1: 'Letz Regenerate',
+    btn2: 'Laudato Si',
+    btn3: 'Asocia CR - Lux',
+    texto6: 'Organisations Mises en Avant',
+    texto7: 'Une liste sélectionnée d\'entreprises et d\'institutions avec lesquelles j\'ai collaboré en tant qu\'employé ou consultant.',
+    texto8: 'Leadership et impact dans la fonction publique',
+    texto9: `L'expertise de Salvatore dans le secteur public au Costa Rica s'étend à des rôles à fort impact, tels que celui de conseiller spécial en chef au Parlement, où il a fait progresser les politiques publiques et la gouvernance. Il a notamment siégé au conseil d'administration du Système national de conservation, a travaillé comme conférencier et chercheur dans les principales universités publiques, et a dirigé des projets de développement axés sur l'énergie, la gestion de l'eau, la conservation de la nature et l'innovation sociale.`
 };
 
 export const italiano2 = {
     texto1: 'Un futuro rigenerativo e socio-ecologicamente positivo',
+    texto11: `Come specialista visionario del 'quadro generale', Salvatore eccelle nella progettazione e implementazione di strategie che offrono valore a lungo termine per aziende, organizzazioni e governi.
+
+L'esperienza di Salvatore copre:
+- <span class="font-bold">Salute Planetaria:</span> Salute pubblica nell'Antropocene e la salute delle società umane e lo stato dei sistemi naturali da cui dipendiamo.
+- <span class="font-bold">Sostenibilità Autentica:</span> Integrare una sostenibilità autentica e di impatto nelle operazioni e nella creazione di valore a lungo termine.
+- <span class="font-bold">Digitalizzazione Etica:</span> Sfruttare la tecnologia in modo responsabile per ottenere risultati netti positivi.
+- <span class="font-bold">Ecologia Integrale:</span> Gestione ambientale olistica, lavorando con le comunità locali e multiple parti interessate.
+- <span class="font-bold">Azione per la Natura e il Clima:</span> Guidare gli sforzi di adattamento al cambiamento climatico e invertire la perdita di biodiversità.`,
     texto2: 'Scopri di più',
-    texto3: 'Sviluppo sostenibile e tecnologie ambientali',
-    texto4: 'Salute Planetaria | Ecologia Integrale e Speranza | Azione per la Natura e il Clima',
-    texto5: `Salvatore Coppola-Finegan \n
-             Da sempre esploratore, si dedica \n 
-             a migliorare il mondo attorno a sé. \n 
-             Salvatore è anche impegnato nel movimento Laudato Si\' \n 
-             come coordinatore nelle comunità \n 
-             internazionali del Lussemburgo. \n 
-             Si dedica al nostro tessuto sociale in senso ampio \n 
-             e diffonde una visione positiva e speranzosa \n 
-             della sostenibilità e della prosperità globale \n 
-             basata sulla scienza.`
+    texto3: 'Sviluppo sostenibile e tecnologie',
+    texto4: `Con un solido background nel settore privato, Salvatore porta una vasta esperienza in gestione e consulenza in settori come Software e Tecnologia, Energie Rinnovabili, Finanza e Banche. Il suo lavoro promuove costantemente l'innovazione e la sostenibilità all'intersezione tra tecnologia e business.`,
+    texto5: `Salvatore Coppola-Finegan
+    Da sempre scout, Salvatore è impegnato a migliorare il mondo che lo circonda. Sostiene cause sociali e di volontariato, promuovendo una visione speranzosa di sostenibilità e prosperità globale radicata nello sviluppo umano, nella cooperazione e nella scienza.`,
+    btn1: 'Letz Regenerate',
+    btn2: 'Laudato Si',
+    btn3: 'Asocia CR - Lux',
+    texto6: 'Organizzazioni in Evidenza',
+    texto7: 'Una lista curata di aziende e istituzioni con cui ho collaborato come dipendente o consulente.',
+    texto8: 'Leadership e impatto nella pubblica amministrazione',
+    texto9: `L'esperienza di Salvatore nel settore pubblico in Costa Rica comprende ruoli di grande impatto, come quello di Capo Consigliere Speciale in Parlamento, dove ha sviluppato le politiche pubbliche e la governance. È stato anche membro del Consiglio del Sistema Nazionale di Conservazione, ha lavorato come docente e ricercatore nelle principali università pubbliche e ha guidato progetti di sviluppo in materia di energia, risorse idriche, conservazione della natura e innovazione sociale.`
 };
+
+export const portugues2 = {
+    texto1: 'Futuro regenerativo e socioecologicamente positivo',
+    texto11: `Como um especialista visionário em 'visão geral', Salvatore se destaca na concepção e implementação de estratégias que entregam valor a longo prazo para empresas, organizações e governos.
+
+A expertise de Salvatore abrange:
+- <span class="font-bold">Saúde Planetária:</span> Saúde pública no Antropoceno e a saúde das sociedades humanas e o estado dos sistemas naturais dos quais dependemos.
+- <span class="font-bold">Sustentabilidade Autêntica:</span> Incorporar sustentabilidade genuína e impactante nas operações e na criação de valor a longo prazo.
+- <span class="font-bold">Digitalização Ética:</span> Aproveitar a tecnologia de forma responsável para resultados líquidos positivos.
+- <span class="font-bold">Ecologia Integral:</span> Gestão ambiental holística, trabalhando em conjunto com comunidades locais e múltiplas partes interessadas.
+- <span class="font-bold">Ação pela Natureza e pelo Clima:</span> Liderar esforços em adaptação às mudanças climáticas e reversão da perda de biodiversidade.`,
+    texto2: 'Leia mais',
+    texto3: 'Desenvolvimento sustentável e tecnologia',
+    texto4: `Com uma sólida experiência no setor privado, Salvatore traz ampla experiência em gestão e consultoria em indústrias como Software e Tecnologia, Energias Renováveis, Finanças e Bancos. Seu trabalho impulsiona consistentemente a inovação e a sustentabilidade na interseção entre tecnologia e negócios.`,
+    texto5: `Um escoteiro de toda a vida, Salvatore está comprometido em melhorar o mundo ao seu redor. Ele defende causas sociais e voluntárias, promovendo uma visão esperançosa de sustentabilidade e prosperidade global enraizada no desenvolvimento humano, cooperação e ciência.`,
+    btn1: 'Letz Regenerate',
+    btn2: 'Laudato Si',
+    btn3: 'Asocia CR - Lux',
+    texto6: 'Organizações Destacadas',
+    texto7: 'Uma lista selecionada de empresas e instituições com as quais colaborei como funcionário ou consultor.',
+    texto8: 'Liderança e impacto no setor público',
+    texto9: `A expertise de Salvatore no setor público da Costa Rica abrange papéis impactantes, como o de Conselheiro Especial Chefe no Parlamento, onde ele avançou políticas e governança em diferentes áreas. Ele também serviu no Conselho do Sistema Nacional de Conservação, trabalhou como professor e pesquisador nas principais universidades públicas e liderou projetos de desenvolvimento focados em energia, água, conservação da natureza e inovação social.`
+};
+
+export const letzemburgesch2 = {
+    texto1: 'Regenerativ a sozioekologesch positiv Zukunft',
+    texto11: `Als visionären 'Big-Picture'-Spezialist excels de Salvatore an der Gestaltung an der Ëmsetzung vu Strategien, déi laangfristeg Wäert fir Betriber, Organisatiounen a Regierungen liwweren.
+
+Dem Salvatore seng Expertise ëmfaasst:
+- <span class="font-bold">Planetar Gesondheet:</span> Ëffentlech Gesondheet am Anthropozän an d'Gesondheet vun de mënschlechen Gesellschaften an den Zoustand vun den natierlechen Systemer, vun deene mir ofhänken.
+- <span class="font-bold">Authentesch Nohaltegkeet:</span> Genuin an impaktvoll Nohaltegkeet an d'Operatiounen an d'Schafung vu laangfristegem Wäert integréieren.
+- <span class="font-bold">Ethik Digitaliséierung:</span> Technologie verantwortlech notzen fir net-positiv Resultater ze erreechen.
+- <span class="font-bold">Integral Ekologie:</span> Holistesch Ëmweltverantwortung, Zesummenaarbecht mat lokalen Gemeinschaften a multiple Interessengruppen.
+- <span class="font-bold">Natur- a Klimaschutz:</span> Efforte féieren an der Adaptatioun un de Klimawandel an der Ëmkéierung vum Biodiversitéitsverloscht.`,
+    texto2: 'Méi liesen',
+    texto3: 'Nohalteg Entwécklung an Technologie',
+    texto4: `Mat engem staarken Hannergrond am Privatsecteur bréngt de Salvatore vill Erfahrung am Management a Berodung a Secteuren wéi Software an Technologie, Erneierbar Energien, Finanzen a Banken. Seng Aarbecht dréit konsequent Innovatioun an Nohaltegkeet op der Kräizung vu Technologie a Business virun.`,
+    texto5: `De Salvatore Coppola-Finegan
+    Als liewenslaangen Scout setzt sech de Salvatore dofir an, d'Welt ronderëm him ze verbesseren. Hien ënnerstëtzt sozial a fräiwëlleg Saachen a fërdert eng hoffnungsvoll Visioun vu Nohaltegkeet a globalem Wuelstand, déi op mënschlecher Entwécklung, Zesummenaarbecht a Wëssenschaft baséiert.`,
+    btn1: 'Letz Regenerate',
+    btn2: 'Laudato Si',
+    btn3: 'Asocia CR - Lux',
+    texto6: 'Erauusgestallte Organisatiounen',
+    texto7: 'Eng ausgewielte Lëscht vu Firmen an Institutiounen, mat deenen ech als Mataarbechter oder Beroder zesummegeschafft hunn.',
+    texto8: 'Féierungsroll an Impakt am ëffentlechen Secteur',
+    texto9: `Dem Salvatore seng Expertise am ëffentlechen Secteur a Costa Rica ëmfaasst impaktvoll Rollen wéi Chef Spezialberoder am Parlament, wou hie Politik a Governance a verschiddene Beräicher virugedriwwen huet. Hien huet och am Verwaltungsrot vum Nationalen Conservatiounssystem gedéngt, huet als Dozent a Fuerscher op de féierende ëffentlechen Universitéiten geschafft an huet Entwécklungsprojeten am Beräich Energie, Waasser, Naturschutz a sozial Innovatioun geleet.`
+
+}
 
 //-------------------------------------------------- Services ------------------------------------------------------
 

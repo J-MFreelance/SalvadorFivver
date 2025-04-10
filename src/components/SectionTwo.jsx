@@ -70,14 +70,14 @@ const SectionTwo = () => {
                     <div className='bg-[#1B1E51] h-64 rounded-tl-[3.5rem] px-14 py-12 max-lg:py-14 xl:w-screen max-lg:h-80'>
                         <div className='flex'>
                             <div>
-                                <ol className="space-y-2 mb-6 max-lg:text-xs pl-2 list-disc">
+                              {/*}  <ol className="space-y-2 mb-6 max-lg:text-xs pl-2 list-disc">
                                     <li>{languageData.texto1l}</li>
                                     <li>{languageData.texto2l}</li>
                                     <li>{languageData.texto3l}</li>
                                     <li>{languageData.texto4l}</li>
                                     <li>{languageData.texto5l}</li>
                                     <li>{languageData.texto6l}</li>
-                                </ol>
+                                </ol> */}
                             </div>
                             <div className='flex justify-around max-lg:flex-col max-lg:pl-3'>
                                 <div>

@@ -7,8 +7,7 @@ import Opinions from './components/Opinions';
 import Section from './components/Section';
 import SectionTwo from './components/SectionTwo';
 import { LanguageProvider, useLanguage } from './components/LanguageContext';
-import { espanol1, ingles1, aleman1, frances1, italiano1 } from './constants';
-import Services from './components/Services';
+import { espanol1, ingles1, aleman1, frances1, italiano1, portugues1, letzemburgesch1 } from './constants';
 
 function App() {
   return (
@@ -32,11 +31,16 @@ const MainContent = () => {
           <Navbar />
           <Hero />
         </div>
+
+        <div className="relative w-screen h-[34rem] bg-gradient-to-b from-[rgba(36,39,100,0.01)] to-[rgba(16,16,52,1)] pt-2 ">
+          <div className="w-screen h-24">
+            
+          </div>
+        </div>
       </div>
 
       <div className="mt-[3%] w-screen h-auto bg-[#101034] md:px-28 md:py-6 ">
         <Section />
-        <Services />
         <Opinions />
         <SectionTwo />
       </div>
@@ -60,6 +64,10 @@ const getLanguageData = (language) => {
       return frances1;
     case 'IT':
       return italiano1;
+    case 'PT':
+      return portugues1;
+    case 'LB':
+      return letzemburgesch1;
     default:
       return espanol1; // Valor predeterminado
   }
