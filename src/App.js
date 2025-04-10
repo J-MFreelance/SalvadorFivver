@@ -8,6 +8,7 @@ import Section from './components/Section';
 import SectionTwo from './components/SectionTwo';
 import { LanguageProvider, useLanguage } from './components/LanguageContext';
 import { espanol1, ingles1, aleman1, frances1, italiano1, portugues1, letzemburgesch1 } from './constants';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ const MainContent = () => {
 
       <div className="mt-[3%] w-screen h-auto bg-[#101034] md:px-28 md:py-6 ">
         <Section />
+        <Services />
         <Opinions />
         <SectionTwo />
       </div>
