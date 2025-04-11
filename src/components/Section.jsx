@@ -94,7 +94,7 @@ const Section = () => {
                         {languageData.texto3}
                     </p>
 
-                    <span className="block leading-relaxed pb-4 text-sm max-md:text-xs max-sm:text-[11px]">
+                    <span className="block leading-relaxed pb-4 text-sm max-md:text-xs max-sm:text-[11px]" style={{ whiteSpace: 'pre-line' }}>
                         {languageData.texto4}
                     </span>
                 </div>

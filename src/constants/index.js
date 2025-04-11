@@ -40,6 +40,23 @@ export const frances = {
     navA4: 'ECOCITIZEN'
 };
 
+export const portugues = {
+    navA1: 'INÍCIO',
+    navA2: 'SOBRE',
+    navA5: 'SERVIÇOS',
+    navA3: 'CONTATO',
+    navA4: 'ECOCITIZEN'
+};
+
+export const luxemburguese = {
+    navA1: 'ACCUEIL',
+    navA2: 'IWWERT ONS',
+    navA5: 'SERVICEN',
+    navA3: 'KONTAKT',
+    navA4: 'ECOCITIZEN'
+};
+
+
 //-------------------------------------------------- HERO --------------------------------------------------
 
 export const espanol1 = {
@@ -105,7 +122,7 @@ export const espanol2 = {
     - <span class="font-bold">Acción por la Naturaleza y el Clima:</span> Liderar esfuerzos en adaptación al cambio climático y \nrevertir la pérdida de biodiversidad.`,
     texto2: 'Leer más',
     texto3: 'Desarrollo sostenible y tecnología.',
-    texto4: 'Con una sólida trayectoria en el sector privado, Salvatore aporta una amplia experiencia en gestión y consultoría en industrias como Software y Tecnología, Energías Renovables, Finanzas y Banca. Su trabajo impulsa consistentemente la innovación y la sostenibilidad en la intersección de la tecnología y los negocios.',
+    texto4: 'Con una sólida trayectoria en el sector privado,\n Salvatore aporta una amplia experiencia en gestión\n y consultoría en industrias como Software y Tecnología,\n Energías Renovables, Finanzas y Banca. Su trabajo impulsa \nconsistentemente la innovación y la sostenibilidad\n en la intersección de la tecnología y los negocios.',
     texto5: `Salvatore Coppola-Finegan
                 
             Scout de toda la vida, Salvatore está comprometido con mejorar 
@@ -139,7 +156,7 @@ Salvatore's expertise spans:
 - <span class="font-bold">Nature and Climate Action:</span> Leading efforts in climate change adaptation, and reversing biodiversity loss.`,
     texto2: 'Read more',
     texto3: 'Sustainable development and technology',
-    texto4: `With a robust private-sector background, Salvatore brings extensive management and consulting experience across industries like Software and Technology, Renewable Energies, Finance, and Banking. His work consistently drives innovation and sustainability at the nexus of technology and business.`,
+    texto4: `With a robust private-sector background, Salvatore brings \nextensive management and consulting experience across\n industries like Software and Technology, Renewable Energies,\n Finance, and Banking. His work consistently drives innovation \nand sustainability at the nexus of technology and business.`,
     texto5: `Salvatore Coppola-Finegan
     A lifelong scout, Salvatore is committed to enhancing the world around him. He champions social and volunteer causes, promoting a hopeful vision of sustainability and global prosperity rooted in human development, cooperation, and science.`,
     btn1: 'Letz Regenerate',
@@ -148,7 +165,12 @@ Salvatore's expertise spans:
     texto6: 'Featured Organisations',
     texto7: 'A curated list of companies and institutions I’ve collaborated with as an employee or consultant.',
     texto8: 'Public sector leadership and impact',
-    texto9: `Salvatore's public sector expertise in Costa Rica spans impactful roles such as a Chief Special Advisor in Parliament, where he advanced policy and governance in different areas. He has also served on the Board of the National Conservation System, has worked as a lecturer and researcher in the leading public universities, and has led development projects focused on energy, water, nature conservation, and social innovation.`
+    texto9: `Salvatore's public sector expertise in Costa Rica spans impactful roles
+     such as a Chief Special Advisor in Parliament, where he advanced policy
+     and governance in different areas. He has also served on the Board of the National
+     Conservation System, has worked as a lecturer and researcher in the leading public 
+     universities, and has led development projects focused on energy, water, nature 
+     conservation, and social innovation.`
 };
 
 export const aleman2 = {
@@ -163,7 +185,11 @@ Salvatores Fachwissen umfasst:
 - <span class="font-bold">Natur- und Klimaschutz:</span> Führung von Bemühungen zur Anpassung an den Klimawandel und Umkehrung des Biodiversitätsverlusts.`,
     texto2: 'Weiterlesen',
     texto3: 'Nachhaltige Entwicklung und Technologie',
-    texto4: `Mit einem robusten Hintergrund im Privatsektor bringt Salvatore umfangreiche Management- und Beratungserfahrung in Branchen wie Software und Technologie, Erneuerbare Energien, Finanzen und Bankwesen mit. Seine Arbeit treibt konsequent Innovation und Nachhaltigkeit an der Schnittstelle von Technologie und Wirtschaft voran.`,
+    texto4: `Mit einem robusten Hintergrund im Privatsektor bringt Salvatore 
+    umfangreiche Management- und Beratungserfahrung in Branchen wie Software 
+    und Technologie, Erneuerbare Energien, Finanzen und Bankwesen mit. Seine 
+    Arbeit treibt konsequent Innovation und Nachhaltigkeit an der Schnittstelle 
+    von Technologie und Wirtschaft voran.`,
     texto5: `Salvatore Coppola-Finegan
     Als lebenslanger Pfadfinder engagiert sich Salvatore dafür, die Welt um ihn herum zu verbessern. Er setzt sich für soziale und ehrenamtliche Anliegen ein und fördert eine hoffnungsvolle Vision von Nachhaltigkeit und globalem Wohlstand, die auf menschlicher Entwicklung, Zusammenarbeit und Wissenschaft basiert.`,
     btn1: 'Letz Regenerate',
@@ -172,7 +198,11 @@ Salvatores Fachwissen umfasst:
     texto6: 'Ausgewählte Organisationen',
     texto7: 'Eine Auswahl an Unternehmen und Institutionen, mit denen ich als Angestellter oder Berater zusammengearbeitet habe.',
     texto8: 'Öffentliches Engagement und Einfluss',
-    texto9: `Salvatores Erfahrung in öffentlichen Ämtern in Costa Rica umfasst einflussreiche Tätigkeiten, wie z. B. Chefberater im Parlament, wo er sich für Policy und -verwaltung einsetzte. Er war außerdem Vorstandsmitglied des nationalen Naturschutzsystems, arbeitete als Dozent und Forscher an führenden öffentlichen Universitäten und leitete Entwicklungsprojekte mit den Schwerpunkten Energie, Wassersicherheit, Naturschutz und soziale Innovation.`
+    texto9: `Salvatores Erfahrung in öffentlichen Ämtern in Costa Rica umfasst einflussreiche 
+    Tätigkeiten, wie z. B. Chefberater im Parlament, wo er sich für Policy und -verwaltung einsetzte. 
+    Er war außerdem Vorstandsmitglied des nationalen Naturschutzsystems, arbeitete als Dozent und Forscher 
+    an führenden öffentlichen Universitäten und leitete Entwicklungsprojekte mit den Schwerpunkten 
+    Energie, Wassersicherheit, Naturschutz und soziale Innovation.`
 };
 
 export const frances2 = {
@@ -187,7 +217,11 @@ L'expertise de Salvatore couvre :
 - <span class="font-bold">Action pour la Nature et le Climat :</span> Diriger les efforts d'adaptation au changement climatique et inverser la perte de biodiversité.`,
     texto2: 'En savoir plus',
     texto3: 'Développement durable et technologie',
-    texto4: `Fort d'une solide expérience dans le secteur privé, Salvatore apporte une vaste expérience en gestion et en conseil dans des industries telles que les Logiciels et la Technologie, les Énergies Renouvelables, la Finance et la Banque. Son travail stimule constamment l'innovation et la durabilité à la croisée de la technologie et des affaires.`,
+    texto4: `Fort d'une solide expérience dans le secteur privé, Salvatore apporte 
+    une vaste expérience en gestion et en conseil dans des industries 
+    telles que les Logiciels et la Technologie, les Énergies Renouvelables,
+     la Finance et la Banque. Son travail stimule constamment l'innovation 
+     et la durabilité à la croisée de la technologie et des affaires.`,
     texto5: `Salvatore Coppola-Finegan
     Scout depuis toujours, Salvatore est engagé à améliorer le monde qui l'entoure. Il défend des causes sociales et bénévoles, promouvant une vision pleine d'espoir de durabilité et de prospérité mondiale enracinée dans le développement humain, la coopération et la science.`,
     btn1: 'Letz Regenerate',
@@ -196,7 +230,13 @@ L'expertise de Salvatore couvre :
     texto6: 'Organisations Mises en Avant',
     texto7: 'Une liste sélectionnée d\'entreprises et d\'institutions avec lesquelles j\'ai collaboré en tant qu\'employé ou consultant.',
     texto8: 'Leadership et impact dans la fonction publique',
-    texto9: `L'expertise de Salvatore dans le secteur public au Costa Rica s'étend à des rôles à fort impact, tels que celui de conseiller spécial en chef au Parlement, où il a fait progresser les politiques publiques et la gouvernance. Il a notamment siégé au conseil d'administration du Système national de conservation, a travaillé comme conférencier et chercheur dans les principales universités publiques, et a dirigé des projets de développement axés sur l'énergie, la gestion de l'eau, la conservation de la nature et l'innovation sociale.`
+    texto9: `L'expertise de Salvatore dans le secteur public au Costa Rica s'étend à des rôles
+     à fort impact, tels que celui de conseiller spécial en chef au Parlement, où il a fait 
+     progresser les politiques publiques et la gouvernance. Il a notamment 
+     siégé au conseil d'administration du Système national de conservation, a travaillé 
+     comme conférencier et chercheur dans les principales universités publiques, et a 
+     dirigé des projets de développement axés sur l'énergie, la gestion de l'eau, 
+     la conservation de la nature et l'innovation sociale.`
 };
 
 export const italiano2 = {
@@ -211,7 +251,11 @@ L'esperienza di Salvatore copre:
 - <span class="font-bold">Azione per la Natura e il Clima:</span> Guidare gli sforzi di adattamento al cambiamento climatico e invertire la perdita di biodiversità.`,
     texto2: 'Scopri di più',
     texto3: 'Sviluppo sostenibile e tecnologie',
-    texto4: `Con un solido background nel settore privato, Salvatore porta una vasta esperienza in gestione e consulenza in settori come Software e Tecnologia, Energie Rinnovabili, Finanza e Banche. Il suo lavoro promuove costantemente l'innovazione e la sostenibilità all'intersezione tra tecnologia e business.`,
+    texto4: `Con un solido background nel settore privato, Salvatore 
+    porta una vasta esperienza in gestione e consulenza in 
+    settori come Software e Tecnologia, Energie Rinnovabili, 
+    Finanza e Banche. Il suo lavoro promuove costantemente 
+    l'innovazione e la sostenibilità all'intersezione tra tecnologia e business.`,
     texto5: `Salvatore Coppola-Finegan
     Da sempre scout, Salvatore è impegnato a migliorare il mondo che lo circonda. Sostiene cause sociali e di volontariato, promuovendo una visione speranzosa di sostenibilità e prosperità globale radicata nello sviluppo umano, nella cooperazione e nella scienza.`,
     btn1: 'Letz Regenerate',
@@ -220,7 +264,13 @@ L'esperienza di Salvatore copre:
     texto6: 'Organizzazioni in Evidenza',
     texto7: 'Una lista curata di aziende e istituzioni con cui ho collaborato come dipendente o consulente.',
     texto8: 'Leadership e impatto nella pubblica amministrazione',
-    texto9: `L'esperienza di Salvatore nel settore pubblico in Costa Rica comprende ruoli di grande impatto, come quello di Capo Consigliere Speciale in Parlamento, dove ha sviluppato le politiche pubbliche e la governance. È stato anche membro del Consiglio del Sistema Nazionale di Conservazione, ha lavorato come docente e ricercatore nelle principali università pubbliche e ha guidato progetti di sviluppo in materia di energia, risorse idriche, conservazione della natura e innovazione sociale.`
+    texto9: `L'esperienza di Salvatore nel settore pubblico in Costa Rica comprende ruoli 
+    di grande impatto, come quello di Capo Consigliere Speciale in Parlamento, 
+    dove ha sviluppato le politiche pubbliche e la governance. È stato 
+    anche membro del Consiglio del Sistema Nazionale di Conservazione, 
+    ha lavorato come docente e ricercatore nelle principali 
+    università pubbliche e ha guidato progetti di sviluppo in materia 
+    di energia, risorse idriche, conservazione della natura e innovazione sociale.`
 };
 
 export const portugues2 = {
@@ -235,7 +285,11 @@ A expertise de Salvatore abrange:
 - <span class="font-bold">Ação pela Natureza e pelo Clima:</span> Liderar esforços em adaptação às mudanças climáticas e reversão da perda de biodiversidade.`,
     texto2: 'Leia mais',
     texto3: 'Desenvolvimento sustentável e tecnologia',
-    texto4: `Com uma sólida experiência no setor privado, Salvatore traz ampla experiência em gestão e consultoria em indústrias como Software e Tecnologia, Energias Renováveis, Finanças e Bancos. Seu trabalho impulsiona consistentemente a inovação e a sustentabilidade na interseção entre tecnologia e negócios.`,
+    texto4: `Com uma sólida experiência no setor privado, Salvatore traz ampla 
+    experiência em gestão e consultoria em indústrias como Software 
+    e Tecnologia, Energias Renováveis, Finanças e Bancos. Seu trabalho 
+    impulsiona consistentemente a inovação e a sustentabilidade na 
+    interseção entre tecnologia e negócios.`,
     texto5: `Um escoteiro de toda a vida, Salvatore está comprometido em melhorar o mundo ao seu redor. Ele defende causas sociais e voluntárias, promovendo uma visão esperançosa de sustentabilidade e prosperidade global enraizada no desenvolvimento humano, cooperação e ciência.`,
     btn1: 'Letz Regenerate',
     btn2: 'Laudato Si',
@@ -243,7 +297,12 @@ A expertise de Salvatore abrange:
     texto6: 'Organizações Destacadas',
     texto7: 'Uma lista selecionada de empresas e instituições com as quais colaborei como funcionário ou consultor.',
     texto8: 'Liderança e impacto no setor público',
-    texto9: `A expertise de Salvatore no setor público da Costa Rica abrange papéis impactantes, como o de Conselheiro Especial Chefe no Parlamento, onde ele avançou políticas e governança em diferentes áreas. Ele também serviu no Conselho do Sistema Nacional de Conservação, trabalhou como professor e pesquisador nas principais universidades públicas e liderou projetos de desenvolvimento focados em energia, água, conservação da natureza e inovação social.`
+    texto9: `A expertise de Salvatore no setor público da Costa Rica abrange papéis impactantes, 
+    como o de Conselheiro Especial Chefe no Parlamento, onde ele avançou políticas e 
+    governança em diferentes áreas. Ele também serviu no Conselho do Sistema Nacional 
+    de Conservação, trabalhou como professor e pesquisador nas principais universidades 
+    públicas e liderou projetos de desenvolvimento focados em energia, água, 
+    conservação da natureza e inovação social.`
 };
 
 export const letzemburgesch2 = {
@@ -258,7 +317,11 @@ Dem Salvatore seng Expertise ëmfaasst:
 - <span class="font-bold">Natur- a Klimaschutz:</span> Efforte féieren an der Adaptatioun un de Klimawandel an der Ëmkéierung vum Biodiversitéitsverloscht.`,
     texto2: 'Méi liesen',
     texto3: 'Nohalteg Entwécklung an Technologie',
-    texto4: `Mat engem staarken Hannergrond am Privatsecteur bréngt de Salvatore vill Erfahrung am Management a Berodung a Secteuren wéi Software an Technologie, Erneierbar Energien, Finanzen a Banken. Seng Aarbecht dréit konsequent Innovatioun an Nohaltegkeet op der Kräizung vu Technologie a Business virun.`,
+    texto4: `Mat engem staarken Hannergrond am Privatsecteur bréngt 
+    de Salvatore vill Erfahrung am Management a Berodung a 
+    Secteuren wéi Software an Technologie, Erneierbar Energien,
+     Finanzen a Banken. Seng Aarbecht dréit konsequent Innovatioun 
+     an Nohaltegkeet op der Kräizung vu Technologie a Business virun.`,
     texto5: `De Salvatore Coppola-Finegan
     Als liewenslaangen Scout setzt sech de Salvatore dofir an, d'Welt ronderëm him ze verbesseren. Hien ënnerstëtzt sozial a fräiwëlleg Saachen a fërdert eng hoffnungsvoll Visioun vu Nohaltegkeet a globalem Wuelstand, déi op mënschlecher Entwécklung, Zesummenaarbecht a Wëssenschaft baséiert.`,
     btn1: 'Letz Regenerate',
@@ -267,7 +330,13 @@ Dem Salvatore seng Expertise ëmfaasst:
     texto6: 'Erauusgestallte Organisatiounen',
     texto7: 'Eng ausgewielte Lëscht vu Firmen an Institutiounen, mat deenen ech als Mataarbechter oder Beroder zesummegeschafft hunn.',
     texto8: 'Féierungsroll an Impakt am ëffentlechen Secteur',
-    texto9: `Dem Salvatore seng Expertise am ëffentlechen Secteur a Costa Rica ëmfaasst impaktvoll Rollen wéi Chef Spezialberoder am Parlament, wou hie Politik a Governance a verschiddene Beräicher virugedriwwen huet. Hien huet och am Verwaltungsrot vum Nationalen Conservatiounssystem gedéngt, huet als Dozent a Fuerscher op de féierende ëffentlechen Universitéiten geschafft an huet Entwécklungsprojeten am Beräich Energie, Waasser, Naturschutz a sozial Innovatioun geleet.`
+    texto9: `Dem Salvatore seng Expertise am ëffentlechen Secteur a Costa Rica ëmfaasst impaktvoll 
+    Rollen wéi Chef Spezialberoder am Parlament, wou hie Politik a Governance a verschiddene
+     Beräicher virugedriwwen huet. Hien huet och am Verwaltungsrot vum 
+     Nationalen Conservatiounssystem gedéngt, huet als Dozent a Fuerscher 
+     op de féierende ëffentlechen Universitéiten geschafft an huet 
+     Entwécklungsprojeten am Beräich Energie, Waasser, Naturschutz 
+     a sozial Innovatioun geleet.`
 
 }
 

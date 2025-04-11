@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { useLanguage } from "./LanguageContext";
-import { espanol, ingles, frances, aleman, italiano } from '../constants';
+import { espanol, ingles, frances, aleman, italiano, portugues ,luxemburguese } from '../constants';
 
 const Navbar = () => {
   const { language } = useLanguage();
@@ -11,7 +11,7 @@ const Navbar = () => {
   useEffect(() => {
     if (language.code === "ES") {
       setLanguageData(espanol);
-    } else if (language.code === "EN") {
+    } else if (language.code === "GB") {
       setLanguageData(ingles);
     } else if (language.code === "DE") {
       setLanguageData(aleman);
@@ -19,6 +19,10 @@ const Navbar = () => {
       setLanguageData(italiano);
     } else if (language.code === "FR") {
       setLanguageData(frances);
+    } else if (language.code === "LU") {
+      setLanguageData(luxemburguese);
+    } else if (language.code === "BR") {
+      setLanguageData(portugues);
     } else {
       setLanguageData(espanol);
     }
