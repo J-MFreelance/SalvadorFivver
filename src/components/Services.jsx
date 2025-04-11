@@ -5,7 +5,9 @@ import {
     servicesEnglish,
     servicesEspanol,
     servicesFrench,
-    servicesItalian
+    servicesItalian,
+    servicesLux,
+    servicesPt
 } from "../constants";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
@@ -19,10 +21,12 @@ const Services = () => {
     useEffect(() => {
         const dataMap = {
             "ES": servicesEspanol,
-            "EN": servicesEnglish,
+            "GB": servicesEnglish,
             "DE": servicesDeutsch,
             "IT": servicesItalian,
-            "FR": servicesFrench
+            "FR": servicesFrench,
+            "BR": servicesPt,
+            "LU": servicesLux
         };
 
         setLanguageData(dataMap[language.code] || servicesEspanol);

@@ -1,6 +1,6 @@
 import Testimonial from "./Testimonial";
 import { useLanguage } from './LanguageContext';
-import { espanol3, ingles3, aleman3, frances3, italiano3 } from '../constants';
+import { espanol3, ingles3, aleman3, frances3, italiano3, letzemburgesch3, portugues3 } from '../constants';
 import { useEffect, useState } from 'react';
 
 const Opinions = () => {
@@ -10,7 +10,7 @@ const Opinions = () => {
   useEffect(() => {
     if (language.code === "ES") {
       setLanguageData(espanol3);
-    } else if (language.code === "EN") {
+    } else if (language.code === "GB") {
       setLanguageData(ingles3);
     } else if (language.code === "DE") {
       setLanguageData(aleman3);
@@ -18,7 +18,13 @@ const Opinions = () => {
       setLanguageData(italiano3);
     } else if (language.code === "FR") {
       setLanguageData(frances3);
-    } else {
+    } else if (language.code === "LU") {
+      setLanguageData(letzemburgesch3);
+    } else if (language.code === "BR") {
+      setLanguageData(portugues3);
+    }
+    
+    else {
       setLanguageData(espanol3);
     }
   }, [language]);
@@ -30,12 +36,13 @@ const Opinions = () => {
       </h2>
       <div className="space-y-8">
         {languageData?.testimonios?.map((testimonio, index) => (
-          <Testimonial
-            key={index}
-            autor={testimonio.autor}
-            text={testimonio.texto}
-            image={testimonio.image}
-          />
+                <Testimonial
+                key={index}
+                autor={testimonio.autor} // La ruta de la imagen del nombre
+                profesion={testimonio.profesion} 
+                text={testimonio.texto} 
+                image={testimonio.image} 
+              />
         ))}
       </div>
     </div>

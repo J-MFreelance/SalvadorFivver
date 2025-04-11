@@ -7,7 +7,7 @@ import linkendin from '../assets/linkendin.png';
 import regate from '../assets/regate.png';
 import { useEffect, useState } from 'react';
 import { useLanguage } from './LanguageContext';
-import { espanol4, ingles4, aleman4, frances4, italiano4, } from '../constants';
+import { espanol4, ingles4, aleman4, frances4, italiano4, portugues4, letzemburgesch4 } from '../constants';
 
 const SectionTwo = () => {
 
@@ -17,7 +17,7 @@ const SectionTwo = () => {
     useEffect(() => {
         if (language.code === "ES") {
             setLanguageData(espanol4);
-        } else if (language.code === "EN") {
+        } else if (language.code === "GB") {
             setLanguageData(ingles4);
         } else if (language.code === "DE") {
             setLanguageData(aleman4);
@@ -25,6 +25,10 @@ const SectionTwo = () => {
             setLanguageData(italiano4);
         } else if (language.code === "FR") {
             setLanguageData(frances4);
+        }else if (language.code === "LU") {
+            setLanguageData(letzemburgesch4);
+        }else if (language.code === "BR") {
+            setLanguageData(portugues4);
         } else {
             setLanguageData(espanol4);
         }

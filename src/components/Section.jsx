@@ -74,7 +74,7 @@ const Section = () => {
                         className="text-blue-300 text-xs underline mt-1 mb-2 block sm:hidden"
                         onClick={() => setShowMore(!showMore)}
                     >
-                        {showMore ? 'Ver menos' : 'Ver más...'}
+                        {showMore ? '↑' : '↓'}
                     </button>
 
 
