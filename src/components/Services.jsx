@@ -9,15 +9,12 @@ import {
     servicesLux,
     servicesPt
 } from "../constants";
-import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 const Services = () => {
     const { language } = useLanguage();
     const [languageData, setLanguageData] = useState(servicesEspanol);
     const [expandedItems, setExpandedItems] = useState({});
-    const [currentSlide, setCurrentSlide] = useState(0);
 
-    // Cargar datos según el idioma
     useEffect(() => {
         const dataMap = {
             "ES": servicesEspanol,
@@ -31,13 +28,11 @@ const Services = () => {
 
         setLanguageData(dataMap[language.code] || servicesEspanol);
         setExpandedItems({});
-        setCurrentSlide(0);
     }, [language]);
 
-    // Obtener lista de servicios
     const getServiceLists = useCallback(() => {
         const lists = [];
-        for (let i = 1; i <= 17; i++) {
+        for (let i = 1; i <= 8; i++) { // Cambiado a 8 ya que solo hay list1 a list8
             const listKey = `list${i}`;
             if (languageData[listKey]) {
                 lists.push(...languageData[listKey]);
@@ -48,7 +43,6 @@ const Services = () => {
 
     const services = getServiceLists();
 
-    // Manejar acordeón
     const toggleItem = useCallback((itemKey) => {
         setExpandedItems(prev => ({
             ...prev,
@@ -56,16 +50,6 @@ const Services = () => {
         }));
     }, []);
 
-    // Navegación del carrusel
-    const nextSlide = () => {
-        setCurrentSlide(prev => (prev === services.length - 1 ? 0 : prev + 1));
-    };
-
-    const prevSlide = () => {
-        setCurrentSlide(prev => (prev === 0 ? services.length - 1 : prev - 1));
-    };
-
-    // Renderizar item del acordeón
     const renderAccordionItem = useCallback((item, index) => {
         const itemKey = `item-${index}`;
         const isExpanded = expandedItems[itemKey];
@@ -73,15 +57,16 @@ const Services = () => {
         return (
             <div
                 key={itemKey}
-                className="bg-white bg-opacity-10 rounded-lg overflow-hidden transition-all duration-300"
+                id="services"
+                className="bg-white bg-opacity-10 rounded-lg overflow-hidden transition-all duration-300 mb-4"
             >
                 <button
-                    className="w-full p-4 text-left flex justify-between items-center hover:bg-white hover:bg-opacity-20 transition-colors duration-200"
+                    className="w-full p-6 text-left flex justify-between items-center hover:bg-white hover:bg-opacity-20 transition-colors duration-200"
                     onClick={() => toggleItem(itemKey)}
                     aria-expanded={isExpanded}
                     aria-controls={`content-${itemKey}`}
                 >
-                    <h3 className="text-xl font-semibold">{item.title}</h3>
+                    <h3 className="text-xl md:text-2xl font-semibold">{item.title}</h3>
                     <span className="text-2xl transition-transform duration-300">
                         {isExpanded ? '−' : '+'}
                     </span>
@@ -89,16 +74,33 @@ const Services = () => {
 
                 <div
                     id={`content-${itemKey}`}
-                    className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[1000px]' : 'max-h-0'}`}
+                    className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px]' : 'max-h-0'}`}
                 >
-                    <div className="p-4 pt-0 bg-white bg-opacity-5">
-                        {item.subtitle && <h4 className="text-lg font-medium mb-2">{item.subtitle}</h4>}
-                        <p className="mb-3">{item.text}</p>
+                    <div className="p-6 pt-0 bg-white bg-opacity-5 space-y-4">
+                        <p className="text-lg">{item.text}</p>
 
                         {item.benefits?.map((benefit, i) => (
-                            <div key={`benefit-${i}`} className="mb-3">
-                                <h5 className="font-medium">{benefit.title}</h5>
-                                <p>{benefit.text}</p>
+                            <div key={`benefit-${i}`} className="mt-4">
+                                <h4 className="text-lg font-medium mb-2">{benefit.title}</h4>
+                                <ul className="list-disc pl-5 space-y-2">
+                                    {benefit.objectives.map((objective, j) => (
+                                        <li key={`objective-${j}`}>{objective}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ))}
+
+                        {item.case_study?.map((caseStudy, k) => (
+                            <div key={`case-${k}`} className="mt-4 p-4 bg-white bg-opacity-10 rounded">
+                                <h4 className="text-lg font-medium mb-2">{caseStudy.title}</h4>
+                                <p>{caseStudy.text}</p>
+                            </div>
+                        ))}
+
+                        {item.research?.map((research, l) => (
+                            <div key={`research-${l}`} className="mt-4">
+                                <h4 className="text-lg font-medium mb-2">{research.title}</h4>
+                                <p>{research.text}</p>
                             </div>
                         ))}
                     </div>
@@ -108,40 +110,34 @@ const Services = () => {
     }, [expandedItems, toggleItem]);
 
     return (
-        <section className="text-white mt-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-            <header className="mb-8">
-                <h1 className="text-3xl md:text-4xl font-bold mb-4">{languageData.title}</h1>
-                <h2 className="text-lg md:text-xl font-light opacity-90">{languageData.hero}</h2>
+        <section className="text-white py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <header className="mb-12 text-center">
+                <h1 className="text-4xl md:text-5xl font-bold mb-6">{languageData.title}</h1>
+                <p className="text-xl md:text-2xl font-light opacity-90 max-w-4xl mx-auto">
+                    {languageData.hero}
+                </p>
             </header>
 
-            <div>
-                <div className="overflow-hidden">
-                    <div className="w-full">
-                        {services.length > 0 && renderAccordionItem(services[currentSlide], currentSlide)}
-                    </div>
-                </div>
+            <div className="space-y-6">
+                {services.map((service, index) => renderAccordionItem(service, index))}
+            </div>
 
-                {services.length > 1 && (
-                    <div className="flex justify-center mt-4 space-x-4">
-                        <button
-                            onClick={prevSlide}
-                            className="p-2 rounded-full bg-white bg-opacity-20 hover:bg-opacity-30 transition-colors"
-                            aria-label="Previous service"
-                        >
-                            <FiChevronLeft size={24} />
-                        </button>
-                        <div className="flex items-center">
-                            {currentSlide + 1} / {services.length}
-                        </div>
-                        <button
-                            onClick={nextSlide}
-                            className="p-2 rounded-full bg-white bg-opacity-20 hover:bg-opacity-30 transition-colors"
-                            aria-label="Next service"
-                        >
-                            <FiChevronRight size={24} />
-                        </button>
-                    </div>
-                )}
+            <div className="mt-12 text-center">
+                <h3 className="text-2xl font-medium mb-4">{languageData.question}</h3>
+                <div className="flex justify-center space-x-4">
+                    <a
+                        href="#contact"
+                        className="px-6 py-3 bg-white bg-opacity-20 hover:bg-opacity-30 rounded-lg transition-colors"
+                    >
+                        {languageData.sayHello}
+                    </a>
+                    <a
+                        href="#schedule"
+                        className="px-6 py-3 bg-white bg-opacity-20 hover:bg-opacity-30 rounded-lg transition-colors"
+                    >
+                        {languageData.date}
+                    </a>
+                </div>
             </div>
         </section>
     );
