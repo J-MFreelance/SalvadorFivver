@@ -12,6 +12,20 @@ import {
 
 const Services = () => {
     const { language } = useLanguage();
+    const [openForm, setOpenForm] = useState(false);
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: ""
+    });
+
+    const handleFormChange = (e) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value
+        });
+    };
+
     const [languageData, setLanguageData] = useState(servicesEspanol);
     const [expandedItems, setExpandedItems] = useState({});
 
@@ -32,7 +46,7 @@ const Services = () => {
 
     const getServiceLists = useCallback(() => {
         const lists = [];
-        for (let i = 1; i <= 8; i++) { // Cambiado a 8 ya que solo hay list1 a list8
+        for (let i = 1; i <= 8; i++) {
             const listKey = `list${i}`;
             if (languageData[listKey]) {
                 lists.push(...languageData[listKey]);
@@ -134,11 +148,24 @@ const Services = () => {
                     <a
                         href="#schedule"
                         className="px-6 py-3 bg-white bg-opacity-20 hover:bg-opacity-30 rounded-lg transition-colors"
+                        onClick={() => setOpenForm(true)}
                     >
                         {languageData.date}
                     </a>
                 </div>
             </div>
+            {openForm && (
+                <div className="fixed inset-0 flex items-center justify-center z-50 w-full bg-[#101034]/50">
+                    <div className="bg-[#5e5ee0] p-6 rounded-lg md:w-3/12 w-4/5">
+                        <span className="relative left-[95%] bottom-3 text-white text-2xl cursor-pointer" onClick={() => setOpenForm(false)}>X</span>
+                        <div className="flex flex-col gap-5 text-black">
+                            <input type="text" name="name" placeholder="Name" value={formData.name} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
+                            <input type="text" name="email" placeholder="Email" value={formData.email} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
+                            <input type="text" name="message" placeholder="Message" value={formData.message} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
+                        </div>
+                    </div>
+                </div>
+            )}
         </section>
     );
 };
