@@ -23,6 +23,13 @@ const Section = () => {
         { src: '/assets/logo13.webp', link: 'https://visuddhi-consultants.com/' },
     ];
 
+    const logosB = [
+        { src: '/assets/logo-letz.png', link: 'https://letzregenerate.com' },
+        { src: '/assets/logo-cr.png', link: 'https://ticoslux.com' },
+        { src: '/assets/laudato-si.avif', link: 'https://laudatosi.lu' }
+    ];
+
+
     useEffect(() => {
         if (language.code === "ES") {
             setLanguageData(espanol2);
@@ -131,7 +138,7 @@ const Section = () => {
 
 
                 <div className='flex flex-col w-[50%] max-lg:w-full max-lg:h-2/5'>
-                    {/* Sección de texto y botones */}
+                    {/* Sección de texto y logos */}
                     <div className='bg-slate-500 flex-1 flex flex-col items-center justify-center p-8 max-sm:p-4'>
                         <p
                             className='relative text-white text-justify font-light text-base max-md:text-sm max-sm:text-xs mb-6'
@@ -140,27 +147,27 @@ const Section = () => {
                             {languageData.texto5}
                         </p>
 
-                        {/* Contenedor de los botones */}
+                        {/* Contenedor de los logos */}
                         <div className='flex flex-wrap justify-center gap-4 w-full'>
-                            <Button
-                                nombre={languageData.btn1}
-                                color="bg-blue-800"
-                                className="w-full sm:w-auto max-w-[200px]"
-                            />
-                            <Button
-                                nombre={languageData.btn2}
-                                color="bg-blue-800"
-                                className="w-full sm:w-auto max-w-[200px]"
-                            />
-                            <Button
-                                nombre={languageData.btn3}
-                                color="bg-blue-800"
-                                className="w-full sm:w-auto max-w-[200px]"
-                            />
+                            {logosB.map((logo, index) => (
+                                <a
+                                    key={index}
+                                    href={logo.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex-shrink-0 w-24 h-12 sm:w-28 sm:h-14 flex items-center justify-center "
+                                >
+                                    <img
+                                        src={logo.src}
+                                        alt={`Logo ${index + 1}`}
+                                        className="h-full w-auto object-contain hover:scale-110 transition-opacity  "
+                                    />
+                                </a>
+                            ))}
                         </div>
                     </div>
-
                 </div>
+
 
             </div>
 
@@ -177,7 +184,7 @@ const Section = () => {
 
                     {/* Párrafo con salto de línea */}
                     <p
-                        className="font-light text-xs sm:text-sm md:text-base xl:text-lg mb-4"
+                        className="font-light text-xs sm:text-sm md:text-base xl:text-lg mb-4 "
                         style={{ whiteSpace: 'pre-line' }}
                         dangerouslySetInnerHTML={{ __html: languageData.texto9 }}
                     />
