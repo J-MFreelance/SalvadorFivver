@@ -85,7 +85,7 @@ const Navbar = () => {
           <a
             className="text-2xl lg:text-base hover:transition-colors hover:opacity-70 cursor-pointer"
             onClick={handleClick}
-            href='#'
+            href='#services'
           >
             {languageData.navA5}
           </a>

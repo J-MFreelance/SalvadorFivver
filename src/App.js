@@ -6,8 +6,7 @@ import Navbar from './components/Navbar';
 import Opinions from './components/Opinions';
 import Section from './components/Section';
 import SectionTwo from './components/SectionTwo';
-import { LanguageProvider, useLanguage } from './components/LanguageContext';
-import { espanol1, ingles1, aleman1, frances1, italiano1, portugues1, letzemburgesch1 } from './constants';
+import { LanguageProvider } from './components/LanguageContext';
 import Services from './components/Services';
 
 function App() {
@@ -18,10 +17,7 @@ function App() {
   );
 }
 
-
 const MainContent = () => {
-  const { language } = useLanguage();
-  const languageData = getLanguageData(language);
 
   return (
     <div className="playfair-display w-full h-auto">
@@ -35,7 +31,7 @@ const MainContent = () => {
 
         <div className="relative w-screen h-[34rem] bg-gradient-to-b from-[rgba(36,39,100,0.01)] to-[rgba(16,16,52,1)] pt-2 ">
           <div className="w-screen h-24">
-            
+
           </div>
         </div>
       </div>
@@ -52,27 +48,5 @@ const MainContent = () => {
   );
 };
 
-
-
-const getLanguageData = (language) => {
-  switch (language.code) {
-    case 'ES':
-      return espanol1;
-    case 'EN':
-      return ingles1;
-    case 'DE':
-      return aleman1;
-    case 'FR':
-      return frances1;
-    case 'IT':
-      return italiano1;
-    case 'PT':
-      return portugues1;
-    case 'LB':
-      return letzemburgesch1;
-    default:
-      return espanol1; // Valor predeterminado
-  }
-};
 
 export default App;
