@@ -86,6 +86,36 @@ const Section = () => {
                     />
                 </div>
             </div>
+            <div className='flex flex-row justify-center items-center w-full h-auto'>
+                <div className='h-auto bg-white flex flex-col justify-center py-2 px-4 sm:px-6'>
+                    {/* Títulos */}
+                    <div className="text-center mb-2">
+                        <h3 className="text-xl font-bold text-gray-800 sm:text-2xl">{languageData.texto6}</h3>
+                        <p className="text-xs text-gray-600 sm:text-sm">{languageData.texto7}</p>
+                    </div>
+
+                    {/* Contenedor de logos */}
+                    <div className="flex flex-wrap justify-center gap-6 py-4 w-full sm:gap-8">
+                        {logos.map((logo, index) => (
+                            <a
+                                key={index}
+                                href={logo.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex-shrink-0 w-24 h-12 sm:w-32 sm:h-16 flex items-center justify-center"
+                            >
+                                <img
+                                    src={logo.src}
+                                    alt={`Logo ${index + 1}`}
+                                    className="h-full w-auto object-contain hover:opacity-80 transition-opacity"
+                                />
+                            </a>
+                        ))}
+                    </div>
+                </div>
+            </div>
+
+
 
 
             <div className="w-full h-[38rem] flex max-lg:flex-col max-t max-lg:h-full ">
@@ -130,33 +160,6 @@ const Section = () => {
                         </div>
                     </div>
 
-                    {/* Sección de logos */}
-                    <div className='h-1/3 max-lg:h-40 bg-white flex flex-col justify-center py-2 px-4 max-sm:pt-4'>
-                        {/* Títulos */}
-                        <div className="text-center mb-2">
-                            <h3 className="text-lg font-bold text-gray-800 max-sm:text-base">{languageData.texto6}</h3>
-                            <p className="text-xs text-gray-600 max-sm:text-[10px]">{languageData.texto7}</p>
-                        </div>
-
-                        {/* Contenedor de logos */}
-                        <div className="flex flex-wrap justify-center gap-4 py-2 w-full max-sm:gap-2">
-                            {logos.map((logo, index) => (
-                                <a
-                                    key={index}
-                                    href={logo.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="flex-shrink-0 w-16 h-8 max-sm:w-12 max-sm:h-6 flex items-center justify-center"
-                                >
-                                    <img
-                                        src={logo.src}
-                                        alt={`Logo ${index + 1}`}
-                                        className="h-full w-auto object-contain hover:opacity-80 transition-opacity"
-                                    />
-                                </a>
-                            ))}
-                        </div>
-                    </div>
                 </div>
 
             </div>
