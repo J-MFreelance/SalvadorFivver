@@ -14,29 +14,6 @@ const SectionTwo = () => {
     const { language } = useLanguage();
     const [languageData, setLanguageData] = useState({});
 
-    const [openForm, setOpenForm] = useState(false);
-    const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        message: ""
-    });
-
-    const handleFormChange = (e) => {
-        setFormData({
-            ...formData,
-            [e.target.name]: e.target.value
-        });
-    };
-
-    const submitForm = () => {
-        console.log("Form submitted:", formData);
-        setFormData({
-            name: "",
-            email: "",
-            message: ""
-        })
-    }
-
     useEffect(() => {
         if (language.code === "ES") {
             setLanguageData(espanol4);
@@ -136,25 +113,10 @@ const SectionTwo = () => {
                         <p className="font-bold xl:text-2xl text-base">
                             {languageData.texto7l} <a href="https://wa.me/message/FTF5MDA6O73YJ1" target='_blank' className="transition-colors hover:opacity-50 underline font-normal">{languageData.texto8l}</a>
                         </p>
-                        <button onClick={() => setOpenForm(true)}><Button nombre={languageData.btn2} color="bg-blue-800" /></button>
+                        <a href="mailto:scf@ecocitizen.lu"><Button nombre={languageData.btn2} color="bg-blue-800" /></a>
                     </div>
-
-
                 </div>
             </div>
-            {openForm && (
-                <div className="fixed inset-0 flex items-center justify-center z-50 w-full bg-[#101034]/50">
-                    <div className="bg-[#5e5ee0] flex flex-col p-6 rounded-lg md:w-3/12 w-4/5">
-                        <span className="relative left-[95%] bottom-3 text-white text-2xl cursor-pointer" onClick={() => setOpenForm(false)}>X</span>
-                        <div className="flex flex-col gap-5 text-black">
-                            <input type="text" name="name" placeholder="Name" value={formData.name} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
-                            <input type="text" name="email" placeholder="Email" value={formData.email} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
-                            <input type="text" name="message" placeholder="Message" value={formData.message} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
-                        </div>
-                        <button onClick={submitForm} className='bg-blue-800 mt-4 text-white font-medium py-2 px-4 rounded-lg text-sm'>Submit form</button>
-                    </div>
-                </div>
-            )}
         </section>
     );
 };
