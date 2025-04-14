@@ -113,7 +113,7 @@ const SectionTwo = () => {
                         <p className="font-bold xl:text-2xl text-base">
                             {languageData.texto7l} <a href="https://wa.me/message/FTF5MDA6O73YJ1" target='_blank' className="transition-colors hover:opacity-50 underline font-normal">{languageData.texto8l}</a>
                         </p>
-                        {/* <Button nombre={languageData.texto9l} color="bg-red-700" /> */}
+                         <Button nombre={languageData.btn2} color="bg-blue-800"  /> 
                     </div>
 
 

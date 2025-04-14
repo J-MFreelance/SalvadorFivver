@@ -23,7 +23,7 @@ const Testimonial = ({ autor, profesion, text, image }) => {
             <h3 className="text-white text-xs">{profesion}</h3>
           </div>
         </div>
-        <div className="flex-1">
+        <div className="flex-1 justify-center items-center">
           <p className="text-7xl text-white">❝</p>
           
           {/* Contenedor de texto con un ancho controlado */}
