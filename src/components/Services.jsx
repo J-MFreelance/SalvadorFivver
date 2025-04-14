@@ -135,37 +135,6 @@ const Services = () => {
             <div className="space-y-6">
                 {services.map((service, index) => renderAccordionItem(service, index))}
             </div>
-
-            <div className="mt-12 text-center">
-                <h3 className="text-2xl font-medium mb-4">{languageData.question}</h3>
-                <div className="flex justify-center space-x-4">
-                    <a
-                        href="#contact"
-                        className="px-6 py-3 bg-white bg-opacity-20 hover:bg-opacity-30 rounded-lg transition-colors"
-                    >
-                        {languageData.sayHello}
-                    </a>
-                    <a
-                        href="#schedule"
-                        className="px-6 py-3 bg-white bg-opacity-20 hover:bg-opacity-30 rounded-lg transition-colors"
-                        onClick={() => setOpenForm(true)}
-                    >
-                        {languageData.date}
-                    </a>
-                </div>
-            </div>
-            {openForm && (
-                <div className="fixed inset-0 flex items-center justify-center z-50 w-full bg-[#101034]/50">
-                    <div className="bg-[#5e5ee0] p-6 rounded-lg md:w-3/12 w-4/5">
-                        <span className="relative left-[95%] bottom-3 text-white text-2xl cursor-pointer" onClick={() => setOpenForm(false)}>X</span>
-                        <div className="flex flex-col gap-5 text-black">
-                            <input type="text" name="name" placeholder="Name" value={formData.name} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
-                            <input type="text" name="email" placeholder="Email" value={formData.email} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
-                            <input type="text" name="message" placeholder="Message" value={formData.message} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
-                        </div>
-                    </div>
-                </div>
-            )}
         </section>
     );
 };

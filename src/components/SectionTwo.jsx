@@ -14,6 +14,29 @@ const SectionTwo = () => {
     const { language } = useLanguage();
     const [languageData, setLanguageData] = useState({});
 
+    const [openForm, setOpenForm] = useState(false);
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: ""
+    });
+
+    const handleFormChange = (e) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value
+        });
+    };
+
+    const submitForm = () => {
+        console.log("Form submitted:", formData);
+        setFormData({
+            name: "",
+            email: "",
+            message: ""
+        })
+    }
+
     useEffect(() => {
         if (language.code === "ES") {
             setLanguageData(espanol4);
@@ -25,9 +48,9 @@ const SectionTwo = () => {
             setLanguageData(italiano4);
         } else if (language.code === "FR") {
             setLanguageData(frances4);
-        }else if (language.code === "LU") {
+        } else if (language.code === "LU") {
             setLanguageData(letzemburgesch4);
-        }else if (language.code === "BR") {
+        } else if (language.code === "BR") {
             setLanguageData(portugues4);
         } else {
             setLanguageData(espanol4);
@@ -74,7 +97,7 @@ const SectionTwo = () => {
                     <div className='bg-[#1B1E51] h-64 rounded-tl-[3.5rem] px-14 py-12 max-lg:py-14 xl:w-screen max-lg:h-80'>
                         <div className='flex'>
                             <div>
-                              {/*}  <ol className="space-y-2 mb-6 max-lg:text-xs pl-2 list-disc">
+                                {/*}  <ol className="space-y-2 mb-6 max-lg:text-xs pl-2 list-disc">
                                     <li>{languageData.texto1l}</li>
                                     <li>{languageData.texto2l}</li>
                                     <li>{languageData.texto3l}</li>
@@ -94,13 +117,13 @@ const SectionTwo = () => {
                                 <div className='flex flex-col justify-end items-end'>
                                     <div className='flex space-x-2 pt-8'>
                                         <a href='https://x.com/meddisstovtiks/highlights' target="_blank">
-                                        <img src={x} alt="x" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
+                                            <img src={x} alt="x" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
                                         </a>
                                         <a href=''>
-                                        <img src={regate} alt="regate" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
+                                            <img src={regate} alt="regate" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
                                         </a>
                                         <a href='https://www.linkedin.com/in/salvatorecoppolaf/' target="_blank">
-                                        <img src={linkendin} alt="linkendin" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
+                                            <img src={linkendin} alt="linkendin" className='border-[1px] border-white rounded-full w-8 h-8 max-lg:h-6 max-lg:w-6' />
                                         </a>
                                     </div>
                                     <a href="" className='text-3xl font-bold max-lg:text-xl'>scf.lu</a>
@@ -113,12 +136,25 @@ const SectionTwo = () => {
                         <p className="font-bold xl:text-2xl text-base">
                             {languageData.texto7l} <a href="https://wa.me/message/FTF5MDA6O73YJ1" target='_blank' className="transition-colors hover:opacity-50 underline font-normal">{languageData.texto8l}</a>
                         </p>
-                         <Button nombre={languageData.btn2} color="bg-blue-800"  /> 
+                        <button onClick={() => setOpenForm(true)}><Button nombre={languageData.btn2} color="bg-blue-800" /></button>
                     </div>
 
 
                 </div>
             </div>
+            {openForm && (
+                <div className="fixed inset-0 flex items-center justify-center z-50 w-full bg-[#101034]/50">
+                    <div className="bg-[#5e5ee0] flex flex-col p-6 rounded-lg md:w-3/12 w-4/5">
+                        <span className="relative left-[95%] bottom-3 text-white text-2xl cursor-pointer" onClick={() => setOpenForm(false)}>X</span>
+                        <div className="flex flex-col gap-5 text-black">
+                            <input type="text" name="name" placeholder="Name" value={formData.name} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
+                            <input type="text" name="email" placeholder="Email" value={formData.email} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
+                            <input type="text" name="message" placeholder="Message" value={formData.message} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
+                        </div>
+                        <button onClick={submitForm} className='bg-blue-800 mt-4 text-white font-medium py-2 px-4 rounded-lg text-sm'>Submit form</button>
+                    </div>
+                </div>
+            )}
         </section>
     );
 };

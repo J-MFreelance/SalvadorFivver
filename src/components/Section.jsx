@@ -84,13 +84,6 @@ const Section = () => {
                         {showMore ? '↑' : '↓'}
                     </button>
 
-
-                    {/* Botón principal */}
-                    <Button
-                        nombre={languageData.texto2}
-                        color="bg-blue-800"
-                        className="w-full sm:w-auto mt-2"
-                    />
                 </div>
             </div>
             <div className='flex flex-row justify-center items-center w-full h-auto'>
