@@ -2049,6 +2049,7 @@ export const portugues3 = {
 //-------------------------------------------------- SECTION TWO --------------------------------------------------
 
 export const italiano4 = {
+    titulo:'Blog e Pubblicazioni Selezionate',
     texto1r: `Pubblicato nel 2023, è un libro dedicato al passato, \n 
     al presente e al futuro delle foreste in Lussemburgo.`,
     button: 'Scopri il libro',
@@ -2065,6 +2066,7 @@ export const italiano4 = {
 };
 
 export const espanol4 = {
+    titulo:'Blog y Publicaciones Seleccionadas',
     texto1r: `Publicado en 2023, es un libro dedicado al pasado, \n 
     presente y futuro de los bosques en Luxemburgo.`,
     button: 'Ver el libro',
@@ -2081,6 +2083,7 @@ export const espanol4 = {
 };
 
 export const ingles4 = {
+    titulo:'Blog and Selected Publications',
     texto1r: `Published in 2023, it is a book dedicated to the past, \n 
     present, and future of forests in Luxembourg.`,
     button: 'See the book',
@@ -2097,6 +2100,7 @@ export const ingles4 = {
 };
 
 export const aleman4 = {
+    titulo:'Blog und Ausgewählte Veröffentlichungen',
     texto1r: `Im Jahr 2023 veröffentlicht, handelt es sich um ein Buch über die Vergangenheit, \n 
     Gegenwart und Zukunft der Wälder in Luxemburg.`,
     button: 'Zum Buch',
@@ -2113,6 +2117,7 @@ export const aleman4 = {
 };
 
 export const frances4 = {
+    titulo:'Blog et Publications Sélectionnées',
     texto1r: `Publié en 2023, c'est un livre consacré au passé, \n 
     au présent et à l'avenir des forêts au Luxembourg.`,
     button: 'Voir le livre',
@@ -2129,6 +2134,7 @@ export const frances4 = {
 };
 
 export const portugues4 = {
+    titulo: 'Blog e Publicações Selecionadas',
     texto1r: ` publicado em 2023, é um livro dedicado ao passado,\n
      presente e futuro das florestas em Luxemburgo.`,
     button: 'Ver o livro',
@@ -2145,6 +2151,7 @@ export const portugues4 = {
 };
 
 export const letzemburgesch4 = {
+    titulo:'Blog a Selektiv Verëffentlechungen',
     texto1r: ` publizéiert am Joer 2023, ass e Buch gewidmet dem Verlaf,\n
      der Gegenwart an der Zukunft vun de Bëscher zu Lëtzebuerg.`,
     button: 'D’Buch kucken',

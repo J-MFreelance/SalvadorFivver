@@ -26,8 +26,16 @@ const Section = () => {
     const logosB = [
         { src: '/assets/logo-letz.png', link: 'https://letzregenerate.com' },
         { src: '/assets/logo-cr.png', link: 'https://ticoslux.com' },
-        { src: '/assets/laudato-si.avif', link: 'https://laudatosi.lu' }
+        { src: '/assets/laudato-si.avif', link: 'https://laudatosi.lu' },
+        { src: '/assets/logonss.png', link: 'https://nss.org/' }
     ];
+
+    const logosC = [
+        { src: '/assets/sinac.png', link: 'https://www.sinac.go.cr/ES/Paginas/default.aspx' },
+        { src: '/assets/ucr.png', link: 'https://www.ucr.ac.cr/' },
+        { src: '/assets/una.png', link: 'https://www.ucr.ac.cr/' },
+        { src: '/assets/amoxtli.png', link: 'https://www.facebook.com/amoxtlifoundation/' },
+    ]
 
 
     useEffect(() => {
@@ -153,7 +161,7 @@ const Section = () => {
                                     <img
                                         src={logo.src}
                                         alt={`Logo ${index + 1}`}
-                                        className="h-full w-auto object-contain hover:scale-110 transition-opacity  "
+                                        className="h-16 w-16 object-contain hover:scale-110 transition-opacity  "
                                     />
                                 </a>
                             ))}
@@ -181,7 +189,25 @@ const Section = () => {
                         style={{ whiteSpace: 'pre-line' }}
                         dangerouslySetInnerHTML={{ __html: languageData.texto9 }}
                     />
+                    <div className='flex flex-wrap justify-center gap-4 w-full'>
+                        {logosC.map((logo, index) => (
+                            <a
+                                key={index}
+                                href={logo.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex-shrink-0 w-24 h-12 sm:w-28 sm:h-14 flex items-center justify-center "
+                            >
+                                <img
+                                    src={logo.src}
+                                    alt={`Logo ${index + 1}`}
+                                    className="h-16 w-16 object-contain hover:scale-110 transition-opacity  "
+                                />
+                            </a>
+                        ))}
+                    </div>
                 </div>
+
             </div>
 
         </div>
