@@ -12,19 +12,6 @@ import {
 
 const Services = () => {
     const { language } = useLanguage();
-    const [openForm, setOpenForm] = useState(false);
-    const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        message: ""
-    });
-
-    const handleFormChange = (e) => {
-        setFormData({
-            ...formData,
-            [e.target.name]: e.target.value
-        });
-    };
 
     const [languageData, setLanguageData] = useState(servicesEspanol);
     const [expandedItems, setExpandedItems] = useState({});
@@ -91,7 +78,12 @@ const Services = () => {
                     className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-[2000px]' : 'max-h-0'}`}
                 >
                     <div className="p-6 pt-0 bg-white bg-opacity-5 space-y-4">
-                        <p className="text-lg">{item.text}</p>
+                        <p
+                            className="text-lg"
+                            dangerouslySetInnerHTML={{
+                                __html: item.text.replace(/\n/g, "<br />")
+                            }}
+                        />
 
                         {item.benefits?.map((benefit, i) => (
                             <div key={`benefit-${i}`} className="mt-4">
@@ -107,14 +99,22 @@ const Services = () => {
                         {item.case_study?.map((caseStudy, k) => (
                             <div key={`case-${k}`} className="mt-4 p-4 bg-white bg-opacity-10 rounded">
                                 <h4 className="text-lg font-medium mb-2">{caseStudy.title}</h4>
-                                <p>{caseStudy.text}</p>
+                                <p
+                                    dangerouslySetInnerHTML={{
+                                        __html: caseStudy.text.replace(/\n/g, "<br />")
+                                    }}
+                                />
                             </div>
                         ))}
 
                         {item.research?.map((research, l) => (
                             <div key={`research-${l}`} className="mt-4">
                                 <h4 className="text-lg font-medium mb-2">{research.title}</h4>
-                                <p>{research.text}</p>
+                                <p
+                                    dangerouslySetInnerHTML={{
+                                        __html: research.text.replace(/\n/g, "<br />")
+                                    }}
+                                />
                             </div>
                         ))}
                     </div>

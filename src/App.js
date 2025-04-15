@@ -8,10 +8,20 @@ import Section from './components/Section';
 import SectionTwo from './components/SectionTwo';
 import { LanguageProvider } from './components/LanguageContext';
 import Services from './components/Services';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import Impressum from './components/Impressum';
 
 function App() {
   return (
     <LanguageProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainContent />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/impressum" element={<Impressum />} />
+        </Routes>
+      </Router>
       <MainContent />
     </LanguageProvider>
   );

@@ -458,7 +458,7 @@ export const servicesEspanol = {
             case_study: [
                 {
                     title: "Estudio de caso",
-                    text: "Investigó y escribió un libro seminal sobre el pasado, presente y futuro de la silvicultura familiar sostenible en Luxemburgo, influyendo en las discusiones y políticas ambientales nacionales.",
+                    text: "Investigó y escribió un libro trascendental sobre el pasado, presente y futuro de la silvicultura familiar sostenible en Luxemburgo, influyendo en las discusiones y políticas ambientales nacionales.",
                 }
             ]
         }
@@ -489,7 +489,7 @@ export const servicesEspanol = {
     list7: [
         {
             title: "Asesoramiento para inversores globales",
-            text: "Salvatore apoya a inversores globales en Luxemburgo y Suiza con orientación experta en la creación de empresas, gobernanza, cumplimiento e integración ESG, aprovechando una sólida red profesional. Con un historial comprobado en Luxemburgo y Suiza, Salvatore ofrece apoyo experto a inversores globales que buscan establecer o expandir su presencia comercial en ambas jurisdicciones. Su amplia experiencia abarca la incorporación de empresas, gobernanza corporativa, debida diligencia y cumplimiento, incluidos los procesos KYC (Conozca a su Cliente). Guía a los clientes a través de cada paso para establecer un negocio, desde elegir la forma legal apropiada, establecer una empresa, obtener permisos comerciales cuando sea necesario, y abrir cuentas bancarias, hasta asegurar espacio de oficina y contratar servicios profesionales. Salvatore tiene una amplia red de contactos en Luxemburgo y Suiza, que incluye contadores, consultores y abogados, y garantiza una asistencia integral y confiable adaptada a sus necesidades. El enfoque de Salvatore es garantizar el pleno cumplimiento de los estándares locales e internacionales, integrando prácticas éticas y sostenibles, y asegurando que las actividades estén alineadas con los principios ESG (Ambientales, Sociales, de Gobernanza)",
+            text: `Salvatore apoya a inversores globales en Luxemburgo y Suiza con orientación experta en la creación de empresas, gobernanza, cumplimiento e integración ESG, aprovechando una sólida red profesional. Con un historial comprobado en Luxemburgo y Suiza, Salvatore ofrece apoyo experto a inversores globales que buscan establecer o expandir su presencia comercial en ambas jurisdicciones. Su amplia experiencia abarca la incorporación de empresas, gobernanza corporativa, debida diligencia y cumplimiento, incluidos los procesos KYC (Conozca a su Cliente).\n Guía a los clientes a través de cada paso para establecer un negocio, desde elegir la forma legal apropiada, establecer una empresa, obtener permisos comerciales cuando sea necesario, y abrir cuentas bancarias, hasta asegurar espacio de oficina y contratar servicios profesionales. Salvatore tiene una amplia red de contactos en Luxemburgo y Suiza, que incluye contadores, consultores y abogados, y garantiza una asistencia integral y confiable adaptada a sus necesidades. El enfoque de Salvatore es garantizar el pleno cumplimiento de los estándares locales e internacionales, integrando prácticas éticas y sostenibles, y asegurando que las actividades estén alineadas con los principios ESG (Ambientales, Sociales, de Gobernanza)`,
             benefits: [
                 {
                     title: "Beneficios",
@@ -504,7 +504,8 @@ export const servicesEspanol = {
             case_study: [
                 {
                     title: "Estudio de caso",
-                    text: "Asesoró a una oficina familiar en el establecimiento de un fondo de inversión sostenible en Luxemburgo, garantizando el pleno cumplimiento de las regulaciones locales, la integración de estándares ESG y la coordinación con una red confiable para servicios bancarios y contables. Guió a un inversor de alto patrimonio neto a través del establecimiento de una empresa de tecnología en Suiza, aprovechando asociaciones en el ecosistema de innovación de Zúrich y asegurando el cumplimiento de las regulaciones suizas a través de la coordinación con socios locales de confianza, al tiempo que apoyaba la estrategia de salida al mercado de la empresa.",
+                    text: `-Asesoró a una oficina familiar en el establecimiento de un fondo de inversión sostenible en Luxemburgo, garantizando el pleno cumplimiento de las regulaciones locales, la integración de estándares ESG y la coordinación con una red confiable para servicios bancarios y contables.
+                    \n-Guió a un inversor de alto patrimonio neto a través del establecimiento de una empresa de tecnología en Suiza, aprovechando asociaciones en el ecosistema de innovación de Zúrich y asegurando el cumplimiento de las regulaciones suizas a través de la coordinación con socios locales de confianza, al tiempo que apoyaba la estrategia de salida al mercado de la empresa.`,
                 }
             ]
         }
@@ -683,7 +684,7 @@ export const servicesEnglish = {
     list7: [
         {
             title: "Global Investor Advisory",
-            text: "Salvatore supports global investors in Luxembourg and Switzerland with expert guidance on business setup, governance, compliance, and ESG integration, leveraging a strong professional network. With a proven track record in Luxembourg and Switzerland, Salvatore provides expert support to global investors seeking to establish or expand their business presence in both jurisdictions. His extensive experience covers company incorporation, corporate governance, due diligence, and compliance, including KYC (Know Your Customer) processes. He guides clients through every step of setting up a business, from selecting the appropriate legal form, incorporating a company, obtaining business permits when necessary, and opening bank accounts, to securing office space and hiring professional services. Salvatore has a broad network of contacts in Luxembourg and Switzerland, including accountants, consultants, and lawyers, ensuring comprehensive and reliable assistance tailored to your needs. Salvatore’s approach ensures full compliance with local and international standards, integrating ethical and sustainable practices, and aligning activities with ESG (Environmental, Social, Governance) principles.",
+            text: "Salvatore supports global investors in Luxembourg and Switzerland with expert guidance on business setup, governance, compliance, and ESG integration, leveraging a strong professional network. With a proven track record in Luxembourg and Switzerland, Salvatore provides expert support to global investors seeking to establish or expand their business presence in both jurisdictions. His extensive experience covers company incorporation, corporate governance, due diligence, and compliance, including KYC (Know Your Customer) processes. \n He guides clients through every step of setting up a business, from selecting the appropriate legal form, incorporating a company, obtaining business permits when necessary, and opening bank accounts, to securing office space and hiring professional services. Salvatore has a broad network of contacts in Luxembourg and Switzerland, including accountants, consultants, and lawyers, ensuring comprehensive and reliable assistance tailored to your needs. Salvatore’s approach ensures full compliance with local and international standards, integrating ethical and sustainable practices, and aligning activities with ESG (Environmental, Social, Governance) principles.",
             benefits: [
                 {
                     title: "Benefits",
@@ -698,7 +699,7 @@ export const servicesEnglish = {
             case_study: [
                 {
                     title: "Case Study",
-                    text: "Advised a family office on establishing a sustainable investment fund in Luxembourg, ensuring full compliance with local regulations, integration of ESG standards, and coordination with a trusted network for banking and accounting services. Guided a high-net-worth investor through setting up a tech company in Switzerland, leveraging partnerships in Zurich’s innovation ecosystem and ensuring compliance with Swiss regulations through coordination with trusted local partners, while supporting the company’s market-entry strategy.",
+                    text: "- Advised a family office on establishing a sustainable investment fund in Luxembourg, ensuring full compliance with local regulations, integration of ESG standards, and coordination with a trusted network for banking and accounting services.\n- Guided a high-net-worth investor through setting up a tech company in Switzerland, leveraging partnerships in Zurich’s innovation ecosystem and ensuring compliance with Swiss regulations through coordination with trusted local partners, while supporting the company’s market-entry strategy.",
                 }
             ]
         }
@@ -892,7 +893,7 @@ export const servicesDeutsch = {
             case_study: [
                 {
                     title: "Fallstudie",
-                    text: "Beriet ein Family Office bei der Gründung eines nachhaltigen Investmentfonds in Luxemburg, sicherte die vollständige Compliance mit lokalen Vorschriften, die Integration von ESG-Standards und die Koordination mit einem vertrauenswürdigen Netzwerk für Bankund Buchhaltungsdienstleistungen. Begleitete einen vermögenden Privatanleger bei der Gründung eines Technologieunternehmens in der Schweiz, nutzte Partnerschaften im Zürcher Innovationsökosystem und sicherte die Einhaltung schweizerischer Vorschriften durch die Koordination mit vertrauenswürdigen lokalen Partnern, während er die Markteintrittsstrategie des Unternehmens unterstützte.",
+                    text: "- Beriet ein Family Office bei der Gründung eines nachhaltigen Investmentfonds in Luxemburg, sicherte die vollständige Compliance mit lokalen Vorschriften, die Integration von ESG-Standards und die Koordination mit einem vertrauenswürdigen Netzwerk für Bankund Buchhaltungsdienstleistungen.\n- Begleitete einen vermögenden Privatanleger bei der Gründung eines Technologieunternehmens in der Schweiz, nutzte Partnerschaften im Zürcher Innovationsökosystem und sicherte die Einhaltung schweizerischer Vorschriften durch die Koordination mit vertrauenswürdigen lokalen Partnern, während er die Markteintrittsstrategie des Unternehmens unterstützte.",
                 }
             ]
         }
@@ -1086,7 +1087,7 @@ export const servicesFrench = {
             case_study: [
                 {
                     title: "Étude de cas",
-                    text: "A conseillé un family office pour créer un fonds d'investissement durable au Luxembourg, assurant la conformité réglementaire, l'intégration ESG et la coordination avec des partenaires bancaires/comptables. A guidé un investisseur fortuné dans la création d'une entreprise tech en Suisse, en s'appuyant sur l'écosystème d'innovation zurichois et en assurant la conformité aux régulations suisses via des partenaires locaux, tout en soutenant la stratégie de commercialisation.",
+                    text: "- A conseillé un family office pour créer un fonds d'investissement durable au Luxembourg, assurant la conformité réglementaire, l'intégration ESG et la coordination avec des partenaires bancaires/comptables.\n- A guidé un investisseur fortuné dans la création d'une entreprise tech en Suisse, en s'appuyant sur l'écosystème d'innovation zurichois et en assurant la conformité aux régulations suisses via des partenaires locaux, tout en soutenant la stratégie de commercialisation.",
                 }
             ]
         }
@@ -1281,7 +1282,7 @@ export const servicesItalian = {
             case_study: [
                 {
                     title: "Caso di Studio",
-                    text: "Ha consigliato un family office nella creazione di un fondo d'investimento sostenibile in Lussemburgo, assicurando conformità normativa, integrazione ESG e coordinamento con partner bancari/contabili. Ha guidato un HNWI nella costituzione di un'azienda tech in Svizzera, sfruttando l'ecosistema d'innovazione zurighese e assicurando conformità alle normative svizzere tramite partner locali fidati, supportando parallelamente la strategia di go-to-market.",
+                    text: "- Ha consigliato un family office nella creazione di un fondo d'investimento sostenibile in Lussemburgo, assicurando conformità normativa, integrazione ESG e coordinamento con partner bancari/contabili.\n- Ha guidato un HNWI nella costituzione di un'azienda tech in Svizzera, sfruttando l'ecosistema d'innovazione zurighese e assicurando conformità alle normative svizzere tramite partner locali fidati, supportando parallelamente la strategia di go-to-market.",
                 }
             ]
         }
@@ -1475,7 +1476,7 @@ export const servicesLux = {
             case_study: [
                 {
                     title: "Fallstudie",
-                    text: "Huet e Family Office beim Opbau vun engem nohaltegen Investitiounsfond zu Lëtzebuerg beroden, Conformitéit mat lokale Reglementer garantéiert, ESG Standarder integréiert an d'Koordinatioun mat enger vertrauenswürdeger Banka Comptabilitéitsnetzwierk gemaach. Huet en HNWI beim Opbau vun enger Tech-Firma an der Schwäiz begleet, Partnerschaften am Zürcher Innovatiounsökosystem ausgenotzt an d'Conformitéit mat Schwäizer Reglementer duerch Koordinatioun mat vertrauenswürdege lokale Partneren ofgeséchert, während hien d'Go-to-Market Strategie vun der Firma ënnerstëtzt huet.",
+                    text: "- Huet e Family Office beim Opbau vun engem nohaltegen Investitiounsfond zu Lëtzebuerg beroden, Conformitéit mat lokale Reglementer garantéiert, ESG Standarder integréiert an d'Koordinatioun mat enger vertrauenswürdeger Banka Comptabilitéitsnetzwierk gemaach.\n- Huet en HNWI beim Opbau vun enger Tech-Firma an der Schwäiz begleet, Partnerschaften am Zürcher Innovatiounsökosystem ausgenotzt an d'Conformitéit mat Schwäizer Reglementer duerch Koordinatioun mat vertrauenswürdege lokale Partneren ofgeséchert, während hien d'Go-to-Market Strategie vun der Firma ënnerstëtzt huet.",
                 }
             ]
         }
@@ -1669,7 +1670,7 @@ export const servicesPt = {
             case_study: [
                 {
                     title: "Estudo de Caso",
-                    text: "Assessorou family office na criação de fundo de investimento sustentável em Luxemburgo, garantindo conformidade regulatória, integração ESG e coordenação com rede confiável de serviços bancários/contábeis. Orientou investidor de alto patrimônio na constituição de empresa de tecnologia na Suíça, aproveitando ecossistema de inovação de Zurique e garantindo conformidade com regulamentos suíços através de parceiros locais confiáveis, enquanto apoiava estratégia de entrada no mercado.",
+                    text: "- Assessorou family office na criação de fundo de investimento sustentável em Luxemburgo, garantindo conformidade regulatória, integração ESG e coordenação com rede confiável de serviços bancários/contábeis.\n- Orientou investidor de alto patrimônio na constituição de empresa de tecnologia na Suíça, aproveitando ecossistema de inovação de Zurique e garantindo conformidade com regulamentos suíços através de parceiros locais confiáveis, enquanto apoiava estratégia de entrada no mercado.",
                 }
             ]
         }
