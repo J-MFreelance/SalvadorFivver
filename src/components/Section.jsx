@@ -15,12 +15,12 @@ const Section = () => {
         { src: '/assets/logo6.jpg', link: 'https://www.bancocuscatlan.com/' },
         { src: '/assets/logo7.png', link: 'https://www.bncr.fi.cr/' },
         { src: '/assets/logo8.png', link: 'https://www.dentons.com/' },
-        { src: '/assets/logo9.png', link: 'https://www.ditto.com/' },
-        { src: '/assets/logo1.png', link: 'https://ecocitizen.lu/' },
+        { src: '/assets/logo91.png', link: 'https://dittothailand.com/en/' },
+        { src: '/assets/logo1.1.png', link: 'https://ecocitizen.lu/' },
         { src: '/assets/logo10.png', link: 'https://minae.go.cr/' },
         { src: '/assets/logo11.png', link: 'https://tcs-technology.com/' },
         { src: '/assets/logo12.png', link: 'https://www.undp.org/' },
-        { src: '/assets/logo13.webp', link: 'https://visuddhi-consultants.com/' },
+        { src: '/assets/logo13.1.png', link: 'https://visuddhi-consultants.com/' },
     ];
 
     const logosB = [

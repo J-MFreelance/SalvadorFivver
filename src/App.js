@@ -22,7 +22,6 @@ function App() {
           <Route path="/impressum" element={<Impressum />} />
         </Routes>
       </Router>
-      <MainContent />
     </LanguageProvider>
   );
 }
