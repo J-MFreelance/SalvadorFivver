@@ -123,7 +123,7 @@ const Services = () => {
                                             <img
                                                 src={logo.src}
                                                 alt={`Logo ${index + 1}`}
-                                                className="h-16 w-16 object-contain hover:scale-110 transition-opacity"
+                                                className="h-16 w-auto object-contain hover:scale-110 transition-opacity"
                                             />
                                         </a>
                                     ))}

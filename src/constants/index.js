@@ -115,11 +115,15 @@ export const espanol2 = {
     texto1: 'Futuro regenerativo y socioecológicamente positivo',
     texto11: `Como visionario, y especialista en el 'panorama general', Salvatore se destaca en el diseño e \nimplementación de estrategias que ofrecen valor a largo plazo para empresas,organizaciones\n y gobiernos. La experiencia de Salvatore abarca:
 
-    - <span class="font-bold">Salud Planetaria:</span> Salud pública en el Antropoceno y la salud de las sociedades humanas y el estado\n de los sistemas naturales de los que dependemos.
-    - <span class="font-bold">Sostenibilidad Auténtica:</span> Integrar sostenibilidad genuina e impactante en las operaciones y la creación\n de valor a largo plazo.
-    - <span class="font-bold">Digitalización Ética:</span> Aprovechar la tecnología de manera responsable\n para obtener resultados netos positivos.
-    - <span class="font-bold">Ecología Integral:</span> Gestión ambiental holística, trabajando junto con comunidades locales y múltiples \npartes interesadas.
-    - <span class="font-bold">Acción por la Naturaleza y el Clima:</span> Liderar esfuerzos en adaptación al cambio climático y \nrevertir la pérdida de biodiversidad.`,
+    - <span class="font-bold">Salud Planetaria:</span> Salud pública en el Antropoceno y la salud de las sociedades humanas y el estado de los sistemas naturales de los que dependemos.
+
+    - <span class="font-bold">Sostenibilidad Auténtica:</span> Integrar sostenibilidad genuina e impactante en las operaciones y la creación de valor a largo plazo.
+
+    - <span class="font-bold">Digitalización Ética:</span> Aprovechar la tecnología de manera responsable para obtener resultados netos positivos.
+
+    - <span class="font-bold">Ecología Integral:</span> Gestión ambiental holística, trabajando junto con comunidades locales y múltiples partes interesadas.
+
+    - <span class="font-bold">Acción por la Naturaleza y el Clima:</span> Liderar esfuerzos en adaptación al cambio climático y revertir la pérdida de biodiversidad.`,
     texto2: 'Leer más',
     texto3: 'Desarrollo sostenible y tecnología.',
     texto4: 'Con una sólida trayectoria en el sector privado,\n Salvatore aporta una amplia experiencia en gestión\n y consultoría en industrias como Software y Tecnología,\n Energías Renovables, Finanzas y Banca. Su trabajo impulsa \nconsistentemente la innovación y la sostenibilidad\n en la intersección de la tecnología y los negocios.',
@@ -150,9 +154,13 @@ export const ingles2 = {
 
 Salvatore's expertise spans:
 - <span class="font-bold">Planetary Health:</span> Public health in the Anthropocene and the health of human societies and the state of the natural systems on which we depend.
+
 - <span class="font-bold">Authentic Sustainability:</span> Embedding genuine, impactful sustainability into operations and long-term value creation.
+
 - <span class="font-bold">Ethical Digitalisation:</span> Leveraging technology responsibly for net-positive outcomes.
+
 - <span class="font-bold">Integral Ecology:</span> Holistic environmental stewardship, working together with local communities and multiple stakeholders.
+
 - <span class="font-bold">Nature and Climate Action:</span> Leading efforts in climate change adaptation, and reversing biodiversity loss.`,
     texto2: 'Read more',
     texto3: 'Sustainable development and technology',
@@ -179,9 +187,13 @@ export const aleman2 = {
 
 Salvatores Fachwissen umfasst:
 - <span class="font-bold">Planetare Gesundheit:</span> Öffentliche Gesundheit im Anthropozän und die Gesundheit menschlicher Gesellschaften sowie den Zustand der natürlichen Systeme, von denen wir abhängen.
+
 - <span class="font-bold">Authentische Nachhaltigkeit:</span> Echte, wirkungsvolle Nachhaltigkeit in Betriebsabläufe und langfristige Wertschöpfung integrieren.
+
 - <span class="font-bold">Ethische Digitalisierung:</span> Technologie verantwortungsvoll nutzen, um positive Nettoergebnisse zu erzielen.
+
 - <span class="font-bold">Integrale Ökologie:</span> Ganzheitliche Umweltverantwortung, Zusammenarbeit mit lokalen Gemeinschaften und mehreren Interessengruppen.
+
 - <span class="font-bold">Natur- und Klimaschutz:</span> Führung von Bemühungen zur Anpassung an den Klimawandel und Umkehrung des Biodiversitätsverlusts.`,
     texto2: 'Weiterlesen',
     texto3: 'Nachhaltige Entwicklung und Technologie',
@@ -211,9 +223,13 @@ export const frances2 = {
 
 L'expertise de Salvatore couvre :
 - <span class="font-bold">Santé Planétaire :</span> Santé publique à l'Anthropocène et la santé des sociétés humaines ainsi que l'état des systèmes naturels dont nous dépendons.
+
 - <span class="font-bold">Durabilité Authentique :</span> Intégrer une durabilité authentique et impactante dans les opérations et la création de valeur à long terme.
+
 - <span class="font-bold">Numérisation Éthique :</span> Exploiter la technologie de manière responsable pour obtenir des résultats nets positifs.
+
 - <span class="font-bold">Écologie Intégrale :</span> Gestion environnementale holistique, travaillant avec les communautés locales et multiples parties prenantes.
+
 - <span class="font-bold">Action pour la Nature et le Climat :</span> Diriger les efforts d'adaptation au changement climatique et inverser la perte de biodiversité.`,
     texto2: 'En savoir plus',
     texto3: 'Développement durable et technologie',
@@ -245,9 +261,13 @@ export const italiano2 = {
 
 L'esperienza di Salvatore copre:
 - <span class="font-bold">Salute Planetaria:</span> Salute pubblica nell'Antropocene e la salute delle società umane e lo stato dei sistemi naturali da cui dipendiamo.
+
 - <span class="font-bold">Sostenibilità Autentica:</span> Integrare una sostenibilità autentica e di impatto nelle operazioni e nella creazione di valore a lungo termine.
+
 - <span class="font-bold">Digitalizzazione Etica:</span> Sfruttare la tecnologia in modo responsabile per ottenere risultati netti positivi.
+
 - <span class="font-bold">Ecologia Integrale:</span> Gestione ambientale olistica, lavorando con le comunità locali e multiple parti interessate.
+
 - <span class="font-bold">Azione per la Natura e il Clima:</span> Guidare gli sforzi di adattamento al cambiamento climatico e invertire la perdita di biodiversità.`,
     texto2: 'Scopri di più',
     texto3: 'Sviluppo sostenibile e tecnologie',
@@ -279,9 +299,13 @@ export const portugues2 = {
 
 A expertise de Salvatore abrange:
 - <span class="font-bold">Saúde Planetária:</span> Saúde pública no Antropoceno e a saúde das sociedades humanas e o estado dos sistemas naturais dos quais dependemos.
+
 - <span class="font-bold">Sustentabilidade Autêntica:</span> Incorporar sustentabilidade genuína e impactante nas operações e na criação de valor a longo prazo.
+
 - <span class="font-bold">Digitalização Ética:</span> Aproveitar a tecnologia de forma responsável para resultados líquidos positivos.
+
 - <span class="font-bold">Ecologia Integral:</span> Gestão ambiental holística, trabalhando em conjunto com comunidades locais e múltiplas partes interessadas.
+
 - <span class="font-bold">Ação pela Natureza e pelo Clima:</span> Liderar esforços em adaptação às mudanças climáticas e reversão da perda de biodiversidade.`,
     texto2: 'Leia mais',
     texto3: 'Desenvolvimento sustentável e tecnologia',
@@ -311,9 +335,13 @@ export const letzemburgesch2 = {
 
 Dem Salvatore seng Expertise ëmfaasst:
 - <span class="font-bold">Planetar Gesondheet:</span> Ëffentlech Gesondheet am Anthropozän an d'Gesondheet vun de mënschlechen Gesellschaften an den Zoustand vun den natierlechen Systemer, vun deene mir ofhänken.
+
 - <span class="font-bold">Authentesch Nohaltegkeet:</span> Genuin an impaktvoll Nohaltegkeet an d'Operatiounen an d'Schafung vu laangfristegem Wäert integréieren.
+
 - <span class="font-bold">Ethik Digitaliséierung:</span> Technologie verantwortlech notzen fir net-positiv Resultater ze erreechen.
+
 - <span class="font-bold">Integral Ekologie:</span> Holistesch Ëmweltverantwortung, Zesummenaarbecht mat lokalen Gemeinschaften a multiple Interessengruppen.
+
 - <span class="font-bold">Natur- a Klimaschutz:</span> Efforte féieren an der Adaptatioun un de Klimawandel an der Ëmkéierung vum Biodiversitéitsverloscht.`,
     texto2: 'Méi liesen',
     texto3: 'Nohalteg Entwécklung an Technologie',
@@ -489,7 +517,7 @@ export const servicesEspanol = {
                     title: "Afiliaciones de investigación actuales",
                     logos: [
                         {
-                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            src: "/assets/iern.png",
                             link: "https://iern.org/"
                         },
                         {
@@ -739,7 +767,7 @@ export const servicesEnglish = {
                     title: "Current Research Affiliations",
                     logos: [
                         {
-                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            src: "/assets/iern.png",
                             link: "https://iern.org/"
                         },
                         {
@@ -986,7 +1014,7 @@ export const servicesDeutsch = {
                     title: "Aktuelle Forschungskooperationen",
                     logos: [
                         {
-                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            src: "/assets/iern.png",
                             link: "https://iern.org/"
                         },
                         {
@@ -1233,7 +1261,7 @@ export const servicesFrench = {
                     title: "Affiliations de recherche actuelles",
                     logos: [
                         {
-                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            src: "/assets/iern.png",
                             link: "https://iern.org/"
                         },
                         {
@@ -1482,7 +1510,7 @@ export const servicesItalian = {
                     title: "Affiliazioni di Ricerca Attuali",
                     logos: [
                         {
-                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            src: "/assets/iern.png",
                             link: "https://iern.org/"
                         },
                         {
@@ -1729,7 +1757,7 @@ export const servicesLux = {
                     title: "Aktuell Fuerschungspartnerschaften",
                     logos: [
                         {
-                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            src: "/assets/iern.png",
                             link: "https://iern.org/"
                         },
                         {
@@ -1932,7 +1960,7 @@ export const servicesPt = {
                     title: "Afiliações de Pesquisa Atuais",
                     logos: [
                         {
-                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            src: "/assets/iern.png",
                             link: "https://iern.org/"
                         },
                         {

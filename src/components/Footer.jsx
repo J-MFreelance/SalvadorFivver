@@ -10,9 +10,9 @@ const Footer = () => {
                         2024 © Salvatore Coppola-Finegan. All rights reserved.
                     </p>
                         <p className="max-lg:text-xs">
-                            29 Bd Grande-Duchesse Charlotte<br /> L-1331 Stad Letzebuerg
+                            29 Bd Grande-Duchesse Charlotte<br /> L-1331 Stad Lëtzebuerg
                         </p>
-                        <p className="max-lg:text-xs flex ">LETZEBUERG (LU)
+                        <p className="max-lg:text-xs flex ">LËTZEBUERG  (LU)
                             {/* Links for Privacy Policy and Impressum */}
                          <div className="flex items-center space-x-4 pl-24">
                             <Link 
