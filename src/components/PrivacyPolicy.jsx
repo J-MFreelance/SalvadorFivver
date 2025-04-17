@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import LanguageSelector from "./LanguageSelector";
 import { useLanguage } from "./LanguageContext";
-import { espanol } from "../constants/subpages/privacy";
+import { espanol, english, deutsch, french, italiano, portugues, lux } from "../constants/subpages/privacy";
+import { Link } from "react-router-dom";
 
 const PrivacyPolicy = () => {
     const { language } = useLanguage();
@@ -10,12 +11,12 @@ const PrivacyPolicy = () => {
     useEffect(() => {
         const dataMap = {
             "ES": espanol,
-            "GB": "",
-            "DE": "",
-            "IT": "",
-            "FR": "",
-            "BR": "",
-            "LU": ""
+            "GB": english,
+            "DE": deutsch,
+            "IT": italiano,
+            "FR": french,
+            "BR": portugues,
+            "LU": lux
         };
         setLanguageData(dataMap[language.code] || espanol);
     }, [language]);
@@ -32,6 +33,11 @@ const PrivacyPolicy = () => {
 
     return (
         <div className="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+            <div className="flex justify-center">
+                <Link to="/" className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300">
+                    ←
+                </Link>
+            </div>
             <div className="mb-8">
                 <LanguageSelector />
             </div>
