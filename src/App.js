@@ -47,7 +47,9 @@ const MainContent = () => {
 
       <div className="mt-[3%] w-screen h-auto bg-[#101034] md:px-28 md:py-6 ">
         <Section />
-        <Services />
+        <div id='services'>
+          <Services />
+        </div>
         <Opinions />
         <SectionTwo />
       </div>
