@@ -58,7 +58,6 @@ const Services = () => {
         return (
             <div
                 key={itemKey}
-                id="services"
                 className="bg-white bg-opacity-10 rounded-lg overflow-hidden transition-all duration-300 mb-4"
             >
                 <button
