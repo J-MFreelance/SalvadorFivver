@@ -363,7 +363,7 @@ export const servicesEspanol = {
             ],
             case_study: [
                 {
-                    title: "Estudio de caso",
+                    title: "Estudios de caso",
                     text: "Lideró un equipo para diseñar una estrategia de sostenibilidad renovada para un fabricante global en 2023, proyectada para reducir las emisiones de carbono en al menos un 20% y garantizar la alineación futura con los requisitos de la CSRD de la UE y la SEC de EE. UU.",
                 }
             ]
@@ -385,13 +385,58 @@ export const servicesEspanol = {
             ],
             case_study: [
                 {
-                    title: "Estudio de caso",
+                    title: "Estudios de caso",
                     text: "Supervisó la digitalización estratégica de flujos de trabajo y procesos de gestión y contabilidad basados en papel como parte de la estrategia ESG y digital en una multinacional de 11.000 millones de euros.",
                 }
             ]
         }
     ],
+
     list3: [
+        {
+            title: "Asesoría en Gobernanza Ambiental Internacional",
+            text: "Salvatore asesora a tomadores de decisión, gobiernos, altos directivos y organizaciones internacionales en la compleja arena de la gobernanza ambiental global. Salvatore ofrece orientación estratégica sobre cómo navegar e influir en los marcos y acuerdos globales, como las Convenciones de Río (CMNUCC, CDB, CNULD), el Agenda 2030, y el marco de las Naciones Unidas. Su conocimiento de los procesos multilaterales y su capacidad para traducir políticas complejas en acciones prácticas lo convierten en un recurso invaluable para aquellos que buscan dar forma a las agendas ambientales internacionales o alinear sus estrategias con los estándares globales.",
+            research: [
+                {
+                    logos: [
+                        {
+                            src: "/assets/un.png",
+                            link: "https://sdgs.un.org/2030agenda"
+                        },
+                        {
+                            src: "/assets/unfccc.png",
+                            link: "https://unfccc.int/"
+                        },
+                        {
+                            src: "/assets/cbd.png",
+                            link: "https://www.cbd.int/"
+                        },
+                        {
+                            src: "/assets/unccd.png",
+                            link: "https://www.unccd.int/"
+                        }
+                    ],
+                }
+            ],
+            benefits: [
+                {
+                    title: "Beneficios",
+                    objectives: [
+                        "Comprensión integral de las regulaciones y acuerdos ambientales internacionales.",
+                        "Posicionamiento estratégico mejorado en negociaciones climáticas y ambientales globales.",
+                        "Mayor capacidad para influir en los resultados de políticas a nivel internacional."
+                    ]
+                }
+            ],
+            case_study: [
+                {
+                    title: "Estudios de caso",
+                    text: "Salvatore asesoró a una importante organización internacional de Sociedad Civil en el Sur Global en la preparación de una posición y estrategia para la Conferencia de las Partes (COP) de la CBD y UNFCCC. A través de su profundo conocimiento del marco internacional ambiental y su experiencia en relaciones internacionales y desarrollo de políticas públicas, Salvatore ayudó a la organización a desarrollar una posición contundente y una estrategia de negociación clara, además de identificar aliados clave."
+                }
+            ]
+        }
+    ],
+    list4: [
         {
             title: "Asesoramiento estratégico",
             text: "Salvatore ofrece diseño de estrategias de alto nivel, hojas de ruta de implementación y compromiso de las partes interesadas, impulsando un cambio impactante para los sectores público y privado alineado con su misión.",
@@ -408,13 +453,13 @@ export const servicesEspanol = {
             ],
             case_study: [
                 {
-                    title: "Estudio de caso",
+                    title: "Estudios de caso",
                     text: "Asesoró a varios gobiernos nacionales sobre las NDC del UNFCCC y las NBSAP del UNCBD, así como sobre la mitigación y adaptación al cambio climático.",
                 }
             ]
         }
     ],
-    list4: [
+    list5: [
         {
             title: "Desarrollo de políticas y legislación",
             text: "Salvatore ayuda a gobiernos y agencias a desarrollar políticas basadas en evidencia en medio ambiente, energía, movilidad y planificación territorial, siempre alineadas con la evidencia científica y los marcos internacionales.",
@@ -429,20 +474,29 @@ export const servicesEspanol = {
             ],
             case_study: [
                 {
-                    title: "Estudio de caso",
+                    title: "Estudios de caso",
                     text: "Contribuyó a la legislación pionera como Asesor Especializado de la Jefa de la Fracción Gubernamental en la Asamblea Legislativa de Costa Rica.",
                 }
             ]
         }
     ],
-    list5: [
+    list6: [
         {
             title: "Investigación científica",
             text: "Autor publicado con un fondo multidisciplinario, Salvatore ofrece insights científicos y de ingeniería de vanguardia, impulsando la innovación basada en evidencia.",
             research: [
                 {
                     title: "Afiliaciones de investigación actuales",
-                    text: "Oxford IERN EcoCitizen",
+                    logos: [
+                        {
+                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            link: "https://iern.org/"
+                        },
+                        {
+                            src: "/assets/logo1.1.png",
+                            link: "https://ecocitizen.lu/"
+                        }
+                    ]
                 }
             ],
             benefits: [
@@ -457,13 +511,13 @@ export const servicesEspanol = {
             ],
             case_study: [
                 {
-                    title: "Estudio de caso",
+                    title: "Estudios de caso",
                     text: "Investigó y escribió un libro trascendental sobre el pasado, presente y futuro de la silvicultura familiar sostenible en Luxemburgo, influyendo en las discusiones y políticas ambientales nacionales.",
                 }
             ]
         }
     ],
-    list6: [
+    list7: [
         {
             title: "Miembro de junta y gobernanza",
             text: "Salvatore ha servido como director independiente y miembro de la junta en los sectores privado y público. Aporta experiencia en cumplimiento ESG, gestión de riesgos, sostenibilidad, digitalización, asociaciones internacionales, así como estrategia general para mejorar la gobernanza y la toma de decisiones. Salvatore se centra en organizaciones positivas con un cuádruple balance (Propósito, Personas, Planeta, Prosperidad), ciudadanía corporativa con visión de futuro, pensamiento sistémico regenerativo y a largo plazo, y sostenibilidad auténtica.",
@@ -480,16 +534,18 @@ export const servicesEspanol = {
             ],
             case_study: [
                 {
-                    title: "Estudio de caso",
+                    title: "Estudios de caso",
                     text: "Guió a una empresa de tecnología suiza para asegurar asociaciones internacionales y asesoró sobre el cumplimiento ESG en diferentes jurisdicciones.",
                 }
             ]
         }
     ],
-    list7: [
+    list8: [
         {
             title: "Asesoramiento para inversores globales",
-            text: `Salvatore apoya a inversores globales en Luxemburgo y Suiza con orientación experta en la creación de empresas, gobernanza, cumplimiento e integración ESG, aprovechando una sólida red profesional. Con un historial comprobado en Luxemburgo y Suiza, Salvatore ofrece apoyo experto a inversores globales que buscan establecer o expandir su presencia comercial en ambas jurisdicciones. Su amplia experiencia abarca la incorporación de empresas, gobernanza corporativa, debida diligencia y cumplimiento, incluidos los procesos KYC (Conozca a su Cliente).\n Guía a los clientes a través de cada paso para establecer un negocio, desde elegir la forma legal apropiada, establecer una empresa, obtener permisos comerciales cuando sea necesario, y abrir cuentas bancarias, hasta asegurar espacio de oficina y contratar servicios profesionales. Salvatore tiene una amplia red de contactos en Luxemburgo y Suiza, que incluye contadores, consultores y abogados, y garantiza una asistencia integral y confiable adaptada a sus necesidades. El enfoque de Salvatore es garantizar el pleno cumplimiento de los estándares locales e internacionales, integrando prácticas éticas y sostenibles, y asegurando que las actividades estén alineadas con los principios ESG (Ambientales, Sociales, de Gobernanza)`,
+            text: `Salvatore apoya a inversores globales en Luxemburgo y Suiza con orientación experta en la creación de empresas, gobernanza, cumplimiento e integración ESG, aprovechando una sólida red profesional. 
+            
+            Con un historial comprobado en Luxemburgo y Suiza, Salvatore ofrece apoyo experto a inversores globales que buscan establecer o expandir su presencia comercial en ambas jurisdicciones. Su amplia experiencia abarca la incorporación de empresas, gobernanza corporativa, debida diligencia y cumplimiento, incluidos los procesos KYC (Conozca a su Cliente).\n Guía a los clientes a través de cada paso para establecer un negocio, desde elegir la forma legal apropiada, establecer una empresa, obtener permisos comerciales cuando sea necesario, y abrir cuentas bancarias, hasta asegurar espacio de oficina y contratar servicios profesionales. Salvatore tiene una amplia red de contactos en Luxemburgo y Suiza, que incluye contadores, consultores y abogados, y garantiza una asistencia integral y confiable adaptada a sus necesidades. El enfoque de Salvatore es garantizar el pleno cumplimiento de los estándares locales e internacionales, integrando prácticas éticas y sostenibles, y asegurando que las actividades estén alineadas con los principios ESG (Ambientales, Sociales, de Gobernanza)`,
             benefits: [
                 {
                     title: "Beneficios",
@@ -503,14 +559,14 @@ export const servicesEspanol = {
             ],
             case_study: [
                 {
-                    title: "Estudio de caso",
+                    title: "Estudios de caso",
                     text: `-Asesoró a una oficina familiar en el establecimiento de un fondo de inversión sostenible en Luxemburgo, garantizando el pleno cumplimiento de las regulaciones locales, la integración de estándares ESG y la coordinación con una red confiable para servicios bancarios y contables.
                     \n-Guió a un inversor de alto patrimonio neto a través del establecimiento de una empresa de tecnología en Suiza, aprovechando asociaciones en el ecosistema de innovación de Zúrich y asegurando el cumplimiento de las regulaciones suizas a través de la coordinación con socios locales de confianza, al tiempo que apoyaba la estrategia de salida al mercado de la empresa.`,
                 }
             ]
         }
     ],
-    list8: [
+    list9: [
         {
             title: "Orador Keynote",
             text: "Salvatore Coppola-Finegan es un orador público de gran pasión y sustancia que aporta una rara combinación de rigor científico, experiencia en políticas globales y narración inspiradora. Con más de 15 años asesorando a líderes del sector privado, gobiernos, legisladores y agencias de la ONU sobre sostenibilidad y digitalización, Salvatore investiga cuidadosamente y ofrece discursos principales impactantes sobre diversos temas. La carrera de Salvatore abarca continentes y sectores, ofreciendo a las audiencias una perspectiva de primera mano sobre cómo impulsar el cambio sistémico. Fluido en seis idiomas: inglés, alemán, español, italiano, francés y portugués, adapta cada presentación para resonar con el evento y la audiencia, haciendo que temas como la resiliencia climática, la biodiversidad y la innovación ética sean accesibles y convincentes.",
@@ -527,7 +583,7 @@ export const servicesEspanol = {
             ],
             case_study: [
                 {
-                    title: "Estudio de caso",
+                    title: "Estudios de caso",
                     text: "Salvatore pronunció el discurso principal 'Acción por el Clima y la Naturaleza sobre los Hombros de Gigantes' en el lanzamiento de su libro ‘Lëtz Regenerate’ sobre el pasado, presente y futuro de la silvicultura familiar sostenible de Luxemburgo. El evento, al que asistieron Su Alteza Real el Gran Duque Henri, el Primer Ministro Xavier Bettel, diputados, funcionarios gubernamentales y más de 400 VIP y expertos internacionales, destacó su capacidad para cautivar a una audiencia de alto nivel. Su discurso presentó una visión convincente para la regeneración de la naturaleza en medio de los desafíos climáticos, inspirada en las contribuciones de figuras históricas del sector forestal y natural de Luxemburgo.",
                 }
             ]
@@ -587,6 +643,50 @@ export const servicesEnglish = {
     ],
     list3: [
         {
+            title: "International Environmental Governance Advisory",
+            text: "Salvatore advises decision-makers, governments, senior executives, and international organisations in the complex arena of global environmental governance. Salvatore offers strategic guidance on how to navigate and influence global frameworks and agreements, such as the Rio Conventions (UNFCCC, CBD, UNCCD), Agenda 2030, and the United Nations framework. His knowledge of multilateral processes and his ability to translate complex policies into practical actions make him an invaluable resource for those seeking to shape international environmental agendas or align their strategies with global standards.",
+            research: [
+                {
+                    logos: [
+                        {
+                            src: "/assets/un.png",
+                            link: "https://sdgs.un.org/2030agenda"
+                        },
+                        {
+                            src: "/assets/unfccc.png",
+                            link: "https://unfccc.int/"
+                        },
+                        {
+                            src: "/assets/cbd.png",
+                            link: "https://www.cbd.int/"
+                        },
+                        {
+                            src: "/assets/unccd.png",
+                            link: "https://www.unccd.int/"
+                        }
+                    ],
+                }
+            ],
+            benefits: [
+                {
+                    title: "Benefits",
+                    objectives: [
+                        "Comprehensive understanding of international environmental regulations and agreements.",
+                        "Enhanced strategic positioning in global climate and environmental negotiations.",
+                        "Increased capacity to influence policy outcomes at the international level."
+                    ]
+                }
+            ],
+            case_study: [
+                {
+                    title: "Case Study",
+                    text: "Salvatore advised a major international civil society organisation in the Global South in preparing a position and strategy for the Conference of the Parties (COP) of the CBD and UNFCCC. Through his deep knowledge of the international environmental framework and his experience in international relations and public policy development, Salvatore helped the organisation develop a compelling position and a clear negotiation strategy, as well as identify key allies."
+                }
+            ]
+        }
+    ],
+    list4: [
+        {
             title: "Strategic Advisory",
             text: "Salvatore provides high-level strategy design, implementation roadmaps, and stakeholder engagement, driving impactful change for public and private sectors aligned with your mission.",
             benefits: [
@@ -608,7 +708,7 @@ export const servicesEnglish = {
             ]
         }
     ],
-    list4: [
+    list5: [
         {
             title: "Policy & Legislation Development",
             text: "Salvatore assists governments and agencies in developing evidence-based policies in environment, energy, mobility, and land planning, always aligned with scientific evidence and international frameworks.",
@@ -630,14 +730,23 @@ export const servicesEnglish = {
             ]
         }
     ],
-    list5: [
+    list6: [
         {
             title: "Scientific Research",
             text: "A published author with a multidisciplinary background, Salvatore delivers cutting-edge scientific and engineering insights, driving evidence-based innovation.",
             research: [
                 {
                     title: "Current Research Affiliations",
-                    text: "Oxford IERN EcoCitizen",
+                    logos: [
+                        {
+                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            link: "https://iern.org/"
+                        },
+                        {
+                            src: "/assets/logo1.1.png",
+                            link: "https://ecocitizen.lu/"
+                        }
+                    ]
                 }
             ],
             benefits: [
@@ -653,12 +762,12 @@ export const servicesEnglish = {
             case_study: [
                 {
                     title: "Case Study",
-                    text: "Researched and authored a seminal book on the past, present, and future of sustainable family forestry in Luxembourg, influencing national environmental discussions and policies.",
+                    text: "Researched and authored a transcendental book on the past, present, and future of sustainable family forestry in Luxembourg, influencing national environmental discussions and policies.",
                 }
             ]
         }
     ],
-    list6: [
+    list7: [
         {
             title: "Board Membership & Governance",
             text: "Salvatore has served as an independent director and board member in private and public sectors. He brings expertise in ESG compliance, risk management, sustainability, digitalization, international partnerships, and overall strategy to enhance governance and decision-making. Salvatore focuses on purpose-driven organizations with a quadruple bottom line (Purpose, People, Planet, Prosperity), forward-thinking corporate citizenship, regenerative systemic thinking, and authentic sustainability.",
@@ -681,7 +790,7 @@ export const servicesEnglish = {
             ]
         }
     ],
-    list7: [
+    list8: [
         {
             title: "Global Investor Advisory",
             text: "Salvatore supports global investors in Luxembourg and Switzerland with expert guidance on business setup, governance, compliance, and ESG integration, leveraging a strong professional network. With a proven track record in Luxembourg and Switzerland, Salvatore provides expert support to global investors seeking to establish or expand their business presence in both jurisdictions. His extensive experience covers company incorporation, corporate governance, due diligence, and compliance, including KYC (Know Your Customer) processes. \n He guides clients through every step of setting up a business, from selecting the appropriate legal form, incorporating a company, obtaining business permits when necessary, and opening bank accounts, to securing office space and hiring professional services. Salvatore has a broad network of contacts in Luxembourg and Switzerland, including accountants, consultants, and lawyers, ensuring comprehensive and reliable assistance tailored to your needs. Salvatore’s approach ensures full compliance with local and international standards, integrating ethical and sustainable practices, and aligning activities with ESG (Environmental, Social, Governance) principles.",
@@ -704,7 +813,7 @@ export const servicesEnglish = {
             ]
         }
     ],
-    list8: [
+    list9: [
         {
             title: "Keynote Speaker",
             text: "Salvatore Coppola-Finegan is a passionate and substantive public speaker who brings a rare combination of scientific rigor, global policy expertise, and inspiring storytelling. With over 15 years advising private sector leaders, governments, policymakers, and UN agencies on sustainability and digitalization, Salvatore meticulously researches and delivers impactful keynote speeches on diverse topics. Salvatore’s career spans continents and sectors, offering audiences firsthand insights into driving systemic change. Fluent in six languages—English, German, Spanish, Italian, French, and Portuguese—he tailors each presentation to resonate with the event and audience, making topics like climate resilience, biodiversity, and ethical innovation accessible and compelling.",
@@ -781,6 +890,50 @@ export const servicesDeutsch = {
     ],
     list3: [
         {
+            title: "Beratung zur internationalen Umweltgouvernance",
+            text: "Salvatore berät Entscheidungsträger, Regierungen, Führungskräfte und internationale Organisationen in der komplexen Arena der globalen Umweltgouvernance. Salvatore bietet strategische Beratung zur Navigation und Beeinflussung globaler Rahmenwerke und Abkommen wie den Rio-Konventionen (UNFCCC, CBD, UNCCD), der Agenda 2030 und dem Rahmen der Vereinten Nationen. Sein Wissen über multilaterale Prozesse und seine Fähigkeit, komplexe Politiken in praktische Maßnahmen umzusetzen, machen ihn zu einer unschätzbaren Ressource für diejenigen, die internationale Umweltagenden gestalten oder ihre Strategien an globale Standards anpassen möchten.",
+            research: [
+                {
+                    logos: [
+                        {
+                            src: "/assets/un.png",
+                            link: "https://sdgs.un.org/2030agenda"
+                        },
+                        {
+                            src: "/assets/unfccc.png",
+                            link: "https://unfccc.int/"
+                        },
+                        {
+                            src: "/assets/cbd.png",
+                            link: "https://www.cbd.int/"
+                        },
+                        {
+                            src: "/assets/unccd.png",
+                            link: "https://www.unccd.int/"
+                        }
+                    ],
+                }
+            ],
+            benefits: [
+                {
+                    title: "Vorteile",
+                    objectives: [
+                        "Umfassendes Verständnis internationaler Umweltvorschriften und -abkommen.",
+                        "Verbesserte strategische Positionierung in globalen Klima- und Umweltverhandlungen.",
+                        "Erhöhte Kapazität, politische Ergebnisse auf internationaler Ebene zu beeinflussen."
+                    ]
+                }
+            ],
+            case_study: [
+                {
+                    title: "Fallstudie",
+                    text: "Salvatore beriet eine große internationale zivilgesellschaftliche Organisation im Globalen Süden bei der Vorbereitung einer Position und Strategie für die Vertragsstaatenkonferenz (COP) der CBD und UNFCCC. Durch sein tiefes Wissen über den internationalen Umweltrahmen und seine Erfahrung in internationalen Beziehungen und der Entwicklung öffentlicher Politiken half Salvatore der Organisation, eine überzeugende Position und eine klare Verhandlungsstrategie zu entwickeln sowie wichtige Verbündete zu identifizieren."
+                }
+            ]
+        }
+    ],
+    list4: [
+        {
             title: "Strategische Beratung",
             text: "Salvatore bietet hochwertige Strategieentwicklung, Umsetzungsfahrpläne und Stakeholder-Einbindung, um wirkungsvollen Wandel im öffentlichen und privaten Sektor im Einklang mit Ihrer Mission voranzutreiben.",
             benefits: [
@@ -802,7 +955,7 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    list4: [
+    list5: [
         {
             title: "Politik& Gesetzgebungsentwicklung",
             text: "Salvatore unterstützt Regierungen und Behörden bei der Entwicklung evidenzbasierter Politiken in den Bereichen Umwelt, Energie, Mobilität und Raumplanung, stets im Einklang mit wissenschaftlichen Erkenntnissen und internationalen Rahmenwerken.",
@@ -824,14 +977,23 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    list5: [
+    list6: [
         {
             title: "Wissenschaftliche Forschung",
             text: "Als publizierter Autor mit multidisziplinärem Hintergrund liefert Salvatore wegweisende wissenschaftliche und technische Erkenntnisse, die evidenzbasierte Innovation vorantreiben.",
             research: [
                 {
                     title: "Aktuelle Forschungskooperationen",
-                    text: "Oxford IERN EcoCitizen",
+                    logos: [
+                        {
+                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            link: "https://iern.org/"
+                        },
+                        {
+                            src: "/assets/logo1.1.png",
+                            link: "https://ecocitizen.lu/"
+                        }
+                    ]
                 }
             ],
             benefits: [
@@ -852,7 +1014,7 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    list6: [
+    list7: [
         {
             title: "Vorstandsmitgliedschaft & Governance",
             text: "Salvatore war als unabhängiger Direktor und Vorstandsmitglied in privaten und öffentlichen Sektoren tätig. Er bringt Expertise in ESG-Compliance, Risikomanagement, Nachhaltigkeit, Digitalisierung, internationalen Partnerschaften und Gesamtstrategie ein, um Governance und Entscheidungsfindung zu verbessern. Salvatore konzentriert sich auf wertegetriebene Organisationen mit vierfacher Zielsetzung (Purpose, People, Planet, Prosperity), zukunftsorientierter Corporate Citizenship, regenerativem systemischem Denken und authentischer Nachhaltigkeit.",
@@ -875,7 +1037,7 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    list7: [
+    list8: [
         {
             title: "Beratung für globale Investoren",
             text: "Salvatore unterstützt globale Investoren in Luxemburg und der Schweiz mit Expertenberatung zu Unternehmensgründung, Governance, Compliance und ESG-Integration unter Nutzung eines starken professionellen Netzwerks. Mit nachgewiesener Erfolgsbilanz in Luxemburg und der Schweiz bietet Salvatore Expertenunterstützung für globale Investoren, die ihre Geschäftspräsenz in beiden Rechtsgebieten aufbauen oder erweitern möchten. Seine umfangreiche Erfahrung umfasst Unternehmensgründungen, Corporate Governance, Due-Diligenceund Compliance-Prozesse, einschließlich KYC (Know Your Customer). Er begleitet Kunden durch jeden Schritt der Unternehmensgründung – von der Wahl der geeigneten Rechtsform, der Gründung eines Unternehmens, der Beschaffung von Gewerbegenehmigungen (falls erforderlich) und der Eröffnung von Bankkonten bis zur Sicherung von Büroräumen und der Einstellung professioneller Dienstleister. Salvatore verfügt über ein breites Netzwerk an Kontakten in Luxemburg und der Schweiz, darunter Buchhalter, Berater und Anwälte, und gewährleistet so umfassende und zuverlässige Unterstützung, die auf Ihre Bedürfnisse zugeschnitten ist. Salvatores Ansatz stellt die vollständige Einhaltung lokaler und internationaler Standards sicher, integriert ethische und nachhaltige Praktiken und richtet Aktivitäten an ESG-Prinzipien (Environmental, Social, Governance) aus.",
@@ -898,7 +1060,7 @@ export const servicesDeutsch = {
             ]
         }
     ],
-    list8: [
+    list9: [
         {
             title: "Keynote-Speaker",
             text: "Salvatore Coppola-Finegan ist ein leidenschaftlicher und substanzieller Redner, der eine seltene Kombination aus wissenschaftlicher Strenge, globaler Politik-Expertise und inspirierender Erzählkunst bietet. Mit über 15 Jahren Erfahrung in der Beratung von Führungskräften aus dem Privatsektor, Regierungen, Politikern und UN-Agenturen zu Nachhaltigkeit und Digitalisierung recherchiert Salvatore sorgfältig und hält wirkungsvolle Keynotes zu verschiedenen Themen. Salvatores Karriere erstreckt sich über Kontinente und Sektoren und bietet dem Publikum Einblicke aus erster Hand, wie systemischer Wandel vorangetrieben werden kann. Fließend in sechs Sprachen – Englisch, Deutsch, Spanisch, Italienisch, Französisch und Portugiesisch – passt er jede Präsentation an das Event und das Publikum an, um Themen wie Klimaresilienz, Biodiversität und ethische Innovation zugänglich und überzeugend zu vermitteln.",
@@ -923,7 +1085,7 @@ export const servicesDeutsch = {
     ],
     question: "Haben Sie Fragen?",
     sayHello: "Kontakt aufnehmen",
-    date: "Meeting vereinbaren",
+    date: "Meeting vereinbaren"
 }
 
 export const servicesFrench = {
@@ -975,6 +1137,50 @@ export const servicesFrench = {
     ],
     list3: [
         {
+            title: "Conseil en Gouvernance Environnementale Internationale",
+            text: "Salvatore conseille les décideurs, les gouvernements, les cadres supérieurs et les organisations internationales dans l’arène complexe de la gouvernance environnementale mondiale. Salvatore offre des conseils stratégiques sur la manière de naviguer et d’influencer les cadres et accords mondiaux, tels que les Conventions de Rio (CCNUCC, CDB, CNULD), l’Agenda 2030 et le cadre des Nations Unies. Sa connaissance des processus multilatéraux et sa capacité à traduire des politiques complexes en actions pratiques font de lui une ressource inestimable pour ceux qui cherchent à façonner les agendas environnementaux internationaux ou à aligner leurs stratégies sur les normes mondiales.",
+            research: [
+                {
+                    logos: [
+                        {
+                            src: "/assets/un.png",
+                            link: "https://sdgs.un.org/2030agenda"
+                        },
+                        {
+                            src: "/assets/unfccc.png",
+                            link: "https://unfccc.int/"
+                        },
+                        {
+                            src: "/assets/cbd.png",
+                            link: "https://www.cbd.int/"
+                        },
+                        {
+                            src: "/assets/unccd.png",
+                            link: "https://www.unccd.int/"
+                        }
+                    ],
+                }
+            ],
+            benefits: [
+                {
+                    title: "Avantages",
+                    objectives: [
+                        "Compréhension complète des réglementations et accords environnementaux internationaux.",
+                        "Positionnement stratégique amélioré dans les négociations climatiques et environnementales mondiales.",
+                        "Capacité accrue à influencer les résultats politiques au niveau international."
+                    ]
+                }
+            ],
+            case_study: [
+                {
+                    title: "Étude de cas",
+                    text: "Salvatore a conseillé une importante organisation internationale de la société civile dans le Sud global pour la préparation d’une position et d’une stratégie pour la Conférence des Parties (COP) de la CDB et de la CCNUCC. Grâce à sa profonde connaissance du cadre environnemental international et à son expérience en relations internationales et en développement de politiques publiques, Salvatore a aidé l’organisation à développer une position convaincante et une stratégie de négociation claire, ainsi qu’à identifier des alliés clés."
+                }
+            ]
+        }
+    ],
+    list4: [
+        {
             title: "Conseil stratégique",
             text: "Salvatore propose la conception de stratégies haut niveau, des feuilles de route implémentables et l'engagement des parties prenantes, conduisant un changement impactant pour les secteurs public et privé en alignement avec votre mission.",
             benefits: [
@@ -996,7 +1202,7 @@ export const servicesFrench = {
             ]
         }
     ],
-    list4: [
+    list5: [
         {
             title: "Développement de politiques & législation",
             text: "Salvatore aide gouvernements et agences à développer des politiques fondées sur des preuves dans les domaines environnement, énergie, mobilité et aménagement du territoire, toujours alignées sur la science et les cadres internationaux.",
@@ -1018,14 +1224,23 @@ export const servicesFrench = {
             ]
         }
     ],
-    list5: [
+    list6: [
         {
             title: "Recherche scientifique",
             text: "Auteur publié avec un background multidisciplinaire, Salvatore apporte des insights scientifiques et techniques de pointe, stimulant l'innovation fondée sur des preuves.",
             research: [
                 {
                     title: "Affiliations de recherche actuelles",
-                    text: "Oxford IERN EcoCitizen",
+                    logos: [
+                        {
+                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            link: "https://iern.org/"
+                        },
+                        {
+                            src: "/assets/logo1.1.png",
+                            link: "https://ecocitizen.lu/"
+                        }
+                    ]
                 }
             ],
             benefits: [
@@ -1046,7 +1261,7 @@ export const servicesFrench = {
             ]
         }
     ],
-    list6: [
+    list7: [
         {
             title: "Membre de conseil & gouvernance",
             text: "Salvatore a servi comme administrateur indépendant et membre de conseil dans les secteurs privé et public. Il apporte son expertise en conformité ESG, gestion des risques, durabilité, digitalisation, partenariats internationaux et stratégie globale pour améliorer la gouvernance et la prise de décision. Salvatore se concentre sur les organisations à quadruple impact (But, Personnes, Planète, Prospérité), la citoyenneté d'entreprise visionnaire, la pensée systémique régénérative et la durabilité authentique.",
@@ -1069,7 +1284,7 @@ export const servicesFrench = {
             ]
         }
     ],
-    list7: [
+    list8: [
         {
             title: "Conseil aux investisseurs internationaux",
             text: "Salvatore accompagne les investisseurs globaux au Luxembourg et en Suisse avec une expertise en création d'entreprise, gouvernance, conformité et intégration ESG, s'appuyant sur un solide réseau professionnel. Avec une expérience avérée au Luxembourg et en Suisse, Salvatore apporte un soutien expert aux investisseurs cherchant à établir ou développer leur présence commerciale dans ces deux juridictions. Son expertise couvre l'incorporation, la gouvernance d'entreprise, la due diligence et la conformité (incluant KYC). Il guide les clients à travers chaque étape : choix de la structure légale, incorporation, obtention de licences, ouverture de comptes bancaires, location d'espaces et recrutement de services professionnels. Son réseau inclut comptables, consultants et avocats au Luxembourg et en Suisse, garantissant une assistance complète et fiable. Son approche assure la conformité aux standards locaux et internationaux, intégrant les pratiques éthiques et durables, et alignant les activités sur les principes ESG (Environnement, Social, Gouvernance).",
@@ -1092,7 +1307,7 @@ export const servicesFrench = {
             ]
         }
     ],
-    list8: [
+    list9: [
         {
             title: "Conférencier clé",
             text: "Salvatore Coppola-Finegan est un orateur public passionné et substantiel, alliant rigueur scientifique, expertise en politiques globales et récit inspirant. Avec 15+ ans à conseiller dirigeants, gouvernements et agences ONU sur durabilité et digitalisation, Salvatore livre des keynotes impactantes sur divers sujets. Sa carrière pancontinentale et multisectorielle offre au public des insights uniques pour conduire le changement systémique. Parlant couramment 6 langues (anglais, allemand, espagnol, italien, français, portugais), il adapte chaque présentation à l'événement et au public, rendant accessibles des sujets comme la résilience climatique, la biodiversité et l'innovation éthique.",
@@ -1103,22 +1318,23 @@ export const servicesFrench = {
                         "Perspective Globale : Bénéficier des insights de son travail en Europe, Asie et Amériques.",
                         "Inspiration Éprouvée : Susciter intérêt, collaboration et innovation auprès de tout public.",
                         "Vision Actionnable : Fournir des stratégies pratiques ancrées dans la science et les politiques.",
-                        "Portée Multilingue : Engager l'audience internationalement avec un discours culturellement nuancé."
+                        "Portée Multilingue : Bindre l'audience internationalement avec un discours culturellement nuancé."
                     ]
                 }
             ],
             case_study: [
                 {
                     title: "Étude de cas",
-                    text: "A prononcé le discours clé 'Action Climat et Nature sur les Épaules de Géants' lors du lancement de son livre 'Lëtz Regenerate' sur la sylviculture familiale durable luxembourgeoise. L'événement, avec SAR le Grand-Duc Henri, le Premier Ministre Xavier Bettel, législateurs et 400+ VIPs, a démontré sa capacité à captiver une audience prestigieuse. Son discours a présenté une vision convaincante de régénération naturelle face aux défis climatiques, s'inspirant des figures historiques du secteur forestier luxembourgeois.",
+                    text: "Salvatore prononça le discours clé 'Action Climat et Nature sur les Épaules de Géants' lors du lancement de son livre ‘Lëtz Regenerate’ sur la sylviculture familiale durable luxembourgeoise. L'événement, en présence de SAR le Grand-Duc Henri, du Premier Ministre Xavier Bettel, des législateurs, des fonctionnaires et de plus de 400 VIP et experts internationaux, a montré sa capacité à captiver un public de haut niveau. Son discours a présenté une vision convaincante pour la régénération de la nature face aux défis climatiques, inspirée des figures historiques du secteur forestier luxembourgeois.",
                 }
             ]
         }
     ],
     question: "Des questions ?",
     sayHello: "Contactez-moi",
-    date: "Planifier un rendez-vous",
+    date: "Planifier un rendez-vous"
 }
+
 
 
 export const servicesItalian = {
@@ -1170,6 +1386,50 @@ export const servicesItalian = {
     ],
     list3: [
         {
+            title: "Consulenza sulla Governance Ambientale Internazionale",
+            text: "Salvatore consiglia decisori, governi, dirigenti senior e organizzazioni internazionali nell’arena complessa della governance ambientale globale. Salvatore offre orientamento strategico su come navigare e influenzare i quadri e gli accordi globali, come le Convenzioni di Rio (UNFCCC, CBD, UNCCD), l’Agenda 2030 e il quadro delle Nazioni Unite. La sua conoscenza dei processi multilaterali e la sua capacità di tradurre politiche complesse in azioni pratiche lo rendono una risorsa inestimabile per coloro che cercano di plasmare le agende ambientali internazionali o di allineare le loro strategie agli standard globali.",
+            research: [
+                {
+                    logos: [
+                        {
+                            src: "/assets/un.png",
+                            link: "https://sdgs.un.org/2030agenda"
+                        },
+                        {
+                            src: "/assets/unfccc.png",
+                            link: "https://unfccc.int/"
+                        },
+                        {
+                            src: "/assets/cbd.png",
+                            link: "https://www.cbd.int/"
+                        },
+                        {
+                            src: "/assets/unccd.png",
+                            link: "https://www.unccd.int/"
+                        }
+                    ],
+                }
+            ],
+            benefits: [
+                {
+                    title: "Vantaggi",
+                    objectives: [
+                        "Comprensione completa delle normative e degli accordi ambientali internazionali.",
+                        "Posizionamento strategico migliorato nelle negoziazioni climatiche e ambientali globali.",
+                        "Maggiore capacità di influenzare i risultati politici a livello internazionale."
+                    ]
+                }
+            ],
+            case_study: [
+                {
+                    title: "Caso di Studio",
+                    text: "Salvatore ha consigliato una importante organizzazione internazionale della società civile nel Sud del mondo nella preparazione di una posizione e di una strategia per la Conferenza delle Parti (COP) della CBD e dell’UNFCCC. Attraverso la sua profonda conoscenza del quadro ambientale internazionale e la sua esperienza nelle relazioni internazionali e nello sviluppo di politiche pubbliche, Salvatore ha aiutato l’organizzazione a sviluppare una posizione convincente e una strategia di negoziazione chiara, oltre a identificare alleati chiave."
+                }
+            ]
+        }
+    ],
+    list4: [
+        {
             title: "Consulenza Strategica",
             text: "Salvatore offre progettazione di strategie di alto livello, roadmap implementative e coinvolgimento degli stakeholder, guidando un cambiamento significativo per i settori pubblico e privato in linea con la tua missione.",
             benefits: [
@@ -1191,7 +1451,7 @@ export const servicesItalian = {
             ]
         }
     ],
-    list4: [
+    list5: [
         {
             title: "Sviluppo di Politiche & Legislazione",
             text: "Salvatore assiste governi e agenzie nello sviluppo di politiche basate su evidenze in ambiente, energia, mobilità e pianificazione territoriale, sempre allineate alla scienza e ai quadri internazionali.",
@@ -1213,14 +1473,23 @@ export const servicesItalian = {
             ]
         }
     ],
-    list5: [
+    list6: [
         {
             title: "Ricerca Scientifica",
             text: "Autore pubblicato con un background multidisciplinare, Salvatore offre approfondimenti scientifici e ingegneristici all'avanguardia, guidando innovazioni basate su evidenze.",
             research: [
                 {
                     title: "Affiliazioni di Ricerca Attuali",
-                    text: "Oxford IERN EcoCitizen",
+                    logos: [
+                        {
+                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            link: "https://iern.org/"
+                        },
+                        {
+                            src: "/assets/logo1.1.png",
+                            link: "https://ecocitizen.lu/"
+                        }
+                    ]
                 }
             ],
             benefits: [
@@ -1241,7 +1510,7 @@ export const servicesItalian = {
             ]
         }
     ],
-    list6: [
+    list7: [
         {
             title: "Membro di Consiglio & Governance",
             text: "Salvatore ha servito come direttore indipendente e membro di consiglio nei settori privato e pubblico. Porta expertise in conformità ESG, gestione del rischio, sostenibilità, digitalizzazione, partnership internazionali e strategia complessiva per migliorare governance e processo decisionale. Salvatore si concentra su organizzazioni a quadruplo impatto (Scopo, Persone, Pianeta, Prosperità), corporate citizenship visionaria, pensiero sistemico rigenerativo e sostenibilità autentica.",
@@ -1264,10 +1533,10 @@ export const servicesItalian = {
             ]
         }
     ],
-    list7: [
+    list8: [
         {
             title: "Consulenza per Investitori Globali",
-            text: "Salvatore supporta investitori globali in Lussemburgo e Svizzera con consulenza esperta in costituzione d'impresa, governance, conformità e integrazione ESG, sfruttando una solida rete professionale. Con comprovata esperienza in Lussemburgo e Svizzera, Salvatore offre supporto specializzato a investitori che cercano di stabilire o espandere la loro presenza in entrambe le giurisdizioni. La sua expertise copre costituzione societaria, governance aziendale, due diligence e conformità (incluso KYC). Guida i clienti in ogni fase: scelta della forma giuridica, costituzione, ottenimento licenze, apertura conti bancari, affitto spazi e selezione servizi professionali. La sua rete include contabili, consulenti e avvocati in Lussemburgo e Svizzera, garantendo assistenza completa e affidabile. Il suo approccio assicura conformità con standard locali e internazionali, integrando pratiche etiche e sostenibili e allineando le attività ai principi ESG (Ambientali, Sociali, Governance).",
+            text: "Salvatore supporta investitori globali in Lussemburgo e Svizzera con consulenza esperta in costituzione d'impresa, governance, conformità e integrazione ESG, sfruttando una solida rete professionale. Con comprovata esperienza in Lussemburgo e Svizzera, Salvatore offre supporto specializzato a investitori che cercano di stabilire o sviluppare la loro presenza in entrambe le giurisdizioni. La sua expertise copre costituzione societaria, governance aziendale, due diligence e conformità (incluso KYC). Guida i clienti in ogni fase: scelta della forma giuridica, costituzione, ottenimento licenze, apertura conti bancari, affitto spazi e selezione servizi professionali. La sua rete include contabili, consulenti e avvocati in Lussemburgo e Svizzera, garantendo assistenza completa e affidabile. Il suo approccio assicura conformità con standard locali e internazionali, integrando pratiche etiche e sostenibili e allineando le attività ai principi ESG (Ambientali, Sociali, Governance).",
             benefits: [
                 {
                     title: "Vantaggi",
@@ -1287,10 +1556,10 @@ export const servicesItalian = {
             ]
         }
     ],
-    list8: [
+    list9: [
         {
             title: "Keynote Speaker",
-            text: "Salvatore Coppola-Finegan è un oratore pubblico appassionato e sostanziale, che unisce rigore scientifico, competenza in politiche globali e narrazione coinvolgente. Con 15+ anni di esperienza nel consigliare leader del settore privato, governi e agenzie ONU su sostenibilità e digitalizzazione, Salvatore tiene discorsi chiave impattanti su vari temi. La sua carriera transcontinentale e multisettoriale offre al pubblico prospettive uniche per guidare il cambiamento sistemico. Fluente in 6 lingue (inglese, tedesco, spagnolo, italiano, francese, portoghese), adatta ogni presentazione all'evento e al pubblico, rendendo accessibili temi come resilienza climatica, biodiversità e innovazione etica.",
+            text: "Salvatore Coppola-Finegan è un oratore pubblico appassionato e sostanziale, che unisce rigore scientifico, competenza in politiche globali e narrazione coinvolgente. Con 15+ anni di esperienza nel consigliare leader del settore privato, governi e agenzie ONU su sostenibilità e digitalizzazione, Salvatore tiene discorsi chiave impattanti su vari temi. La sua carriera transcontinentale e multisectoriale offre al pubblico prospettive uniche per guidare il cambiamento sistemico. Fluente in 6 lingue (inglese, tedesco, spagnolo, italiano, francese, portoghese), adatta ogni presentazione all'evento e al pubblico, rendendo accessibili temi come resilienza climatica, biodiversità e innovazione etica.",
             benefits: [
                 {
                     title: "Vantaggi",
@@ -1312,7 +1581,7 @@ export const servicesItalian = {
     ],
     question: "Domande?",
     sayHello: "Contattami",
-    date: "Prenota un incontro",
+    date: "Prenota un incontro"
 }
 
 export const servicesLux = {
@@ -1335,7 +1604,7 @@ export const servicesLux = {
             case_study: [
                 {
                     title: "Fallstudie",
-                    text: "Huet eng Equipe geleet fir eng nei Nohaltegkeetsstrategie fir e globale Produzent am Joer 2023 z'entwerfen, déi eng Kuelestoffemissiounsreduktioun vu mindestens 20% virgesinn an d'Ënnerstëtzung vun EU CSRD an US SEC Ufuerderungen garantéiert.",
+                    text: "Huet eng Equipe geleet fir eng nei Nohaltegkeetsstrategie fir e globale Produzent am Joer 2023 z'entwerfen, déi eng Kuelestoffemissiounsreduktioun vu mindestens 20% virgesin an d'Ënnerstëtzung vun EU CSRD an US SEC Ufuerderungen garantéiert.",
                 }
             ]
         }
@@ -1364,6 +1633,50 @@ export const servicesLux = {
     ],
     list3: [
         {
+            title: "Berodung fir international Ëmweltgouvernance",
+            text: "De Salvatore beréit Entscheedungsträger, Regierungen, Senior Exekutiven an international Organisatiounen an der komplexer Arena vun der globaler Ëmweltgouvernance. De Salvatore bitt strategesch Berodung iwwer wéi ee global Kaderen an Ofkommes navigéiert an beaflosst, wéi d’Rio-Konventiounen (UNFCCC, CBD, UNCCD), d’Agenda 2030 an de Kader vun de Vereenten Natiounen. Seng Kenntnisser iwwer multilaterale Prozesser a seng Fäegkeet, komplex Politiken a praktesch Aktiounen ze iwwersetzen, maachen hie zu enger onschätzbarer Ressource fir déi, déi international Ëmweltagenden gestalten oder hir Strategien u global Standarden upassen wëllen.",
+            research: [
+                {
+                    logos: [
+                        {
+                            src: "/assets/un.png",
+                            link: "https://sdgs.un.org/2030agenda"
+                        },
+                        {
+                            src: "/assets/unfccc.png",
+                            link: "https://unfccc.int/"
+                        },
+                        {
+                            src: "/assets/cbd.png",
+                            link: "https://www.cbd.int/"
+                        },
+                        {
+                            src: "/assets/unccd.png",
+                            link: "https://www.unccd.int/"
+                        }
+                    ],
+                }
+            ],
+            benefits: [
+                {
+                    title: "Virdeeler",
+                    objectives: [
+                        "Ëmfaassend Verständnis vun internationalen Ëmweltreglementer an -ofkommes.",
+                        "Verbessert strategesch Positionéierung a globalen Klima- an Ëmweltverhandlungen.",
+                        "Erhéicht Kapazitéit fir politesch Resultater op internationalem Niveau ze beaflossen."
+                    ]
+                }
+            ],
+            case_study: [
+                {
+                    title: "Fallstudie",
+                    text: "De Salvatore huet eng grouss international Zivilgesellschaftsorganisatioun am Globalen Süden beroden bei der Virbereedung vun enger Positioun a Strategie fir d’Konferenz vun de Parteien (COP) vun der CBD an UNFCCC. Duerch seng déif Kenntnisser iwwer den internationalen Ëmweltkader a seng Erfahrung an internationalen Bezéiounen an der Entwécklung vun ëffentleche Politiken huet de Salvatore der Organisatioun gehollef, eng iwwerzeegend Positioun an eng kloer Verhandlungsstrategie ze entwéckelen, souwéi Schlësselallianzen z’identifizéieren."
+                }
+            ]
+        }
+    ],
+    list4: [
+        {
             title: "Strategesch Berodung",
             text: "Salvatore bitt Héichniveau Strategiekonzeptioun, Implementatiounspläng an Engagement vu Stakeholder, fir bedeitend Ännerungen am public an private Sektor an Linn mat Ärer Missioun unzestoussen.",
             benefits: [
@@ -1385,7 +1698,7 @@ export const servicesLux = {
             ]
         }
     ],
-    list4: [
+    list5: [
         {
             title: "Politik& Legislatiounsentwécklung",
             text: "Salvatore hëlleft Regierungen an Agenturen evidence-baséiert Politik an Ëmwelt, Energie, Mobilitéit a Raumplanung z'entwéckelen, ëmmer an Linn mat der Wëssenschaft an internationale Cadreën.",
@@ -1407,14 +1720,23 @@ export const servicesLux = {
             ]
         }
     ],
-    list5: [
+    list6: [
         {
             title: "Wëssenschaftlech Fuerschung",
             text: "Publizéierten Auteur mat multidisziplinärem Hannergrond, liwwert Salvatore innovativ wëssenschaftlech an technesch Erkenntnesser fir evidence-baséiert Innovatioun unzedreiwen.",
             research: [
                 {
                     title: "Aktuell Fuerschungspartnerschaften",
-                    text: "Oxford IERN EcoCitizen",
+                    logos: [
+                        {
+                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            link: "https://iern.org/"
+                        },
+                        {
+                            src: "/assets/logo1.1.png",
+                            link: "https://ecocitizen.lu/"
+                        }
+                    ]
                 }
             ],
             benefits: [
@@ -1435,7 +1757,7 @@ export const servicesLux = {
             ]
         }
     ],
-    list6: [
+    list7: [
         {
             title: "Verwaltungsrotmember & Governance",
             text: "Salvatore war als onofhängege Direkter a Verwaltungsrotmember am private an public Sektor aktiv. Hien bréngt Expertis an ESG Conformitéit, Risikomanagement, Nohaltegkeet, Digitaliséierung, international Partnerschaften an Gesamtstrategie fir Governance an Decisiounsprozesser ze verbesseren. Salvatore fokusséiert op wäertgedriwwen Organisatiounen mat véierfacher Zielsetzung (Zweck, Leit, Planéit, Prosperitéit), zukunftsorientéierter Corporate Citizenship, regenerativem systemesche Denken an authentescher Nohaltegkeet.",
@@ -1444,7 +1766,7 @@ export const servicesLux = {
                     title: "Virdeeler",
                     objectives: [
                         "Verwaltungsrotwierksamkeet duerch global a divers Perspektiven stäerken.",
-                        "Zougang zu engem internationale Netzwerk vu Partneren, Investisseuren a Professionelen.",
+                        "Zougang zu engem internationalen Netzwerk vu Partneren, Investisseuren a Professionellen.",
                         "Strategesch Initiativen op Nohaltegkeet an Innovatioun undrëwen.",
                         "Sécherstellen datt Governance mat ethischen an ESG Standarder iwwereneestëmmt."
                     ]
@@ -1458,10 +1780,10 @@ export const servicesLux = {
             ]
         }
     ],
-    list7: [
+    list8: [
         {
             title: "Berodung fir global Investisseuren",
-            text: "Salvatore ënnerstëtzt global Investisseuren zu Lëtzebuerg an der Schwäiz mat Expertberodung iwwer Firmegrënnung, Governance, Conformitéit an ESG Integratioun, mat Hëllef vun engem staarke professionelle Netzwerk. Mat bewiesener Erfahrung zu Lëtzebuerg an der Schwäiz, bitt Salvatore Expertënnerstëtzung fir global Investisseuren déi hir Geschäftspresenz an deenen zwou Jurisdiktiounen opbauen oder erweidere wëllen. Seng Expertise ëmfaasst Firmegrënnung, Corporate Governance, Due Diligence a Conformitéitsprozesser (inklusiv KYC). Hien begleet Clienten duerch all Schrëtt vun der Firmegrënnung vun der Wiel vun der passender Rechtsform, Firmegrënnung, Lizenzbeschaffung (wa néideg), Bankkontouerëffnung bis zum Büroflächenaffitt an der Rekrutéierung vu professionelle Serviceprovideren. Salvatore huet e breet Netzwerk vu Kontakter zu Lëtzebuerg an der Schwäiz, dorënner Comptabelen, Consultanten an Avokaten, an garantéiert komplett a verlässeg Ënnerstëtzung op Mooss fir Är Bedierfnesser. Säin Approche garantéiert d'Conformitéit mat lokalen an internationale Standarder, integréiert ethisch an nohalteg Praktiken an alinnéiert Aktivitéiten un ESG Prinzipien (Ëmwelt, Sozial, Governance).",
+            text: "Salvatore ënnerstëtzt global Investisseuren zu Lëtzebuerg an der Schwäiz mat Expertberodung iwwer Firmegrënnung, Governance, Conformitéit an ESG Integratioun, mat Hëllef vun engem staarke professionelle Netzwerk. Mat bewiesener Erfahrung zu Lëtzebuerg an der Schwäiz, bitt Salvatore Expertënnerstëtzung fir global Investisseuren déi hir Geschäftspresenz an deenen zwou Jurisdiktiounen opbauen oder erweidere wëllen. Seng Expertise ëmfaasst Firmegrënnung, Corporate Governance, Due Diligence a Conformitéitsprozesser (inklusiv KYC). Hien begleet Clienten duerch all Schrëtt vun der Firmegrënnung – vun der Wahl der passender Rechtsform, der Firmegrënnung, der Beschaffung vun Gewerbegenehmigungen (wann néideg), der Eröffnung vun Bankkonten bis zum Büroflächenaffitt an der Rekrutéierung vu professionelle Serviceprovideren. Salvatore huet e breet Netzwerk vu Kontakter zu Lëtzebuerg an der Schwäiz, dorënner Comptabelen, Consultanten an Avokaten, an garantéiert komplett a verlässeg Ënnerstëtzung op Mooss fir Är Bedierfnesser. Säin Approche garantéiert d'Conformitéit mat lokalen an internationale Standarder, integréiert ethesch an nohalteg Praktiken an alinnéiert Aktivitéiten un ESG Prinzipien (Ëmwelt, Sozial, Governance).",
             benefits: [
                 {
                     title: "Virdeeler",
@@ -1476,22 +1798,22 @@ export const servicesLux = {
             case_study: [
                 {
                     title: "Fallstudie",
-                    text: "- Huet e Family Office beim Opbau vun engem nohaltegen Investitiounsfond zu Lëtzebuerg beroden, Conformitéit mat lokale Reglementer garantéiert, ESG Standarder integréiert an d'Koordinatioun mat enger vertrauenswürdeger Banka Comptabilitéitsnetzwierk gemaach.\n- Huet en HNWI beim Opbau vun enger Tech-Firma an der Schwäiz begleet, Partnerschaften am Zürcher Innovatiounsökosystem ausgenotzt an d'Conformitéit mat Schwäizer Reglementer duerch Koordinatioun mat vertrauenswürdege lokale Partneren ofgeséchert, während hien d'Go-to-Market Strategie vun der Firma ënnerstëtzt huet.",
+                    text: "- Huet e Family Office beim Opbau vun engem nohaltegen Investitiounsfond zu Lëtzebuerg beroden, Conformitéit mat lokale Reglementer garantéiert, ESG Standarder integréiert an d'Koordinatioun mat enger vertrauenswürdeger Banka Comptabilitétsnetzwierk gemaach.\n- Huet en HNWI beim Opbau vun enger Tech-Firma an der Schwäiz begleet, Partnerschaften am Zürcher Innovatiounsökosystem ausgenotzt an d'Conformitéit mat Schwäizer Reglementer duerch Koordinatioun mat vertrauenswürdege lokale Partneren ofgeséchert, während hien d'Go-to-Market Strategie vun der Firma ënnerstëtzt huet.",
                 }
             ]
         }
     ],
-    list8: [
+    list9: [
         {
             title: "Keynote Speaker",
-            text: "Salvatore Coppola-Finegan ass e passionéierten an inhaltstaarke public Speaker, dee wëssenschaftlech Rigorositéit, global Politikexpertise an inspiréierend Erzielung kombiniert. Mat iwwer 15 Joer Erfahrung an der Berodung vu private Secteur Leaderen, Regierungen, Politikmaker an UN Agenturen iwwer Nohaltegkeet an Digitaliséierung, hält Salvatore grondsätzlech recherchéiert an impaktvoll Keynotes iwwer verschidde Themen. Säi Carrière spannt iwwer Kontinenter a Secteuren an bitt dem Publikum eenzegaarteg Erkenntnesser fir systemesch Ännerungen unzedreiwen. Fléissend an 6 Sproochen (Englesch, Däitsch, Spuenesch, Italieenesch, Franséisch a Portugisesch) passt hien all Presentatioun un den Event an d'Publikum un, fir Theemen wéi Klimaresilienz, Biodiversitéit an ethisch Innovatioun zougänglech an iwwerzeegend ze maachen.",
+            text: "Salvatore Coppola-Finegan ass e passionéierten an inhaltstaarke public Speaker, dee wëssenschaftlech Rigorositéit, global Politikexpertise an inspiréierend Erzielung kombiniert. Mat iwwer 15 Joer Erfahrung an der Berodung vu private Secteur Leaderen, Regierungen, Politikmaker an UN Agenturen iwwer Nohaltegkeet an Digitaliséierung, hält Salvatore grondsätzlech recherchéiert an impaktvoll Keynotes iwwer verschidde Themen. Säi Carrière spannt iwwer Kontinenter a Secteuren an bitt dem Publikum eenzegaarteg Erkenntnesser fir systemesch Ännerungen unzedreiwen. Fléissend an 6 Sproochen (Englesch, Däitsch, Spuenesch, Italieenesch, Franséisch a Portugisesch) passt hien all Presentatioun un den Event an d'Publikum un, fir Theemen wéi Klimaresilienz, Biodiversitéit an ethesch Innovatioun zougänglech an iwwerzeegend ze maachen.",
             benefits: [
                 {
                     title: "Virdeeler",
                     objectives: [
                         "Global Perspectiv: Profitéiert vun Erkenntnesser aus Salvatores Aarbecht an Europa, Asien an den Ameriken.",
                         "Bewisen Inspiratioun: Weckt Interessi, Zesummenaarbecht an Innovatioun bei Publike vun alle Alter.",
-                        "Aktiounsorientéiert Visioun: Equipéiert Äert Publikum mat praktesche Strategien baséiert op Wëssenschaft a Politik.",
+                        "Aktiounsorientéiert Visioun: Statten Iech Publikum mat praktesche Strategien baséiert op Wëssenschaft a Politik.",
                         "Multisproocheg Reichwäit: Engagéiert Participanten weltwäit mat kulturell nuanciéiertem, multisproochegem Delivery."
                     ]
                 }
@@ -1499,14 +1821,14 @@ export const servicesLux = {
             case_study: [
                 {
                     title: "Fallstudie",
-                    text: "Salvatore huet d'Keynote 'Aktioun fir Klima an Natur op de Schëllere vu Risener' bei der Lancement vu sengem Buch 'Lëtz Regenerate' iwwer d'Vergaangenheet, Gegenwart an Zukunft vun der lëtzebuergescher nohalteger Familljebëschwirtschaft gehalen. Den Event, mat S.K.H. Groussherzog Henri, Premierminister Xavier Bettel, Parlamentarier, Regierungsbeamten an iwwer 400 VIPen an internationalen Experten, huet seng Fäegkeet gewisen eng héichprofilitéiert Audience ze fesselen. Säi Discours huet eng iwwerzeegend Visioun fir Naturregeneratioun am Angesicht vu Klimaherausfuerderunge presentéiert, inspiréiert vun de Bäiträg vun historesche Perséinlechkeeten aus Lëtzebuerg sengem Bëschan Naturesecteur.",
+                    text: "Salvatore huet d'Keynote 'Aktioun fir Klima an Natur op den Schëllere vu Risener' bei der Lancement vu sengem Buch 'Lëtz Regenerate' iwwer d'Vergaangenheet, Gegenwart an Zukunft vun der lëtzebuergescher nohalteger Familljebëschwirtschaft gehalen. Den Event, mat S.K.H. Groussherzog Henri, Premierminister Xavier Bettel, Parlamentarier, Regierungsbeamten an iwwer 400 VIPen an internationalen Experten, huet seng Fäegkeet gewisen eng héichprofilitéiert Audience ze fesselen. Säi Discours huet eng iwwerzeegend Visioun fir Naturregeneratioun am Angesicht vu Klimaherausfuerderunge presentéiert, inspiréiert vun de Bäiträg vun historesche Perséinlechkeeten aus Lëtzebuerg sengem Bëschan Naturesecteur.",
                 }
             ]
         }
     ],
     question: "Froen?",
     sayHello: "Kontaktéiert mech",
-    date: "Meeting planen",
+    date: "Meeting planen"
 }
 
 export const servicesPt = {
@@ -1556,7 +1878,7 @@ export const servicesPt = {
             ]
         }
     ],
-    list3: [
+    list4: [
         {
             title: "Assessoria Estratégica",
             text: "Salvatore oferece desenvolvimento de estratégias de alto nível, roteiros de implementação e engajamento de stakeholders, conduzindo mudanças impactantes para os setores público e privado alinhadas à sua missão.",
@@ -1579,7 +1901,7 @@ export const servicesPt = {
             ]
         }
     ],
-    list4: [
+    list5: [
         {
             title: "Desenvolvimento de Políticas & Legislação",
             text: "Salvatore auxilia governos e agências a desenvolver políticas baseadas em evidências em meio ambiente, energia, mobilidade e planejamento territorial, sempre alinhadas com ciência e quadros internacionais.",
@@ -1601,14 +1923,23 @@ export const servicesPt = {
             ]
         }
     ],
-    list5: [
+    list6: [
         {
             title: "Pesquisa Científica",
             text: "Autor publicado com formação multidisciplinar, Salvatore fornece insights científicos e de engenharia de ponta, impulsionando inovação baseada em evidências.",
             research: [
                 {
                     title: "Afiliações de Pesquisa Atuais",
-                    text: "Oxford IERN EcoCitizen",
+                    logos: [
+                        {
+                            src: "/assets/IERN-LOGO-GREEN.webp",
+                            link: "https://iern.org/"
+                        },
+                        {
+                            src: "/assets/logo1.1.png",
+                            link: "https://ecocitizen.lu/"
+                        }
+                    ]
                 }
             ],
             benefits: [
@@ -1624,12 +1955,12 @@ export const servicesPt = {
             case_study: [
                 {
                     title: "Estudo de Caso",
-                    text: "Pesquisou e escreveu obra seminal sobre o passado, presente e futuro da silvicultura familiar sustentável em Luxemburgo, influenciando debates e políticas ambientais nacionais.",
+                    text: "Pesquisou e escreveu obra transcendental sobre o passado, presente e futuro da silvicultura familiar sustentável em Luxemburgo, influenciando debates e políticas ambientais nacionais.",
                 }
             ]
         }
     ],
-    list6: [
+    list7: [
         {
             title: "Membro de Conselho & Governança",
             text: "Salvatore atuou como diretor independente e membro de conselhos nos setores privado e público. Traz expertise em conformidade ESG, gestão de riscos, sustentabilidade, digitalização, parcerias internacionais e estratégia geral para melhorar governança e tomada de decisão. Foca em organizações com propósito quadruplo (Propósito, Pessoas, Planeta, Prosperidade), cidadania corporativa visionária, pensamento sistêmico regenerativo e sustentabilidade genuína.",
@@ -1652,7 +1983,7 @@ export const servicesPt = {
             ]
         }
     ],
-    list7: [
+    list8: [
         {
             title: "Assessoria para Investidores Globais",
             text: "Salvatore apoia investidores globais em Luxemburgo e Suíça com orientação especializada em constituição de empresas, governança, conformidade e integração ESG, aproveitando sólida rede profissional. Com comprovada experiência em Luxemburgo e Suíça, oferece suporte especializado para investidores estabelecerem ou expandirem presença comercial nessas jurisdições. Sua expertise abrange incorporação, governança corporativa, due diligence e conformidade (incluindo KYC). Guia clientes em cada etapa: escolha da estrutura legal, incorporação, obtenção de licenças, abertura de contas bancárias, aluguel de espaços e contratação de serviços profissionais. Sua rede inclui contadores, consultores e advogados em Luxemburgo e Suíça, garantindo assistência completa e confiável. Sua abordagem assegura conformidade com padrões locais e internacionais, integrando práticas éticas e sustentáveis, e alinhando operações aos princípios ESG (Ambiental, Social, Governança).",
@@ -1675,7 +2006,7 @@ export const servicesPt = {
             ]
         }
     ],
-    list8: [
+    list9: [
         {
             title: "Palestrante Principal",
             text: "Salvatore Coppola-Finegan é um orador público apaixonado e substancial, combinando rigor científico, expertise em políticas globais e narrativa inspiradora. Com 15+ anos assessorando líderes do setor privado, governos e agências da ONU sobre sustentabilidade e digitalização, Salvatore pesquisa meticulosamente e apresenta palestras impactantes sobre diversos temas. Sua carreira transcontinental e multissetorial oferece ao público insights únicos para impulsionar mudança sistêmica. Fluente em 6 idiomas (inglês, alemão, espanhol, italiano, francês, português), adapta cada apresentação ao evento e público, tornando acessíveis temas como resiliência climática, biodiversidade e inovação ética.",
@@ -1698,10 +2029,55 @@ export const servicesPt = {
             ]
         }
     ],
+    list3: [
+        {
+            title: "Consultoria em Governança Ambiental Internacional",
+            text: "Salvatore assessora tomadores de decisão, governos, altos executivos e organizações internacionais na complexa arena da governança ambiental global. Salvatore oferece orientação estratégica sobre como navegar e influenciar marcos e acordos globais, como as Convenções do Rio (UNFCCC, CBD, UNCCD), a Agenda 2030 e o quadro das Nações Unidas. Seu conhecimento dos processos multilaterais e sua capacidade de traduzir políticas complexas em ações práticas o tornam um recurso inestimável para aqueles que buscam moldar as agendas ambientais internacionais ou alinhar suas estratégias com os padrões globais.",
+            research: [
+                {
+                    logos: [
+                        {
+                            src: "/assets/un.png",
+                            link: "https://sdgs.un.org/2030agenda"
+                        },
+                        {
+                            src: "/assets/unfccc.png",
+                            link: "https://unfccc.int/"
+                        },
+                        {
+                            src: "/assets/cbd.png",
+                            link: "https://www.cbd.int/"
+                        },
+                        {
+                            src: "/assets/unccd.png",
+                            link: "https://www.unccd.int/"
+                        }
+                    ],
+                }
+            ],
+            benefits: [
+                {
+                    title: "Benefícios",
+                    objectives: [
+                        "Compreensão abrangente das regulamentações e acordos ambientais internacionais.",
+                        "Posicionamento estratégico aprimorado em negociações climáticas e ambientais globais.",
+                        "Maior capacidade de influenciar os resultados das políticas em nível internacional."
+                    ]
+                }
+            ],
+            case_study: [
+                {
+                    title: "Estudo de Caso",
+                    text: "Salvatore assessorou uma importante organização internacional da sociedade civil no Sul Global na preparação de uma posição e estratégia para a Conferência das Partes (COP) da CBD e UNFCCC. Através de seu profundo conhecimento do quadro ambiental internacional e sua experiência em relações internacionais e desenvolvimento de políticas públicas, Salvatore ajudou a organização a desenvolver uma posição convincente e uma estratégia de negociação clara, além de identificar aliados-chave.",
+                }
+            ]
+        }
+    ],
     question: "Dúvidas?",
     sayHello: "Fale comigo",
     date: "Agendar reunião",
 }
+
 
 
 //-------------------------------------------------Testimonials --------------------------------------------------
@@ -2049,6 +2425,7 @@ export const portugues3 = {
 //-------------------------------------------------- SECTION TWO --------------------------------------------------
 
 export const italiano4 = {
+    titulo: 'Blog e Pubblicazioni Selezionate',
     texto1r: `Pubblicato nel 2023, è un libro dedicato al passato, \n 
     al presente e al futuro delle foreste in Lussemburgo.`,
     button: 'Scopri il libro',
@@ -2065,6 +2442,7 @@ export const italiano4 = {
 };
 
 export const espanol4 = {
+    titulo: 'Blog y Publicaciones Seleccionadas',
     texto1r: `Publicado en 2023, es un libro dedicado al pasado, \n 
     presente y futuro de los bosques en Luxemburgo.`,
     button: 'Ver el libro',
@@ -2081,6 +2459,7 @@ export const espanol4 = {
 };
 
 export const ingles4 = {
+    titulo: 'Blog and Selected Publications',
     texto1r: `Published in 2023, it is a book dedicated to the past, \n 
     present, and future of forests in Luxembourg.`,
     button: 'See the book',
@@ -2097,6 +2476,7 @@ export const ingles4 = {
 };
 
 export const aleman4 = {
+    titulo: 'Blog und Ausgewählte Veröffentlichungen',
     texto1r: `Im Jahr 2023 veröffentlicht, handelt es sich um ein Buch über die Vergangenheit, \n 
     Gegenwart und Zukunft der Wälder in Luxemburg.`,
     button: 'Zum Buch',
@@ -2113,6 +2493,7 @@ export const aleman4 = {
 };
 
 export const frances4 = {
+    titulo: 'Blog et Publications Sélectionnées',
     texto1r: `Publié en 2023, c'est un livre consacré au passé, \n 
     au présent et à l'avenir des forêts au Luxembourg.`,
     button: 'Voir le livre',
@@ -2129,6 +2510,7 @@ export const frances4 = {
 };
 
 export const portugues4 = {
+    titulo: 'Blog e Publicações Selecionadas',
     texto1r: ` publicado em 2023, é um livro dedicado ao passado,\n
      presente e futuro das florestas em Luxemburgo.`,
     button: 'Ver o livro',
@@ -2145,6 +2527,7 @@ export const portugues4 = {
 };
 
 export const letzemburgesch4 = {
+    titulo: 'Blog a Selektiv Verëffentlechungen',
     texto1r: ` publizéiert am Joer 2023, ass e Buch gewidmet dem Verlaf,\n
      der Gegenwart an der Zukunft vun de Bëscher zu Lëtzebuerg.`,
     button: 'D’Buch kucken',

@@ -33,7 +33,7 @@ const Services = () => {
 
     const getServiceLists = useCallback(() => {
         const lists = [];
-        for (let i = 1; i <= 8; i++) {
+        for (let i = 1; i <= 9; i++) {
             const listKey = `list${i}`;
             if (languageData[listKey]) {
                 lists.push(...languageData[listKey]);
@@ -110,13 +110,28 @@ const Services = () => {
                         {item.research?.map((research, l) => (
                             <div key={`research-${l}`} className="mt-4">
                                 <h4 className="text-lg font-medium mb-2">{research.title}</h4>
-                                <p
-                                    dangerouslySetInnerHTML={{
-                                        __html: research.text.replace(/\n/g, "<br />")
-                                    }}
-                                />
+
+                                {/* Contenedor de los logos */}
+                                <div className="flex flex-wrap  w-full mt-2">
+                                    {research.logos?.map((logo, index) => (
+                                        <a
+                                            key={index}
+                                            href={logo.link}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex-shrink-0 w-24 h-12 sm:w-28 sm:h-14 flex items-center justify-center "
+                                        >
+                                            <img
+                                                src={logo.src}
+                                                alt={`Logo ${index + 1}`}
+                                                className="h-16 w-16 object-contain hover:scale-110 transition-opacity"
+                                            />
+                                        </a>
+                                    ))}
+                                </div>
                             </div>
                         ))}
+
                     </div>
                 </div>
             </div>

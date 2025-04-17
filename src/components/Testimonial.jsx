@@ -35,7 +35,7 @@ const Testimonial = ({ autor, profesion, text, image }) => {
               overflowWrap: 'break-word', // Ayuda a evitar que el texto se desborde
             }}
           >
-            {isTextLong && !showMore ? text.slice(0, maxLength) : text}
+            {isTextLong && !showMore ? `${text.slice(0, maxLength)}...` : text}
           </p>
           
           {/* Mostrar botón solo si el texto es largo */}
