@@ -21,6 +21,7 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/impressum" element={<Impressum />} />
         </Routes>
+        <Footer />
       </Router>
     </LanguageProvider>
   );
@@ -55,7 +56,6 @@ const MainContent = () => {
           <SectionTwo />
         </div>
       </div>
-      <Footer />
       <LanguageSelector />
     </div>
   );

@@ -176,8 +176,8 @@ const Section = () => {
                 {/* Capa oscura */}
                 <div className="absolute inset-0 bg-black bg-opacity-30"></div>
 
-                {/* Contenedor de texto centrado verticalmente */}
-                <div className="relative z-10 flex flex-col justify-center items-start text-white max-w-5xl mx-auto px-4 h-full">
+                {/* Contenedor de texto centrado vertical y horizontalmente */}
+                <div className="relative z-10 flex flex-col justify-center items-center text-white max-w-5xl mx-auto text-center h-full">
                     {/* Título */}
                     <p className="font-semibold text-lg sm:text-xl md:text-2xl xl:text-3xl pb-4">
                         {languageData.texto8}
@@ -185,30 +185,32 @@ const Section = () => {
 
                     {/* Párrafo con salto de línea */}
                     <p
-                        className="font-light text-xs sm:text-sm md:text-base xl:text-lg mb-4 "
+                        className="font-light text-xs sm:text-sm md:text-base xl:text-lg mb-4"
                         style={{ whiteSpace: 'pre-line' }}
                         dangerouslySetInnerHTML={{ __html: languageData.texto9 }}
                     />
-                    <div className='flex flex-wrap justify-center gap-4 w-full'>
+
+                    {/* Logos centrados */}
+                    <div className="flex flex-wrap justify-center gap-4 w-full">
                         {logosC.map((logo, index) => (
                             <a
                                 key={index}
                                 href={logo.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex-shrink-0 w-24 h-12 sm:w-28 sm:h-14 flex items-center justify-center "
+                                className="flex-shrink-0 w-24 h-12 sm:w-28 sm:h-14 flex items-center justify-center"
                             >
                                 <img
                                     src={logo.src}
                                     alt={`Logo ${index + 1}`}
-                                    className="h-16 w-16 object-contain hover:scale-110 transition-opacity  "
+                                    className="h-16 w-16 object-contain hover:scale-110 transition-transform"
                                 />
                             </a>
                         ))}
                     </div>
                 </div>
-
             </div>
+
 
         </div>
 
