@@ -17,6 +17,7 @@ const SectionTwo = () => {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
+        organization: "",
         message: ""
     });
 
@@ -137,10 +138,11 @@ const SectionTwo = () => {
                     <div className="bg-[#5e5ee0] p-6 rounded-lg md:w-3/12 w-4/5">
                         <span className="relative left-[95%] bottom-3 text-white text-2xl cursor-pointer" onClick={() => setOpenForm(false)}>X</span>
                         <div className="flex flex-col gap-5 text-black">
-                            <input type="text" name="name" placeholder="Name" value={formData.name} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
-                            <input type="text" name="email" placeholder="Email" value={formData.email} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
-                            <input type="text" name="message" placeholder="Message" value={formData.message} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
-                            <button className="bg-[#101034] text-white p-2 rounded-md hover:bg-[#4343ae]">Submit Form</button>
+                            <input type="text" name="name" placeholder={languageData.form_name} value={formData.name} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
+                            <input type="text" name="email" placeholder={languageData.form_email} value={formData.email} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
+                            <input type="text" name="organization" placeholder={languageData.form_organization} value={formData.organization} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
+                            <input type="text" name="message" placeholder={languageData.form_message} value={formData.message} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
+                            <button className="bg-[#101034] text-white p-2 rounded-md hover:bg-[#4343ae]">{languageData.form_button}</button>
                         </div>
                     </div>
                 </div>

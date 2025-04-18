@@ -2467,6 +2467,11 @@ export const italiano4 = {
     texto7l: 'Avete domande?',
     texto8l: 'Salutami',
     texto9l: 'Programmare una riunione',
+    form_name: 'Nome',
+    form_email: 'Email',
+    form_organization: 'Organizzazione',
+    form_message: 'Messaggio',
+    form_button: 'Invia',
 };
 
 export const espanol4 = {
@@ -2484,6 +2489,11 @@ export const espanol4 = {
     texto7l: '¿Tienes preguntas?',
     texto8l: 'Salúdame',
     texto9l: 'Agendar reunión',
+    form_name: 'Nombre',
+    form_email: 'Email',
+    form_organization: 'Organización',
+    form_message: 'Mensaje',
+    form_button: 'Enviar',
 };
 
 export const ingles4 = {
@@ -2501,6 +2511,11 @@ export const ingles4 = {
     texto7l: 'Do you have any questions?',
     texto8l: 'Say hello',
     texto9l: 'Schedule a meeting',
+    form_name: 'Name',
+    form_email: 'Email',
+    form_organization: 'Organization',
+    form_message: 'Message',
+    form_button: 'Send',
 };
 
 export const aleman4 = {
@@ -2518,6 +2533,11 @@ export const aleman4 = {
     texto7l: 'Haben Sie noch Fragen?',
     texto8l: 'Sag mir Hallo',
     texto9l: 'Termin vereinbaren',
+    form_name: 'Name',
+    form_email: 'Email',
+    form_organization: 'Organisation',
+    form_message: 'Nachricht',
+    form_button: 'Senden',
 };
 
 export const frances4 = {
@@ -2535,6 +2555,11 @@ export const frances4 = {
     texto7l: 'Avez-vous des questions ?',
     texto8l: 'Me saluer',
     texto9l: 'Organiser une réunion',
+    form_name: 'Nom',
+    form_email: 'Email',
+    form_organization: 'Organisation',
+    form_message: 'Message',
+    form_button: 'Envoyer',
 };
 
 export const portugues4 = {
@@ -2552,6 +2577,11 @@ export const portugues4 = {
     texto7l: 'Tem alguma pregunta?',
     texto8l: 'Diga olá',
     texto9l: 'Agendar uma Reunião',
+    form_name: 'Nome',
+    form_email: 'Email',
+    form_organization: 'Organização',
+    form_message: 'Mensagem',
+    form_button: 'Enviar',
 };
 
 export const letzemburgesch4 = {
@@ -2569,4 +2599,9 @@ export const letzemburgesch4 = {
     texto7l: 'Hutt Dir Froen?',
     texto8l: 'Salut soen',
     texto9l: 'E Rendez-vous plangen',
+    form_name: 'Name',
+    form_email: 'Email',
+    form_organization: 'Organisation',
+    form_message: 'Nachricht',
+    form_button: 'Senden',
 };
