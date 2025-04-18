@@ -51,7 +51,9 @@ const MainContent = () => {
           <Services />
         </div>
         <Opinions />
-        <SectionTwo />
+        <div id='contact'>
+          <SectionTwo />
+        </div>
       </div>
       <Footer />
       <LanguageSelector />

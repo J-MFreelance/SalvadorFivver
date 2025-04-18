@@ -5,7 +5,7 @@ export const espanol = {
     navA2: 'ACERCA DE',
     navA5: 'SERVICIOS',
     navA3: 'CONTACTO',
-    navA4: 'ECOCITIZEN'
+    navA4: 'BLOG'
 };
 
 export const ingles = {
@@ -13,7 +13,7 @@ export const ingles = {
     navA2: 'ABOUT',
     navA5: 'SERVICES',
     navA3: 'CONTACT',
-    navA4: 'ECOCITIZEN'
+    navA4: 'BLOG'
 };
 
 export const aleman = {
@@ -21,7 +21,7 @@ export const aleman = {
     navA2: 'ÜBER UNS',
     navA5: 'DIENSTLEISTUNGEN',
     navA3: 'KONTAKT',
-    navA4: 'ECOCITIZEN'
+    navA4: 'BLOG'
 };
 
 export const italiano = {
@@ -29,7 +29,7 @@ export const italiano = {
     navA2: 'CHI SIAMO',
     navA5: 'SERVIZI',
     navA3: 'CONTATTO',
-    navA4: 'ECOCITIZEN'
+    navA4: 'BLOG'
 };
 
 export const frances = {
@@ -37,7 +37,7 @@ export const frances = {
     navA2: 'À PROPOS',
     navA5: 'SERVICES',
     navA3: 'CONTACT',
-    navA4: 'ECOCITIZEN'
+    navA4: 'BLOG'
 };
 
 export const portugues = {
@@ -45,7 +45,7 @@ export const portugues = {
     navA2: 'SOBRE',
     navA5: 'SERVIÇOS',
     navA3: 'CONTATO',
-    navA4: 'ECOCITIZEN'
+    navA4: 'BLOG'
 };
 
 export const luxemburguese = {
@@ -53,7 +53,7 @@ export const luxemburguese = {
     navA2: 'IWWERT ONS',
     navA5: 'SERVICEN',
     navA3: 'KONTAKT',
-    navA4: 'ECOCITIZEN'
+    navA4: 'BLOG'
 };
 
 

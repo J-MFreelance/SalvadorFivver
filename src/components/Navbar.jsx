@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { useLanguage } from "./LanguageContext";
-import { espanol, ingles, frances, aleman, italiano, portugues ,luxemburguese } from '../constants';
+import { espanol, ingles, frances, aleman, italiano, portugues, luxemburguese } from '../constants';
 
 const Navbar = () => {
   const { language } = useLanguage();
@@ -92,7 +92,7 @@ const Navbar = () => {
           <a
             className="text-2xl lg:text-base hover:transition-colors hover:opacity-70 cursor-pointer"
             onClick={handleClick}
-            href='#ecocitizen'
+            href='#blog'
           >
             {languageData.navA4}
           </a>

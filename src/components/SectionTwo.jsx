@@ -48,10 +48,10 @@ const SectionTwo = () => {
     }, [language]);
 
     return (
-        <section id='contact'>
+        <section id='blog'>
             <h1 className='text-2xl text-white font-bold max-lg:text-xl'>{languageData.titulo}</h1>
             <div className="flex max-lg:flex-col justify-between bg-[#101034] p-8 text-white">
-                
+
                 {/* Left Section */}
                 <div className="xl:w-1/2 max-lg:pb-6">
                     {/* Imagen */}
