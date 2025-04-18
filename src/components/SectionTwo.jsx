@@ -8,18 +8,28 @@ import regate from '../assets/regate.png';
 import { useEffect, useState } from 'react';
 import { useLanguage } from './LanguageContext';
 import { espanol4, ingles4, aleman4, frances4, italiano4, portugues4, letzemburgesch4 } from '../constants';
+import { z } from 'zod';
 
 const SectionTwo = () => {
 
     const { language } = useLanguage();
     const [languageData, setLanguageData] = useState({});
     const [openForm, setOpenForm] = useState(false);
+    const [errors, setErrors] = useState({});
     const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        organization: "",
-        message: ""
+        name: '',
+        email: '',
+        organization: '',
+        message: ''
     });
+
+    const formSchema = z.object({
+        name: z.string().min(1, { message: 'Campo requerido' }),
+        email: z.string().email({ message: 'Email no valido' }),
+        organization: z.string().min(1, { message: 'Campo requerido' }),
+        message: z.string().min(1, { message: 'Campo requerido' })
+    });
+
 
     const handleFormChange = (e) => {
         setFormData({
@@ -28,6 +38,39 @@ const SectionTwo = () => {
         });
     };
 
+    const validateForm = () => {
+        try {
+            formSchema.parse(formData);
+            setErrors({});
+            return true;
+        } catch (error) {
+            const newErrors = {};
+            error.errors.forEach(err => {
+                newErrors[err.path[0]] = err.message;
+            });
+            setErrors(newErrors);
+            return false;
+        }
+    };
+
+    const onSubmit = (e) => {
+        e.preventDefault();
+
+        if (!validateForm()) {
+            return;
+        }
+
+        const { name, email, organization, message } = formData;
+        const subject = encodeURIComponent("Nuevo mensaje desde el formulario de contacto");
+        const body = encodeURIComponent(
+            `Nombre: ${name}\nEmail: ${email}\nOrganización: ${organization}\nMensaje: ${message}`
+        );
+
+        window.location.href = `mailto:hello@scf.lu?subject=${subject}&body=${body}`;
+
+        setFormData({ name: "", email: "", organization: "", message: "" });
+
+    };
     useEffect(() => {
         if (language.code === "ES") {
             setLanguageData(espanol4);
@@ -66,7 +109,6 @@ const SectionTwo = () => {
                                 />
                             </a>
                         </div>
-                        {/* Contenedor del texto, botón y publicación */}
                         <div className="space-y-3">
                             <h2 className="text-2xl font-bold max-lg:text-xl">¡Lëtz reGenerate!</h2>
                             <p className='max-lg:text-sm pb-4'>{languageData.texto1r}</p>
@@ -137,13 +179,18 @@ const SectionTwo = () => {
                 <div className="fixed inset-0 flex items-center justify-center z-50 w-full bg-[#101034]/50">
                     <div className="bg-[#5e5ee0] p-6 rounded-lg md:w-3/12 w-4/5">
                         <span className="relative left-[95%] bottom-3 text-white text-2xl cursor-pointer" onClick={() => setOpenForm(false)}>X</span>
-                        <div className="flex flex-col gap-5 text-black">
+                        <form onSubmit={onSubmit} className="flex flex-col gap-5 text-black">
                             <input type="text" name="name" placeholder={languageData.form_name} value={formData.name} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
                             <input type="text" name="email" placeholder={languageData.form_email} value={formData.email} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
                             <input type="text" name="organization" placeholder={languageData.form_organization} value={formData.organization} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
                             <input type="text" name="message" placeholder={languageData.form_message} value={formData.message} onChange={(e) => handleFormChange(e)} className="p-2 rounded-md" />
-                            <button className="bg-[#101034] text-white p-2 rounded-md hover:bg-[#4343ae]">{languageData.form_button}</button>
-                        </div>
+                            <button
+                                type="submit"
+                                className="bg-[#101034] text-white p-2 rounded-md hover:bg-[#4343ae]"
+                            >
+                                {languageData.form_button}
+                            </button>
+                        </form>
                     </div>
                 </div>
             )}
