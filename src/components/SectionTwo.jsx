@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 import { useLanguage } from './LanguageContext';
 import { espanol4, ingles4, aleman4, frances4, italiano4, portugues4, letzemburgesch4 } from '../constants';
 import { z } from 'zod';
+import emailjs from '@emailjs/browser';
 
 const SectionTwo = () => {
 
@@ -60,17 +61,22 @@ const SectionTwo = () => {
             return;
         }
 
-        const { name, email, organization, message } = formData;
-        const subject = encodeURIComponent("Nuevo mensaje desde el formulario de contacto");
-        const body = encodeURIComponent(
-            `Nombre: ${name}\nEmail: ${email}\nOrganización: ${organization}\nMensaje: ${message}`
-        );
-
-        window.location.href = `mailto:hello@scf.lu?subject=${subject}&body=${body}`;
-
-        setFormData({ name: "", email: "", organization: "", message: "" });
-
+        emailjs.send(
+            'service_79i9tvq',
+            'template_hogl28i',
+            formData,
+            'VsXKtZ_anbaTeiFck'
+        )
+            .then((result) => {
+                alert("Mensaje enviado correctamente");
+                setFormData({ name: "", email: "", organization: "", message: "" });
+                setOpenForm(false);
+            }, (error) => {
+                console.error(error.text);
+                alert("Hubo un error al enviar el mensaje");
+            });
     };
+
     useEffect(() => {
         if (language.code === "ES") {
             setLanguageData(espanol4);
