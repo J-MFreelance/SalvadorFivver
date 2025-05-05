@@ -11,13 +11,11 @@ const Section = () => {
         { src: '/assets/logo2.webp', link: 'https://www.akamai.com/' },
         { src: '/assets/logo3.png', link: 'https://www.alstom.com/' },
         { src: '/assets/logo4.webp', link: 'https://amagno.co.uk/' },
-        { src: '/assets/logo5.png', link: 'https://www.asamblea.go.cr/SitePages/Inicio.aspx' },
         { src: '/assets/logo6.jpg', link: 'https://www.bancocuscatlan.com/' },
         { src: '/assets/logo7.png', link: 'https://www.bncr.fi.cr/' },
         { src: '/assets/logo8.png', link: 'https://www.dentons.com/' },
         { src: '/assets/logo91.png', link: 'https://dittothailand.com/en/' },
         { src: '/assets/logo1.1.png', link: 'https://ecocitizen.lu/' },
-        { src: '/assets/logo10.png', link: 'https://minae.go.cr/' },
         { src: '/assets/logo11.png', link: 'https://tcs-technology.com/' },
         { src: '/assets/logo12.png', link: 'https://www.undp.org/' },
         { src: '/assets/logo13.1.png', link: 'https://visuddhi-consultants.com/' },
@@ -31,10 +29,13 @@ const Section = () => {
     ];
 
     const logosC = [
+        { src: '/assets/logo5.png', link: 'https://www.asamblea.go.cr/SitePages/Inicio.aspx' },
         { src: '/assets/sinac.png', link: 'https://www.sinac.go.cr/ES/Paginas/default.aspx' },
         { src: '/assets/ucr.png', link: 'https://www.ucr.ac.cr/' },
         { src: '/assets/una.png', link: 'https://www.ucr.ac.cr/' },
         { src: '/assets/amoxtli.png', link: 'https://www.facebook.com/amoxtlifoundation/' },
+        { src: '/assets/logo10.png', link: 'https://minae.go.cr/' },
+
     ]
 
 
