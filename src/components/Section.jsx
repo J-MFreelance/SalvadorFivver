@@ -157,12 +157,12 @@ const Section = () => {
                                     href={logo.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="flex-shrink-0 w-24 h-12 sm:w-28 sm:h-14 flex items-center justify-center "
+                                    className="flex-shrink-0 w-24 h-12 sm:w-28 sm:h-14 flex items-center justify-center"
                                 >
                                     <img
                                         src={logo.src}
                                         alt={`Logo ${index + 1}`}
-                                        className="h-16 w-16 object-contain hover:scale-110 transition-opacity  "
+                                        className="h-[5rem] w-[5rem] object-contain hover:scale-110 transition-opacity bg-white p-1 rounded-md"
                                     />
                                 </a>
                             ))}
@@ -192,7 +192,7 @@ const Section = () => {
                     />
 
                     {/* Logos centrados */}
-                    <div className="flex flex-wrap justify-center gap-4 w-full">
+                    <div className="flex flex-wrap justify-center gap-4 w-full mt-3">
                         {logosC.map((logo, index) => (
                             <a
                                 key={index}
@@ -204,7 +204,7 @@ const Section = () => {
                                 <img
                                     src={logo.src}
                                     alt={`Logo ${index + 1}`}
-                                    className="h-16 w-16 object-contain hover:scale-110 transition-transform"
+                                    className="h-[5rem] w-[5rem] object-contain hover:scale-110 transition-transform bg-white p-1 rounded-md"
                                 />
                             </a>
                         ))}
