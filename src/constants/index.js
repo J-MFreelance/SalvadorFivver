@@ -422,7 +422,7 @@ export const servicesEspanol = {
 
     list3: [
         {
-            title: "Asesoría en Gobernanza Ambiental Internacional",
+            title: "Asesoría en gobernanza medioambiental y climática",
             text: "Salvatore asesora a tomadores de decisión, gobiernos, altos directivos y organizaciones internacionales en la compleja arena de la gobernanza ambiental global. Salvatore ofrece orientación estratégica sobre cómo navegar e influir en los marcos y acuerdos globales, como las Convenciones de Río (CMNUCC, CDB, CNULD), el Agenda 2030, y el marco de las Naciones Unidas. Su conocimiento de los procesos multilaterales y su capacidad para traducir políticas complejas en acciones prácticas lo convierten en un recurso invaluable para aquellos que buscan dar forma a las agendas ambientales internacionales o alinear sus estrategias con los estándares globales.",
             research: [
                 {
@@ -442,6 +442,10 @@ export const servicesEspanol = {
                         {
                             src: "/assets/unccd.png",
                             link: "https://www.unccd.int/"
+                        },
+                        {
+                            src: "/assets/logoMDG.jpg",
+                            link: "https://www.un.org/millenniumgoals/"
                         }
                     ],
                 }
@@ -671,7 +675,7 @@ export const servicesEnglish = {
     ],
     list3: [
         {
-            title: "International Environmental Governance Advisory",
+            title: "Environmental and Climate Governance Advisory",
             text: "Salvatore advises decision-makers, governments, senior executives, and international organisations in the complex arena of global environmental governance. Salvatore offers strategic guidance on how to navigate and influence global frameworks and agreements, such as the Rio Conventions (UNFCCC, CBD, UNCCD), Agenda 2030, and the United Nations framework. His knowledge of multilateral processes and his ability to translate complex policies into practical actions make him an invaluable resource for those seeking to shape international environmental agendas or align their strategies with global standards.",
             research: [
                 {
@@ -691,6 +695,10 @@ export const servicesEnglish = {
                         {
                             src: "/assets/unccd.png",
                             link: "https://www.unccd.int/"
+                        },
+                        {
+                            src: "/assets/logoMDG.jpg",
+                            link: "https://www.un.org/millenniumgoals/"
                         }
                     ],
                 }
@@ -918,7 +926,7 @@ export const servicesDeutsch = {
     ],
     list3: [
         {
-            title: "Beratung zur internationalen Umweltgouvernance",
+            title: "Beratung zu Umwelt- und Klimapolitik",
             text: "Salvatore berät Entscheidungsträger, Regierungen, Führungskräfte und internationale Organisationen in der komplexen Arena der globalen Umweltgouvernance. Salvatore bietet strategische Beratung zur Navigation und Beeinflussung globaler Rahmenwerke und Abkommen wie den Rio-Konventionen (UNFCCC, CBD, UNCCD), der Agenda 2030 und dem Rahmen der Vereinten Nationen. Sein Wissen über multilaterale Prozesse und seine Fähigkeit, komplexe Politiken in praktische Maßnahmen umzusetzen, machen ihn zu einer unschätzbaren Ressource für diejenigen, die internationale Umweltagenden gestalten oder ihre Strategien an globale Standards anpassen möchten.",
             research: [
                 {
@@ -938,6 +946,10 @@ export const servicesDeutsch = {
                         {
                             src: "/assets/unccd.png",
                             link: "https://www.unccd.int/"
+                        },
+                        {
+                            src: "/assets/logoMDG.jpg",
+                            link: "https://www.un.org/millenniumgoals/"
                         }
                     ],
                 }
@@ -1165,7 +1177,7 @@ export const servicesFrench = {
     ],
     list3: [
         {
-            title: "Conseil en Gouvernance Environnementale Internationale",
+            title: "Advisory sur la gouvernance environnementale et climatique",
             text: "Salvatore conseille les décideurs, les gouvernements, les cadres supérieurs et les organisations internationales dans l’arène complexe de la gouvernance environnementale mondiale. Salvatore offre des conseils stratégiques sur la manière de naviguer et d’influencer les cadres et accords mondiaux, tels que les Conventions de Rio (CCNUCC, CDB, CNULD), l’Agenda 2030 et le cadre des Nations Unies. Sa connaissance des processus multilatéraux et sa capacité à traduire des politiques complexes en actions pratiques font de lui une ressource inestimable pour ceux qui cherchent à façonner les agendas environnementaux internationaux ou à aligner leurs stratégies sur les normes mondiales.",
             research: [
                 {
@@ -1185,6 +1197,10 @@ export const servicesFrench = {
                         {
                             src: "/assets/unccd.png",
                             link: "https://www.unccd.int/"
+                        },
+                        {
+                            src: "/assets/logoMDG.jpg",
+                            link: "https://www.un.org/millenniumgoals/"
                         }
                     ],
                 }
@@ -1414,7 +1430,7 @@ export const servicesItalian = {
     ],
     list3: [
         {
-            title: "Consulenza sulla Governance Ambientale Internazionale",
+            title: "Consulenza in materia di governance ambientale e climatica",
             text: "Salvatore consiglia decisori, governi, dirigenti senior e organizzazioni internazionali nell’arena complessa della governance ambientale globale. Salvatore offre orientamento strategico su come navigare e influenzare i quadri e gli accordi globali, come le Convenzioni di Rio (UNFCCC, CBD, UNCCD), l’Agenda 2030 e il quadro delle Nazioni Unite. La sua conoscenza dei processi multilaterali e la sua capacità di tradurre politiche complesse in azioni pratiche lo rendono una risorsa inestimabile per coloro che cercano di plasmare le agende ambientali internazionali o di allineare le loro strategie agli standard globali.",
             research: [
                 {
@@ -1434,6 +1450,10 @@ export const servicesItalian = {
                         {
                             src: "/assets/unccd.png",
                             link: "https://www.unccd.int/"
+                        },
+                        {
+                            src: "/assets/logoMDG.jpg",
+                            link: "https://www.un.org/millenniumgoals/"
                         }
                     ],
                 }
@@ -1661,7 +1681,7 @@ export const servicesLux = {
     ],
     list3: [
         {
-            title: "Berodung fir international Ëmweltgouvernance",
+            title: "Berodung fir Ëmwelt- a Klima-Gouvernance",
             text: "De Salvatore beréit Entscheedungsträger, Regierungen, Senior Exekutiven an international Organisatiounen an der komplexer Arena vun der globaler Ëmweltgouvernance. De Salvatore bitt strategesch Berodung iwwer wéi ee global Kaderen an Ofkommes navigéiert an beaflosst, wéi d’Rio-Konventiounen (UNFCCC, CBD, UNCCD), d’Agenda 2030 an de Kader vun de Vereenten Natiounen. Seng Kenntnisser iwwer multilaterale Prozesser a seng Fäegkeet, komplex Politiken a praktesch Aktiounen ze iwwersetzen, maachen hie zu enger onschätzbarer Ressource fir déi, déi international Ëmweltagenden gestalten oder hir Strategien u global Standarden upassen wëllen.",
             research: [
                 {
@@ -1681,6 +1701,10 @@ export const servicesLux = {
                         {
                             src: "/assets/unccd.png",
                             link: "https://www.unccd.int/"
+                        },
+                        {
+                            src: "/assets/logoMDG.jpg",
+                            link: "https://www.un.org/millenniumgoals/"
                         }
                     ],
                 }
@@ -2059,7 +2083,7 @@ export const servicesPt = {
     ],
     list3: [
         {
-            title: "Consultoria em Governança Ambiental Internacional",
+            title: "Assessoria em Governança Ambiental e Climática",
             text: "Salvatore assessora tomadores de decisão, governos, altos executivos e organizações internacionais na complexa arena da governança ambiental global. Salvatore oferece orientação estratégica sobre como navegar e influenciar marcos e acordos globais, como as Convenções do Rio (UNFCCC, CBD, UNCCD), a Agenda 2030 e o quadro das Nações Unidas. Seu conhecimento dos processos multilaterais e sua capacidade de traduzir políticas complexas em ações práticas o tornam um recurso inestimável para aqueles que buscam moldar as agendas ambientais internacionais ou alinhar suas estratégias com os padrões globais.",
             research: [
                 {
@@ -2079,6 +2103,10 @@ export const servicesPt = {
                         {
                             src: "/assets/unccd.png",
                             link: "https://www.unccd.int/"
+                        },
+                        {
+                            src: "/assets/logoMDG.jpg",
+                            link: "https://www.un.org/millenniumgoals/"
                         }
                     ],
                 }
