@@ -28,6 +28,13 @@ const Footer = () => {
                             >
                                 Impressum
                             </Link>
+                            <span>|</span>
+                            <Link 
+                                to="/" 
+                                className="text-sm text-blue-400 hover:text-blue-600 transition duration-300"
+                            >
+                                Home
+                            </Link>
                         </div>
                         </p>
 

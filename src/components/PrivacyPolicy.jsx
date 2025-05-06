@@ -33,11 +33,15 @@ const PrivacyPolicy = () => {
 
     return (
         <div className="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
-            <div className="flex justify-center">
-                <Link to="/" className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300">
+            <div className="fixed top-4 left-4 z-50">
+                <Link
+                    to="/"
+                    className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300"
+                >
                     ←
                 </Link>
             </div>
+
             <div className="mb-8">
                 <LanguageSelector />
             </div>

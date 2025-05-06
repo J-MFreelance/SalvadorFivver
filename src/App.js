@@ -24,6 +24,7 @@ function App() {
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/Blog" element={<Blog />} />
         </Routes>
+        <Footer />
       </Router>
     </LanguageProvider>
   );
@@ -59,7 +60,6 @@ const MainContent = () => {
           <SectionTwo />
         </div>
       </div>
-      <Footer />
       <LanguageSelector />
     </div>
   );

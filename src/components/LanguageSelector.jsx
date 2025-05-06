@@ -9,8 +9,8 @@ const LanguageSelector = () => {
     { code: 'DE', label: 'DEUTSCH' },  // Código para alemán
     { code: 'FR', label: 'FRANÇAIS' },  // Código para francés
     { code: 'IT', label: 'ITALIANO' },  // Código para italiano
-    { code: 'ES', label: 'ESPAÑOL' },  // Código para español
-    { code: 'LU', label: 'LETZEMBUERGER' },  // Luxemburgués (idioma original)
+    { code: 'CR', label: 'ESPAÑOL' },  // Código para español
+    { code: 'LU', label: 'LËTZEBUERGESCH' },  // Luxemburgués (idioma original)
     { code: 'BR', label: 'PORTUGUÊS' }  // Portugués
   ];
 
