@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import LanguageSelector from './components/LanguageSelector';
 import Navbar from './components/Navbar';
 import Opinions from './components/Opinions';
+import Blog from './components/Blog';
 import Section from './components/Section';
 import SectionTwo from './components/SectionTwo';
 import { LanguageProvider } from './components/LanguageContext';
@@ -11,6 +12,7 @@ import Services from './components/Services';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Impressum from './components/Impressum';
+import LinkedInPost from './components/Linkedin';
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
           <Route path="/" element={<MainContent />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/impressum" element={<Impressum />} />
+          <Route path="/Blog" element={<Blog />} />
         </Routes>
         <Footer />
       </Router>
@@ -53,6 +56,7 @@ const MainContent = () => {
         </div>
         <Opinions />
         <div id='contact'>
+          <LinkedInPost />
           <SectionTwo />
         </div>
       </div>
