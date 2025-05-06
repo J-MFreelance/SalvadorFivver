@@ -13,6 +13,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Impressum from './components/Impressum';
 import LinkedInPost from './components/Linkedin';
+import BlogPost from './components/BlogPost';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/Blog" element={<Blog />} />
+          <Route path="/Blog/:title" element={<BlogPost />} />
+
         </Routes>
         <Footer />
       </Router>
