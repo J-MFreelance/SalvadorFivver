@@ -93,14 +93,18 @@ const SectionTwo = () => {
         } else if (language.code === "BR") {
             setLanguageData(portugues4);
         } else {
-            setLanguageData(espanol4);
+            setLanguageData(ingles4);
         }
     }, [language]);
 
     return (
         <section id='blog'>
-            <h1 className='text-2xl text-white font-bold max-lg:text-xl'>{languageData.titulo}</h1>
-            <div className="flex max-lg:flex-col justify-between bg-[#101034] p-8 text-white">
+            <a href="/blog" className="underline text-white hover:text-[#1B1E51]">
+                <h1 className='text-2xl max-lg:px-4 py-6 text-white font-bold max-lg:text-xl'>{languageData.titulo}</h1>
+            </a>
+
+
+            <div className="flex max-lg:flex-col justify-between bg-[#101034] p-8 text-white ">
 
                 {/* Left Section */}
                 <div className="xl:w-1/2 max-lg:pb-6">

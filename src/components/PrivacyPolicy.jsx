@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
             "BR": portugues,
             "LU": lux
         };
-        setLanguageData(dataMap[language.code] || espanol);
+        setLanguageData(dataMap[language.code] || english);
     }, [language]);
 
     if (!languageData) {

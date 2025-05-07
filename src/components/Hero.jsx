@@ -24,7 +24,7 @@ const Hero = () => {
       setLanguageData(letzemburgesch1);
     }
     else {
-      setLanguageData(espanol1); // Valor por defecto
+      setLanguageData(ingles1); // Valor por defecto
     }
   }, [language]);
 

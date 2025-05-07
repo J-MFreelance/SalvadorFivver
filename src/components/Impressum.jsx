@@ -24,7 +24,7 @@ const Impressum = () => {
     } else if (language.code === "BR") {
       setLanguageData(portugues);
     } else {
-      setLanguageData(espanol); // Default to Spanish
+      setLanguageData(english); // Default to Spanish
     }
   }, [language]);
 

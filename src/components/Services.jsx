@@ -27,7 +27,7 @@ const Services = () => {
             "LU": servicesLux
         };
 
-        setLanguageData(dataMap[language.code] || servicesEspanol);
+        setLanguageData(dataMap[language.code] || servicesEnglish);
         setExpandedItems({});
     }, [language]);
 

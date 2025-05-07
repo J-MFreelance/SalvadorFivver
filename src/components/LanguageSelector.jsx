@@ -30,7 +30,7 @@ const LanguageSelector = () => {
   }, [setLanguage]);
 
   return (
-    <div className="fixed bottom-0 right-8 inline-block text-left">
+    <div className="fixed bottom-0 right-8 inline-block text-left z-50">
       <div className="relative">
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}

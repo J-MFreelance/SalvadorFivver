@@ -24,7 +24,7 @@ const Navbar = () => {
     } else if (language.code === "BR") {
       setLanguageData(portugues);
     } else {
-      setLanguageData(espanol);
+      setLanguageData(ingles);
     }
   }, [language]);
 

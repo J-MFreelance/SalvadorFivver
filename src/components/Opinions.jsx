@@ -25,7 +25,7 @@ const Opinions = () => {
     }
     
     else {
-      setLanguageData(espanol3);
+      setLanguageData(ingles3);
     }
   }, [language]);
 
