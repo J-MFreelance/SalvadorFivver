@@ -18,7 +18,7 @@ const Services = () => {
 
     useEffect(() => {
         const dataMap = {
-            "ES": servicesEspanol,
+            "CR": servicesEspanol,
             "GB": servicesEnglish,
             "DE": servicesDeutsch,
             "IT": servicesItalian,
