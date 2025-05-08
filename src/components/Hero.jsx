@@ -8,7 +8,7 @@ const Hero = () => {
   const [languageData, setLanguageData] = useState({});
 
   useEffect(() => {
-    if (language.code === "ES") {
+    if (language.code === "CR") {
       setLanguageData(espanol1);
     } else if (language.code === "GB") {
       setLanguageData(ingles1);

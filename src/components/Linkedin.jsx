@@ -1,26 +1,18 @@
-import React, { useEffect } from 'react';
 
-const LinkedInPost = () => {
-    useEffect(() => {
-        // Esto asegura que el script se cargue solo una vez que el componente esté montado
-        const script = document.createElement('script');
-        script.src = 'https://widgets.sociablekit.com/linkedin-profile-posts/widget.js';
-        script.defer = true;
-        document.body.appendChild(script);
-
-        // Cleanup: eliminar el script cuando el componente se desmonte
-        return () => {
-            document.body.removeChild(script);
-        };
-    }, []);
-
-    
-    return (
-        <div className="p-4 bg-white border rounded-lg shadow-md">
-            <div className="sk-ww-linkedin-profile-post" data-embed-id="25552704"></div>
-        </div>
-    );
-
+const Linkedin = () => {
+  return (
+    <div className="p-4 bg-white border rounded-lg shadow-md">
+      <iframe
+        src="https://widgets.sociablekit.com/linkedin-profile-posts/iframe/25554751"
+        title="LinkedIn Profile Post"
+        frameBorder="0"
+        width="100%"
+        height="1000"
+        style={{ border: "none", overflow: "hidden" }}
+        allowFullScreen
+      ></iframe>
+    </div>
+  );
 };
 
-export default LinkedInPost;
+export default Linkedin;

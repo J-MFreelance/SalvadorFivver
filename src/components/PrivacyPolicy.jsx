@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
 
     useEffect(() => {
         const dataMap = {
-            "ES": espanol,
+            "CR": espanol,
             "GB": english,
             "DE": deutsch,
             "IT": italiano,

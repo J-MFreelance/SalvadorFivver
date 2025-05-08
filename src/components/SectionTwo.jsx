@@ -78,7 +78,7 @@ const SectionTwo = () => {
     };
 
     useEffect(() => {
-        if (language.code === "ES") {
+        if (language.code === "CR") {
             setLanguageData(espanol4);
         } else if (language.code === "GB") {
             setLanguageData(ingles4);

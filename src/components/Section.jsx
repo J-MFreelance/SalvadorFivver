@@ -40,7 +40,7 @@ const Section = () => {
     ];
 
     useEffect(() => {
-        if (language.code === "ES") {
+        if (language.code === "CR") {
             setLanguageData(espanol2);
         } else if (language.code === "GB") {
             setLanguageData(ingles2);

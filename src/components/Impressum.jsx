@@ -9,7 +9,7 @@ const Impressum = () => {
   const [languageData, setLanguageData] = useState({});
 
   useEffect(() => {
-    if (language.code === "ES") {
+    if (language.code === "CR") {
       setLanguageData(espanol);
     } else if (language.code === "GB") {
       setLanguageData(english);

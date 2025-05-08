@@ -9,7 +9,7 @@ const Navbar = () => {
   const [languageData, setLanguageData] = useState({});
 
   useEffect(() => {
-    if (language.code === "ES") {
+    if (language.code === "CR") {
       setLanguageData(espanol);
     } else if (language.code === "GB") {
       setLanguageData(ingles);
@@ -92,7 +92,7 @@ const Navbar = () => {
           <a
             className="text-2xl lg:text-base hover:transition-colors hover:opacity-70 cursor-pointer"
             onClick={handleClick}
-            href='#blog'
+            href='/blog'
           >
             {languageData.navA4}
           </a>

@@ -12,7 +12,6 @@ import Services from './components/Services';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Impressum from './components/Impressum';
-import LinkedInPost from './components/Linkedin';
 import BlogPost from './components/BlogPost';
 
 function App() {
@@ -59,7 +58,6 @@ const MainContent = () => {
         </div>
         <Opinions />
         <div id='contact'>
-          <LinkedInPost />
           <SectionTwo />
         </div>
       </div>
