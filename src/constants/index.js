@@ -1,3 +1,5 @@
+import { imagenes } from "./img_services";
+
 // constantes.js
 //-------------------------------------------------- NAVBAR --------------------------------------------------
 export const espanol = {
@@ -394,7 +396,8 @@ export const servicesEspanol = {
                     title: "Estudios de caso",
                     text: "Lideró un equipo para diseñar una estrategia de sostenibilidad renovada para un fabricante global en 2023, proyectada para reducir las emisiones de carbono en al menos un 20% y garantizar la alineación futura con los requisitos de la CSRD de la UE y la SEC de EE. UU.",
                 }
-            ]
+            ],
+            images: imagenes?.sostenibilidad
         }
     ],
     list2: [
@@ -416,7 +419,8 @@ export const servicesEspanol = {
                     title: "Estudios de caso",
                     text: "Supervisó la digitalización estratégica de flujos de trabajo y procesos de gestión y contabilidad basados en papel como parte de la estrategia ESG y digital en una multinacional de 11.000 millones de euros.",
                 }
-            ]
+            ],
+            images: imagenes?.digitalizacion
         }
     ],
 
@@ -465,7 +469,8 @@ export const servicesEspanol = {
                     title: "Estudios de caso",
                     text: "Salvatore asesoró a una importante organización internacional de Sociedad Civil en el Sur Global en la preparación de una posición y estrategia para la Conferencia de las Partes (COP) de la CBD y UNFCCC. A través de su profundo conocimiento del marco internacional ambiental y su experiencia en relaciones internacionales y desarrollo de políticas públicas, Salvatore ayudó a la organización a desarrollar una posición contundente y una estrategia de negociación clara, además de identificar aliados clave."
                 }
-            ]
+            ],
+            images: imagenes?.gobernanza_ase
         }
     ],
     list4: [
@@ -488,7 +493,8 @@ export const servicesEspanol = {
                     title: "Estudios de caso",
                     text: "Asesoró a varios gobiernos nacionales sobre las NDC del UNFCCC y las NBSAP del UNCBD, así como sobre la mitigación y adaptación al cambio climático.",
                 }
-            ]
+            ],
+            images: imagenes?.estrategico
         }
     ],
     list5: [
@@ -509,7 +515,8 @@ export const servicesEspanol = {
                     title: "Estudios de caso",
                     text: "Contribuyó a la legislación pionera como Asesor Especializado de la Jefa de la Fracción Gubernamental en la Asamblea Legislativa de Costa Rica.",
                 }
-            ]
+            ],
+            images: imagenes?.politicas_desa
         }
     ],
     list6: [
@@ -546,7 +553,8 @@ export const servicesEspanol = {
                     title: "Estudios de caso",
                     text: "Investigó y escribió un libro trascendental sobre el pasado, presente y futuro de la silvicultura familiar sostenible en Luxemburgo, influyendo en las discusiones y políticas ambientales nacionales.",
                 }
-            ]
+            ],
+            images: imagenes?.investigacion_cien
         }
     ],
     list7: [
@@ -569,7 +577,8 @@ export const servicesEspanol = {
                     title: "Estudios de caso",
                     text: "Guió a una empresa de tecnología suiza para asegurar asociaciones internacionales y asesoró sobre el cumplimiento ESG en diferentes jurisdicciones.",
                 }
-            ]
+            ],
+            images: imagenes?.miembros_junta
         }
     ],
     list8: [
@@ -595,7 +604,8 @@ export const servicesEspanol = {
                     text: `-Asesoró a una oficina familiar en el establecimiento de un fondo de inversión sostenible en Luxemburgo, garantizando el pleno cumplimiento de las regulaciones locales, la integración de estándares ESG y la coordinación con una red confiable para servicios bancarios y contables.
                     \n-Guió a un inversor de alto patrimonio neto a través del establecimiento de una empresa de tecnología en Suiza, aprovechando asociaciones en el ecosistema de innovación de Zúrich y asegurando el cumplimiento de las regulaciones suizas a través de la coordinación con socios locales de confianza, al tiempo que apoyaba la estrategia de salida al mercado de la empresa.`,
                 }
-            ]
+            ],
+            images: imagenes?.asesoramientos_inversos
         }
     ],
     list9: [
@@ -618,7 +628,8 @@ export const servicesEspanol = {
                     title: "Estudios de caso",
                     text: "Salvatore pronunció el discurso principal 'Acción por el Clima y la Naturaleza sobre los Hombros de Gigantes' en el lanzamiento de su libro ‘Lëtz Regenerate’ sobre el pasado, presente y futuro de la silvicultura familiar sostenible de Luxemburgo. El evento, al que asistieron Su Alteza Real el Gran Duque Henri, el Primer Ministro Xavier Bettel, diputados, funcionarios gubernamentales y más de 400 VIP y expertos internacionales, destacó su capacidad para cautivar a una audiencia de alto nivel. Su discurso presentó una visión convincente para la regeneración de la naturaleza en medio de los desafíos climáticos, inspirada en las contribuciones de figuras históricas del sector forestal y natural de Luxemburgo.",
                 }
-            ]
+            ],
+            images: imagenes?.orador
         }
     ],
     question: "¿Tienes preguntas?",
@@ -648,7 +659,8 @@ export const servicesEnglish = {
                     title: "Case Study",
                     text: "Led a team to design a renewed sustainability strategy for a global manufacturer in 2023, projected to reduce carbon emissions by at least 20% and ensure future alignment with EU CSRD and U.S. SEC requirements.",
                 }
-            ]
+            ],
+            images: imagenes?.sostenibilidad
         }
     ],
     list2: [
@@ -670,7 +682,8 @@ export const servicesEnglish = {
                     title: "Case Study",
                     text: "Oversaw the strategic digitalization of paper-based workflows and management/accounting processes as part of the ESG and digital strategy for an €11 billion multinational.",
                 }
-            ]
+            ],
+            images: imagenes?.digitalizacion
         }
     ],
     list3: [
@@ -1378,8 +1391,6 @@ export const servicesFrench = {
     sayHello: "Contactez-moi",
     date: "Planifier un rendez-vous"
 }
-
-
 
 export const servicesItalian = {
     title: "Servizi",
@@ -2133,8 +2144,6 @@ export const servicesPt = {
     sayHello: "Fale comigo",
     date: "Agendar reunião",
 }
-
-
 
 //-------------------------------------------------Testimonials --------------------------------------------------
 

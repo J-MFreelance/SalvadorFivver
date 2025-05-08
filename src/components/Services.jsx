@@ -130,7 +130,15 @@ const Services = () => {
                                 </div>
                             </div>
                         ))}
-
+                        {item.images?.map((img, index) => (
+                            <div key={`img-${index}`} className="mt-4">
+                                <img
+                                    src={img}
+                                    alt={`Image ${index + 1}`}
+                                    className="w-full h-auto object-contain"
+                                />
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
