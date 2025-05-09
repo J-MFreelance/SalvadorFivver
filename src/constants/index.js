@@ -731,7 +731,8 @@ export const servicesEnglish = {
                     title: "Case Study",
                     text: "Salvatore advised a major international civil society organisation in the Global South in preparing a position and strategy for the Conference of the Parties (COP) of the CBD and UNFCCC. Through his deep knowledge of the international environmental framework and his experience in international relations and public policy development, Salvatore helped the organisation develop a compelling position and a clear negotiation strategy, as well as identify key allies."
                 }
-            ]
+            ],
+            images: imagenes?.gobernanza_ase
         }
     ],
     list4: [
@@ -754,7 +755,8 @@ export const servicesEnglish = {
                     title: "Case Study",
                     text: "Advised multiple national governments on UNFCCC NDCs and UNCBD NBSAPs, as well as climate change mitigation and adaptation.",
                 }
-            ]
+            ],
+            images: imagenes?.estrategico
         }
     ],
     list5: [
@@ -776,7 +778,8 @@ export const servicesEnglish = {
                     title: "Case Study",
                     text: "Contributed to pioneering legislation as a Specialized Advisor to the Head of the Government Caucus in the Legislative Assembly of Costa Rica.",
                 }
-            ]
+            ],
+            images: imagenes?.politicas_desa
         }
     ],
     list6: [
@@ -813,7 +816,8 @@ export const servicesEnglish = {
                     title: "Case Study",
                     text: "Researched and authored a transcendental book on the past, present, and future of sustainable family forestry in Luxembourg, influencing national environmental discussions and policies.",
                 }
-            ]
+            ],
+            images: imagenes?.investigacion_cien
         }
     ],
     list7: [
@@ -836,7 +840,8 @@ export const servicesEnglish = {
                     title: "Case Study",
                     text: "Guided a Swiss tech company to secure international partnerships and advised on ESG compliance across jurisdictions.",
                 }
-            ]
+            ],
+            images: imagenes?.miembros_junta
         }
     ],
     list8: [
@@ -859,7 +864,8 @@ export const servicesEnglish = {
                     title: "Case Study",
                     text: "- Advised a family office on establishing a sustainable investment fund in Luxembourg, ensuring full compliance with local regulations, integration of ESG standards, and coordination with a trusted network for banking and accounting services.\n- Guided a high-net-worth investor through setting up a tech company in Switzerland, leveraging partnerships in Zurich’s innovation ecosystem and ensuring compliance with Swiss regulations through coordination with trusted local partners, while supporting the company’s market-entry strategy.",
                 }
-            ]
+            ],
+            images: imagenes?.asesoramientos_inversos
         }
     ],
     list9: [
@@ -882,7 +888,8 @@ export const servicesEnglish = {
                     title: "Case Study",
                     text: "Salvatore delivered the keynote speech 'Climate and Nature Action on the Shoulders of Giants' at the launch of his book ‘Lëtz Regenerate’ on the past, present, and future of Luxembourg’s sustainable family forestry. The event, attended by His Royal Highness Grand Duke Henri, Prime Minister Xavier Bettel, lawmakers, government officials, and over 400 VIPs and international experts, showcased his ability to captivate a high-profile audience. His speech presented a compelling vision for nature regeneration amid climate challenges, inspired by the contributions of historical figures in Luxembourg’s forestry and natural sector.",
                 }
-            ]
+            ],
+            images: imagenes?.orador
         }
     ],
     question: "Have questions?",
@@ -912,7 +919,8 @@ export const servicesDeutsch = {
                     title: "Fallstudie",
                     text: "Leitete ein Team bei der Entwicklung einer erneuerten Nachhaltigkeitsstrategie für einen globalen Hersteller im Jahr 2023, die eine CO₂-Reduktion von mindestens 20% vorsieht und die künftige Einhaltung der EU-CSRD und US-SEC-Anforderungen sichert.",
                 }
-            ]
+            ],
+            images: imagenes?.sostenibilidad
         }
     ],
     list2: [
@@ -934,7 +942,8 @@ export const servicesDeutsch = {
                     title: "Fallstudie",
                     text: "Verantwortete die strategische Digitalisierung papierbasierter Workflows und Management-/Buchhaltungsprozesse als Teil der ESGund Digitalstrategie eines multinationalen Unternehmens mit 11 Mrd. € Umsatz.",
                 }
-            ]
+            ],
+            images: imagenes?.digitalizacion
         }
     ],
     list3: [
@@ -982,7 +991,8 @@ export const servicesDeutsch = {
                     title: "Fallstudie",
                     text: "Salvatore beriet eine große internationale zivilgesellschaftliche Organisation im Globalen Süden bei der Vorbereitung einer Position und Strategie für die Vertragsstaatenkonferenz (COP) der CBD und UNFCCC. Durch sein tiefes Wissen über den internationalen Umweltrahmen und seine Erfahrung in internationalen Beziehungen und der Entwicklung öffentlicher Politiken half Salvatore der Organisation, eine überzeugende Position und eine klare Verhandlungsstrategie zu entwickeln sowie wichtige Verbündete zu identifizieren."
                 }
-            ]
+            ],
+            images: imagenes?.gobernanza_ase
         }
     ],
     list4: [
@@ -1005,7 +1015,8 @@ export const servicesDeutsch = {
                     title: "Fallstudie",
                     text: "Beriet mehrere nationale Regierungen zu UNFCCC-NDCs und UNCBD-NBSAPs sowie zu Klimaschutz und -anpassung.",
                 }
-            ]
+            ],
+            images: imagenes?.estrategico
         }
     ],
     list5: [
@@ -1027,7 +1038,8 @@ export const servicesDeutsch = {
                     title: "Fallstudie",
                     text: "Trug als Fachberater des Regierungsfraktionsvorsitzenden in der Legislative Costa Ricas zu wegweisenden Gesetzen bei.",
                 }
-            ]
+            ],
+            images: imagenes?.politicas_desa
         }
     ],
     list6: [
@@ -1064,7 +1076,8 @@ export const servicesDeutsch = {
                     title: "Fallstudie",
                     text: "Erforschte und verfasste ein grundlegendes Buch über die Vergangenheit, Gegenwart und Zukunft der nachhaltigen Familienforstwirtschaft in Luxemburg, das nationale Umweltdebatten und -politiken beeinflusste.",
                 }
-            ]
+            ],
+            images: imagenes?.investigacion_cien
         }
     ],
     list7: [
@@ -1087,7 +1100,8 @@ export const servicesDeutsch = {
                     title: "Fallstudie",
                     text: "Begleitete ein Schweizer Technologieunternehmen bei der Sicherung internationaler Partnerschaften und beriet zu ESG-Compliance in verschiedenen Rechtsgebieten.",
                 }
-            ]
+            ],
+            images: imagenes?.miembros_junta
         }
     ],
     list8: [
@@ -1110,7 +1124,8 @@ export const servicesDeutsch = {
                     title: "Fallstudie",
                     text: "- Beriet ein Family Office bei der Gründung eines nachhaltigen Investmentfonds in Luxemburg, sicherte die vollständige Compliance mit lokalen Vorschriften, die Integration von ESG-Standards und die Koordination mit einem vertrauenswürdigen Netzwerk für Bankund Buchhaltungsdienstleistungen.\n- Begleitete einen vermögenden Privatanleger bei der Gründung eines Technologieunternehmens in der Schweiz, nutzte Partnerschaften im Zürcher Innovationsökosystem und sicherte die Einhaltung schweizerischer Vorschriften durch die Koordination mit vertrauenswürdigen lokalen Partnern, während er die Markteintrittsstrategie des Unternehmens unterstützte.",
                 }
-            ]
+            ],
+            images: imagenes?.asesoramientos_inversos
         }
     ],
     list9: [
@@ -1133,7 +1148,8 @@ export const servicesDeutsch = {
                     title: "Fallstudie",
                     text: "Salvatore hielt die Keynote-Rede 'Klimaund Naturschutz auf den Schultern von Riesen' bei der Vorstellung seines Buches 'Lëtz Regenerate' über Vergangenheit, Gegenwart und Zukunft der nachhaltigen Familienforstwirtschaft Luxemburgs. Die Veranstaltung, die von S.K.H. Großherzog Henri, Premierminister Xavier Bettel, Gesetzgebern, Regierungsbeamten und über 400 VIPs und internationalen Experten besucht wurde, zeigte seine Fähigkeit, ein hochkarätiges Publikum zu fesseln. Seine Rede präsentierte eine überzeugende Vision für die Regeneration der Natur angesichts von Klimaherausforderungen, inspiriert von den Beiträgen historischer Persönlichkeiten aus Luxemburgs Forstund Natursektor.",
                 }
-            ]
+            ],
+            images: imagenes?.orador
         }
     ],
     question: "Haben Sie Fragen?",
@@ -1163,7 +1179,8 @@ export const servicesFrench = {
                     title: "Étude de cas",
                     text: "A dirigé une équipe pour concevoir une stratégie de durabilité renouvelée pour un fabricant mondial en 2023, projetée pour réduire les émissions carbone d'au moins 20% et garantir l'alignement avec les exigences futures du CSRD UE et SEC États-Unis.",
                 }
-            ]
+            ],
+            images: imagenes?.sostenibilidad
         }
     ],
     list2: [
@@ -1185,7 +1202,8 @@ export const servicesFrench = {
                     title: "Étude de cas",
                     text: "A supervisé la digitalisation stratégique des flux de travail et processus de gestion/comptabilité papier dans le cadre de la stratégie ESG et digitale d'une multinationale de 11 milliards d'euros.",
                 }
-            ]
+            ],
+            images: imagenes?.digitalizacion
         }
     ],
     list3: [
@@ -1233,7 +1251,8 @@ export const servicesFrench = {
                     title: "Étude de cas",
                     text: "Salvatore a conseillé une importante organisation internationale de la société civile dans le Sud global pour la préparation d’une position et d’une stratégie pour la Conférence des Parties (COP) de la CDB et de la CCNUCC. Grâce à sa profonde connaissance du cadre environnemental international et à son expérience en relations internationales et en développement de politiques publiques, Salvatore a aidé l’organisation à développer une position convaincante et une stratégie de négociation claire, ainsi qu’à identifier des alliés clés."
                 }
-            ]
+            ],
+            images: imagenes?.gobernanza_ase
         }
     ],
     list4: [
@@ -1256,7 +1275,8 @@ export const servicesFrench = {
                     title: "Étude de cas",
                     text: "A conseillé plusieurs gouvernements nationaux sur les CDN de la CCNUCC et les SNB de la CDB ainsi que sur l'atténuation et l'adaptation au changement climatique.",
                 }
-            ]
+            ],
+            images: imagenes?.estrategico
         }
     ],
     list5: [
@@ -1278,7 +1298,8 @@ export const servicesFrench = {
                     title: "Étude de cas",
                     text: "A contribué à une législation pionnière en tant que Conseiller Spécialisé du Chef de groupe gouvernemental à l'Assemblée Législative du Costa Rica.",
                 }
-            ]
+            ],
+            images: imagenes?.politicas_desa
         }
     ],
     list6: [
@@ -1315,7 +1336,8 @@ export const servicesFrench = {
                     title: "Étude de cas",
                     text: "A recherché et écrit un ouvrage fondamental sur le passé, présent et futur de la sylviculture familiale durable au Luxembourg, influençant les débats et politiques environnementales nationales.",
                 }
-            ]
+            ],
+            images: imagenes?.investigacion_cien
         }
     ],
     list7: [
@@ -1338,7 +1360,8 @@ export const servicesFrench = {
                     title: "Étude de cas",
                     text: "A guidé une entreprise tech suisse pour sécuriser des partenariats internationaux et conseillé sur la conformité ESG dans multiples juridictions.",
                 }
-            ]
+            ],
+            images: imagenes?.miembros_junta
         }
     ],
     list8: [
@@ -1361,7 +1384,8 @@ export const servicesFrench = {
                     title: "Étude de cas",
                     text: "- A conseillé un family office pour créer un fonds d'investissement durable au Luxembourg, assurant la conformité réglementaire, l'intégration ESG et la coordination avec des partenaires bancaires/comptables.\n- A guidé un investisseur fortuné dans la création d'une entreprise tech en Suisse, en s'appuyant sur l'écosystème d'innovation zurichois et en assurant la conformité aux régulations suisses via des partenaires locaux, tout en soutenant la stratégie de commercialisation.",
                 }
-            ]
+            ],
+            images: imagenes?.asesoramientos_inversos
         }
     ],
     list9: [
@@ -1384,7 +1408,8 @@ export const servicesFrench = {
                     title: "Étude de cas",
                     text: "Salvatore prononça le discours clé 'Action Climat et Nature sur les Épaules de Géants' lors du lancement de son livre ‘Lëtz Regenerate’ sur la sylviculture familiale durable luxembourgeoise. L'événement, en présence de SAR le Grand-Duc Henri, du Premier Ministre Xavier Bettel, des législateurs, des fonctionnaires et de plus de 400 VIP et experts internationaux, a montré sa capacité à captiver un public de haut niveau. Son discours a présenté une vision convaincante pour la régénération de la nature face aux défis climatiques, inspirée des figures historiques du secteur forestier luxembourgeois.",
                 }
-            ]
+            ],
+            images: imagenes?.orador
         }
     ],
     question: "Des questions ?",
@@ -1414,7 +1439,8 @@ export const servicesItalian = {
                     title: "Caso di Studio",
                     text: "Ha guidato un team nella progettazione di una strategia di sostenibilità rinnovata per un produttore globale nel 2023, con l'obiettivo di ridurre le emissioni di carbonio di almeno il 20% e garantire l'allineamento con i requisiti del CSRD UE e della SEC statunitense.",
                 }
-            ]
+            ],
+            images: imagenes?.sostenibilidad
         }
     ],
     list2: [
@@ -1436,7 +1462,8 @@ export const servicesItalian = {
                     title: "Caso di Studio",
                     text: "Ha supervisionato la digitalizzazione strategica dei flussi di lavoro cartacei e dei processi gestionali/contabili come parte della strategia ESG e digitale di una multinazionale da 11 miliardi di euro.",
                 }
-            ]
+            ],
+            images: imagenes?.digitalizacion
         }
     ],
     list3: [
@@ -1484,7 +1511,8 @@ export const servicesItalian = {
                     title: "Caso di Studio",
                     text: "Salvatore ha consigliato una importante organizzazione internazionale della società civile nel Sud del mondo nella preparazione di una posizione e di una strategia per la Conferenza delle Parti (COP) della CBD e dell’UNFCCC. Attraverso la sua profonda conoscenza del quadro ambientale internazionale e la sua esperienza nelle relazioni internazionali e nello sviluppo di politiche pubbliche, Salvatore ha aiutato l’organizzazione a sviluppare una posizione convincente e una strategia di negoziazione chiara, oltre a identificare alleati chiave."
                 }
-            ]
+            ],
+            images: imagenes?.gobernanza_ase
         }
     ],
     list4: [
@@ -1507,7 +1535,8 @@ export const servicesItalian = {
                     title: "Caso di Studio",
                     text: "Ha consigliato diversi governi nazionali sugli NDC dell'UNFCCC e gli NBSAP dell'UNCBD, oltre che su mitigazione e adattamento al cambiamento climatico.",
                 }
-            ]
+            ],
+            images: imagenes?.estrategico
         }
     ],
     list5: [
@@ -1529,7 +1558,8 @@ export const servicesItalian = {
                     title: "Caso di Studio",
                     text: "Ha contribuito a una legislazione pionieristica come Consulente Specializzato del Capogruppo di Governo nell'Assemblea Legislativa della Costa Rica.",
                 }
-            ]
+            ],
+            images: imagenes?.politicas_desa
         }
     ],
     list6: [
@@ -1566,7 +1596,8 @@ export const servicesItalian = {
                     title: "Caso di Studio",
                     text: "Ha ricercato e scritto un'opera fondamentale sul passato, presente e futuro della silvicoltura familiare sostenibile in Lussemburgo, influenzando dibattiti e politiche ambientali nazionali.",
                 }
-            ]
+            ],
+            images: imagenes?.investigacion_cien
         }
     ],
     list7: [
@@ -1589,7 +1620,8 @@ export const servicesItalian = {
                     title: "Caso di Studio",
                     text: "Ha guidato un'azienda tech svizzera nel garantire partnership internazionali e consigliato sulla conformità ESG in diverse giurisdizioni.",
                 }
-            ]
+            ],
+            images: imagenes?.miembros_junta
         }
     ],
     list8: [
@@ -1612,7 +1644,8 @@ export const servicesItalian = {
                     title: "Caso di Studio",
                     text: "- Ha consigliato un family office nella creazione di un fondo d'investimento sostenibile in Lussemburgo, assicurando conformità normativa, integrazione ESG e coordinamento con partner bancari/contabili.\n- Ha guidato un HNWI nella costituzione di un'azienda tech in Svizzera, sfruttando l'ecosistema d'innovazione zurighese e assicurando conformità alle normative svizzere tramite partner locali fidati, supportando parallelamente la strategia di go-to-market.",
                 }
-            ]
+            ],
+            images: imagenes?.asesoramientos_inversos
         }
     ],
     list9: [
@@ -1635,7 +1668,8 @@ export const servicesItalian = {
                     title: "Caso di Studio",
                     text: "Ha tenuto il discorso chiave 'Azione per Clima e Natura sulle Spalle dei Giganti' al lancio del suo libro 'Lëtz Regenerate' sulla silvicoltura familiare sostenibile lussemburghese. L'evento, con S.A.R. il Granduca Henri, il Primo Ministro Xavier Bettel, legislatori e 400+ VIP, ha dimostrato la sua capacità di catturare un pubblico d'alto profilo. Il discorso ha presentato una visione convincente per la rigenerazione naturale di fronte alle sfide climatiche, ispirandosi a figure storiche del settore forestale lussemburghese.",
                 }
-            ]
+            ],
+            images: imagenes?.orador
         }
     ],
     question: "Domande?",
@@ -1665,7 +1699,8 @@ export const servicesLux = {
                     title: "Fallstudie",
                     text: "Huet eng Equipe geleet fir eng nei Nohaltegkeetsstrategie fir e globale Produzent am Joer 2023 z'entwerfen, déi eng Kuelestoffemissiounsreduktioun vu mindestens 20% virgesin an d'Ënnerstëtzung vun EU CSRD an US SEC Ufuerderungen garantéiert.",
                 }
-            ]
+            ],
+            images: imagenes?.sostenibilidad
         }
     ],
     list2: [
@@ -1687,7 +1722,8 @@ export const servicesLux = {
                     title: "Fallstudie",
                     text: "Huet d'strategesch Digitaliséierung vu pabeierbaséierte Workflows an Gestiouns-/Comptabilitéitsprozesser als Deel vun der ESG an digital Strategie vun enger 11 Milliarden Euro Multinational iwwerwaacht.",
                 }
-            ]
+            ],
+            images: imagenes?.digitalizacion
         }
     ],
     list3: [
@@ -1735,7 +1771,8 @@ export const servicesLux = {
                     title: "Fallstudie",
                     text: "De Salvatore huet eng grouss international Zivilgesellschaftsorganisatioun am Globalen Süden beroden bei der Virbereedung vun enger Positioun a Strategie fir d’Konferenz vun de Parteien (COP) vun der CBD an UNFCCC. Duerch seng déif Kenntnisser iwwer den internationalen Ëmweltkader a seng Erfahrung an internationalen Bezéiounen an der Entwécklung vun ëffentleche Politiken huet de Salvatore der Organisatioun gehollef, eng iwwerzeegend Positioun an eng kloer Verhandlungsstrategie ze entwéckelen, souwéi Schlësselallianzen z’identifizéieren."
                 }
-            ]
+            ],
+            images: imagenes?.gobernanza_ase
         }
     ],
     list4: [
@@ -1758,7 +1795,8 @@ export const servicesLux = {
                     title: "Fallstudie",
                     text: "Huet verschidde national Regierunge beroden iwwer UNFCCC NDC'en an UNCBD NBSAP'en souwéi Klimaschutz an -upassung.",
                 }
-            ]
+            ],
+            images: imagenes?.estrategico
         }
     ],
     list5: [
@@ -1780,7 +1818,8 @@ export const servicesLux = {
                     title: "Fallstudie",
                     text: "Huet als Spezialberoder vum Regierungsfraktsiounschef an der Legislativversammlung vu Costa Rica zu pionéierender Legislatioun bäigedroen.",
                 }
-            ]
+            ],
+            images: imagenes?.politicas_desa
         }
     ],
     list6: [
@@ -1817,7 +1856,8 @@ export const servicesLux = {
                     title: "Fallstudie",
                     text: "Huet e fundamental Buch iwwer d'Vergaangenheet, Gegenwart an Zukunft vun der nohalteger Familljebëschwirtschaft zu Lëtzebuerg geschriwwen, wat national Ëmweltdiskussiounen a Politiken beaflosst huet.",
                 }
-            ]
+            ],
+            images: imagenes?.investigacion_cien
         }
     ],
     list7: [
@@ -1840,7 +1880,8 @@ export const servicesLux = {
                     title: "Fallstudie",
                     text: "Huet eng Schwäizer Tech-Firma bei internationalen Partnerschaften beroden an iwwer ESG Conformitéit an verschiddene Jurisdiktioune rot.",
                 }
-            ]
+            ],
+            images: imagenes?.miembros_junta
         }
     ],
     list8: [
@@ -1863,7 +1904,8 @@ export const servicesLux = {
                     title: "Fallstudie",
                     text: "- Huet e Family Office beim Opbau vun engem nohaltegen Investitiounsfond zu Lëtzebuerg beroden, Conformitéit mat lokale Reglementer garantéiert, ESG Standarder integréiert an d'Koordinatioun mat enger vertrauenswürdeger Banka Comptabilitétsnetzwierk gemaach.\n- Huet en HNWI beim Opbau vun enger Tech-Firma an der Schwäiz begleet, Partnerschaften am Zürcher Innovatiounsökosystem ausgenotzt an d'Conformitéit mat Schwäizer Reglementer duerch Koordinatioun mat vertrauenswürdege lokale Partneren ofgeséchert, während hien d'Go-to-Market Strategie vun der Firma ënnerstëtzt huet.",
                 }
-            ]
+            ],
+            images: imagenes?.asesoramientos_inversos
         }
     ],
     list9: [
@@ -1886,7 +1928,8 @@ export const servicesLux = {
                     title: "Fallstudie",
                     text: "Salvatore huet d'Keynote 'Aktioun fir Klima an Natur op den Schëllere vu Risener' bei der Lancement vu sengem Buch 'Lëtz Regenerate' iwwer d'Vergaangenheet, Gegenwart an Zukunft vun der lëtzebuergescher nohalteger Familljebëschwirtschaft gehalen. Den Event, mat S.K.H. Groussherzog Henri, Premierminister Xavier Bettel, Parlamentarier, Regierungsbeamten an iwwer 400 VIPen an internationalen Experten, huet seng Fäegkeet gewisen eng héichprofilitéiert Audience ze fesselen. Säi Discours huet eng iwwerzeegend Visioun fir Naturregeneratioun am Angesicht vu Klimaherausfuerderunge presentéiert, inspiréiert vun de Bäiträg vun historesche Perséinlechkeeten aus Lëtzebuerg sengem Bëschan Naturesecteur.",
                 }
-            ]
+            ],
+            images: imagenes?.orador
         }
     ],
     question: "Froen?",
@@ -1916,7 +1959,8 @@ export const servicesPt = {
                     title: "Estudo de Caso",
                     text: "Liderou uma equipe no projeto de uma estratégia renovada de sustentabilidade para um fabricante global em 2023, projetada para reduzir emissões de carbono em pelo menos 20% e garantir conformidade com requisitos do CSRD UE e SEC EUA.",
                 }
-            ]
+            ],
+            images: imagenes?.sostenibilidad
         }
     ],
     list2: [
@@ -1938,7 +1982,8 @@ export const servicesPt = {
                     title: "Estudo de Caso",
                     text: "Supervisionou a digitalização estratégica de fluxos de trabalho em papel e processos gerenciais/contábeis como parte da estratégia ESG e digital de uma multinacional de €11 bilhões.",
                 }
-            ]
+            ],
+            images: imagenes?.digitalizacion
         }
     ],
     list4: [
@@ -1961,7 +2006,8 @@ export const servicesPt = {
                     title: "Estudo de Caso",
                     text: "Aconselhou diversos governos nacionais sobre NDCs da UNFCCC e NBSAPs da UNCBD, além de mitigação e adaptação às mudanças climáticas.",
                 }
-            ]
+            ],
+            images: imagenes?.estrategico
         }
     ],
     list5: [
@@ -1983,7 +2029,8 @@ export const servicesPt = {
                     title: "Estudo de Caso",
                     text: "Contribuiu para legislação pioneira como Consultor Especializado do Líder da Bancada Governamental na Assembleia Legislativa da Costa Rica.",
                 }
-            ]
+            ],
+            images: imagenes?.politicas_desa
         }
     ],
     list6: [
@@ -2020,7 +2067,8 @@ export const servicesPt = {
                     title: "Estudo de Caso",
                     text: "Pesquisou e escreveu obra transcendental sobre o passado, presente e futuro da silvicultura familiar sustentável em Luxemburgo, influenciando debates e políticas ambientais nacionais.",
                 }
-            ]
+            ],
+            images: imagenes?.investigacion_cien
         }
     ],
     list7: [
@@ -2043,7 +2091,8 @@ export const servicesPt = {
                     title: "Estudo de Caso",
                     text: "Orientou empresa de tecnologia suíça na obtenção de parcerias internacionais e assessorou sobre conformidade ESG em múltiplas jurisdições.",
                 }
-            ]
+            ],
+            images: imagenes?.miembros_junta
         }
     ],
     list8: [
@@ -2066,7 +2115,8 @@ export const servicesPt = {
                     title: "Estudo de Caso",
                     text: "- Assessorou family office na criação de fundo de investimento sustentável em Luxemburgo, garantindo conformidade regulatória, integração ESG e coordenação com rede confiável de serviços bancários/contábeis.\n- Orientou investidor de alto patrimônio na constituição de empresa de tecnologia na Suíça, aproveitando ecossistema de inovação de Zurique e garantindo conformidade com regulamentos suíços através de parceiros locais confiáveis, enquanto apoiava estratégia de entrada no mercado.",
                 }
-            ]
+            ],
+            images: imagenes?.asesoramientos_inversos
         }
     ],
     list9: [
@@ -2089,7 +2139,8 @@ export const servicesPt = {
                     title: "Estudo de Caso",
                     text: "Proferiu palestra 'Ação pelo Clima e Natureza nos Ombros de Gigantes' no lançamento de seu livro 'Lëtz Regenerate' sobre silvicultura familiar sustentável em Luxemburgo. O evento, com S.A.R. Grão-Duque Henri, Primeiro-Ministro Xavier Bettel, legisladores e 400+ VIPs, demonstrou sua capacidade de cativar audiência de alto nível. Sua fala apresentou visão convincente para regeneração natural frente a desafios climáticos, inspirando-se em figuras históricas do setor florestal luxemburguês.",
                 }
-            ]
+            ],
+            images: imagenes?.orador
         }
     ],
     list3: [
@@ -2137,7 +2188,8 @@ export const servicesPt = {
                     title: "Estudo de Caso",
                     text: "Salvatore assessorou uma importante organização internacional da sociedade civil no Sul Global na preparação de uma posição e estratégia para a Conferência das Partes (COP) da CBD e UNFCCC. Através de seu profundo conhecimento do quadro ambiental internacional e sua experiência em relações internacionais e desenvolvimento de políticas públicas, Salvatore ajudou a organização a desenvolver uma posição convincente e uma estratégia de negociação clara, além de identificar aliados-chave.",
                 }
-            ]
+            ],
+            images: imagenes?.gobernanza_ase
         }
     ],
     question: "Dúvidas?",

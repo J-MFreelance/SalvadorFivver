@@ -9,6 +9,13 @@ import {
     servicesLux,
     servicesPt
 } from "../constants";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import { Navigation, Pagination } from 'swiper/modules';
+
 
 const Services = () => {
     const { language } = useLanguage();
@@ -130,15 +137,27 @@ const Services = () => {
                                 </div>
                             </div>
                         ))}
-                        {item.images?.map((img, index) => (
-                            <div key={`img-${index}`} className="mt-4">
-                                <img
-                                    src={img}
-                                    alt={`Image ${index + 1}`}
-                                    className="w-full h-auto object-contain"
-                                />
-                            </div>
-                        ))}
+                        <Swiper
+                            modules={[Navigation, Pagination]}
+                            navigation
+                            pagination={{ clickable: true }}
+                            spaceBetween={10}
+                            slidesPerView={1}
+                            observer={true}
+                            observeParents={true}
+                        >
+                            {item.images?.map((img, index) => (
+                                <SwiperSlide key={`img-${index}`} className="flex justify-center items-center min-h-64 max-sm:min-h-40">
+                                    <div className="flex justify-center items-center w-full h-full">
+                                        <img
+                                            src={img}
+                                            alt={`Image ${index + 1}`}
+                                            className="w-64 h-64 max-sm:w-40 max-sm:h-40 object-contain"
+                                        />
+                                    </div>
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
                     </div>
                 </div>
             </div>

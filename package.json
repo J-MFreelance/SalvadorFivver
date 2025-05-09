@@ -15,6 +15,7 @@
     "react-scripts": "5.0.1",
     "react-world-flags": "^1.6.0",
     "scroll-lock": "^2.1.5",
+    "swiper": "^11.2.6",
     "web-vitals": "^2.1.4",
     "zod": "^3.24.3"
   },
