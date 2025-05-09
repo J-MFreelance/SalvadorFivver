@@ -118,7 +118,7 @@ const Services = () => {
                                 <h4 className="text-lg font-medium mb-2">{research.title}</h4>
 
                                 {/* Contenedor de los logos */}
-                                <div className="flex flex-wrap  w-full mt-2">
+                                <div className="flex flex-wrap items-center justify-center w-full mt-2">
                                     {research.logos?.map((logo, index) => (
                                         <a
                                             key={index}
