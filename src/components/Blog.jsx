@@ -47,24 +47,26 @@ const Blog = () => {
     // Query para obtener los posts
     const query = '*[_type == "blog"]';
 
-    // Hacemos la consulta a Sanity
+    
     client.fetch(query)
       .then((result) => {
-        setData(result);  // Guardamos los datos
+        setData(result);  
         setLoading(false);
       })
       .catch((error) => {
         setError('Error al cargar los datos');
-        setLoading(false); // Terminamos el estado de carga
+        setLoading(false); 
       });
   }, []);
 
   // Formatear la fecha
   const formatDate = (dateString) => {
-    const options = { year: "numeric", month: "long", day: "numeric" };
-    return new Date(dateString).toLocaleDateString("es-ES", options);
+    const date = new Date(dateString);
+    const month = String(date.getMonth() + 1).padStart(2, '0'); 
+    const day = String(date.getDate()).padStart(2, '0');
+    const year = String(date.getFullYear()).substring(2); 
+    return `${month}/${day}/${year}`;
   };
-
   // Filtrar publicaciones según búsqueda
   const filteredData = data.filter((item) =>
     item.title.toLowerCase().includes(searchTerm.toLowerCase())
@@ -136,7 +138,7 @@ const Blog = () => {
           </svg>
         </div>
 
-        {/* Lista de publicaciones - MANTIENE EL DISEÑO ORIGINAL */}
+        {/* Lista de publicaciones */}
         <div className="max-w-md mx-auto p-4 rounded-lg">
           {filteredData.length > 0 ? (
             filteredData.map((item, index) => (
