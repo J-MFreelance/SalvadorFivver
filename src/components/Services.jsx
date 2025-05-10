@@ -137,27 +137,52 @@ const Services = () => {
                                 </div>
                             </div>
                         ))}
-                        <Swiper
-                            modules={[Navigation, Pagination]}
-                            navigation
-                            pagination={{ clickable: true }}
-                            spaceBetween={10}
-                            slidesPerView={1}
-                            observer={true}
-                            observeParents={true}
-                        >
-                            {item.images?.map((img, index) => (
-                                <SwiperSlide key={`img-${index}`} className="flex justify-center items-center min-h-64 max-sm:min-h-40">
-                                    <div className="flex justify-center items-center w-full h-full">
-                                        <img
-                                            src={img}
-                                            alt={`Image ${index + 1}`}
-                                            className="w-64 h-64 max-sm:w-40 max-sm:h-40 object-contain"
-                                        />
-                                    </div>
-                                </SwiperSlide>
-                            ))}
-                        </Swiper>
+                        <div className="max-lg:hidden">
+                            <Swiper
+                                modules={[Navigation, Pagination]}
+                                navigation
+                                pagination={{ clickable: true }}
+                                spaceBetween={2}
+                                slidesPerView={3}
+                                observer={true}
+                                observeParents={true}
+                            >
+                                {item.images?.map((img, index) => (
+                                    <SwiperSlide key={`img-${index}`} className="flex justify-center items-center min-h-64 max-sm:min-h-40">
+                                        <div className="flex justify-center items-center w-full h-full">
+                                            <img
+                                                src={img}
+                                                alt={`Image ${index + 1}`}
+                                                className="w-64 h-64object-contain"
+                                            />
+                                        </div>
+                                    </SwiperSlide>
+                                ))}
+                            </Swiper>
+                        </div>
+                        <div className="lg:hidden">
+                            <Swiper
+                                modules={[Navigation, Pagination]}
+                                navigation
+                                pagination={{ clickable: true }}
+                                spaceBetween={2}
+                                slidesPerView={1}
+                                observer={true}
+                                observeParents={true}
+                            >
+                                {item.images?.map((img, index) => (
+                                    <SwiperSlide key={`img-${index}`} className="flex justify-center items-center min-h-64 max-sm:min-h-40">
+                                        <div className="flex justify-center items-center w-full h-full">
+                                            <img
+                                                src={img}
+                                                alt={`Image ${index + 1}`}
+                                                className="w-64 h-64object-contain"
+                                            />
+                                        </div>
+                                    </SwiperSlide>
+                                ))}
+                            </Swiper>
+                        </div>
                     </div>
                 </div>
             </div>

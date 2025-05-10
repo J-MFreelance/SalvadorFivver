@@ -626,7 +626,7 @@ export const servicesEspanol = {
             case_study: [
                 {
                     title: "Estudios de caso",
-                    text: "Salvatore pronunció el discurso principal 'Acción por el Clima y la Naturaleza sobre los Hombros de Gigantes' en el lanzamiento de su libro ‘Lëtz Regenerate’ sobre el pasado, presente y futuro de la silvicultura familiar sostenible de Luxemburgo. El evento, al que asistieron Su Alteza Real el Gran Duque Henri, el Primer Ministro Xavier Bettel, diputados, funcionarios gubernamentales y más de 400 VIP y expertos internacionales, destacó su capacidad para cautivar a una audiencia de alto nivel. Su discurso presentó una visión convincente para la regeneración de la naturaleza en medio de los desafíos climáticos, inspirada en las contribuciones de figuras históricas del sector forestal y natural de Luxemburgo.",
+                    text: "Salvatore pronunció el discurso principal 'Acción por el Clima y la Naturaleza sobre los Hombros de Gigantes' en el lanzamiento de su libro ‘Lëtz Regenerate’ sobre el pasado, presente y futuro de la silvicultura familiar sostenible de Luxemburgo. El evento, al que asistieron Su Alteza Real el Gran Duque Henri (LUX), el Primer Ministro Xavier Bettel (LUX), diputados, funcionarios gubernamentales y más de 400 VIP y expertos internacionales, destacó su capacidad para cautivar a una audiencia de alto nivel. Su discurso presentó una visión convincente para la regeneración de la naturaleza en medio de los desafíos climáticos, inspirada en las contribuciones de figuras históricas del sector forestal y natural de Luxemburgo.",
                 }
             ],
             images: imagenes?.orador
@@ -886,7 +886,7 @@ export const servicesEnglish = {
             case_study: [
                 {
                     title: "Case Study",
-                    text: "Salvatore delivered the keynote speech 'Climate and Nature Action on the Shoulders of Giants' at the launch of his book ‘Lëtz Regenerate’ on the past, present, and future of Luxembourg’s sustainable family forestry. The event, attended by His Royal Highness Grand Duke Henri, Prime Minister Xavier Bettel, lawmakers, government officials, and over 400 VIPs and international experts, showcased his ability to captivate a high-profile audience. His speech presented a compelling vision for nature regeneration amid climate challenges, inspired by the contributions of historical figures in Luxembourg’s forestry and natural sector.",
+                    text: "Salvatore delivered the keynote speech 'Climate and Nature Action on the Shoulders of Giants' at the launch of his book ‘Lëtz Regenerate’ on the past, present, and future of Luxembourg’s sustainable family forestry. The event, attended by His Royal Highness Grand Duke Henri (LUX), Prime Minister Xavier Bettel (LUX), lawmakers, government officials, and over 400 VIPs and international experts, showcased his ability to captivate a high-profile audience. His speech presented a compelling vision for nature regeneration amid climate challenges, inspired by the contributions of historical figures in Luxembourg’s forestry and natural sector.",
                 }
             ],
             images: imagenes?.orador
@@ -1146,7 +1146,7 @@ export const servicesDeutsch = {
             case_study: [
                 {
                     title: "Fallstudie",
-                    text: "Salvatore hielt die Keynote-Rede 'Klimaund Naturschutz auf den Schultern von Riesen' bei der Vorstellung seines Buches 'Lëtz Regenerate' über Vergangenheit, Gegenwart und Zukunft der nachhaltigen Familienforstwirtschaft Luxemburgs. Die Veranstaltung, die von S.K.H. Großherzog Henri, Premierminister Xavier Bettel, Gesetzgebern, Regierungsbeamten und über 400 VIPs und internationalen Experten besucht wurde, zeigte seine Fähigkeit, ein hochkarätiges Publikum zu fesseln. Seine Rede präsentierte eine überzeugende Vision für die Regeneration der Natur angesichts von Klimaherausforderungen, inspiriert von den Beiträgen historischer Persönlichkeiten aus Luxemburgs Forstund Natursektor.",
+                    text: "Salvatore hielt die Keynote-Rede 'Klimaund Naturschutz auf den Schultern von Riesen' bei der Vorstellung seines Buches 'Lëtz Regenerate' über Vergangenheit, Gegenwart und Zukunft der nachhaltigen Familienforstwirtschaft Luxemburgs. Die Veranstaltung, die von S.K.H. Großherzog Henri (LUX), Premierminister Xavier Bettel (LUX), Gesetzgebern, Regierungsbeamten und über 400 VIPs und internationalen Experten besucht wurde, zeigte seine Fähigkeit, ein hochkarätiges Publikum zu fesseln. Seine Rede präsentierte eine überzeugende Vision für die Regeneration der Natur angesichts von Klimaherausforderungen, inspiriert von den Beiträgen historischer Persönlichkeiten aus Luxemburgs Forstund Natursektor.",
                 }
             ],
             images: imagenes?.orador
@@ -1406,7 +1406,7 @@ export const servicesFrench = {
             case_study: [
                 {
                     title: "Étude de cas",
-                    text: "Salvatore prononça le discours clé 'Action Climat et Nature sur les Épaules de Géants' lors du lancement de son livre ‘Lëtz Regenerate’ sur la sylviculture familiale durable luxembourgeoise. L'événement, en présence de SAR le Grand-Duc Henri, du Premier Ministre Xavier Bettel, des législateurs, des fonctionnaires et de plus de 400 VIP et experts internationaux, a montré sa capacité à captiver un public de haut niveau. Son discours a présenté une vision convaincante pour la régénération de la nature face aux défis climatiques, inspirée des figures historiques du secteur forestier luxembourgeois.",
+                    text: "Salvatore prononça le discours clé 'Action Climat et Nature sur les Épaules de Géants' lors du lancement de son livre ‘Lëtz Regenerate’ sur la sylviculture familiale durable luxembourgeoise. L'événement, en présence de SAR le Grand-Duc Henri (LUX), du Premier Ministre Xavier Bettel (LUX), des législateurs, des fonctionnaires et de plus de 400 VIP et experts internationaux, a montré sa capacité à captiver un public de haut niveau. Son discours a présenté une vision convaincante pour la régénération de la nature face aux défis climatiques, inspirée des figures historiques du secteur forestier luxembourgeois.",
                 }
             ],
             images: imagenes?.orador
@@ -1666,7 +1666,7 @@ export const servicesItalian = {
             case_study: [
                 {
                     title: "Caso di Studio",
-                    text: "Ha tenuto il discorso chiave 'Azione per Clima e Natura sulle Spalle dei Giganti' al lancio del suo libro 'Lëtz Regenerate' sulla silvicoltura familiare sostenibile lussemburghese. L'evento, con S.A.R. il Granduca Henri, il Primo Ministro Xavier Bettel, legislatori e 400+ VIP, ha dimostrato la sua capacità di catturare un pubblico d'alto profilo. Il discorso ha presentato una visione convincente per la rigenerazione naturale di fronte alle sfide climatiche, ispirandosi a figure storiche del settore forestale lussemburghese.",
+                    text: "Ha tenuto il discorso chiave 'Azione per Clima e Natura sulle Spalle dei Giganti' al lancio del suo libro 'Lëtz Regenerate' sulla silvicoltura familiare sostenibile lussemburghese. L'evento, con S.A.R. il Granduca Henri (LUX), il Primo Ministro Xavier Bettel (LUX), legislatori e 400+ VIP, ha dimostrato la sua capacità di catturare un pubblico d'alto profilo. Il discorso ha presentato una visione convincente per la rigenerazione naturale di fronte alle sfide climatiche, ispirandosi a figure storiche del settore forestale lussemburghese.",
                 }
             ],
             images: imagenes?.orador
@@ -1926,7 +1926,7 @@ export const servicesLux = {
             case_study: [
                 {
                     title: "Fallstudie",
-                    text: "Salvatore huet d'Keynote 'Aktioun fir Klima an Natur op den Schëllere vu Risener' bei der Lancement vu sengem Buch 'Lëtz Regenerate' iwwer d'Vergaangenheet, Gegenwart an Zukunft vun der lëtzebuergescher nohalteger Familljebëschwirtschaft gehalen. Den Event, mat S.K.H. Groussherzog Henri, Premierminister Xavier Bettel, Parlamentarier, Regierungsbeamten an iwwer 400 VIPen an internationalen Experten, huet seng Fäegkeet gewisen eng héichprofilitéiert Audience ze fesselen. Säi Discours huet eng iwwerzeegend Visioun fir Naturregeneratioun am Angesicht vu Klimaherausfuerderunge presentéiert, inspiréiert vun de Bäiträg vun historesche Perséinlechkeeten aus Lëtzebuerg sengem Bëschan Naturesecteur.",
+                    text: "Salvatore huet d'Keynote 'Aktioun fir Klima an Natur op den Schëllere vu Risener' bei der Lancement vu sengem Buch 'Lëtz Regenerate' iwwer d'Vergaangenheet, Gegenwart an Zukunft vun der lëtzebuergescher nohalteger Familljebëschwirtschaft gehalen. Den Event, mat S.K.H. Groussherzog Henri (LUX), Premierminister Xavier Bettel (LUX), Parlamentarier, Regierungsbeamten an iwwer 400 VIPen an internationalen Experten, huet seng Fäegkeet gewisen eng héichprofilitéiert Audience ze fesselen. Säi Discours huet eng iwwerzeegend Visioun fir Naturregeneratioun am Angesicht vu Klimaherausfuerderunge presentéiert, inspiréiert vun de Bäiträg vun historesche Perséinlechkeeten aus Lëtzebuerg sengem Bëschan Naturesecteur.",
                 }
             ],
             images: imagenes?.orador
@@ -2137,7 +2137,7 @@ export const servicesPt = {
             case_study: [
                 {
                     title: "Estudo de Caso",
-                    text: "Proferiu palestra 'Ação pelo Clima e Natureza nos Ombros de Gigantes' no lançamento de seu livro 'Lëtz Regenerate' sobre silvicultura familiar sustentável em Luxemburgo. O evento, com S.A.R. Grão-Duque Henri, Primeiro-Ministro Xavier Bettel, legisladores e 400+ VIPs, demonstrou sua capacidade de cativar audiência de alto nível. Sua fala apresentou visão convincente para regeneração natural frente a desafios climáticos, inspirando-se em figuras históricas do setor florestal luxemburguês.",
+                    text: "Proferiu palestra 'Ação pelo Clima e Natureza nos Ombros de Gigantes' no lançamento de seu livro 'Lëtz Regenerate' sobre silvicultura familiar sustentável em Luxemburgo. O evento, com S.A.R. Grão-Duque Henri (LUX), Primeiro-Ministro Xavier Bettel (LUX), legisladores e 400+ VIPs, demonstrou sua capacidade de cativar audiência de alto nível. Sua fala apresentou visão convincente para regeneração natural frente a desafios climáticos, inspirando-se em figuras históricas do setor florestal luxemburguês.",
                 }
             ],
             images: imagenes?.orador
