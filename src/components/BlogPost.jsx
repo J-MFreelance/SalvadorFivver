@@ -3,6 +3,12 @@ import { useParams } from "react-router-dom";
 import { client } from "../client/client";
 import { Link } from 'react-router-dom';
 import BlogRightSection from "./BlogRightSection";
+import imageUrlBuilder from '@sanity/image-url';
+
+const builder = imageUrlBuilder(client);
+function urlFor(source) {
+    return builder.image(source);
+}
 
 const BlogPost = () => {
     const { title } = useParams();
@@ -50,9 +56,9 @@ const BlogPost = () => {
     // Formatear la fecha
     const formatDate = (dateString) => {
         const date = new Date(dateString);
-        const month = String(date.getMonth() + 1).padStart(2, '0'); 
+        const month = String(date.getMonth() + 1).padStart(2, '0');
         const day = String(date.getDate()).padStart(2, '0');
-        const year = String(date.getFullYear()).substring(2); 
+        const year = String(date.getFullYear()).substring(2);
         return `${month}/${day}/${year}`;
     };
 
@@ -71,6 +77,15 @@ const BlogPost = () => {
 
             {/* Contenedor principal  */}
             <div className="max-w-3xl mx-auto p-4 sm:p-6 bg-[#29294a] text-white rounded-lg shadow-md mt-16 md:mt-20 mb-10">
+
+                {post.image && (
+                    <img
+                        src={urlFor(post.image).url()}
+                        alt={post.title}
+                        className="w-full h-auto rounded-md mb-6 shadow-lg object-cover max-h-[500px]"
+                    />
+                )}
+
                 <h1 className="text-2xl sm:text-3xl font-bold text-center mb-2 sm:mb-4 break-words">
                     {post.title}
                 </h1>
@@ -87,15 +102,15 @@ const BlogPost = () => {
                     <span>{post.language}</span>
                 </div>
 
-                {/* Contenido del post s */}
+                {/* Contenido del post */}
                 <div className="prose prose-invert max-w-none">
                     <p className="text-base sm:text-lg text-justify sm:text-left whitespace-pre-wrap">
                         {post.content}
                     </p>
                 </div>
             </div>
-            <BlogRightSection />
 
+            <BlogRightSection />
             <div className="h-10 md:h-6"></div>
         </div>
     );

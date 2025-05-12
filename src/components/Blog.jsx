@@ -92,11 +92,15 @@ const Blog = () => {
   return (
     <section className="playfair-display">
       {/* Cabecera con imagen de fondo */}
-      <div className="relative h-[65vh] w-full overflow-hidden">
+      <div className="relative h-[70vh] w-full">
         {/* Imagen de fondo con parallax */}
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat md:bg-fixed z-0"
-          style={{ backgroundImage: `url(${banner})` }}
+          className="absolute inset-0 bg-cover bg-top bg-no-repeat md:bg-fixed z-0"
+          style={{ 
+            backgroundImage: `url(${banner})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+          }}
         ></div>
 
 

@@ -84,7 +84,7 @@ const BlogRightSection = () => {
 
   return (
     <section className="bg-[#101034] text-white px-8 py-12">
-      <div className="max-w-7xl mx-auto flex justify-center">
+      <div className="max-w-7xl mx-auto flex justify-end">
         <div className="w-full xl:w-1/2">
           <div className="flex flex-col">
             <div className='bg-[#1B1E51] h-64 rounded-tl-[3.5rem] px-14 py-12 max-lg:py-14 xl:w-full max-lg:h-80'>
