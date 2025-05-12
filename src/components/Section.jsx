@@ -34,7 +34,7 @@ const Section = () => {
         { src: '/assets/logo5.png', link: 'https://www.asamblea.go.cr/SitePages/Inicio.aspx' },
         { src: '/assets/sinac.png', link: 'https://www.sinac.go.cr/ES/Paginas/default.aspx' },
         { src: '/assets/ucr.png', link: 'https://www.ucr.ac.cr/' },
-        { src: '/assets/una.png', link: 'https://www.ucr.ac.cr/' },
+        { src: '/assets/una.png', link: 'http://www.una.ac.cr/' },
         { src: '/assets/amoxtli.png', link: 'https://www.facebook.com/amoxtlifoundation/' },
         { src: '/assets/logo10.png', link: 'https://minae.go.cr/' },
     ];

@@ -22,7 +22,7 @@ function App() {
           <Route path="/" element={<MainContent />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/impressum" element={<Impressum />} />
-          <Route path="/Blog" element={<Blog />} />
+          <Route path="/Blog" element={<Blog  />} />
           <Route path="/Blog/:title" element={<BlogPost />} />
 
         </Routes>
