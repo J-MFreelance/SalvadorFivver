@@ -63,50 +63,49 @@ export const luxemburguese = {
 
 export const espanol1 = {
     texto1: 'Comprometido por un mundo mejor.',
-    texto2: 'Salvatore Coppola-Finegan es un experto con experiencia internacional en \nSostenibilidad y Digitalización, con una distinguida carrera como autor publicado e investigador. \n\nCon sede en Luxemburgo, se desempeña como Asesor Independiente, Director, Consultor\n y Miembro de la Junta, aprovechando su amplia experiencia en Europa, América Latina,\n Estados Unidos y el Sudeste Asiático para impulsar el cambio transformador.',
+    texto2: 'Salvatore Coppola-Finegan es un experto con experiencia internacional en Sostenibilidad y Digitalización, con una distinguida carrera como asesor estrátegico, autor publicado, e investigador.\n\nCon sede en Luxemburgo, se desempeña como Asesor Independiente, Director, Consultor y Miembro de la Junta, aprovechando su amplia experiencia en Europa, América Latina, Estados Unidos y el Sudeste Asiático para impulsar el cambio transformador.',
     texto3: 'Agendar una reunión',
     texto4: 'Leer más',
 };
 
 export const ingles1 = {
     texto1: 'Committed to a better world.',
-    texto2: 'Salvatore Coppola-Finegan is an internationally experienced expert\n in Sustainability and Digitalisation, with a distinguished career as a published author and researcher.  \n\nBased in Luxembourg, he serves as an Independent Advisor, Director,\n Consultant, and Board Member, drawing on extensive experience across Europe,\n Latin America, the USA, and Southeast Asia to drive transformative change.',
+    texto2: 'Salvatore Coppola-Finegan is an internationally experienced expert in Sustainability and Digitalisation, with a distinguished career as a strategic advisor, published author, and researcher. \n\nBased in Luxembourg, he serves as an Independent Advisor, Director, Consultant, and Board Member, drawing on extensive experience across Europe, Latin America, the USA, and Southeast Asia to drive transformative change.',
     texto3: 'Schedule a Meeting',
     texto4: 'Learn More',
 };
 
 export const aleman1 = {
     texto1: 'Engagiert für eine bessere Welt.',
-    texto2: 'Salvatore Coppola-Finegan ist ein international erfahrener Experte für \nNachhaltigkeit und Digitalisierung mit einer herausragenden Karriere als\n veröffentlichter Autor und Forscher. \n\nMit Sitz in Luxemburg ist er als unabhängiger Berater, Direktor, Consultant und\n Vorstandsmitglied tätig und stützt sich auf umfangreiche Erfahrungen in Europa, \nLateinamerika, den USA und Südostasien, um transformative Veränderungen voranzutreiben.',
+    texto2: 'Salvatore Coppola-Finegan ist ein international erfahrener Experte für Nachhaltigkeit und Digitalisierung mit einer herausragenden Karriere als strategischer Berater, veröffentlichter Autor, und Forscher. \n\nMit Sitz in Luxemburg ist er als unabhängiger Berater, Direktor, Consultant und Vorstandsmitglied tätig und stützt sich auf umfangreiche Erfahrungen in Europa, Lateinamerika, den USA und Südostasien, um transformative Veränderungen voranzutreiben.',
     texto3: 'Termin vereinbaren ',
     texto4: 'Weiterlesen',
 };
 
 export const frances1 = {
     texto1: 'Engagé pour un monde meilleur.',
-    texto2: "Salvatore Coppola-Finegan est un expert internationalement expérimenté \nen Durabilité et Numérisation, avec une carrière distinguée en tant qu'auteur publié et chercheur. \n\nBasé au Luxembourg, il agit en tant que Conseiller Indépendant, Directeur, Consultant \net Membre du Conseil d'Administration, s'appuyant sur une vaste expérience en Europe,\n en Amérique Latine, aux États-Unis et en Asie du Sud-Est pour conduire des changements transformateurs.",
+    texto2: "Salvatore Coppola-Finegan est un expert internationalement expérimenté en Durabilité et Numérisation, avec une carrière distinguée en tant que conseiller stratégique, auteur publié, et chercheur. \n\nBasé au Luxembourg, il agit en tant que Conseiller Indépendant, Directeur, Consultant et Membre du Conseil d'Administration, s'appuyant sur une vaste expérience en Europe, en Amérique Latine, aux États-Unis et en Asie du Sud-Est pour conduire des changements transformateurs.",
     texto3: 'Organiser une réunion',
     texto4: 'En savoir plus',
 };
 
 export const italiano1 = {
     texto1: 'Dedicato a un mondo migliore.',
-    texto2: 'Salvatore Coppola-Finegan è un esperto con esperienza internazionale in Sostenibilità\n e Digitalizzazione, con una carriera distinta come autore pubblicato e ricercatore. \n\nCon sede in Lussemburgo, ricopre i ruoli di Consulente Indipendente,\n Direttore, e Membro di Consigli di Amministrazione, attingendo a una vasta \nesperienza in Europa, America Latina, Stati Uniti e Sud-Est Asiatico \nper guidare il cambiamento trasformativo.',
+    texto2: 'Salvatore Coppola-Finegan è un esperto con esperienza internazionale in Sostenibilità e Digitalizzazione, con una carriera distinta come consulente strategico, autore pubblicato, e ricercatore. \n\nCon sede in Lussemburgo, ricopre i ruoli di Consulente Indipendente, Direttore, e Membro di Consigli di Amministrazione, attingendo a una vasta esperienza in Europa, America Latina, Stati Uniti e Sud-Est Asiatico per guidare il cambiamento trasformativo.',
     texto3: 'Programmare una riunione',
     texto4: 'Scopri di più',
 };
 
 export const letzemburgesch1 = {
     texto1: 'Fir eng besser Welt engagéiert.',
-    texto2: 'Den Salvatore Coppola-Finegan ass en international erfuerene Expert an Nohaltegkeet\n an Digitaliséierung, mat enger ausgezeechenter Carrière als publizéierten Auteur a Fuerscher. \n\n Zu Lëtzebuerg baséiert, déngt hie als Onofhängege Beroder, Direkter, \nConsultant a Verwaltungsrotdmember, a schëpft aus extensiver Erfahrung a ganz Europa,\n Latäinamerika, den USA a Südostasien, fir transformativ Verännerungen ze dréiwen.',
+    texto2: 'Den Salvatore Coppola-Finegan ass en international erfuerene Expert an Nohaltegkeet an Digitaliséierung, mat enger ausgezeechenter Carrière als strategesche Beroder, publizéierten Auteur, a Fuerscher. \n\nMat Zu Lëtzebuerg baséiert, déngt hie als Onofhängege Beroder, Direkter, Consultant a Verwaltungsrotdmember, a schëpft aus extensiver Erfahrung a ganz Europa, Latäinamerika, den USA a Südostasien, fir transformativ Verännerungen ze dréiwen.',
     texto3: 'E Rendez-vous plangen',
     texto4: 'Méi gewuer ginn',
 };
 
 export const portugues1 = {
     texto1: 'Comprometido com um mundo melhor.',
-    texto2: 'Salvatore Coppola-Finegan é um especialista com experiência internacional em Sustentabilidade e Digitalização,\n com uma carreira distinta como autor publicado e pesquisador. \n\nCom sede em Luxemburgo, ele atua como Consultor Independente, Diretor e Membro\n de Conselho, utilizando sua vasta experiência na Europa, América Latina,\n EUA e Sudeste Asiático para impulsionar mudanças transformadoras.',
-    texto3: 'Agendar uma Reunião',
+    texto2: 'Salvatore Coppola-Finegan é um especialista com experiência internacional em Sustentabilidade e Digitalização, com uma carreira distinta como conselheiro estratégico, autor publicado, e pesquisador. \n\nCom sede em Luxemburgo, ele atua como Consultor Independente, Diretor e Membro de Conselho, utilizando sua vasta experiência na Europa, América Latina, EUA e Sudeste Asiático para impulsionar mudanças transformadoras.', texto3: 'Agendar uma Reunião',
     texto4: 'Saiba Mais',
 
 };
@@ -141,13 +140,7 @@ export const espanol2 = {
     texto6: 'Organizaciones Destacadas',
     texto7: 'Una selección de empresas e instituciones con las que he trabajado como empleado o consultor.',
     texto8: 'Liderazgo e impacto en el sector público',
-    texto9: `La experiencia de Salvatore en el sector público de Costa Rica abarca papeles
-             de gran impacto, como el de Jefe Asesor Especial en la Asamblea Legislativa,
-              cargo en el que promovió políticas y gobernanza en diferentes ámbitos. 
-              También ha formado parte del Consejo del Sistema Nacional de Conservación, ha 
-              trabajado como profesor e investigador en las principales universidades públicas 
-              y ha dirigido proyectos de desarrollo centrados en la energía,
-              los recursos hídricos, la conservación de la naturaleza y la innovación social.`
+    texto9: `La experiencia de Salvatore en el sector público de Costa Rica abarca papeles de gran impacto, como el de Jefe Asesor Especial en la Asamblea Legislativa, cargo en el que promovió políticas y gobernanza en diferentes ámbitos. También ha formado parte del Consejo del Sistema Nacional de Conservación, y ha trabajado como profesor e investigador en las principales universidades públicas. Además, tanto en Costa Rica como en Nicaragua, Salvatore ha dirigido proyectos de desarrollo centrados en la energía, los recursos hídricos, la conservación de la naturaleza, apoyo a migrantes, y la innovación social.`
 };
 
 export const ingles2 = {
@@ -175,12 +168,7 @@ Salvatore's expertise spans:
     texto6: 'Featured Organisations',
     texto7: 'A curated list of companies and institutions I’ve collaborated with as an employee or consultant.',
     texto8: 'Public sector leadership and impact',
-    texto9: `Salvatore's public sector expertise in Costa Rica spans impactful roles
-     such as a Chief Special Advisor in Parliament, where he advanced policy
-     and governance in different areas. He has also served on the Board of the National
-     Conservation System, has worked as a lecturer and researcher in the leading public 
-     universities, and has led development projects focused on energy, water, nature 
-     conservation, and social innovation.`
+    texto9: `Salvatore's public sector expertise in Costa Rica spans impactful roles such as a Chief Special Advisor in Parliament, where he advanced policy and governance in different areas. He has also served on the Board of the National Conservation System, and has worked as a lecturer and researcher in the leading public universities. Salvatore has also led development projects focused on energy, water, nature conservation, support for migrants, and social innovation both in Costa Rica and Nicaragua.`
 };
 
 export const aleman2 = {
@@ -212,11 +200,7 @@ Salvatores Fachwissen umfasst:
     texto6: 'Ausgewählte Organisationen',
     texto7: 'Eine Auswahl an Unternehmen und Institutionen, mit denen ich als Angestellter oder Berater zusammengearbeitet habe.',
     texto8: 'Öffentliches Engagement und Einfluss',
-    texto9: `Salvatores Erfahrung in öffentlichen Ämtern in Costa Rica umfasst einflussreiche 
-    Tätigkeiten, wie z. B. Chefberater im Parlament, wo er sich für Policy und -verwaltung einsetzte. 
-    Er war außerdem Vorstandsmitglied des nationalen Naturschutzsystems, arbeitete als Dozent und Forscher 
-    an führenden öffentlichen Universitäten und leitete Entwicklungsprojekte mit den Schwerpunkten 
-    Energie, Wassersicherheit, Naturschutz und soziale Innovation.`
+    texto9: `Salvatores Erfahrung in öffentlichen Ämtern in Costa Rica umfasst einflussreiche Tätigkeiten, wie z. B. Chefberater im Parlament, wo er sich für Policy und -verwaltung einsetzte. Er war außerdem Vorstandsmitglied des nationalen Naturschutzsystems und arbeitete als Dozent und Forscher an führenden öffentlichen Universitäten. Salvatore hat auch Entwicklungsprojekte in Costa Rica und Nicaragua geleitet, die sich auf Energie, Wasser, Naturschutz, Unterstützung für Migranten und soziale Innovation konzentrieren.`
 };
 
 export const frances2 = {
@@ -248,13 +232,7 @@ L'expertise de Salvatore couvre :
     texto6: 'Organisations Mises en Avant',
     texto7: 'Une liste sélectionnée d\'entreprises et d\'institutions avec lesquelles j\'ai collaboré en tant qu\'employé ou consultant.',
     texto8: 'Leadership et impact dans la fonction publique',
-    texto9: `L'expertise de Salvatore dans le secteur public au Costa Rica s'étend à des rôles
-     à fort impact, tels que celui de conseiller spécial en chef au Parlement, où il a fait 
-     progresser les politiques publiques et la gouvernance. Il a notamment 
-     siégé au conseil d'administration du Système national de conservation, a travaillé 
-     comme conférencier et chercheur dans les principales universités publiques, et a 
-     dirigé des projets de développement axés sur l'énergie, la gestion de l'eau, 
-     la conservation de la nature et l'innovation sociale.`
+    texto9: `L'expertise de Salvatore dans le secteur public au Costa Rica s'étend à des rôles à fort impact, tels que celui de conseiller spécial en chef au Parlement, où il a fait progresser les politiques publiques et la gouvernance. Il a notamment siégé au conseil d'administration du Système national de conservation et a travaillé comme conférencier et chercheur dans les principales universités publiques. Salvatore a aussi dirigé des projets de développement axés sur l'énergie, l'eau, la protection de la nature, l'aide aux migrants et l'innovation sociale, tant au Costa Rica qu'au Nicaragua.`
 };
 
 export const italiano2 = {
@@ -286,13 +264,7 @@ L'esperienza di Salvatore copre:
     texto6: 'Organizzazioni in Evidenza',
     texto7: 'Una lista curata di aziende e istituzioni con cui ho collaborato come dipendente o consulente.',
     texto8: 'Leadership e impatto nella pubblica amministrazione',
-    texto9: `L'esperienza di Salvatore nel settore pubblico in Costa Rica comprende ruoli 
-    di grande impatto, come quello di Capo Consigliere Speciale in Parlamento, 
-    dove ha sviluppato le politiche pubbliche e la governance. È stato 
-    anche membro del Consiglio del Sistema Nazionale di Conservazione, 
-    ha lavorato come docente e ricercatore nelle principali 
-    università pubbliche e ha guidato progetti di sviluppo in materia 
-    di energia, risorse idriche, conservazione della natura e innovazione sociale.`
+    texto9: `L'esperienza di Salvatore nel settore pubblico in Costa Rica comprende ruoli di grande impatto, come quello di Capo Consigliere Speciale in Parlamento, dove ha sviluppato le politiche pubbliche e la governance. È stato anche membro del Consiglio del Sistema Nazionale di Conservazione ed ha lavorato come docente e ricercatore nelle principali università pubbliche. Salvatore ha anche guidato progetti di sviluppo sul tema dell'energia, delle risorse idriche, della conservazione della natura, del sostegno ai migranti e dell'innovazione sociale sia in Costa Rica che in Nicaragua.`
 };
 
 export const portugues2 = {
@@ -323,12 +295,7 @@ A expertise de Salvatore abrange:
     texto6: 'Organizações Destacadas',
     texto7: 'Uma lista selecionada de empresas e instituições com as quais colaborei como funcionário ou consultor.',
     texto8: 'Liderança e impacto no setor público',
-    texto9: `A expertise de Salvatore no setor público da Costa Rica abrange papéis impactantes, 
-    como o de Conselheiro Especial Chefe no Parlamento, onde ele avançou políticas e 
-    governança em diferentes áreas. Ele também serviu no Conselho do Sistema Nacional 
-    de Conservação, trabalhou como professor e pesquisador nas principais universidades 
-    públicas e liderou projetos de desenvolvimento focados em energia, água, 
-    conservação da natureza e inovação social.`
+    texto9: `A expertise de Salvatore no setor público da Costa Rica abrange papéis impactantes, como o de Conselheiro Especial Chefe no Parlamento, onde ele avançou políticas e governança em diferentes áreas. Ele também serviu no Conselho do Sistema Nacional de Conservação e trabalhou como professor e pesquisador nas principais universidades públicas. Salvatore também liderou projetos de desenvolvimento focados em energia, água, conservação da natureza, apoio a migrantes e inovação social na Costa Rica e na Nicarágua.`
 };
 
 export const letzemburgesch2 = {
@@ -360,13 +327,7 @@ Dem Salvatore seng Expertise ëmfaasst:
     texto6: 'Erauusgestallte Organisatiounen',
     texto7: 'Eng ausgewielte Lëscht vu Firmen an Institutiounen, mat deenen ech als Mataarbechter oder Beroder zesummegeschafft hunn.',
     texto8: 'Féierungsroll an Impakt am ëffentlechen Secteur',
-    texto9: `Dem Salvatore seng Expertise am ëffentlechen Secteur a Costa Rica ëmfaasst impaktvoll 
-    Rollen wéi Chef Spezialberoder am Parlament, wou hie Politik a Governance a verschiddene
-     Beräicher virugedriwwen huet. Hien huet och am Verwaltungsrot vum 
-     Nationalen Conservatiounssystem gedéngt, huet als Dozent a Fuerscher 
-     op de féierende ëffentlechen Universitéiten geschafft an huet 
-     Entwécklungsprojeten am Beräich Energie, Waasser, Naturschutz 
-     a sozial Innovatioun geleet.`
+    texto9: `Dem Salvatore seng Expertise am ëffentlechen Secteur a Costa Rica ëmfaasst impaktvoll Rollen wéi Chef Spezialberoder am Parlament, wou hie Politik a Governance a verschiddene Beräicher virugedriwwen huet. Hien huet och am Verwaltungsrot vum Nationalen Conservatiounssystem gedéngt a huet als Dozent a Fuerscher op de féierende ëffentlechen Universitéiten geschafft. Salvatore huet och Entwécklungsprojeten iwwer Energie, Waasserressourcen, Naturschutz, Migrantenunterstëtzung a sozial Innovatioun a Costa Rica an Nicaragua gefouert.`
 
 }
 
@@ -776,7 +737,7 @@ export const servicesEnglish = {
             case_study: [
                 {
                     title: "Case Study",
-                    text: "Contributed to pioneering legislation as a Specialized Advisor to the Head of the Government Caucus in the Legislative Assembly of Costa Rica.",
+                    text: "Contributed to pioneering legislation as Chief Special Adviser to the Head of the Government Bench in Costa Rica’s National Legislature.",
                 }
             ],
             images: imagenes?.politicas_desa
@@ -1036,7 +997,7 @@ export const servicesDeutsch = {
             case_study: [
                 {
                     title: "Fallstudie",
-                    text: "Trug als Fachberater des Regierungsfraktionsvorsitzenden in der Legislative Costa Ricas zu wegweisenden Gesetzen bei.",
+                    text: "Trug als Chief Special Adviser der Fraktionleiterin der Regierung in der Nationalversammlung Costa Ricas zur wegweisenden Gesetzgebung bei.",
                 }
             ],
             images: imagenes?.politicas_desa
@@ -1296,7 +1257,7 @@ export const servicesFrench = {
             case_study: [
                 {
                     title: "Étude de cas",
-                    text: "A contribué à une législation pionnière en tant que Conseiller Spécialisé du Chef de groupe gouvernemental à l'Assemblée Législative du Costa Rica.",
+                    text: "A contribué à une législation pionnière en tant que Conseiller Spécial en Chef auprès de la Chef de la Fraction Gouvernementale à l’Assemblée Législative du Costa Rica.",
                 }
             ],
             images: imagenes?.politicas_desa
@@ -1556,7 +1517,7 @@ export const servicesItalian = {
             case_study: [
                 {
                     title: "Caso di Studio",
-                    text: "Ha contribuito a una legislazione pionieristica come Consulente Specializzato del Capogruppo di Governo nell'Assemblea Legislativa della Costa Rica.",
+                    text: "Ha contribuito a una legislazione pionieristica come Capo Consigliere della deputata capogruppo del governo nell’Assemblea Legislativa della Costa Rica.",
                 }
             ],
             images: imagenes?.politicas_desa
@@ -1816,7 +1777,7 @@ export const servicesLux = {
             case_study: [
                 {
                     title: "Fallstudie",
-                    text: "Huet als Spezialberoder vum Regierungsfraktsiounschef an der Legislativversammlung vu Costa Rica zu pionéierender Legislatioun bäigedroen.",
+                    text: "Huet als Chefberoder vum Leeder vun der Regierungsfraktion an der Nationalversammlung vu Costa Rica zu wegweisender Gesetzgebung bäigedroen.",
                 }
             ],
             images: imagenes?.politicas_desa
@@ -2027,7 +1988,7 @@ export const servicesPt = {
             case_study: [
                 {
                     title: "Estudo de Caso",
-                    text: "Contribuiu para legislação pioneira como Consultor Especializado do Líder da Bancada Governamental na Assembleia Legislativa da Costa Rica.",
+                    text: "Contribuiu para uma legislação pioneira como Conselheiro Chefe da Líderesa da Bancada Governista na Assembleia Legislativa da Costa Rica.",
                 }
             ],
             images: imagenes?.politicas_desa

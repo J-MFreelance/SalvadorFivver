@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { useLanguage } from "./LanguageContext";
 import { espanol, ingles, aleman, frances, italiano, luxemburgues, portugues } from "../constants/subpages/blog";
 import LanguageSelector from "./LanguageSelector";
+import BlogRightSection from "./BlogRightSection";
+import banner from '../assets/banner2.png';
 
 const Blog = () => {
   const [data, setData] = useState([]);
@@ -47,24 +49,24 @@ const Blog = () => {
     // Query para obtener los posts
     const query = '*[_type == "blog"]';
 
-    
+
     client.fetch(query)
       .then((result) => {
-        setData(result);  
+        setData(result);
         setLoading(false);
       })
       .catch((error) => {
         setError('Error al cargar los datos');
-        setLoading(false); 
+        setLoading(false);
       });
   }, []);
 
   // Formatear la fecha
   const formatDate = (dateString) => {
     const date = new Date(dateString);
-    const month = String(date.getMonth() + 1).padStart(2, '0'); 
+    const month = String(date.getMonth() + 1).padStart(2, '0');
     const day = String(date.getDate()).padStart(2, '0');
-    const year = String(date.getFullYear()).substring(2); 
+    const year = String(date.getFullYear()).substring(2);
     return `${month}/${day}/${year}`;
   };
   // Filtrar publicaciones según búsqueda
@@ -88,36 +90,35 @@ const Blog = () => {
   }
 
   return (
-    <section className="bg-[#101034]">
-      <div className="min-h-screen py-8 px-4">
-        <div className="absolute top-4 left-4">
-          <Link to="/" className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300 flex items-center justify-center shadow-md">
-            ←
-          </Link>
-        </div>
+    <section className="playfair-display">
+      {/* Cabecera con imagen de fondo */}
+      <div className="relative h-[65vh] w-full overflow-hidden">
+        {/* Imagen de fondo con parallax */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat md:bg-fixed z-0"
+          style={{ backgroundImage: `url(${banner})` }}
+        ></div>
 
-        {/* Título principal con gradiente */}
-        <h1 className="text-3xl font-bold mb-8 text-center text-transparent bg-clip-text bg-white pt-8">
-          {languageData.text1}
-        </h1>
 
-        {/* Estadísticas */}
-        <div className="max-w-4xl mx-auto mb-8 grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center">
-          <div className="bg-opacity-5 bg-white rounded-xl p-4 text-center shadow-md border border-white border-opacity-10">
-            <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-              {data.length}
-            </div>
-            <div className="text-gray-300 text-sm mt-1">{languageData.text2}</div>
+        {/* Degradado sobre la imagen */}
+        <div className="absolute bottom-0 left-0 w-full h-[60%] bg-gradient-to-b from-transparent to-[#101034] z-10"></div>
+
+        {/* Contenido */}
+        <div className="relative z-20 flex flex-col items-center justify-center h-full text-white text-center">
+          <div className="absolute top-4 left-4">
+            <Link to="/" className="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300 shadow-md">
+              ←
+            </Link>
           </div>
-          <div className="bg-opacity-5 bg-white rounded-xl p-4 text-center shadow-md border border-white border-opacity-10">
-            <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-              {countUniqueLanguages()}
-            </div>
-            <div className="text-gray-300 text-sm mt-1">{languageData.text3}</div>
-          </div>
+          <h1 className="text-4xl font-bold drop-shadow-lg">
+            Blog <br /> Salvatore Coppola-Finegan
+          </h1>
         </div>
+      </div>
 
 
+      {/* Contenido principal */}
+      <div className="bg-[#101034] min-h-screen py-8 px-4">
         {/* Barra de búsqueda */}
         <div className="max-w-md mx-auto mb-8 relative">
           <input
@@ -161,10 +162,12 @@ const Blog = () => {
               </div>
             ))
           ) : (
-            <p className="text-center text-gray-300">No se encontraron publicaciones</p>
+            <p className="text-center text-white bg-black bg-opacity-30 p-4 rounded-lg">No se encontraron publicaciones</p>
           )}
         </div>
       </div>
+
+      <BlogRightSection />
       <LanguageSelector />
     </section>
   );

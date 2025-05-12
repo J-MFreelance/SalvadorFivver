@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { client } from "../client/client";
 import { Link } from 'react-router-dom';
+import BlogRightSection from "./BlogRightSection";
 
 const BlogPost = () => {
     const { title } = useParams();
@@ -56,7 +57,7 @@ const BlogPost = () => {
     };
 
     return (
-        <div className="min-h-screen py-6 px-4 relative">
+        <div className="min-h-screen py-6 px-4 relative playfair-display">
             {/* Botón de volver - fixed en móvil, absolute en desktop */}
             <div className="fixed md:absolute top-4 left-4 z-10">
                 <Link
@@ -93,6 +94,7 @@ const BlogPost = () => {
                     </p>
                 </div>
             </div>
+            <BlogRightSection />
 
             <div className="h-10 md:h-6"></div>
         </div>
