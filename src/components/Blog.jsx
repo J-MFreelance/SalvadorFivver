@@ -96,7 +96,7 @@ const Blog = () => {
         {/* Imagen de fondo con parallax */}
         <div
           className="absolute inset-0 bg-cover bg-top bg-no-repeat md:bg-fixed z-0"
-          style={{ 
+          style={{
             backgroundImage: `url(${banner})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
@@ -146,28 +146,31 @@ const Blog = () => {
         {/* Lista de publicaciones */}
         <div className="max-w-md mx-auto p-4 rounded-lg">
           {filteredData.length > 0 ? (
-            filteredData.map((item, index) => (
-              <div key={index}>
-                {index > 0 && <div className="w-full border-t border-gray-400 my-8"></div>}
-                <div
-                  className="bg-[#29294a] rounded-lg overflow-hidden shadow-md cursor-pointer hover:shadow-lg transition-shadow duration-300"
-                >
-                  <Link to={`/blog/${item.title.replace(/\s+/g, '-').toLowerCase()}`} className="block">
-                    <div className="p-4">
-                      <h2 className="text-xl font-medium text-white mb-1">{item.title}</h2>
-                      <div className="flex items-center text-sm text-gray-300">
-                        <span>{formatDate(item.date)}</span>
-                        <span className="mx-2">•</span>
-                        <span>{item.language}</span>
+            [...filteredData]
+              .sort((a, b) => new Date(b.date) - new Date(a.date)) 
+              .map((item, index) => (
+                <div key={index}>
+                  {index > 0 && <div className="w-full border-t border-gray-400 my-8"></div>}
+                  <div
+                    className="bg-[#29294a] rounded-lg overflow-hidden shadow-md cursor-pointer hover:shadow-lg transition-shadow duration-300"
+                  >
+                    <Link to={`/blog/${item.title.replace(/\s+/g, '-').toLowerCase()}`} className="block">
+                      <div className="p-4">
+                        <h2 className="text-xl font-medium text-white mb-1">{item.title}</h2>
+                        <div className="flex items-center text-sm text-gray-300">
+                          <span>{formatDate(item.date)}</span>
+                          <span className="mx-2">•</span>
+                          <span>{item.language}</span>
+                        </div>
                       </div>
-                    </div>
-                  </Link>
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            ))
+              ))
           ) : (
             <p className="text-center text-white bg-black bg-opacity-30 p-4 rounded-lg">No se encontraron publicaciones</p>
           )}
+
         </div>
       </div>
 
